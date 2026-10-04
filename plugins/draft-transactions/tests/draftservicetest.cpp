@@ -444,6 +444,88 @@ private Q_SLOTS:
         QVERIFY(separatedContextAction);
     }
 
+    void draftsViewFormatsAmountsAndHidesNonInvestmentFields()
+    {
+        const auto record = moveFixture();
+        DraftsView view;
+        view.refresh(true);
+        const auto tables = view.findChildren<QTableWidget*>();
+        QCOMPARE(tables.size(), 2);
+        QCOMPARE(tables.first()->item(0, 4)->text(), QStringLiteral("-123.45"));
+        tables.first()->selectRow(0);
+        const QStringList amounts{QStringLiteral("-123.45"), QStringLiteral("100"), QStringLiteral("23.45")};
+        for (int row = 0; row < amounts.size(); ++row) {
+            QCOMPARE(tables.last()->item(row, 2)->text(), amounts[row]);
+            QVERIFY(tables.last()->item(row, 3)->text().isEmpty());
+            QVERIFY(tables.last()->item(row, 4)->text().isEmpty());
+        }
+        bool restoreAmountsMatch = false;
+        QTimer::singleShot(0, [&restoreAmountsMatch, &amounts]() {
+            auto* dialog = qobject_cast<QDialog*>(QApplication::activeModalWidget());
+            if (!dialog)
+                return;
+            const auto tables = dialog->findChildren<QTableWidget*>();
+            if (tables.size() == 1 && tables.first()->rowCount() == amounts.size()) {
+                restoreAmountsMatch = true;
+                for (int row = 0; row < amounts.size(); ++row) {
+                    restoreAmountsMatch &= tables.first()->item(row, 2)->text() == amounts[row];
+                    restoreAmountsMatch &= tables.first()->item(row, 3)->text().isEmpty();
+                    restoreAmountsMatch &= tables.first()->item(row, 4)->text().isEmpty();
+                }
+            }
+            dialog->reject();
+        });
+        QVERIFY(!chooseRestoreDate(record, &view).isValid());
+        QVERIFY(restoreAmountsMatch);
+        QCOMPARE(encode(m_service.records().first()), encode(record));
+    }
+
+    void draftsViewShowsInvestmentFieldsOnlyForInvestmentSplits()
+    {
+        auto transaction = fixture();
+        {
+            MyMoneyFileTransaction operation;
+            MyMoneySecurity stock;
+            stock.setName(QStringLiteral("Synthetic stock"));
+            stock.setSecurityType(eMyMoney::Security::Type::Stock);
+            stock.setTradingCurrency(QStringLiteral("USD"));
+            stock.setSmallestAccountFraction(10000);
+            m_file->addSecurity(stock);
+            auto asset = m_file->asset();
+            MyMoneyAccount investment;
+            investment.setName(QStringLiteral("Synthetic investments"));
+            investment.setAccountType(eMyMoney::Account::Type::Investment);
+            investment.setCurrencyId(QStringLiteral("USD"));
+            m_file->addAccount(investment, asset);
+            MyMoneyAccount holding;
+            holding.setName(QStringLiteral("Synthetic holding"));
+            holding.setAccountType(eMyMoney::Account::Type::Stock);
+            holding.setCurrencyId(stock.id());
+            m_file->addAccount(holding, investment);
+            transaction.splits()[1].setAccountId(holding.id());
+            transaction.splits()[1].setShares(MyMoneyMoney(QStringLiteral("3/1")));
+            transaction.splits()[1].setPrice(MyMoneyMoney(QStringLiteral("100/3")));
+            transaction.splits()[1].setAction(QStringLiteral("Buy"));
+            m_file->addTransaction(transaction);
+            operation.commit();
+        }
+        m_service.move({{transaction.id(), transaction.splits().first().id()}});
+        const auto record = m_service.records().first();
+        DraftsView view;
+        view.refresh(true);
+        const auto tables = view.findChildren<QTableWidget*>();
+        QCOMPARE(tables.size(), 2);
+        tables.first()->selectRow(0);
+        QCOMPARE(tables.last()->item(1, 2)->text(), QStringLiteral("100"));
+        QCOMPARE(tables.last()->item(1, 3)->text(), QStringLiteral("3/1"));
+        QCOMPARE(tables.last()->item(1, 4)->text(), QStringLiteral("100/3"));
+        for (const int row : {0, 2}) {
+            QVERIFY(tables.last()->item(row, 3)->text().isEmpty());
+            QVERIFY(tables.last()->item(row, 4)->text().isEmpty());
+        }
+        QCOMPARE(encode(m_service.records().first()), encode(record));
+    }
+
     void draftsViewIsReadOnlyAndRestoreDialogEditsOnlyDate()
     {
         const auto record = moveFixture();

@@ -33,6 +33,21 @@ find_package_handle_standard_args(KMyMoneyHost REQUIRED_VARS
     KMYMONEY_SELECTION_INCLUDE_DIR KMYMONEY_PAYEE_EXPORT_DIR KMYMONEY_mymoney_LIBRARY KMYMONEY_models_LIBRARY
     KMYMONEY_plugin_LIBRARY KMYMONEY_selections_LIBRARY)
 
+# Release libraries must come from the verified Craft installation, not a system SDK.
+if(KMM_RELEASE_PACKAGING)
+    if(NOT IS_DIRECTORY "$ENV{CRAFT_ROOT}")
+        message(FATAL_ERROR "Release requires an installed Craft root")
+    endif()
+    file(REAL_PATH "$ENV{CRAFT_ROOT}" _craft_root)
+    foreach(_library mymoney models plugin selections)
+        file(REAL_PATH "${KMYMONEY_${_library}_LIBRARY}" _host_library)
+        file(RELATIVE_PATH _relative_library "${_craft_root}" "${_host_library}")
+        if(IS_ABSOLUTE "${_relative_library}" OR _relative_library MATCHES "^\\.\\.(/|$)")
+            message(FATAL_ERROR "Release host library is outside Craft: ${_host_library}")
+        endif()
+    endforeach()
+endif()
+
 # Fail rather than silently combine a newer SDK with unrelated source headers.
 foreach(_header mymoneyfile.h mymoneytransaction.h mymoneysplit.h mymoneyenums.h)
     if(EXISTS "${KMYMONEY_SDK_SOURCE_DIR}/kmymoney/mymoney/${_header}")

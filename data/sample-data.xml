@@ -3,10 +3,10 @@
 <KMYMONEY-FILE>
   <FILEINFO>
     <CREATION_DATE date="2026-10-04"/>
-    <LAST_MODIFIED_DATE date="2026-10-04T15:19:58+03:00"/>
+    <LAST_MODIFIED_DATE date="2026-10-04T19:05:24+03:00"/>
     <VERSION id="1"/>
     <FIXVERSION id="12"/>
-    <APPVERSION id="5.2.70-2c8ba83af"/>
+    <APPVERSION id="5.2.2-dee8bc541"/>
   </FILEINFO>
   <USER name="Synthetic sample" email="">
     <ADDRESS street="" city="" state="" zip="" telephone="" country="" county="" zipcode="" postcode=""/>
@@ -34646,7 +34646,7 @@
     </TRANSACTION>
   </TRANSACTIONS>
   <KEYVALUEPAIRS>
-    <PAIR key="LastModificationDate" value="2026-10-04T15:19:58+03:00"/>
+    <PAIR key="LastModificationDate" value="2026-10-04T19:05:24+03:00"/>
     <PAIR key="kmm-baseCurrency" value="USD"/>
     <PAIR key="kmm-id" value="{05c8224a-e6f6-4a9c-ac5e-7332945c158c}"/>
     <PAIR key="mymoney-net:conversion" value="Synthetic 2025 ledger; seed 20251004; each payee/category Frequency creates that many transactions at Average. Account assignments weighted by Frequency within matching Credit or Checking types. USD assumed; zero opening balances. Savings categories mapped to income (rebates); None/Split to expense, since no split details exist. Source Min/Max, tax statuses, dividend rates and historical stock splits are metadata only. No holdings, quotes or investment trades invented."/>

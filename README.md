@@ -1,14 +1,20 @@
-# KMyMoney plugin development
+# KMyMoney plugins
 
-Shared development configuration for Windows, Linux, and macOS using KDE Craft
-and **PowerShell 7 Core (`pwsh`)**. The root CMake project supports multiple plugin
-targets. Its first plugin is [Draft transactions](plugins/draft-transactions/README.md),
-which stores complete transactions in document metadata and restores them later.
-Development plugins install into local staging. FirstRun and CI provision the host
-through Craft without patching KMyMoney's sources.
+A suite of KMyMoney plugins to scratch my itches, built with AI.
+
+|Plugin              | src                                                | description                                                                |
+|--------------------|----------------------------------------------------|----------------------------------------------------------------------------|
+| Draft transactions | [draft-transactions](./plugins/draft-transactions) | Moves transactions in a **draft** area (so they no longer affect balances), and restores them later. |
+
+
+Shared development configuration for Windows, Linux, and macOS using KDE Craft and **PowerShell 7 Core (`pwsh`)**. The root CMake project supports multiple plugin
+targets.
+
+Development plugins install into local staging. FirstRun and CI provision the host through Craft without patching KMyMoney's sources.
+
 The shared `.clang-format` follows the host's KDE C++ formatting rules.
-All plugin messages have initial translations for the 46 locales found in the
-KMyMoney checkouts. See [translation coverage and maintenance](plugins/draft-transactions/po/README.md).
+
+All plugin messages have initial translations for the 46 locales found in the KMyMoney checkouts. See [translation coverage and maintenance](plugins/draft-transactions/po/README.md).
 Extract and merge one plugin's catalogs with
 `./build.ps1 -Tasks UpdateTranslations -Plugins draft-transactions` after Craft setup.
 
@@ -70,6 +76,7 @@ Craft setup. From another shell, enter `pwsh` first to pass multiple array value
 | `Test` | Build, then run CTest; an empty test suite is an error |
 | `Stage` | Build, then install selected plugins and catalogs into `stage/<preset>` |
 | `BuildCI` | Build, test, and stage; a failure prevents subsequent tasks |
+| `Release` | Build and test each selected plugin, then package it for the native platform under `publish/`; requires `-Version` |
 | `Configure` / `Install` | Aliases for Init / Stage |
 | `Run` | Initialize Craft and start KMyMoney with optional `-KMMAppFile` and `-KMMAppArguments` |
 | `EnterCraft` | Keep the Craft environment in the current shell |
@@ -101,6 +108,7 @@ picked up in persistent PowerShell terminals.
 | `-EnvFile` | INI path relative to the repository, or absolute; defaults to `env.ini` |
 | `-ModulePath` | Directory for cached PowerShell dependencies |
 | `-Target` | Native CMake target; requires `Build` in `-Tasks` |
+| `-Version` | Required `major.minor.patch` package and embedded plugin version for `Release`; independent of the host's `-KMMAppVersion` |
 | `-KMMAppVersion` | Craft tag/branch override; otherwise read `KMM_APP_VERSION` |
 | `-KMMAppFile` | File opened by `Run`; defaults to `data/sample-data.xml`. Accepts `.kmy`, `.sqlite`, or `.xml`. Relative paths use the repository root; pass `''` to disable the default |
 | `-KMMAppArguments` | Literal argument array passed to KMyMoney; requires `Run` |
@@ -205,6 +213,84 @@ tests; a complete Craft-provisioned Docker pipeline has not yet been validated.
 Merge request/branch/tag rules, SAST, and secret detection remain enabled. Validate
 server-provided includes with the target GitLab instance's CI Lint before enabling
 merge requirements.
+
+## Release packages
+
+Release builds use the installed **Craft Qt 6 KMyMoney SDK** on every platform.
+Windows produces ZIP archives; macOS and Linux produce tar.gz archives. Each
+selected plugin gets its own package, manifest and SHA256 checksum. Host and Qt
+libraries are not bundled: users need the matching Craft host ABI and runtime.
+Distribution DEB/RPM packaging is no longer used. Flatpak packaging remains
+unimplemented; it requires a compatible host extension point and runtime build.
+
+```powershell
+./build.ps1 -Tasks FirstRun -KMMAppVersion master
+./build.ps1 -Tasks Release -Version 0.1.0 -KMMAppVersion master -Plugins draft-transactions
+```
+
+`-Version` is the plugin version. `-KMMAppVersion` selects the host target, such as
+`master`, `5.2`, or a fixed release supported by Craft. Provision each target with
+FirstRun and a matching environment file before Release. Release verifies Craft's
+installed package target/revision against the SDK; merely changing a configuration
+value does not rebuild or relabel the installed host. Use separate Craft roots and
+`-EnvFile` configurations when retaining several host versions.
+
+[`release-compatibility.json`](release-compatibility.json) declares support for each
+exact plugin version and is validated against its adjacent JSON schema. A missing
+plugin/version entry or unsupported host stops packaging. For example, a policy
+can contain:
+
+```json
+{
+  "kmymoney": ["master", "5.2.*", "5.0 - 5.3"],
+  "qtMajor": 6,
+  "notes": "Illustrative selectors; declare only combinations verified by builds and tests."
+}
+```
+
+Named branches match exactly. Numeric globs and inclusive ranges match the resolved
+host version, never `master`. `5.0 - 5.3` includes all patches through 5.3;
+`5.2.1 - 5.2.4` has exact endpoints. `5.2.1` matches a fixed resolved version;
+`5.2` also explicitly permits the Craft 5.2 branch. Compatibility declarations do
+not make one binary portable across all those hosts: build separately for each
+host target and matching compiler, architecture, Qt and runtime.
+
+The matrix permits Draft transactions **0.1.0 with master and 5.2**. Windows x86_64
+builds passed all 47 synthetic CTests against Craft Qt 6 hosts
+`5.2.70-2c8ba83af` (master) and `5.2.2-dee8bc541` (5.2). Native macOS/Linux
+validation remains outstanding. KMyMoney 5.1 uses Qt 5/KF5 and is incompatible
+with this Qt 6/KF6 plugin project.
+
+Artifacts use this layout (architecture is in the filename):
+
+```text
+publish/kmymoney/master/windows/draft-transactions-0.1.0-windows-x86_64.zip
+publish/kmymoney/5.2/linux/draft-transactions-0.1.0-linux-x86_64.tar.gz
+```
+
+The Linux path illustrates the layout; that native platform still needs validation.
+Fresh build and staging directories live under `build/<preset>/release/` and
+`stage/<preset>/release/`. All selected plugins must pass CTest and packaging
+before files are copied to publish. Existing artifacts are never overwritten.
+The manifest records the compatibility policy, actual host version, compiler,
+Qt version and installed-file checksums. See the packaged INSTALL.txt for loading
+from a separate installation prefix.
+
+GitLab CI orchestrates native Windows, macOS and Linux workers using
+[.gitlab/release.yml](.gitlab/release.yml). Set `KMM_RELEASE_VERSION` to request a
+release and `KMM_RELEASE_KMM_VERSION` to the host target (default `master`). Use
+`KMM_PLUGINS` to select plugins. Configure these runner variables:
+
+| Platform | Runner tag variable | Runner-local environment file variable |
+| --- | --- | --- |
+| Windows | `KMM_RELEASE_WINDOWS_RUNNER_TAG` | `KMM_RELEASE_WINDOWS_ENV_FILE` |
+| macOS | `KMM_RELEASE_MACOS_RUNNER_TAG` | `KMM_RELEASE_MACOS_ENV_FILE` |
+| Linux | `KMM_RELEASE_LINUX_RUNNER_TAG` | `KMM_RELEASE_LINUX_ENV_FILE` |
+
+Every worker runs PrepareCI then Release with the requested host target. Runner
+files must point to matching native Craft installations. Launch a separate pipeline
+for each host target; the compatibility matrix is a release gate, not a list of
+versions to install automatically. A local Release builds only the current platform.
 
 ## Local paths and prerequisites
 

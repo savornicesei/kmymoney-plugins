@@ -1,0 +1,13 @@
+{
+  "$schema": "./release-compatibility.schema.json",
+  "schemaVersion": 1,
+  "plugins": {
+    "draft-transactions": {
+      "0.1.0": {
+        "kmymoney": ["master", "5.2"],
+        "qtMajor": 6,
+        "notes": "Built and tested on Windows x86_64 against Craft Qt 6 master (5.2.70-2c8ba83af) and 5.2 (5.2.2-dee8bc541) SDKs. Native macOS/Linux validation is still required. KMyMoney 5.1 is Qt 5/KF5 and incompatible with this plugin."
+      }
+    }
+  }
+}

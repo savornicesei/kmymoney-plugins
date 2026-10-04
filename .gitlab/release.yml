@@ -1,0 +1,42 @@
+# Configure these tags and the three KMM_RELEASE_<TARGET>_ENV_FILE variables in
+# GitLab before requesting a release. Each file is local to its native runner.
+# All workers provision and build against the selected native Craft SDK.
+variables:
+  KMM_RELEASE_WINDOWS_RUNNER_TAG: kmm-release-windows
+  KMM_RELEASE_MACOS_RUNNER_TAG: kmm-release-macos
+  KMM_RELEASE_LINUX_RUNNER_TAG: kmm-release-linux
+  KMM_RELEASE_KMM_VERSION: master
+
+plugins:release:
+  stage: release
+  rules:
+    - if: '$KMM_RELEASE_VERSION && $CI_PIPELINE_SOURCE != "merge_request_event"'
+  parallel:
+    matrix:
+      - KMM_RELEASE_TARGET: windows
+        KMM_RELEASE_RUNNER_TAG: $KMM_RELEASE_WINDOWS_RUNNER_TAG
+      - KMM_RELEASE_TARGET: macos
+        KMM_RELEASE_RUNNER_TAG: $KMM_RELEASE_MACOS_RUNNER_TAG
+      - KMM_RELEASE_TARGET: linux
+        KMM_RELEASE_RUNNER_TAG: $KMM_RELEASE_LINUX_RUNNER_TAG
+  tags:
+    - $KMM_RELEASE_RUNNER_TAG
+  timeout: 2h
+  interruptible: false
+  variables:
+    GIT_STRATEGY: clone
+  script:
+    - >-
+      pwsh -NoLogo -NoProfile -NonInteractive -Command
+      '$releaseEnv = [Environment]::GetEnvironmentVariable("KMM_RELEASE_" + $env:KMM_RELEASE_TARGET.ToUpperInvariant() + "_ENV_FILE");
+      if (-not $releaseEnv) { throw "Configure the runner-specific KMM_RELEASE_<TARGET>_ENV_FILE variable." };
+      $releaseTasks = @("PrepareCI", "Release");
+      & ./build.ps1 -Tasks $releaseTasks -Version $env:KMM_RELEASE_VERSION -KMMAppVersion $env:KMM_RELEASE_KMM_VERSION -EnvFile $releaseEnv'
+  artifacts:
+    name: 'plugins-$KMM_RELEASE_TARGET-$KMM_RELEASE_VERSION'
+    expire_in: 30 days
+    paths:
+      - publish/
+    reports:
+      junit:
+        - build/*/release/**/ctest-junit.xml

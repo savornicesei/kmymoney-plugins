@@ -136,6 +136,20 @@ if ($args[0] -eq $env:KMM_BUILD_TEST_FAIL) { Set-Variable LASTEXITCODE -Value 23
         $PWD.Path | Should -Be $SavedLocation
     }
 
+    It 'Routes Release version and selected plugins without running the development staging tasks' {
+        Mock Invoke-KMMRelease {}
+        & $BuildEngine -File $BuildFile -Task Release -Tasks Release -Version 1.2.3 -Plugins second-plugin
+        Should -Invoke Invoke-KMMRelease -Times 1 -Exactly -ParameterFilter {
+            $Version -eq '1.2.3' -and $Context.Plugins.Count -eq 1 -and $Context.Plugins[0] -eq 'second-plugin'
+        }
+        Test-Path $env:KMM_BUILD_TEST_LOG | Should -BeFalse
+    }
+
+    It 'Requires an explicit release version before dependency setup' {
+        { & $BuildFile -Tasks Release } | Should -Throw '*Release requires -Version*'
+        Should -Invoke -ModuleName KMMPluginBuild Initialize-KMMPowerShell -Times 0
+    }
+
     It 'Selects <Selection> and builds without testing or staging by default' -ForEach @(
         @{ Selection = 'several'; Chosen = @('second-plugin', 'first-plugin', 'first-plugin') }
         @{ Selection = 'all'; Chosen = @('all') }

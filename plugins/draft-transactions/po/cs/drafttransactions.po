@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drafttransactions 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-27 08:52+0300\n"
+"POT-Creation-Date: 2026-10-04 19:01+0300\n"
 "PO-Revision-Date: 2026-09-27 12:00+0300\n"
 "Last-Translator: Draft transactions contributors\n"
 "Language-Team: cs\n"
@@ -39,10 +39,6 @@ msgstr "Účet"
 #, kde-format
 msgid "Account '%1' is closed. Reopen it in KMyMoney before moving or restoring this transaction."
 msgstr "Účet „%1“ je uzavřený. Před přesunem nebo obnovením transakce jej v KMyMoney znovu otevřete."
-
-#, kde-format
-msgid "All splits (read-only; exact amounts are shown as fractions)"
-msgstr "Všechna rozdělení (pouze pro čtení; přesné částky jsou zobrazeny jako zlomky)"
 
 #, kde-format
 msgid "Cleared"
@@ -335,3 +331,7 @@ msgstr "Hodnota"
 #, kde-format
 msgid "Value (%1)"
 msgstr "Hodnota (%1)"
+
+#, kde-format
+#~ msgid "All splits (read-only; exact amounts are shown as fractions)"
+#~ msgstr "Všechna rozdělení (pouze pro čtení; přesné částky jsou zobrazeny jako zlomky)"

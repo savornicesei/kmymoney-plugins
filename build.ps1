@@ -19,6 +19,9 @@ Local path configuration file, relative to the repository root.
 Optional cache directory for the centrally configured PowerShell dependencies.
 .PARAMETER Target
 Optional native CMake target for Build.
+.PARAMETER Version
+Required numeric major.minor.patch release version for Release. Sets package and
+embedded plugin versions; independent of KMMAppVersion.
 .PARAMETER KMMAppVersion
 KMyMoney version or branch supported by Craft, passed as version to craft --set.
 Defaults to KMM_APP_VERSION in the selected INI. Empty retains Craft's selection.
@@ -59,6 +62,8 @@ param(
     [string]$EnvFile,
     [string]$ModulePath,
     [string]$Target,
+    [ValidatePattern('^(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)$')]
+    [string]$Version,
     [string]$KMMAppVersion,
     [string]$KMMAppFile = 'data/sample-data.xml',
     [string[]]$KMMAppArguments = @(),
@@ -70,6 +75,8 @@ param(
 # initialization: Invoke-Build module
 #####################################################
 $ErrorActionPreference = 'Stop'
+if ('Release' -in $Tasks -and -not $Version) { throw 'Release requires -Version major.minor.patch.' }
+if ($Version -and 'Release' -notin $Tasks) { throw 'Version can only be used with the Release task.' }
 if ($PSBoundParameters.ContainsKey('KMMAppFile') -and $KMMAppFile -and 'Run' -notin $Tasks) {
     throw 'KMMAppFile can only be used with the Run task.'
 }
@@ -123,6 +130,7 @@ task Clean Init, { Invoke-KMMBuildStep -Context $BuildState -Step Clean }
 task Build Init, { Invoke-KMMBuildStep -Context $BuildState -Step Build -Target $Target }
 task Test Build, { Invoke-KMMBuildStep -Context $BuildState -Step Test }
 task Stage Build, { Invoke-KMMBuildStep -Context $BuildState -Step Stage }
+task Release { Invoke-KMMRelease -Context $BuildState -Version $Version }
 
 #####################################
 # Additional Tasks

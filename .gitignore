@@ -4,6 +4,7 @@
 /cmake-build-*/
 /out/
 /stage/
+/publish/
 /install/
 CMakeCache.txt
 CMakeFiles/

@@ -11,7 +11,7 @@
         'Enter-KMMCraftEnvironment', 'Invoke-KMMDevelopment', 'Open-KMMWorkspace',
         'Update-KMMTranslation', 'Initialize-KMMCIEnvironment', 'Set-KMMAppVersion', 'Invoke-KMMCheck',
         'New-KMMBuildContext', 'Get-KMMBuildEnvironment', 'Invoke-KMMBuildStep',
-        'Start-KMMBuildSession', 'Stop-KMMBuildSession'
+        'Start-KMMBuildSession', 'Stop-KMMBuildSession', 'Invoke-KMMRelease'
     )
     CmdletsToExport = @()
     VariablesToExport = @()

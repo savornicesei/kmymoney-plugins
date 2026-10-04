@@ -1,6 +1,6 @@
 # Draft transactions translations
 
-The `drafttransactions` catalog contains all 80 current user-facing messages:
+The `drafttransactions` catalog contains all 79 current user-facing messages:
 menus, actions, table headings, dialogs, explanations, status messages, and
 plugin-generated validation errors. The plugin name and description also have
 localized entries in `../drafttransactions.json.in` for KMyMoney's plugin settings.

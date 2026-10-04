@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drafttransactions 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-27 08:52+0300\n"
+"POT-Creation-Date: 2026-10-04 19:01+0300\n"
 "PO-Revision-Date: 2026-09-27 12:00+0300\n"
 "Last-Translator: Draft transactions contributors\n"
 "Language-Team: ko\n"
@@ -39,10 +39,6 @@ msgstr "계좌"
 #, kde-format
 msgid "Account '%1' is closed. Reopen it in KMyMoney before moving or restoring this transaction."
 msgstr "계좌 '%1'이(가) 폐쇄되었습니다. 이 거래를 이동하거나 복원하기 전에 KMyMoney에서 다시 여십시오."
-
-#, kde-format
-msgid "All splits (read-only; exact amounts are shown as fractions)"
-msgstr "모든 분할(읽기 전용, 정확한 금액은 분수로 표시)"
 
 #, kde-format
 msgid "Cleared"
@@ -335,3 +331,7 @@ msgstr "금액"
 #, kde-format
 msgid "Value (%1)"
 msgstr "금액(%1)"
+
+#, kde-format
+#~ msgid "All splits (read-only; exact amounts are shown as fractions)"
+#~ msgstr "모든 분할(읽기 전용, 정확한 금액은 분수로 표시)"

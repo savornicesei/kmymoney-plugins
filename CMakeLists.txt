@@ -1,5 +1,9 @@
 cmake_minimum_required(VERSION 3.21)
-project(KMyMoneyCommunityPlugins VERSION 0.1.0 LANGUAGES CXX)
+set(KMM_PLUGIN_VERSION "0.1.0" CACHE STRING "Plugin release version (major.minor.patch)")
+if(NOT KMM_PLUGIN_VERSION MATCHES "^(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)$")
+    message(FATAL_ERROR "KMM_PLUGIN_VERSION must be major.minor.patch")
+endif()
+project(KMyMoneyCommunityPlugins VERSION ${KMM_PLUGIN_VERSION} LANGUAGES CXX)
 set(BUILD_SHARED_LIBS ON)
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/lib")
 
@@ -19,6 +23,10 @@ find_package(KMyMoneyHost REQUIRED)
 include(CTest)
 
 set(KMM_PLUGIN_SELECTION "all" CACHE STRING "Plugin directories to include (semicolon-separated), or all")
+option(KMM_RELEASE_PACKAGING "Configure one selected plugin for native release packaging" OFF)
+if(KMM_RELEASE_PACKAGING)
+    include("${CMAKE_CURRENT_SOURCE_DIR}/cmake/KMMRelease.cmake")
+endif()
 file(GLOB plugin_projects RELATIVE "${CMAKE_CURRENT_SOURCE_DIR}/plugins"
     CONFIGURE_DEPENDS "${CMAKE_CURRENT_SOURCE_DIR}/plugins/*/CMakeLists.txt")
 set(available_plugins)

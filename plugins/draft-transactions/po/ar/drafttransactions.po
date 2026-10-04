@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drafttransactions 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-27 08:52+0300\n"
+"POT-Creation-Date: 2026-10-04 19:01+0300\n"
 "PO-Revision-Date: 2026-09-27 12:00+0300\n"
 "Last-Translator: Draft transactions contributors\n"
 "Language-Team: ar\n"
@@ -39,10 +39,6 @@ msgstr "الحساب"
 #, kde-format
 msgid "Account '%1' is closed. Reopen it in KMyMoney before moving or restoring this transaction."
 msgstr "الحساب «%1» مغلق. أعد فتحه في KMyMoney قبل نقل هذه المعاملة أو استعادتها."
-
-#, kde-format
-msgid "All splits (read-only; exact amounts are shown as fractions)"
-msgstr "جميع الأجزاء (للقراءة فقط؛ تظهر المبالغ الدقيقة على شكل كسور)"
 
 #, kde-format
 msgid "Cleared"
@@ -335,3 +331,7 @@ msgstr "القيمة"
 #, kde-format
 msgid "Value (%1)"
 msgstr "القيمة (%1)"
+
+#, kde-format
+#~ msgid "All splits (read-only; exact amounts are shown as fractions)"
+#~ msgstr "جميع الأجزاء (للقراءة فقط؛ تظهر المبالغ الدقيقة على شكل كسور)"

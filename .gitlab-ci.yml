@@ -1,12 +1,14 @@
 # Linux uses the Qt 6 dependency image from KMyMoney's own CI.
-# See README.md: GitLab CI. Windows/macOS jobs will be added separately.
+# See README.md: GitLab CI and release packaging. Releases use native SDK runners.
 include:
   - template: Security/SAST.gitlab-ci.yml
   - template: Security/Secret-Detection.gitlab-ci.yml
+  - local: /.gitlab/release.yml
 
 stages:
   - test
   - secret-detection
+  - release
 
 workflow:
   rules:

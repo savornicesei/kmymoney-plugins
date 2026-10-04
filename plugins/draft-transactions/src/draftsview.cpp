@@ -14,6 +14,8 @@
 #include <QPushButton>
 #include <QTableWidget>
 #include <QVBoxLayout>
+#include <mymoneyaccount.h>
+#include <mymoneyfile.h>
 #include <mymoneyenums.h>
 #include <mymoneyexception.h>
 #include <mymoneymoney.h>
@@ -55,6 +57,17 @@ QString stateName(eMyMoney::Split::State state)
     }
 }
 
+bool isInvestmentAccount(const QString& accountId)
+{
+    try {
+        const auto account = MyMoneyFile::instance()->account(accountId);
+        return account.isInvest() || account.accountType() == eMyMoney::Account::Type::Investment;
+    } catch (const MyMoneyException&) {
+        // Drafts remain readable even after an account has been removed.
+        return false;
+    }
+}
+
 void fillDetails(QTableWidget* table, const DraftRecord& record)
 {
     configureTable(table,
@@ -69,11 +82,12 @@ void fillDetails(QTableWidget* table, const DraftRecord& record)
     table->setRowCount(record.transaction.splits().size());
     int row = 0;
     for (const auto& split : record.transaction.splits()) {
+        const bool investment = isInvestmentAccount(split.accountId());
         const QStringList values{referenceName(record, split.accountId()),
                                  referenceName(record, split.payeeId()),
-                                 split.value().toString(),
-                                 split.shares().toString(),
-                                 split.price().toString(),
+                                 split.value().formatMoney(QString(), -1),
+                                 investment ? split.shares().toString() : QString(),
+                                 investment ? split.price().toString() : QString(),
                                  stateName(split.reconcileFlag()),
                                  split.reconcileDate().toString(Qt::ISODate),
                                  split.memo()};
@@ -104,7 +118,7 @@ DraftsView::DraftsView(QWidget* parent)
     configureTable(m_details, {});
     m_table->setSortingEnabled(true);
     layout->addWidget(m_table, 2);
-    layout->addWidget(new QLabel(i18n("All splits (read-only; exact amounts are shown as fractions)"), this));
+    layout->addWidget(new QLabel(i18n("Splits"), this));
     layout->addWidget(m_details, 1);
     m_status->setWordWrap(true);
     layout->addWidget(m_status);
@@ -161,7 +175,7 @@ void DraftsView::refresh(bool documentOpen)
                                  referenceName(record, split.accountId()),
                                  referenceName(record, split.payeeId()),
                                  record.transaction.memo(),
-                                 split.value().toString(),
+                                 split.value().formatMoney(QString(), -1),
                                  record.transaction.commodity(),
                                  QString::number(record.transaction.splitCount()),
                                  record.created.toUTC().toString(Qt::ISODate),
