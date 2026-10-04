@@ -1,0 +1,337 @@
+# SPDX-FileCopyrightText: 2026 Draft transactions contributors
+# SPDX-License-Identifier: GPL-2.0-or-later
+# Initial AI-assisted translation. Native-speaker review is pending.
+msgid ""
+msgstr ""
+"Project-Id-Version: drafttransactions 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-27 08:52+0300\n"
+"PO-Revision-Date: 2026-09-27 12:00+0300\n"
+"Last-Translator: Draft transactions contributors\n"
+"Language-Team: ro\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2;\n"
+"X-Generator: Initial AI-assisted translation; native review pending\n"
+
+#, kde-format
+msgid "A split references a missing cost center: %1"
+msgstr "O defalcare face referire la un centru de cost inexistent: %1"
+
+#, kde-format
+msgid "A split references a missing or standard account: %1"
+msgstr "O defalcare face referire la un cont inexistent sau standard: %1"
+
+#, kde-format
+msgid "A split references a missing payee: %1"
+msgstr "O defalcare face referire la un beneficiar inexistent: %1"
+
+#, kde-format
+msgid "A split references a missing tag: %1"
+msgstr "O defalcare face referire la o etichetă inexistentă: %1"
+
+#, kde-format
+msgid "Account"
+msgstr "Cont"
+
+#, kde-format
+msgid "Account '%1' is closed. Reopen it in KMyMoney before moving or restoring this transaction."
+msgstr "Contul „%1” este închis. Redeschideți-l în KMyMoney înainte de a muta sau restaura această tranzacție."
+
+#, kde-format
+msgid "All splits (read-only; exact amounts are shown as fractions)"
+msgstr "Toate defalcările (doar citire; sumele exacte sunt afișate ca fracții)"
+
+#, kde-format
+msgid "Cleared"
+msgstr "Verificată"
+
+#, kde-format
+msgid "Currency"
+msgstr "Monedă"
+
+#, kde-format
+msgid "Date"
+msgstr "Data"
+
+#, kde-format
+msgid "Draft"
+msgstr "Ciornă"
+
+#, kde-format
+msgid "Draft checksum mismatch. The archive was not changed."
+msgstr "Suma de control a ciornei nu corespunde. Arhiva nu a fost modificată."
+
+#, kde-format
+msgid "Draft contains missing, unknown, or noncanonical transaction fields."
+msgstr "Ciorna conține câmpuri de tranzacție lipsă, necunoscute sau necanonice."
+
+#, kde-format
+msgid "Draft identity does not match its metadata key. No drafts were changed."
+msgstr "Identificatorul ciornei nu corespunde cheii metadatelor. Nicio ciornă nu a fost modificată."
+
+#, kde-format
+msgid "Draft metadata is not valid JSON."
+msgstr "Metadatele ciornei nu sunt JSON valid."
+
+#, kde-format
+msgid "Draft metadata is too large."
+msgstr "Metadatele ciornei sunt prea mari."
+
+#, kde-format
+msgid "Draft metadata must be an object."
+msgstr "Metadatele ciornei trebuie să fie un obiect."
+
+#, kde-format
+msgid "Draft metadata values must be strings."
+msgstr "Valorile metadatelor ciornei trebuie să fie șiruri de caractere."
+
+#, kde-format
+msgid "Draft origin split does not exist."
+msgstr "Defalcarea de origine a ciornei nu există."
+
+#, kde-format
+msgid "Draft splits are missing."
+msgstr "Lipsesc defalcările ciornei."
+
+#, kde-format
+msgid "Draft tags are missing."
+msgstr "Lipsesc etichetele ciornei."
+
+#, kde-format
+msgid "Draft transactions"
+msgstr "Tranzacții ciornă"
+
+#, kde-format
+msgid "Drafted (UTC)"
+msgstr "Creată ca ciornă (UTC)"
+
+#, kde-format
+msgid "Drafts"
+msgstr "Ciorne"
+
+#, kde-format
+msgid "Drafts do not affect balances. Save the document to keep changes. Restored recovery copies are removed only after a clean save and full verification; cleanup is saved with the next document save."
+msgstr "Ciornele nu afectează soldurile. Salvați documentul pentru a păstra modificările. Copiile de recuperare ale tranzacțiilor restaurate sunt eliminate numai după salvarea reușită și verificarea completă; eliminarea lor se salvează la următoarea salvare a documentului."
+
+#, kde-format
+msgid "Every split will return to its original account. Only the posting date can change; reconciliation flags and dates remain unchanged."
+msgstr "Fiecare defalcare va reveni în contul său inițial. Se poate modifica doar data înregistrării; marcajele și datele reconcilierii rămân neschimbate."
+
+#, kde-format
+msgid "Filter drafts…"
+msgstr "Filtrează ciornele…"
+
+#, kde-format
+msgid "Finish the current KMyMoney operation first."
+msgstr "Încheiați mai întâi operația curentă din KMyMoney."
+
+#, kde-format
+msgid "Frozen"
+msgstr "Înghețată"
+
+#, kde-format
+msgid "Invalid archived transaction identity or date."
+msgstr "Identificatorul sau data tranzacției arhivate nu este validă."
+
+#, kde-format
+msgid "Invalid draft identity or timestamp."
+msgstr "Identificatorul sau marcajul temporal al ciornei nu este valid."
+
+#, kde-format
+msgid "Invalid draft split."
+msgstr "Defalcare nevalidă în ciornă."
+
+#, kde-format
+msgid "Invalid draft tag."
+msgstr "Etichetă nevalidă în ciornă."
+
+#, kde-format
+msgid "Invalid exact monetary value in draft."
+msgstr "Valoare monetară exactă nevalidă în ciornă."
+
+#, kde-format
+msgid "Invalid matched transaction."
+msgstr "Tranzacție asociată nevalidă."
+
+#, kde-format
+msgid "Invalid reconciliation state."
+msgstr "Stare de reconciliere nevalidă."
+
+#, kde-format
+msgid "Invalid restoration recovery record."
+msgstr "Înregistrare de recuperare a restaurării nevalidă."
+
+#, kde-format
+msgid "KMyMoney changed transaction fields during restoration. The operation was rolled back and the draft was retained."
+msgstr "KMyMoney a modificat câmpurile tranzacției în timpul restaurării. Operația a fost anulată, iar ciorna a fost păstrată."
+
+#, kde-format
+msgid "Keep complete transactions in drafts and restore them later"
+msgstr "Păstrați tranzacțiile complete în ciorne și restaurați-le ulterior"
+
+#, kde-format
+msgid "Matched transaction nesting is too deep."
+msgstr "Tranzacțiile asociate sunt imbricate prea profund."
+
+#, kde-format
+msgid "Memo"
+msgstr "Notă"
+
+#, kde-format
+msgid "Missing or duplicate split identity in draft."
+msgstr "Identificator de defalcare lipsă sau duplicat în ciornă."
+
+#, kde-format
+msgid "Move the complete selected transactions, including every split, to drafts? They will stop affecting all account balances, reports, and reconciliations."
+msgstr "Mutați tranzacțiile selectate în întregime, inclusiv toate defalcările, în ciorne? Ele nu vor mai afecta soldurile conturilor, rapoartele și reconcilierile."
+
+#, kde-format
+msgid "Move to drafts"
+msgstr "Mută în ciorne"
+
+#, kde-format
+msgid "Moving or restoring reconciled transactions changes historical balances. If you change the posting date, review the affected reconciliations afterwards."
+msgstr "Mutarea sau restaurarea tranzacțiilor reconciliate modifică soldurile istorice. Dacă modificați data înregistrării, verificați apoi reconcilierile afectate."
+
+#, kde-format
+msgid "No draft transactions in this document."
+msgstr "Acest document nu conține tranzacții ciornă."
+
+#, kde-format
+msgid "Not reconciled"
+msgstr "Nereconciliată"
+
+#, kde-format
+msgid "Open a KMyMoney document to view its drafts."
+msgstr "Deschideți un document KMyMoney pentru a-i vedea ciornele."
+
+#, kde-format
+msgid "Payee"
+msgstr "Beneficiar"
+
+#, kde-format
+msgid "Posting date:"
+msgstr "Data înregistrării:"
+
+#, kde-format
+msgid "Price (exact)"
+msgstr "Preț (exact)"
+
+#, kde-format
+msgid "Reconciled"
+msgstr "Reconciliată"
+
+#, kde-format
+msgid "Reconciliation"
+msgstr "Reconciliere"
+
+#, kde-format
+msgid "Reconciliation date"
+msgstr "Data reconcilierii"
+
+#, kde-format
+msgid "Remove saved restoration copies"
+msgstr "Elimină copiile restaurărilor salvate"
+
+#, kde-format
+msgid "Restoration requires a valid posting date and no other active operation."
+msgstr "Restaurarea necesită o dată de înregistrare validă și nicio altă operație activă."
+
+#, kde-format
+msgid "Restore"
+msgstr "Restaurează"
+
+#, kde-format
+msgid "Restore draft transaction"
+msgstr "Restaurează tranzacția ciornă"
+
+#, kde-format
+msgid "Restored; recovery copy retained"
+msgstr "Restaurată; copia de recuperare a fost păstrată"
+
+#, kde-format
+msgid "Select at least one saved transaction."
+msgstr "Selectați cel puțin o tranzacție salvată."
+
+#, kde-format
+msgid "Shares (exact)"
+msgstr "Acțiuni (exact)"
+
+#, kde-format
+msgid "Show drafts…"
+msgstr "Arată ciornele…"
+
+#, kde-format
+msgid "Splits"
+msgstr "Defalcări"
+
+#, kde-format
+msgid "Status"
+msgstr "Stare"
+
+#, kde-format
+msgid "The plugin module could not be retained for undo history. Restart KMyMoney and check the plugin installation."
+msgstr "Modulul extensiei nu a putut fi păstrat pentru istoricul anulărilor. Reporniți KMyMoney și verificați instalarea extensiei."
+
+#, kde-format
+msgid "The selected ledger split no longer exists."
+msgstr "Defalcarea selectată din registru nu mai există."
+
+#, kde-format
+msgid "The transaction currency or security no longer exists."
+msgstr "Moneda sau titlul de valoare al tranzacției nu mai există."
+
+#, kde-format
+msgid "This draft exceeds the 4 MiB metadata record limit."
+msgstr "Această ciornă depășește limita de 4 MiB a înregistrării metadatelor."
+
+#, kde-format
+msgid "This draft has already been restored. Save the document to finish cleanup."
+msgstr "Această ciornă a fost deja restaurată. Salvați documentul pentru a încheia eliminarea copiei."
+
+#, kde-format
+msgid "This draft no longer exists."
+msgstr "Această ciornă nu mai există."
+
+#, kde-format
+msgid "This transaction already has a draft or a pending restoration record. Save the document first."
+msgstr "Această tranzacție are deja o ciornă sau o înregistrare de restaurare în așteptare. Salvați mai întâi documentul."
+
+#, kde-format
+msgid "This transaction cannot be archived without changes."
+msgstr "Această tranzacție nu poate fi arhivată fără modificări."
+
+#, kde-format
+msgid "Unable to move to drafts"
+msgstr "Nu se poate muta în ciorne"
+
+#, kde-format
+msgid "Unable to read drafts: %1"
+msgstr "Nu se pot citi ciornele: %1"
+
+#, kde-format
+msgid "Unable to restore draft"
+msgstr "Nu se poate restaura ciorna"
+
+#, kde-format
+msgid "Unknown"
+msgstr "Necunoscută"
+
+#, kde-format
+msgid "Unknown or missing draft fields. Archive left unchanged."
+msgstr "Câmpuri ale ciornei necunoscute sau lipsă. Arhiva a rămas neschimbată."
+
+#, kde-format
+msgid "Unsupported draft metadata version. Update the plugin before changing drafts."
+msgstr "Versiune neacceptată a metadatelor ciornei. Actualizați extensia înainte de a modifica ciornele."
+
+#, kde-format
+msgid "Value"
+msgstr "Valoare"
+
+#, kde-format
+msgid "Value (%1)"
+msgstr "Valoare (%1)"

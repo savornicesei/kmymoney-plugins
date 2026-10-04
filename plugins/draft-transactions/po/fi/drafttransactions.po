@@ -1,0 +1,337 @@
+# SPDX-FileCopyrightText: 2026 Draft transactions contributors
+# SPDX-License-Identifier: GPL-2.0-or-later
+# Initial AI-assisted translation. Native-speaker review is pending.
+msgid ""
+msgstr ""
+"Project-Id-Version: drafttransactions 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-27 08:52+0300\n"
+"PO-Revision-Date: 2026-09-27 12:00+0300\n"
+"Last-Translator: Draft transactions contributors\n"
+"Language-Team: fi\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Initial AI-assisted translation; native review pending\n"
+
+#, kde-format
+msgid "A split references a missing cost center: %1"
+msgstr "Jako viittaa puuttuvaan kustannuspaikkaan: %1"
+
+#, kde-format
+msgid "A split references a missing or standard account: %1"
+msgstr "Jako viittaa puuttuvaan tai vakiotiliin: %1"
+
+#, kde-format
+msgid "A split references a missing payee: %1"
+msgstr "Jako viittaa puuttuvaan maksunsaajaan: %1"
+
+#, kde-format
+msgid "A split references a missing tag: %1"
+msgstr "Jako viittaa puuttuvaan tunnisteeseen: %1"
+
+#, kde-format
+msgid "Account"
+msgstr "Tili"
+
+#, kde-format
+msgid "Account '%1' is closed. Reopen it in KMyMoney before moving or restoring this transaction."
+msgstr "Tili ”%1” on suljettu. Avaa se uudelleen KMyMoneyssa ennen tapahtuman siirtämistä tai palauttamista."
+
+#, kde-format
+msgid "All splits (read-only; exact amounts are shown as fractions)"
+msgstr "Kaikki jaot (vain luku; tarkat summat näytetään murtolukuina)"
+
+#, kde-format
+msgid "Cleared"
+msgstr "Tarkistettu"
+
+#, kde-format
+msgid "Currency"
+msgstr "Valuutta"
+
+#, kde-format
+msgid "Date"
+msgstr "Päivämäärä"
+
+#, kde-format
+msgid "Draft"
+msgstr "Luonnos"
+
+#, kde-format
+msgid "Draft checksum mismatch. The archive was not changed."
+msgstr "Luonnoksen tarkistussumma ei täsmää. Arkistoa ei muutettu."
+
+#, kde-format
+msgid "Draft contains missing, unknown, or noncanonical transaction fields."
+msgstr "Luonnoksen tapahtumakenttiä puuttuu tai ne ovat tuntemattomia tai epäkanonisia."
+
+#, kde-format
+msgid "Draft identity does not match its metadata key. No drafts were changed."
+msgstr "Luonnoksen tunniste ei vastaa metatietoavainta. Luonnoksia ei muutettu."
+
+#, kde-format
+msgid "Draft metadata is not valid JSON."
+msgstr "Luonnoksen metatiedot eivät ole kelvollista JSONia."
+
+#, kde-format
+msgid "Draft metadata is too large."
+msgstr "Luonnoksen metatiedot ovat liian suuret."
+
+#, kde-format
+msgid "Draft metadata must be an object."
+msgstr "Luonnoksen metatietojen on oltava olio."
+
+#, kde-format
+msgid "Draft metadata values must be strings."
+msgstr "Luonnoksen metatietoarvojen on oltava merkkijonoja."
+
+#, kde-format
+msgid "Draft origin split does not exist."
+msgstr "Luonnoksen alkuperäistä jakoa ei ole."
+
+#, kde-format
+msgid "Draft splits are missing."
+msgstr "Luonnoksen jaot puuttuvat."
+
+#, kde-format
+msgid "Draft tags are missing."
+msgstr "Luonnoksen tunnisteet puuttuvat."
+
+#, kde-format
+msgid "Draft transactions"
+msgstr "Tapahtumaluonnokset"
+
+#, kde-format
+msgid "Drafted (UTC)"
+msgstr "Siirretty luonnokseksi (UTC)"
+
+#, kde-format
+msgid "Drafts"
+msgstr "Luonnokset"
+
+#, kde-format
+msgid "Drafts do not affect balances. Save the document to keep changes. Restored recovery copies are removed only after a clean save and full verification; cleanup is saved with the next document save."
+msgstr "Luonnokset eivät vaikuta saldoihin. Säilytä muutokset tallentamalla asiakirja. Palautettujen tapahtumien palautuskopiot poistetaan vasta onnistuneen tallennuksen ja täydellisen tarkistuksen jälkeen; siivous tallentuu seuraavan asiakirjan tallennuksen yhteydessä."
+
+#, kde-format
+msgid "Every split will return to its original account. Only the posting date can change; reconciliation flags and dates remain unchanged."
+msgstr "Jokainen jako palaa alkuperäiselle tililleen. Vain kirjauspäivää voi muuttaa; täsmäytysmerkinnät ja -päivät säilyvät ennallaan."
+
+#, kde-format
+msgid "Filter drafts…"
+msgstr "Suodata luonnoksia…"
+
+#, kde-format
+msgid "Finish the current KMyMoney operation first."
+msgstr "Viimeistele ensin nykyinen KMyMoney-toiminto."
+
+#, kde-format
+msgid "Frozen"
+msgstr "Jäädytetty"
+
+#, kde-format
+msgid "Invalid archived transaction identity or date."
+msgstr "Arkistoidun tapahtuman tunniste tai päivämäärä on virheellinen."
+
+#, kde-format
+msgid "Invalid draft identity or timestamp."
+msgstr "Luonnoksen tunniste tai aikaleima on virheellinen."
+
+#, kde-format
+msgid "Invalid draft split."
+msgstr "Virheellinen luonnoksen jako."
+
+#, kde-format
+msgid "Invalid draft tag."
+msgstr "Virheellinen luonnoksen tunniste."
+
+#, kde-format
+msgid "Invalid exact monetary value in draft."
+msgstr "Luonnoksen tarkka raha-arvo on virheellinen."
+
+#, kde-format
+msgid "Invalid matched transaction."
+msgstr "Virheellinen yhdistetty tapahtuma."
+
+#, kde-format
+msgid "Invalid reconciliation state."
+msgstr "Virheellinen täsmäytystila."
+
+#, kde-format
+msgid "Invalid restoration recovery record."
+msgstr "Virheellinen palautuksen varmistustietue."
+
+#, kde-format
+msgid "KMyMoney changed transaction fields during restoration. The operation was rolled back and the draft was retained."
+msgstr "KMyMoney muutti tapahtumakenttiä palautuksen aikana. Toiminto peruttiin ja luonnos säilytettiin."
+
+#, kde-format
+msgid "Keep complete transactions in drafts and restore them later"
+msgstr "Säilytä kokonaiset tapahtumat luonnoksina ja palauta ne myöhemmin"
+
+#, kde-format
+msgid "Matched transaction nesting is too deep."
+msgstr "Yhdistettyjen tapahtumien sisäkkäisyys on liian syvä."
+
+#, kde-format
+msgid "Memo"
+msgstr "Muistio"
+
+#, kde-format
+msgid "Missing or duplicate split identity in draft."
+msgstr "Luonnoksen jaon tunniste puuttuu tai esiintyy kahdesti."
+
+#, kde-format
+msgid "Move the complete selected transactions, including every split, to drafts? They will stop affecting all account balances, reports, and reconciliations."
+msgstr "Siirretäänkö valitut tapahtumat kokonaisina kaikkine jakoineen luonnoksiin? Ne eivät enää vaikuta tilien saldoihin, raportteihin tai täsmäytyksiin."
+
+#, kde-format
+msgid "Move to drafts"
+msgstr "Siirrä luonnoksiin"
+
+#, kde-format
+msgid "Moving or restoring reconciled transactions changes historical balances. If you change the posting date, review the affected reconciliations afterwards."
+msgstr "Täsmäytettyjen tapahtumien siirtäminen tai palauttaminen muuttaa aiempia saldoja. Jos muutat kirjauspäivää, tarkista kyseiset täsmäytykset jälkikäteen."
+
+#, kde-format
+msgid "No draft transactions in this document."
+msgstr "Tässä asiakirjassa ei ole tapahtumaluonnoksia."
+
+#, kde-format
+msgid "Not reconciled"
+msgstr "Täsmäyttämätön"
+
+#, kde-format
+msgid "Open a KMyMoney document to view its drafts."
+msgstr "Avaa KMyMoney-asiakirja nähdäksesi sen luonnokset."
+
+#, kde-format
+msgid "Payee"
+msgstr "Maksunsaaja"
+
+#, kde-format
+msgid "Posting date:"
+msgstr "Kirjauspäivä:"
+
+#, kde-format
+msgid "Price (exact)"
+msgstr "Hinta (tarkka)"
+
+#, kde-format
+msgid "Reconciled"
+msgstr "Täsmäytetty"
+
+#, kde-format
+msgid "Reconciliation"
+msgstr "Täsmäytys"
+
+#, kde-format
+msgid "Reconciliation date"
+msgstr "Täsmäytyspäivä"
+
+#, kde-format
+msgid "Remove saved restoration copies"
+msgstr "Poista tallennettujen palautusten kopiot"
+
+#, kde-format
+msgid "Restoration requires a valid posting date and no other active operation."
+msgstr "Palauttaminen edellyttää kelvollista kirjauspäivää eikä muita toimintoja saa olla käynnissä."
+
+#, kde-format
+msgid "Restore"
+msgstr "Palauta"
+
+#, kde-format
+msgid "Restore draft transaction"
+msgstr "Palauta tapahtumaluonnos"
+
+#, kde-format
+msgid "Restored; recovery copy retained"
+msgstr "Palautettu; palautuskopio säilytetty"
+
+#, kde-format
+msgid "Select at least one saved transaction."
+msgstr "Valitse vähintään yksi tallennettu tapahtuma."
+
+#, kde-format
+msgid "Shares (exact)"
+msgstr "Osakkeet (tarkka)"
+
+#, kde-format
+msgid "Show drafts…"
+msgstr "Näytä luonnokset…"
+
+#, kde-format
+msgid "Splits"
+msgstr "Jaot"
+
+#, kde-format
+msgid "Status"
+msgstr "Tila"
+
+#, kde-format
+msgid "The plugin module could not be retained for undo history. Restart KMyMoney and check the plugin installation."
+msgstr "Liitännäismoduulia ei voitu säilyttää kumoamishistoriaa varten. Käynnistä KMyMoney uudelleen ja tarkista liitännäisen asennus."
+
+#, kde-format
+msgid "The selected ledger split no longer exists."
+msgstr "Valittua pääkirjan jakoa ei enää ole."
+
+#, kde-format
+msgid "The transaction currency or security no longer exists."
+msgstr "Tapahtuman valuuttaa tai arvopaperia ei enää ole."
+
+#, kde-format
+msgid "This draft exceeds the 4 MiB metadata record limit."
+msgstr "Tämä luonnos ylittää metatietotietueen 4 MiB:n kokorajan."
+
+#, kde-format
+msgid "This draft has already been restored. Save the document to finish cleanup."
+msgstr "Tämä luonnos on jo palautettu. Viimeistele siivous tallentamalla asiakirja."
+
+#, kde-format
+msgid "This draft no longer exists."
+msgstr "Tätä luonnosta ei enää ole."
+
+#, kde-format
+msgid "This transaction already has a draft or a pending restoration record. Save the document first."
+msgstr "Tällä tapahtumalla on jo luonnos tai odottava palautustietue. Tallenna asiakirja ensin."
+
+#, kde-format
+msgid "This transaction cannot be archived without changes."
+msgstr "Tätä tapahtumaa ei voi arkistoida muutoksitta."
+
+#, kde-format
+msgid "Unable to move to drafts"
+msgstr "Luonnoksiin siirtäminen epäonnistui"
+
+#, kde-format
+msgid "Unable to read drafts: %1"
+msgstr "Luonnosten lukeminen epäonnistui: %1"
+
+#, kde-format
+msgid "Unable to restore draft"
+msgstr "Luonnoksen palauttaminen epäonnistui"
+
+#, kde-format
+msgid "Unknown"
+msgstr "Tuntematon"
+
+#, kde-format
+msgid "Unknown or missing draft fields. Archive left unchanged."
+msgstr "Tuntemattomia tai puuttuvia luonnoskenttiä. Arkisto jätettiin ennalleen."
+
+#, kde-format
+msgid "Unsupported draft metadata version. Update the plugin before changing drafts."
+msgstr "Luonnoksen metatietoversiota ei tueta. Päivitä liitännäinen ennen luonnosten muuttamista."
+
+#, kde-format
+msgid "Value"
+msgstr "Arvo"
+
+#, kde-format
+msgid "Value (%1)"
+msgstr "Arvo (%1)"

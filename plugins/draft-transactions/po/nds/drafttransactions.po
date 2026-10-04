@@ -1,0 +1,337 @@
+# SPDX-FileCopyrightText: 2026 Draft transactions contributors
+# SPDX-License-Identifier: GPL-2.0-or-later
+# Initial AI-assisted translation. Native-speaker review is pending.
+msgid ""
+msgstr ""
+"Project-Id-Version: drafttransactions 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-27 08:52+0300\n"
+"PO-Revision-Date: 2026-09-27 12:00+0300\n"
+"Last-Translator: Draft transactions contributors\n"
+"Language-Team: nds\n"
+"Language: nds\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Initial AI-assisted translation; native review pending\n"
+
+#, kde-format
+msgid "A split references a missing cost center: %1"
+msgstr "En Deelbooken verwist op en fehlen Köstensteed: %1"
+
+#, kde-format
+msgid "A split references a missing or standard account: %1"
+msgstr "En Deelbooken verwist op en fehlen oder Standardkonto: %1"
+
+#, kde-format
+msgid "A split references a missing payee: %1"
+msgstr "En Deelbooken verwist op en fehlen Betahlten: %1"
+
+#, kde-format
+msgid "A split references a missing tag: %1"
+msgstr "En Deelbooken verwist op en fehlen Slötelwoort: %1"
+
+#, kde-format
+msgid "Account"
+msgstr "Konto"
+
+#, kde-format
+msgid "Account '%1' is closed. Reopen it in KMyMoney before moving or restoring this transaction."
+msgstr "Dat Konto „%1“ is afslaten. Maak dat in KMyMoney wedder op, ehr Du disse Booken verschuffst oder wedderherstellst."
+
+#, kde-format
+msgid "All splits (read-only; exact amounts are shown as fractions)"
+msgstr "All Deelbooken (bloots leesbor; nau Bedrääg warrt as Bröök wiest)"
+
+#, kde-format
+msgid "Cleared"
+msgstr "Pröövt"
+
+#, kde-format
+msgid "Currency"
+msgstr "Geldsort"
+
+#, kde-format
+msgid "Date"
+msgstr "Datum"
+
+#, kde-format
+msgid "Draft"
+msgstr "Entworp"
+
+#, kde-format
+msgid "Draft checksum mismatch. The archive was not changed."
+msgstr "De Pröövsumm vun den Entworp passt nich. Dat Archiv wöör nich ännert."
+
+#, kde-format
+msgid "Draft contains missing, unknown, or noncanonical transaction fields."
+msgstr "De Entworp bargt fehlen, nich begäng oder nich kanonisch Bookenfeller."
+
+#, kde-format
+msgid "Draft identity does not match its metadata key. No drafts were changed."
+msgstr "De Entworp-Kennung passt nich to den Metadaten-Slötel. Keen Entworp wöör ännert."
+
+#, kde-format
+msgid "Draft metadata is not valid JSON."
+msgstr "De Metadaten vun den Entworp sünd keen gellen JSON."
+
+#, kde-format
+msgid "Draft metadata is too large."
+msgstr "De Metadaten vun den Entworp sünd to groot."
+
+#, kde-format
+msgid "Draft metadata must be an object."
+msgstr "De Metadaten vun den Entworp mööt en Objekt wesen."
+
+#, kde-format
+msgid "Draft metadata values must be strings."
+msgstr "De Metadaten-Weerten vun den Entworp mööt Tekenkeden wesen."
+
+#, kde-format
+msgid "Draft origin split does not exist."
+msgstr "De Orginaal-Deelbooken vun den Entworp gifft dat nich."
+
+#, kde-format
+msgid "Draft splits are missing."
+msgstr "De Deelbooken vun den Entworp fehlt."
+
+#, kde-format
+msgid "Draft tags are missing."
+msgstr "De Slötelwöör vun den Entworp fehlt."
+
+#, kde-format
+msgid "Draft transactions"
+msgstr "Booken-Entwörp"
+
+#, kde-format
+msgid "Drafted (UTC)"
+msgstr "Na Entwörp verschaven (UTC)"
+
+#, kde-format
+msgid "Drafts"
+msgstr "Entwörp"
+
+#, kde-format
+msgid "Drafts do not affect balances. Save the document to keep changes. Restored recovery copies are removed only after a clean save and full verification; cleanup is saved with the next document save."
+msgstr "Entwörp ännert keen Salden. Seker dat Dokment, wenn Du de Ännern wohren wullt. Sekerheitskopien vun wedderherstellt Booken warrt eerst na en spoodriek Sekern un en heel Prööv wegdaan; dat Oprümen warrt bi't nakamen Sekern vun't Dokment sekert."
+
+#, kde-format
+msgid "Every split will return to its original account. Only the posting date can change; reconciliation flags and dates remain unchanged."
+msgstr "Elk Deelbooken geiht torüch na ehr Orginaalkonto. Bloots dat Bookdatum lett sik ännern; de Afgliekmarken un -daten blievt liek."
+
+#, kde-format
+msgid "Filter drafts…"
+msgstr "Entwörp filtern…"
+
+#, kde-format
+msgid "Finish the current KMyMoney operation first."
+msgstr "Maak eerst de lopen KMyMoney-Akschoon fardig."
+
+#, kde-format
+msgid "Frozen"
+msgstr "Infroren"
+
+#, kde-format
+msgid "Invalid archived transaction identity or date."
+msgstr "Leeg Kennung oder Datum vun de archiveert Booken."
+
+#, kde-format
+msgid "Invalid draft identity or timestamp."
+msgstr "Leeg Entworp-Kennung oder Tietmark."
+
+#, kde-format
+msgid "Invalid draft split."
+msgstr "Leeg Deelbooken in den Entworp."
+
+#, kde-format
+msgid "Invalid draft tag."
+msgstr "Leeg Slötelwoort in den Entworp."
+
+#, kde-format
+msgid "Invalid exact monetary value in draft."
+msgstr "Leeg nau Geldweert in den Entworp."
+
+#, kde-format
+msgid "Invalid matched transaction."
+msgstr "Leeg towiest Booken."
+
+#, kde-format
+msgid "Invalid reconciliation state."
+msgstr "Leeg Afgliek-Tostand."
+
+#, kde-format
+msgid "Invalid restoration recovery record."
+msgstr "Leeg Sekerheidsindrag för't Wedderherstellen."
+
+#, kde-format
+msgid "KMyMoney changed transaction fields during restoration. The operation was rolled back and the draft was retained."
+msgstr "KMyMoney hett Bookenfeller bi't Wedderherstellen ännert. De Akschoon wöör torüchnahmen un de Entworp wohrt."
+
+#, kde-format
+msgid "Keep complete transactions in drafts and restore them later"
+msgstr "Heel Booken as Entwörp wohren un later wedderherstellen"
+
+#, kde-format
+msgid "Matched transaction nesting is too deep."
+msgstr "Towiest Booken sünd to deep verschachtelt."
+
+#, kde-format
+msgid "Memo"
+msgstr "Notiz"
+
+#, kde-format
+msgid "Missing or duplicate split identity in draft."
+msgstr "Deelbooken-Kennung in den Entworp fehlt oder is dubbelt."
+
+#, kde-format
+msgid "Move the complete selected transactions, including every split, to drafts? They will stop affecting all account balances, reports, and reconciliations."
+msgstr "De utsöchten Booken heel, mit all Deelbooken, na Entwörp verschuven? Se ännert denn keen Kontosalden, Berichten un Afglieken mehr."
+
+#, kde-format
+msgid "Move to drafts"
+msgstr "Na Entwörp verschuven"
+
+#, kde-format
+msgid "Moving or restoring reconciled transactions changes historical balances. If you change the posting date, review the affected reconciliations afterwards."
+msgstr "Afglieken Booken verschuven oder wedderherstellen ännert ole Salden. Wenn Du dat Bookdatum ännerst, prööv achteran de bedrapen Afglieken."
+
+#, kde-format
+msgid "No draft transactions in this document."
+msgstr "Keen Booken-Entwörp in dit Dokment."
+
+#, kde-format
+msgid "Not reconciled"
+msgstr "Nich afglieken"
+
+#, kde-format
+msgid "Open a KMyMoney document to view its drafts."
+msgstr "Maak en KMyMoney-Dokment op, wenn Du sien Entwörp ankieken wullt."
+
+#, kde-format
+msgid "Payee"
+msgstr "Betahlter"
+
+#, kde-format
+msgid "Posting date:"
+msgstr "Bookdatum:"
+
+#, kde-format
+msgid "Price (exact)"
+msgstr "Pries (nau)"
+
+#, kde-format
+msgid "Reconciled"
+msgstr "Afglieken"
+
+#, kde-format
+msgid "Reconciliation"
+msgstr "Afgliek"
+
+#, kde-format
+msgid "Reconciliation date"
+msgstr "Afgliekdatum"
+
+#, kde-format
+msgid "Remove saved restoration copies"
+msgstr "Kopien vun sekerte Wedderherstellen wegdoon"
+
+#, kde-format
+msgid "Restoration requires a valid posting date and no other active operation."
+msgstr "För't Wedderherstellen deit en gellen Bookdatum noot, un keen anner Akschoon dörv lopen."
+
+#, kde-format
+msgid "Restore"
+msgstr "Wedderherstellen"
+
+#, kde-format
+msgid "Restore draft transaction"
+msgstr "Booken-Entworp wedderherstellen"
+
+#, kde-format
+msgid "Restored; recovery copy retained"
+msgstr "Wedderherstellt; Sekerheitskopie wohrt"
+
+#, kde-format
+msgid "Select at least one saved transaction."
+msgstr "Söök tominnst een sekerte Booken ut."
+
+#, kde-format
+msgid "Shares (exact)"
+msgstr "Andelen (nau)"
+
+#, kde-format
+msgid "Show drafts…"
+msgstr "Entwörp wiesen…"
+
+#, kde-format
+msgid "Splits"
+msgstr "Deelbooken"
+
+#, kde-format
+msgid "Status"
+msgstr "Tostand"
+
+#, kde-format
+msgid "The plugin module could not be retained for undo history. Restart KMyMoney and check the plugin installation."
+msgstr "Dat Moduul lett sik nich för de Torüchnehmen-Vörgeschicht wohren. Start KMyMoney nieg un prööv de Moduul-Installatschoon."
+
+#, kde-format
+msgid "The selected ledger split no longer exists."
+msgstr "De utsöchte Deelbooken in't Kontobook gifft dat nich mehr."
+
+#, kde-format
+msgid "The transaction currency or security no longer exists."
+msgstr "De Geldsort oder dat Weertpapeer vun de Booken gifft dat nich mehr."
+
+#, kde-format
+msgid "This draft exceeds the 4 MiB metadata record limit."
+msgstr "Disse Entworp is grötter as de Grenz vun 4 MiB för en Metadaten-Indrag."
+
+#, kde-format
+msgid "This draft has already been restored. Save the document to finish cleanup."
+msgstr "Disse Entworp is al wedderherstellt. Seker dat Dokment, wenn Du dat Oprümen afsluten wullt."
+
+#, kde-format
+msgid "This draft no longer exists."
+msgstr "Dissen Entworp gifft dat nich mehr."
+
+#, kde-format
+msgid "This transaction already has a draft or a pending restoration record. Save the document first."
+msgstr "Disse Booken hett al en Entworp oder en töven Wedderherstell-Indrag. Seker eerst dat Dokment."
+
+#, kde-format
+msgid "This transaction cannot be archived without changes."
+msgstr "Disse Booken lett sik nich ahn Ännern archiveren."
+
+#, kde-format
+msgid "Unable to move to drafts"
+msgstr "Verschuven na Entwörp nich mööglich"
+
+#, kde-format
+msgid "Unable to read drafts: %1"
+msgstr "Entwörp laat sik nich lesen: %1"
+
+#, kde-format
+msgid "Unable to restore draft"
+msgstr "Entworp lett sik nich wedderherstellen"
+
+#, kde-format
+msgid "Unknown"
+msgstr "Nich begäng"
+
+#, kde-format
+msgid "Unknown or missing draft fields. Archive left unchanged."
+msgstr "Nich begäng oder fehlen Entworp-Feller. Dat Archiv blifft unverännert."
+
+#, kde-format
+msgid "Unsupported draft metadata version. Update the plugin before changing drafts."
+msgstr "De Verschoon vun de Entworp-Metadaten warrt nich ünnerstütt. Frisch dat Moduul op, ehr Du Entwörp ännerst."
+
+#, kde-format
+msgid "Value"
+msgstr "Weert"
+
+#, kde-format
+msgid "Value (%1)"
+msgstr "Weert (%1)"

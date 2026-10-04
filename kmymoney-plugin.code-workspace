@@ -1,0 +1,234 @@
+{
+  "folders": [
+    {
+      "name": "Plugins",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "cmake.cmakePath": "cmake",
+    "cmake.configureOnOpen": false,
+    "cmake.useCMakePresets": "always",
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "terminal.integrated.profiles.windows": {
+      "KDE Craft (PowerShell 7)": {
+        "path": "pwsh",
+        "args": [
+          "-NoLogo",
+          "-NoProfile",
+          "-NoExit",
+          "-File",
+          "${workspaceFolder:Plugins}/build.ps1",
+          "-Tasks",
+          "EnterCraft"
+        ]
+      }
+    },
+    "terminal.integrated.defaultProfile.windows": "KDE Craft (PowerShell 7)",
+    "terminal.integrated.automationProfile.windows": {
+      "path": "pwsh",
+      "args": [
+        "-NoLogo",
+        "-NoProfile"
+      ]
+    },
+    "terminal.integrated.profiles.linux": {
+      "KDE Craft (PowerShell 7)": {
+        "path": "pwsh",
+        "args": [
+          "-NoLogo",
+          "-NoProfile",
+          "-NoExit",
+          "-File",
+          "${workspaceFolder:Plugins}/build.ps1",
+          "-Tasks",
+          "EnterCraft"
+        ]
+      }
+    },
+    "terminal.integrated.defaultProfile.linux": "KDE Craft (PowerShell 7)",
+    "terminal.integrated.automationProfile.linux": {
+      "path": "pwsh",
+      "args": [
+        "-NoLogo",
+        "-NoProfile"
+      ]
+    },
+    "terminal.integrated.profiles.osx": {
+      "KDE Craft (PowerShell 7)": {
+        "path": "pwsh",
+        "args": [
+          "-NoLogo",
+          "-NoProfile",
+          "-NoExit",
+          "-File",
+          "${workspaceFolder:Plugins}/build.ps1",
+          "-Tasks",
+          "EnterCraft"
+        ]
+      }
+    },
+    "terminal.integrated.defaultProfile.osx": "KDE Craft (PowerShell 7)",
+    "terminal.integrated.automationProfile.osx": {
+      "path": "pwsh",
+      "args": [
+        "-NoLogo",
+        "-NoProfile"
+      ]
+    },
+    "files.watcherExclude": {
+      "**/build/**": true,
+      "**/cmake-build-*/**": true,
+      "**/stage/**": true
+    },
+    "search.exclude": {
+      "**/build/**": true,
+      "**/cmake-build-*/**": true,
+      "**/stage/**": true
+    }
+  },
+  "extensions": {
+    "recommendations": [
+      "ms-vscode.cpptools",
+      "ms-vscode.cmake-tools",
+      "ms-vscode.powershell",
+      "editorconfig.editorconfig",
+      "vadimcn.vscode-lldb"
+    ]
+  },
+  "tasks": {
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Plugins: configure",
+        "type": "process",
+        "command": "pwsh",
+        "args": [
+          "-NoLogo",
+          "-NoProfile",
+          "-File",
+          "${workspaceFolder:Plugins}/build.ps1",
+          "-Tasks",
+          "Configure"
+        ],
+        "options": {
+          "cwd": "${workspaceFolder:Plugins}"
+        },
+        "problemMatcher": "$gcc",
+        "windows": {
+          "problemMatcher": "$msCompile"
+        }
+      },
+      {
+        "label": "Plugins: build",
+        "type": "process",
+        "command": "pwsh",
+        "args": [
+          "-NoLogo",
+          "-NoProfile",
+          "-File",
+          "${workspaceFolder:Plugins}/build.ps1",
+          "-Tasks",
+          "Build"
+        ],
+        "options": {
+          "cwd": "${workspaceFolder:Plugins}"
+        },
+        "problemMatcher": "$gcc",
+        "windows": {
+          "problemMatcher": "$msCompile"
+        },
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        }
+      },
+      {
+        "label": "Plugins: install",
+        "type": "process",
+        "command": "pwsh",
+        "args": [
+          "-NoLogo",
+          "-NoProfile",
+          "-File",
+          "${workspaceFolder:Plugins}/build.ps1",
+          "-Tasks",
+          "Stage"
+        ],
+        "options": {
+          "cwd": "${workspaceFolder:Plugins}"
+        },
+        "problemMatcher": "$gcc",
+        "windows": {
+          "problemMatcher": "$msCompile"
+        }
+      },
+      {
+        "label": "KMyMoney: run",
+        "type": "process",
+        "command": "pwsh",
+        "args": [
+          "-NoLogo",
+          "-NoProfile",
+          "-File",
+          "${workspaceFolder:Plugins}/build.ps1",
+          "-Tasks",
+          "Run"
+        ],
+        "options": {
+          "cwd": "${workspaceFolder:Plugins}"
+        },
+        "problemMatcher": [],
+        "windows": {
+          "problemMatcher": []
+        }
+      }
+    ]
+  },
+  "launch": {
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "KMyMoney / Windows (MSVC)",
+        "type": "cppvsdbg",
+        "request": "launch",
+        "program": "${env:KMYMONEY_EXECUTABLE}",
+        "cwd": "${workspaceFolder:Plugins}",
+        "args": [],
+        "symbolSearchPath": "${workspaceFolder:Plugins}/build/craft-windows;${env:KMYMONEY_STAGE_DIR}/lib/plugins/kmymoney_plugins;${env:CRAFT_ROOT}/bin",
+        "environment": [
+          {
+            "name": "QT_DEBUG_PLUGINS",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "name": "KMyMoney / Linux (GDB)",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "${env:KMYMONEY_EXECUTABLE}",
+        "cwd": "${workspaceFolder:Plugins}",
+        "args": [],
+        "MIMode": "gdb",
+        "environment": [
+          {
+            "name": "QT_DEBUG_PLUGINS",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "name": "KMyMoney / macOS (LLDB)",
+        "type": "lldb",
+        "request": "launch",
+        "program": "${env:KMYMONEY_EXECUTABLE}",
+        "cwd": "${workspaceFolder:Plugins}",
+        "args": [],
+        "env": {
+          "QT_DEBUG_PLUGINS": "1"
+        }
+      }
+    ]
+  }
+}

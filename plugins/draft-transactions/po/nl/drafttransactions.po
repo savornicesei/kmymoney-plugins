@@ -1,0 +1,337 @@
+# SPDX-FileCopyrightText: 2026 Draft transactions contributors
+# SPDX-License-Identifier: GPL-2.0-or-later
+# Initial AI-assisted translation. Native-speaker review is pending.
+msgid ""
+msgstr ""
+"Project-Id-Version: drafttransactions 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-27 08:52+0300\n"
+"PO-Revision-Date: 2026-09-27 12:00+0300\n"
+"Last-Translator: Draft transactions contributors\n"
+"Language-Team: nl\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Initial AI-assisted translation; native review pending\n"
+
+#, kde-format
+msgid "A split references a missing cost center: %1"
+msgstr "Een splitsing verwijst naar een ontbrekende kostenplaats: %1"
+
+#, kde-format
+msgid "A split references a missing or standard account: %1"
+msgstr "Een splitsing verwijst naar een ontbrekende of standaardrekening: %1"
+
+#, kde-format
+msgid "A split references a missing payee: %1"
+msgstr "Een splitsing verwijst naar een ontbrekende begunstigde: %1"
+
+#, kde-format
+msgid "A split references a missing tag: %1"
+msgstr "Een splitsing verwijst naar een ontbrekende tag: %1"
+
+#, kde-format
+msgid "Account"
+msgstr "Rekening"
+
+#, kde-format
+msgid "Account '%1' is closed. Reopen it in KMyMoney before moving or restoring this transaction."
+msgstr "Rekening '%1' is gesloten. Heropen deze in KMyMoney voordat u deze transactie verplaatst of herstelt."
+
+#, kde-format
+msgid "All splits (read-only; exact amounts are shown as fractions)"
+msgstr "Alle splitsingen (alleen-lezen; exacte bedragen worden als breuken weergegeven)"
+
+#, kde-format
+msgid "Cleared"
+msgstr "Gecontroleerd"
+
+#, kde-format
+msgid "Currency"
+msgstr "Valuta"
+
+#, kde-format
+msgid "Date"
+msgstr "Datum"
+
+#, kde-format
+msgid "Draft"
+msgstr "Concept"
+
+#, kde-format
+msgid "Draft checksum mismatch. The archive was not changed."
+msgstr "De controlesom van het concept komt niet overeen. Het archief is niet gewijzigd."
+
+#, kde-format
+msgid "Draft contains missing, unknown, or noncanonical transaction fields."
+msgstr "Het concept bevat ontbrekende, onbekende of niet-canonieke transactievelden."
+
+#, kde-format
+msgid "Draft identity does not match its metadata key. No drafts were changed."
+msgstr "De conceptidentificatie komt niet overeen met de metadatasleutel. Er zijn geen concepten gewijzigd."
+
+#, kde-format
+msgid "Draft metadata is not valid JSON."
+msgstr "De conceptmetadata is geen geldige JSON."
+
+#, kde-format
+msgid "Draft metadata is too large."
+msgstr "De conceptmetadata is te groot."
+
+#, kde-format
+msgid "Draft metadata must be an object."
+msgstr "De conceptmetadata moet een object zijn."
+
+#, kde-format
+msgid "Draft metadata values must be strings."
+msgstr "De waarden van de conceptmetadata moeten tekenreeksen zijn."
+
+#, kde-format
+msgid "Draft origin split does not exist."
+msgstr "De oorspronkelijke splitsing van het concept bestaat niet."
+
+#, kde-format
+msgid "Draft splits are missing."
+msgstr "De conceptsplitsingen ontbreken."
+
+#, kde-format
+msgid "Draft tags are missing."
+msgstr "De concepttags ontbreken."
+
+#, kde-format
+msgid "Draft transactions"
+msgstr "Concepttransacties"
+
+#, kde-format
+msgid "Drafted (UTC)"
+msgstr "In concept gezet (UTC)"
+
+#, kde-format
+msgid "Drafts"
+msgstr "Concepten"
+
+#, kde-format
+msgid "Drafts do not affect balances. Save the document to keep changes. Restored recovery copies are removed only after a clean save and full verification; cleanup is saved with the next document save."
+msgstr "Concepten hebben geen invloed op saldi. Sla het document op om wijzigingen te bewaren. Herstelkopieën van herstelde transacties worden pas verwijderd na een geslaagde opslag en volledige verificatie; deze opschoning wordt bij de volgende documentopslag bewaard."
+
+#, kde-format
+msgid "Every split will return to its original account. Only the posting date can change; reconciliation flags and dates remain unchanged."
+msgstr "Elke splitsing keert terug naar de oorspronkelijke rekening. Alleen de boekingsdatum kan veranderen; afstemmingsmarkeringen en -datums blijven ongewijzigd."
+
+#, kde-format
+msgid "Filter drafts…"
+msgstr "Concepten filteren…"
+
+#, kde-format
+msgid "Finish the current KMyMoney operation first."
+msgstr "Voltooi eerst de huidige KMyMoney-bewerking."
+
+#, kde-format
+msgid "Frozen"
+msgstr "Bevroren"
+
+#, kde-format
+msgid "Invalid archived transaction identity or date."
+msgstr "Ongeldige identificatie of datum van de gearchiveerde transactie."
+
+#, kde-format
+msgid "Invalid draft identity or timestamp."
+msgstr "Ongeldige conceptidentificatie of tijdstempel."
+
+#, kde-format
+msgid "Invalid draft split."
+msgstr "Ongeldige conceptsplitsing."
+
+#, kde-format
+msgid "Invalid draft tag."
+msgstr "Ongeldige concepttag."
+
+#, kde-format
+msgid "Invalid exact monetary value in draft."
+msgstr "Ongeldige exacte geldwaarde in het concept."
+
+#, kde-format
+msgid "Invalid matched transaction."
+msgstr "Ongeldige gekoppelde transactie."
+
+#, kde-format
+msgid "Invalid reconciliation state."
+msgstr "Ongeldige afstemmingsstatus."
+
+#, kde-format
+msgid "Invalid restoration recovery record."
+msgstr "Ongeldig herstelrecord."
+
+#, kde-format
+msgid "KMyMoney changed transaction fields during restoration. The operation was rolled back and the draft was retained."
+msgstr "KMyMoney heeft transactievelden gewijzigd tijdens het herstellen. De bewerking is teruggedraaid en het concept is behouden."
+
+#, kde-format
+msgid "Keep complete transactions in drafts and restore them later"
+msgstr "Bewaar volledige transacties als concepten en herstel ze later"
+
+#, kde-format
+msgid "Matched transaction nesting is too deep."
+msgstr "Gekoppelde transacties zijn te diep genest."
+
+#, kde-format
+msgid "Memo"
+msgstr "Notitie"
+
+#, kde-format
+msgid "Missing or duplicate split identity in draft."
+msgstr "Ontbrekende of dubbele splitsingsidentificatie in het concept."
+
+#, kde-format
+msgid "Move the complete selected transactions, including every split, to drafts? They will stop affecting all account balances, reports, and reconciliations."
+msgstr "De volledige geselecteerde transacties, inclusief alle splitsingen, naar concepten verplaatsen? Ze hebben dan geen invloed meer op rekeningsaldi, rapporten en afstemmingen."
+
+#, kde-format
+msgid "Move to drafts"
+msgstr "Naar concepten verplaatsen"
+
+#, kde-format
+msgid "Moving or restoring reconciled transactions changes historical balances. If you change the posting date, review the affected reconciliations afterwards."
+msgstr "Het verplaatsen of herstellen van afgestemde transacties wijzigt historische saldi. Controleer de betrokken afstemmingen achteraf als u de boekingsdatum wijzigt."
+
+#, kde-format
+msgid "No draft transactions in this document."
+msgstr "Dit document bevat geen concepttransacties."
+
+#, kde-format
+msgid "Not reconciled"
+msgstr "Niet afgestemd"
+
+#, kde-format
+msgid "Open a KMyMoney document to view its drafts."
+msgstr "Open een KMyMoney-document om de concepten ervan te bekijken."
+
+#, kde-format
+msgid "Payee"
+msgstr "Begunstigde"
+
+#, kde-format
+msgid "Posting date:"
+msgstr "Boekingsdatum:"
+
+#, kde-format
+msgid "Price (exact)"
+msgstr "Prijs (exact)"
+
+#, kde-format
+msgid "Reconciled"
+msgstr "Afgestemd"
+
+#, kde-format
+msgid "Reconciliation"
+msgstr "Afstemming"
+
+#, kde-format
+msgid "Reconciliation date"
+msgstr "Afstemmingsdatum"
+
+#, kde-format
+msgid "Remove saved restoration copies"
+msgstr "Kopieën van opgeslagen herstellingen verwijderen"
+
+#, kde-format
+msgid "Restoration requires a valid posting date and no other active operation."
+msgstr "Herstellen vereist een geldige boekingsdatum en geen andere actieve bewerking."
+
+#, kde-format
+msgid "Restore"
+msgstr "Herstellen"
+
+#, kde-format
+msgid "Restore draft transaction"
+msgstr "Concepttransactie herstellen"
+
+#, kde-format
+msgid "Restored; recovery copy retained"
+msgstr "Hersteld; herstelkopie behouden"
+
+#, kde-format
+msgid "Select at least one saved transaction."
+msgstr "Selecteer minstens één opgeslagen transactie."
+
+#, kde-format
+msgid "Shares (exact)"
+msgstr "Aandelen (exact)"
+
+#, kde-format
+msgid "Show drafts…"
+msgstr "Concepten tonen…"
+
+#, kde-format
+msgid "Splits"
+msgstr "Splitsingen"
+
+#, kde-format
+msgid "Status"
+msgstr "Status"
+
+#, kde-format
+msgid "The plugin module could not be retained for undo history. Restart KMyMoney and check the plugin installation."
+msgstr "De plug-inmodule kon niet worden behouden voor de geschiedenis van ongedaan maken. Herstart KMyMoney en controleer de installatie van de plug-in."
+
+#, kde-format
+msgid "The selected ledger split no longer exists."
+msgstr "De geselecteerde grootboeksplitsing bestaat niet meer."
+
+#, kde-format
+msgid "The transaction currency or security no longer exists."
+msgstr "De valuta of het effect van de transactie bestaat niet meer."
+
+#, kde-format
+msgid "This draft exceeds the 4 MiB metadata record limit."
+msgstr "Dit concept overschrijdt de limiet van 4 MiB per metadatarecord."
+
+#, kde-format
+msgid "This draft has already been restored. Save the document to finish cleanup."
+msgstr "Dit concept is al hersteld. Sla het document op om de opschoning te voltooien."
+
+#, kde-format
+msgid "This draft no longer exists."
+msgstr "Dit concept bestaat niet meer."
+
+#, kde-format
+msgid "This transaction already has a draft or a pending restoration record. Save the document first."
+msgstr "Deze transactie heeft al een concept of een wachtend herstelrecord. Sla eerst het document op."
+
+#, kde-format
+msgid "This transaction cannot be archived without changes."
+msgstr "Deze transactie kan niet zonder wijzigingen worden gearchiveerd."
+
+#, kde-format
+msgid "Unable to move to drafts"
+msgstr "Verplaatsen naar concepten mislukt"
+
+#, kde-format
+msgid "Unable to read drafts: %1"
+msgstr "Concepten lezen mislukt: %1"
+
+#, kde-format
+msgid "Unable to restore draft"
+msgstr "Concept herstellen mislukt"
+
+#, kde-format
+msgid "Unknown"
+msgstr "Onbekend"
+
+#, kde-format
+msgid "Unknown or missing draft fields. Archive left unchanged."
+msgstr "Onbekende of ontbrekende conceptvelden. Het archief blijft ongewijzigd."
+
+#, kde-format
+msgid "Unsupported draft metadata version. Update the plugin before changing drafts."
+msgstr "Niet-ondersteunde versie van conceptmetadata. Werk de plug-in bij voordat u concepten wijzigt."
+
+#, kde-format
+msgid "Value"
+msgstr "Waarde"
+
+#, kde-format
+msgid "Value (%1)"
+msgstr "Waarde (%1)"

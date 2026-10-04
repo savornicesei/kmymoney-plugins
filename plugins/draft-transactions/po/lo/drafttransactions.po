@@ -1,0 +1,337 @@
+# SPDX-FileCopyrightText: 2026 Draft transactions contributors
+# SPDX-License-Identifier: GPL-2.0-or-later
+# Initial AI-assisted translation. Native-speaker review is pending.
+msgid ""
+msgstr ""
+"Project-Id-Version: drafttransactions 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-27 08:52+0300\n"
+"PO-Revision-Date: 2026-09-27 12:00+0300\n"
+"Last-Translator: Draft transactions contributors\n"
+"Language-Team: lo\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Initial AI-assisted translation; native review pending\n"
+
+#, kde-format
+msgid "A split references a missing cost center: %1"
+msgstr "ລາຍການແບ່ງອ້າງອີງເຖິງສູນຕົ້ນທຶນທີ່ບໍ່ມີ: %1"
+
+#, kde-format
+msgid "A split references a missing or standard account: %1"
+msgstr "ລາຍການແບ່ງອ້າງອີງເຖິງບັນຊີທີ່ບໍ່ມີ ຫຼື ບັນຊີມາດຕະຖານ: %1"
+
+#, kde-format
+msgid "A split references a missing payee: %1"
+msgstr "ລາຍການແບ່ງອ້າງອີງເຖິງຜູ້ຮັບເງິນທີ່ບໍ່ມີ: %1"
+
+#, kde-format
+msgid "A split references a missing tag: %1"
+msgstr "ລາຍການແບ່ງອ້າງອີງເຖິງປ້າຍກຳກັບທີ່ບໍ່ມີ: %1"
+
+#, kde-format
+msgid "Account"
+msgstr "ບັນຊີ"
+
+#, kde-format
+msgid "Account '%1' is closed. Reopen it in KMyMoney before moving or restoring this transaction."
+msgstr "ບັນຊີ '%1' ຖືກປິດແລ້ວ. ເປີດມັນຄືນໃນ KMyMoney ກ່ອນຍ້າຍ ຫຼື ກູ້ຄືນທຸລະກຳນີ້."
+
+#, kde-format
+msgid "All splits (read-only; exact amounts are shown as fractions)"
+msgstr "ລາຍການແບ່ງທັງໝົດ (ອ່ານໄດ້ຢ່າງດຽວ; ຈຳນວນເງິນທີ່ແນ່ນອນສະແດງເປັນເສດສ່ວນ)"
+
+#, kde-format
+msgid "Cleared"
+msgstr "ກວດແລ້ວ"
+
+#, kde-format
+msgid "Currency"
+msgstr "ສະກຸນເງິນ"
+
+#, kde-format
+msgid "Date"
+msgstr "ວັນທີ"
+
+#, kde-format
+msgid "Draft"
+msgstr "ຮ່າງ"
+
+#, kde-format
+msgid "Draft checksum mismatch. The archive was not changed."
+msgstr "ຄ່າກວດສອບຂອງຮ່າງບໍ່ກົງກັນ. ຂໍ້ມູນທີ່ເກັບໄວ້ບໍ່ຖືກປ່ຽນ."
+
+#, kde-format
+msgid "Draft contains missing, unknown, or noncanonical transaction fields."
+msgstr "ຮ່າງມີຊ່ອງຂໍ້ມູນທຸລະກຳທີ່ຂາດ, ບໍ່ຮູ້ຈັກ ຫຼື ບໍ່ເປັນຮູບແບບມາດຕະຖານ."
+
+#, kde-format
+msgid "Draft identity does not match its metadata key. No drafts were changed."
+msgstr "ລະຫັດຮ່າງບໍ່ກົງກັບກະແຈເມຕາດາຕາ. ບໍ່ມີຮ່າງໃດຖືກປ່ຽນ."
+
+#, kde-format
+msgid "Draft metadata is not valid JSON."
+msgstr "ເມຕາດາຕາຂອງຮ່າງບໍ່ແມ່ນ JSON ທີ່ຖືກຕ້ອງ."
+
+#, kde-format
+msgid "Draft metadata is too large."
+msgstr "ເມຕາດາຕາຂອງຮ່າງໃຫຍ່ເກີນໄປ."
+
+#, kde-format
+msgid "Draft metadata must be an object."
+msgstr "ເມຕາດາຕາຂອງຮ່າງຕ້ອງເປັນອອບເຈັກ."
+
+#, kde-format
+msgid "Draft metadata values must be strings."
+msgstr "ຄ່າເມຕາດາຕາຂອງຮ່າງຕ້ອງເປັນສາຍຂໍ້ຄວາມ."
+
+#, kde-format
+msgid "Draft origin split does not exist."
+msgstr "ລາຍການແບ່ງຕົ້ນສະບັບຂອງຮ່າງບໍ່ມີ."
+
+#, kde-format
+msgid "Draft splits are missing."
+msgstr "ຂາດລາຍການແບ່ງຂອງຮ່າງ."
+
+#, kde-format
+msgid "Draft tags are missing."
+msgstr "ຂາດປ້າຍກຳກັບຂອງຮ່າງ."
+
+#, kde-format
+msgid "Draft transactions"
+msgstr "ຮ່າງທຸລະກຳ"
+
+#, kde-format
+msgid "Drafted (UTC)"
+msgstr "ເວລາຍ້າຍເຂົ້າຮ່າງ (UTC)"
+
+#, kde-format
+msgid "Drafts"
+msgstr "ຮ່າງ"
+
+#, kde-format
+msgid "Drafts do not affect balances. Save the document to keep changes. Restored recovery copies are removed only after a clean save and full verification; cleanup is saved with the next document save."
+msgstr "ຮ່າງບໍ່ກະທົບຍອດເງິນ. ບັນທຶກເອກະສານເພື່ອຮັກສາການປ່ຽນແປງ. ສຳເນົາກູ້ຄືນຂອງທຸລະກຳທີ່ກູ້ຄືນແລ້ວຈະຖືກລຶບຫຼັງຈາກບັນທຶກສຳເລັດ ແລະ ກວດສອບຄົບຖ້ວນເທົ່ານັ້ນ; ການລຶບນີ້ຈະຖືກບັນທຶກໃນການບັນທຶກເອກະສານຄັ້ງຕໍ່ໄປ."
+
+#, kde-format
+msgid "Every split will return to its original account. Only the posting date can change; reconciliation flags and dates remain unchanged."
+msgstr "ແຕ່ລະລາຍການແບ່ງຈະກັບໄປບັນຊີເດີມ. ປ່ຽນໄດ້ສະເພາະວັນທີລົງບັນຊີ; ເຄື່ອງໝາຍ ແລະ ວັນທີການກະທົບຍອດຈະບໍ່ປ່ຽນ."
+
+#, kde-format
+msgid "Filter drafts…"
+msgstr "ກັ່ນຕອງຮ່າງ…"
+
+#, kde-format
+msgid "Finish the current KMyMoney operation first."
+msgstr "ກະລຸນາເຮັດການດຳເນີນງານປັດຈຸບັນໃນ KMyMoney ໃຫ້ສຳເລັດກ່ອນ."
+
+#, kde-format
+msgid "Frozen"
+msgstr "ລັອກແລ້ວ"
+
+#, kde-format
+msgid "Invalid archived transaction identity or date."
+msgstr "ລະຫັດ ຫຼື ວັນທີຂອງທຸລະກຳທີ່ເກັບໄວ້ບໍ່ຖືກຕ້ອງ."
+
+#, kde-format
+msgid "Invalid draft identity or timestamp."
+msgstr "ລະຫັດ ຫຼື ເວລາຂອງຮ່າງບໍ່ຖືກຕ້ອງ."
+
+#, kde-format
+msgid "Invalid draft split."
+msgstr "ລາຍການແບ່ງຂອງຮ່າງບໍ່ຖືກຕ້ອງ."
+
+#, kde-format
+msgid "Invalid draft tag."
+msgstr "ປ້າຍກຳກັບຂອງຮ່າງບໍ່ຖືກຕ້ອງ."
+
+#, kde-format
+msgid "Invalid exact monetary value in draft."
+msgstr "ຄ່າເງິນທີ່ແນ່ນອນໃນຮ່າງບໍ່ຖືກຕ້ອງ."
+
+#, kde-format
+msgid "Invalid matched transaction."
+msgstr "ທຸລະກຳທີ່ຈັບຄູ່ບໍ່ຖືກຕ້ອງ."
+
+#, kde-format
+msgid "Invalid reconciliation state."
+msgstr "ສະຖານະການກະທົບຍອດບໍ່ຖືກຕ້ອງ."
+
+#, kde-format
+msgid "Invalid restoration recovery record."
+msgstr "ບັນທຶກສຳຮອງການກູ້ຄືນບໍ່ຖືກຕ້ອງ."
+
+#, kde-format
+msgid "KMyMoney changed transaction fields during restoration. The operation was rolled back and the draft was retained."
+msgstr "KMyMoney ໄດ້ປ່ຽນຊ່ອງຂໍ້ມູນທຸລະກຳໃນຂະນະກູ້ຄືນ. ການດຳເນີນງານຖືກຍົກເລີກ ແລະ ຮ່າງຖືກຮັກສາໄວ້."
+
+#, kde-format
+msgid "Keep complete transactions in drafts and restore them later"
+msgstr "ເກັບທຸລະກຳທັງໝົດໃນຮ່າງ ແລະ ກູ້ຄືນພາຍຫຼັງ"
+
+#, kde-format
+msgid "Matched transaction nesting is too deep."
+msgstr "ທຸລະກຳທີ່ຈັບຄູ່ຊ້ອນກັນເລິກເກີນໄປ."
+
+#, kde-format
+msgid "Memo"
+msgstr "ໝາຍເຫດ"
+
+#, kde-format
+msgid "Missing or duplicate split identity in draft."
+msgstr "ລະຫັດລາຍການແບ່ງໃນຮ່າງຂາດ ຫຼື ຊ້ຳກັນ."
+
+#, kde-format
+msgid "Move the complete selected transactions, including every split, to drafts? They will stop affecting all account balances, reports, and reconciliations."
+msgstr "ຍ້າຍທຸລະກຳທີ່ເລືອກທັງໝົດ ລວມທຸກລາຍການແບ່ງ ເຂົ້າຮ່າງບໍ? ພວກມັນຈະບໍ່ກະທົບຍອດເງິນຂອງທຸກບັນຊີ, ລາຍງານ ແລະ ການກະທົບຍອດອີກ."
+
+#, kde-format
+msgid "Move to drafts"
+msgstr "ຍ້າຍເຂົ້າຮ່າງ"
+
+#, kde-format
+msgid "Moving or restoring reconciled transactions changes historical balances. If you change the posting date, review the affected reconciliations afterwards."
+msgstr "ການຍ້າຍ ຫຼື ກູ້ຄືນທຸລະກຳທີ່ກະທົບຍອດແລ້ວຈະປ່ຽນຍອດເງິນໃນອະດີດ. ຖ້າປ່ຽນວັນທີລົງບັນຊີ, ໃຫ້ກວດຄືນການກະທົບຍອດທີ່ໄດ້ຮັບຜົນພາຍຫຼັງ."
+
+#, kde-format
+msgid "No draft transactions in this document."
+msgstr "ບໍ່ມີຮ່າງທຸລະກຳໃນເອກະສານນີ້."
+
+#, kde-format
+msgid "Not reconciled"
+msgstr "ຍັງບໍ່ກະທົບຍອດ"
+
+#, kde-format
+msgid "Open a KMyMoney document to view its drafts."
+msgstr "ເປີດເອກະສານ KMyMoney ເພື່ອເບິ່ງຮ່າງຂອງມັນ."
+
+#, kde-format
+msgid "Payee"
+msgstr "ຜູ້ຮັບເງິນ"
+
+#, kde-format
+msgid "Posting date:"
+msgstr "ວັນທີລົງບັນຊີ:"
+
+#, kde-format
+msgid "Price (exact)"
+msgstr "ລາຄາ (ແນ່ນອນ)"
+
+#, kde-format
+msgid "Reconciled"
+msgstr "ກະທົບຍອດແລ້ວ"
+
+#, kde-format
+msgid "Reconciliation"
+msgstr "ການກະທົບຍອດ"
+
+#, kde-format
+msgid "Reconciliation date"
+msgstr "ວັນທີກະທົບຍອດ"
+
+#, kde-format
+msgid "Remove saved restoration copies"
+msgstr "ລຶບສຳເນົາການກູ້ຄືນທີ່ບັນທຶກແລ້ວ"
+
+#, kde-format
+msgid "Restoration requires a valid posting date and no other active operation."
+msgstr "ການກູ້ຄືນຕ້ອງມີວັນທີລົງບັນຊີທີ່ຖືກຕ້ອງ ແລະ ບໍ່ມີການດຳເນີນງານອື່ນຢູ່."
+
+#, kde-format
+msgid "Restore"
+msgstr "ກູ້ຄືນ"
+
+#, kde-format
+msgid "Restore draft transaction"
+msgstr "ກູ້ຄືນຮ່າງທຸລະກຳ"
+
+#, kde-format
+msgid "Restored; recovery copy retained"
+msgstr "ກູ້ຄືນແລ້ວ; ຮັກສາສຳເນົາກູ້ຄືນໄວ້"
+
+#, kde-format
+msgid "Select at least one saved transaction."
+msgstr "ເລືອກຢ່າງໜ້ອຍໜຶ່ງທຸລະກຳທີ່ບັນທຶກແລ້ວ."
+
+#, kde-format
+msgid "Shares (exact)"
+msgstr "ຮຸ້ນ (ແນ່ນອນ)"
+
+#, kde-format
+msgid "Show drafts…"
+msgstr "ສະແດງຮ່າງ…"
+
+#, kde-format
+msgid "Splits"
+msgstr "ລາຍການແບ່ງ"
+
+#, kde-format
+msgid "Status"
+msgstr "ສະຖານະ"
+
+#, kde-format
+msgid "The plugin module could not be retained for undo history. Restart KMyMoney and check the plugin installation."
+msgstr "ບໍ່ສາມາດຮັກສາໂມດູນປລັກອິນສຳລັບປະຫວັດການເຮັດຄືນ. ເລີ່ມ KMyMoney ໃໝ່ ແລະ ກວດການຕິດຕັ້ງປລັກອິນ."
+
+#, kde-format
+msgid "The selected ledger split no longer exists."
+msgstr "ລາຍການແບ່ງໃນບັນຊີແຍກປະເພດທີ່ເລືອກບໍ່ມີແລ້ວ."
+
+#, kde-format
+msgid "The transaction currency or security no longer exists."
+msgstr "ສະກຸນເງິນ ຫຼື ຫຼັກຊັບຂອງທຸລະກຳບໍ່ມີແລ້ວ."
+
+#, kde-format
+msgid "This draft exceeds the 4 MiB metadata record limit."
+msgstr "ຮ່າງນີ້ເກີນຂີດຈຳກັດ 4 MiB ຂອງບັນທຶກເມຕາດາຕາ."
+
+#, kde-format
+msgid "This draft has already been restored. Save the document to finish cleanup."
+msgstr "ຮ່າງນີ້ຖືກກູ້ຄືນແລ້ວ. ບັນທຶກເອກະສານເພື່ອສຳເລັດການລຶບ."
+
+#, kde-format
+msgid "This draft no longer exists."
+msgstr "ຮ່າງນີ້ບໍ່ມີແລ້ວ."
+
+#, kde-format
+msgid "This transaction already has a draft or a pending restoration record. Save the document first."
+msgstr "ທຸລະກຳນີ້ມີຮ່າງ ຫຼື ບັນທຶກການກູ້ຄືນທີ່ລໍຖ້າຢູ່ແລ້ວ. ບັນທຶກເອກະສານກ່ອນ."
+
+#, kde-format
+msgid "This transaction cannot be archived without changes."
+msgstr "ບໍ່ສາມາດເກັບທຸລະກຳນີ້ເຂົ້າຄັງໂດຍບໍ່ປ່ຽນແປງ."
+
+#, kde-format
+msgid "Unable to move to drafts"
+msgstr "ບໍ່ສາມາດຍ້າຍເຂົ້າຮ່າງ"
+
+#, kde-format
+msgid "Unable to read drafts: %1"
+msgstr "ບໍ່ສາມາດອ່ານຮ່າງ: %1"
+
+#, kde-format
+msgid "Unable to restore draft"
+msgstr "ບໍ່ສາມາດກູ້ຄືນຮ່າງ"
+
+#, kde-format
+msgid "Unknown"
+msgstr "ບໍ່ຮູ້ຈັກ"
+
+#, kde-format
+msgid "Unknown or missing draft fields. Archive left unchanged."
+msgstr "ຊ່ອງຂໍ້ມູນຮ່າງບໍ່ຮູ້ຈັກ ຫຼື ຂາດ. ຂໍ້ມູນທີ່ເກັບໄວ້ບໍ່ຖືກປ່ຽນ."
+
+#, kde-format
+msgid "Unsupported draft metadata version. Update the plugin before changing drafts."
+msgstr "ບໍ່ຮອງຮັບລຸ້ນເມຕາດາຕາຂອງຮ່າງນີ້. ອັບເດດປລັກອິນກ່ອນປ່ຽນຮ່າງ."
+
+#, kde-format
+msgid "Value"
+msgstr "ມູນຄ່າ"
+
+#, kde-format
+msgid "Value (%1)"
+msgstr "ມູນຄ່າ (%1)"

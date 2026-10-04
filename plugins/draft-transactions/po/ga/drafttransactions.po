@@ -1,0 +1,337 @@
+# SPDX-FileCopyrightText: 2026 Draft transactions contributors
+# SPDX-License-Identifier: GPL-2.0-or-later
+# Initial AI-assisted translation. Native-speaker review is pending.
+msgid ""
+msgstr ""
+"Project-Id-Version: drafttransactions 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-27 08:52+0300\n"
+"PO-Revision-Date: 2026-09-27 12:00+0300\n"
+"Last-Translator: Draft transactions contributors\n"
+"Language-Team: ga\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+"X-Generator: Initial AI-assisted translation; native review pending\n"
+
+#, kde-format
+msgid "A split references a missing cost center: %1"
+msgstr "Tagraíonn roinnt d'ionad costais atá ar iarraidh: %1"
+
+#, kde-format
+msgid "A split references a missing or standard account: %1"
+msgstr "Tagraíonn roinnt do chuntas atá ar iarraidh nó do chuntas caighdeánach: %1"
+
+#, kde-format
+msgid "A split references a missing payee: %1"
+msgstr "Tagraíonn roinnt d'íocaí atá ar iarraidh: %1"
+
+#, kde-format
+msgid "A split references a missing tag: %1"
+msgstr "Tagraíonn roinnt do chlib atá ar iarraidh: %1"
+
+#, kde-format
+msgid "Account"
+msgstr "Cuntas"
+
+#, kde-format
+msgid "Account '%1' is closed. Reopen it in KMyMoney before moving or restoring this transaction."
+msgstr "Tá cuntas '%1' dúnta. Athoscail é in KMyMoney sula mbogann tú nó sula n-athchóiríonn tú an t-idirbheart seo."
+
+#, kde-format
+msgid "All splits (read-only; exact amounts are shown as fractions)"
+msgstr "Gach roinnt (inléite amháin; taispeántar suimeanna beachta mar chodáin)"
+
+#, kde-format
+msgid "Cleared"
+msgstr "Seiceáilte"
+
+#, kde-format
+msgid "Currency"
+msgstr "Airgeadra"
+
+#, kde-format
+msgid "Date"
+msgstr "Dáta"
+
+#, kde-format
+msgid "Draft"
+msgstr "Dréacht"
+
+#, kde-format
+msgid "Draft checksum mismatch. The archive was not changed."
+msgstr "Ní mheaitseálann suim sheiceála an dréachta. Níor athraíodh an chartlann."
+
+#, kde-format
+msgid "Draft contains missing, unknown, or noncanonical transaction fields."
+msgstr "Tá réimsí idirbhirt ar iarraidh, anaithnid nó neamhchanónach sa dréacht."
+
+#, kde-format
+msgid "Draft identity does not match its metadata key. No drafts were changed."
+msgstr "Ní mheaitseálann aitheantóir an dréachta eochair a mheiteashonraí. Níor athraíodh aon dréacht."
+
+#, kde-format
+msgid "Draft metadata is not valid JSON."
+msgstr "Ní JSON bailí iad meiteashonraí an dréachta."
+
+#, kde-format
+msgid "Draft metadata is too large."
+msgstr "Tá meiteashonraí an dréachta rómhór."
+
+#, kde-format
+msgid "Draft metadata must be an object."
+msgstr "Caithfidh meiteashonraí an dréachta a bheith ina réad."
+
+#, kde-format
+msgid "Draft metadata values must be strings."
+msgstr "Caithfidh luachanna mheiteashonraí an dréachta a bheith ina dteaghráin."
+
+#, kde-format
+msgid "Draft origin split does not exist."
+msgstr "Níl bunroinnt an dréachta ann."
+
+#, kde-format
+msgid "Draft splits are missing."
+msgstr "Tá ranna an dréachta ar iarraidh."
+
+#, kde-format
+msgid "Draft tags are missing."
+msgstr "Tá clibeanna an dréachta ar iarraidh."
+
+#, kde-format
+msgid "Draft transactions"
+msgstr "Dréachtaí idirbheart"
+
+#, kde-format
+msgid "Drafted (UTC)"
+msgstr "Bogtha go dréachtaí (UTC)"
+
+#, kde-format
+msgid "Drafts"
+msgstr "Dréachtaí"
+
+#, kde-format
+msgid "Drafts do not affect balances. Save the document to keep changes. Restored recovery copies are removed only after a clean save and full verification; cleanup is saved with the next document save."
+msgstr "Ní dhéanann dréachtaí difear d'iarmhéideanna. Sábháil an doiciméad chun athruithe a choinneáil. Ní bhaintear cóipeanna aisghabhála na n-idirbheart athchóirithe go dtí go n-éiríonn leis an sábháil agus leis an bhfíorú iomlán; sábháiltear an glanadh an chéad uair eile a shábháiltear an doiciméad."
+
+#, kde-format
+msgid "Every split will return to its original account. Only the posting date can change; reconciliation flags and dates remain unchanged."
+msgstr "Fillfidh gach roinnt ar a bunchuntas. Ní féidir ach an dáta postála a athrú; fanfaidh marcanna agus dátaí réitigh mar atá."
+
+#, kde-format
+msgid "Filter drafts…"
+msgstr "Scag dréachtaí…"
+
+#, kde-format
+msgid "Finish the current KMyMoney operation first."
+msgstr "Críochnaigh an oibríocht reatha in KMyMoney ar dtús."
+
+#, kde-format
+msgid "Frozen"
+msgstr "Reoite"
+
+#, kde-format
+msgid "Invalid archived transaction identity or date."
+msgstr "Aitheantóir nó dáta neamhbhailí don idirbheart cartlannaithe."
+
+#, kde-format
+msgid "Invalid draft identity or timestamp."
+msgstr "Aitheantóir nó stampa ama neamhbhailí don dréacht."
+
+#, kde-format
+msgid "Invalid draft split."
+msgstr "Roinnt neamhbhailí sa dréacht."
+
+#, kde-format
+msgid "Invalid draft tag."
+msgstr "Clib neamhbhailí sa dréacht."
+
+#, kde-format
+msgid "Invalid exact monetary value in draft."
+msgstr "Luach airgeadaíochta beacht neamhbhailí sa dréacht."
+
+#, kde-format
+msgid "Invalid matched transaction."
+msgstr "Idirbheart meaitseáilte neamhbhailí."
+
+#, kde-format
+msgid "Invalid reconciliation state."
+msgstr "Staid réitigh neamhbhailí."
+
+#, kde-format
+msgid "Invalid restoration recovery record."
+msgstr "Taifead aisghabhála athchóirithe neamhbhailí."
+
+#, kde-format
+msgid "KMyMoney changed transaction fields during restoration. The operation was rolled back and the draft was retained."
+msgstr "D'athraigh KMyMoney réimsí an idirbhirt le linn athchóirithe. Cealaíodh an oibríocht agus coinníodh an dréacht."
+
+#, kde-format
+msgid "Keep complete transactions in drafts and restore them later"
+msgstr "Coinnigh idirbhearta iomlána i ndréachtaí agus athchóirigh iad níos déanaí"
+
+#, kde-format
+msgid "Matched transaction nesting is too deep."
+msgstr "Tá idirbhearta meaitseáilte neadaithe ró-dhomhain."
+
+#, kde-format
+msgid "Memo"
+msgstr "Nóta"
+
+#, kde-format
+msgid "Missing or duplicate split identity in draft."
+msgstr "Aitheantóir roinnte ar iarraidh nó dúblach sa dréacht."
+
+#, kde-format
+msgid "Move the complete selected transactions, including every split, to drafts? They will stop affecting all account balances, reports, and reconciliations."
+msgstr "An bhfuil fonn ort na hidirbhearta roghnaithe ar fad, lena ranna uile, a bhogadh go dréachtaí? Ní dhéanfaidh siad difear a thuilleadh d'iarmhéideanna aon chuntais, do thuairiscí ná do réitigh."
+
+#, kde-format
+msgid "Move to drafts"
+msgstr "Bog go dréachtaí"
+
+#, kde-format
+msgid "Moving or restoring reconciled transactions changes historical balances. If you change the posting date, review the affected reconciliations afterwards."
+msgstr "Athraíonn bogadh nó athchóiriú idirbheart réitithe iarmhéideanna stairiúla. Má athraíonn tú an dáta postála, seiceáil na réitigh lena mbaineann ina dhiaidh sin."
+
+#, kde-format
+msgid "No draft transactions in this document."
+msgstr "Níl dréachtaí idirbheart sa doiciméad seo."
+
+#, kde-format
+msgid "Not reconciled"
+msgstr "Gan réiteach"
+
+#, kde-format
+msgid "Open a KMyMoney document to view its drafts."
+msgstr "Oscail doiciméad KMyMoney chun a dhréachtaí a fheiceáil."
+
+#, kde-format
+msgid "Payee"
+msgstr "Íocaí"
+
+#, kde-format
+msgid "Posting date:"
+msgstr "Dáta postála:"
+
+#, kde-format
+msgid "Price (exact)"
+msgstr "Praghas (beacht)"
+
+#, kde-format
+msgid "Reconciled"
+msgstr "Réitithe"
+
+#, kde-format
+msgid "Reconciliation"
+msgstr "Réiteach"
+
+#, kde-format
+msgid "Reconciliation date"
+msgstr "Dáta réitigh"
+
+#, kde-format
+msgid "Remove saved restoration copies"
+msgstr "Bain cóipeanna d'athchóirithe sábháilte"
+
+#, kde-format
+msgid "Restoration requires a valid posting date and no other active operation."
+msgstr "Teastaíonn dáta postála bailí don athchóiriú agus ní féidir aon oibríocht eile a bheith gníomhach."
+
+#, kde-format
+msgid "Restore"
+msgstr "Athchóirigh"
+
+#, kde-format
+msgid "Restore draft transaction"
+msgstr "Athchóirigh dréacht idirbhirt"
+
+#, kde-format
+msgid "Restored; recovery copy retained"
+msgstr "Athchóirithe; cóip aisghabhála coinnithe"
+
+#, kde-format
+msgid "Select at least one saved transaction."
+msgstr "Roghnaigh idirbheart sábháilte amháin ar a laghad."
+
+#, kde-format
+msgid "Shares (exact)"
+msgstr "Scaireanna (beacht)"
+
+#, kde-format
+msgid "Show drafts…"
+msgstr "Taispeáin dréachtaí…"
+
+#, kde-format
+msgid "Splits"
+msgstr "Ranna"
+
+#, kde-format
+msgid "Status"
+msgstr "Stádas"
+
+#, kde-format
+msgid "The plugin module could not be retained for undo history. Restart KMyMoney and check the plugin installation."
+msgstr "Níorbh fhéidir modúl an bhreiseáin a choinneáil don stair chealaithe. Atosaigh KMyMoney agus seiceáil suiteáil an bhreiseáin."
+
+#, kde-format
+msgid "The selected ledger split no longer exists."
+msgstr "Níl an roinnt roghnaithe sa mhórleabhar ann a thuilleadh."
+
+#, kde-format
+msgid "The transaction currency or security no longer exists."
+msgstr "Níl airgeadra nó urrús an idirbhirt ann a thuilleadh."
+
+#, kde-format
+msgid "This draft exceeds the 4 MiB metadata record limit."
+msgstr "Sáraíonn an dréacht seo teorainn 4 MiB an taifid meiteashonraí."
+
+#, kde-format
+msgid "This draft has already been restored. Save the document to finish cleanup."
+msgstr "Athchóiríodh an dréacht seo cheana. Sábháil an doiciméad chun an glanadh a chríochnú."
+
+#, kde-format
+msgid "This draft no longer exists."
+msgstr "Níl an dréacht seo ann a thuilleadh."
+
+#, kde-format
+msgid "This transaction already has a draft or a pending restoration record. Save the document first."
+msgstr "Tá dréacht nó taifead athchóirithe ar feitheamh ag an idirbheart seo cheana. Sábháil an doiciméad ar dtús."
+
+#, kde-format
+msgid "This transaction cannot be archived without changes."
+msgstr "Ní féidir an t-idirbheart seo a chartlannú gan athruithe."
+
+#, kde-format
+msgid "Unable to move to drafts"
+msgstr "Ní féidir bogadh go dréachtaí"
+
+#, kde-format
+msgid "Unable to read drafts: %1"
+msgstr "Ní féidir dréachtaí a léamh: %1"
+
+#, kde-format
+msgid "Unable to restore draft"
+msgstr "Ní féidir an dréacht a athchóiriú"
+
+#, kde-format
+msgid "Unknown"
+msgstr "Anaithnid"
+
+#, kde-format
+msgid "Unknown or missing draft fields. Archive left unchanged."
+msgstr "Réimsí dréachta anaithnide nó ar iarraidh. Fágadh an chartlann gan athrú."
+
+#, kde-format
+msgid "Unsupported draft metadata version. Update the plugin before changing drafts."
+msgstr "Leagan de mheiteashonraí an dréachta nach dtacaítear leis. Nuashonraigh an breiseán sula n-athraíonn tú dréachtaí."
+
+#, kde-format
+msgid "Value"
+msgstr "Luach"
+
+#, kde-format
+msgid "Value (%1)"
+msgstr "Luach (%1)"

@@ -1,0 +1,337 @@
+# SPDX-FileCopyrightText: 2026 Draft transactions contributors
+# SPDX-License-Identifier: GPL-2.0-or-later
+# Initial AI-assisted translation. Native-speaker review is pending.
+msgid ""
+msgstr ""
+"Project-Id-Version: drafttransactions 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-27 08:52+0300\n"
+"PO-Revision-Date: 2026-09-27 12:00+0300\n"
+"Last-Translator: Draft transactions contributors\n"
+"Language-Team: kk\n"
+"Language: kk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Initial AI-assisted translation; native review pending\n"
+
+#, kde-format
+msgid "A split references a missing cost center: %1"
+msgstr "Бөлік жоқ шығын орталығына сілтейді: %1"
+
+#, kde-format
+msgid "A split references a missing or standard account: %1"
+msgstr "Бөлік жоқ немесе стандартты шотқа сілтейді: %1"
+
+#, kde-format
+msgid "A split references a missing payee: %1"
+msgstr "Бөлік жоқ алушыға сілтейді: %1"
+
+#, kde-format
+msgid "A split references a missing tag: %1"
+msgstr "Бөлік жоқ тегке сілтейді: %1"
+
+#, kde-format
+msgid "Account"
+msgstr "Шот"
+
+#, kde-format
+msgid "Account '%1' is closed. Reopen it in KMyMoney before moving or restoring this transaction."
+msgstr "«%1» шоты жабық. Бұл операцияны жылжыту немесе қалпына келтіру алдында оны KMyMoney ішінде қайта ашыңыз."
+
+#, kde-format
+msgid "All splits (read-only; exact amounts are shown as fractions)"
+msgstr "Барлық бөліктер (тек оқу; нақты сомалар бөлшек түрінде көрсетіледі)"
+
+#, kde-format
+msgid "Cleared"
+msgstr "Тексерілген"
+
+#, kde-format
+msgid "Currency"
+msgstr "Валюта"
+
+#, kde-format
+msgid "Date"
+msgstr "Күн"
+
+#, kde-format
+msgid "Draft"
+msgstr "Нобай"
+
+#, kde-format
+msgid "Draft checksum mismatch. The archive was not changed."
+msgstr "Нобайдың бақылау сомасы сәйкес келмейді. Мұрағат өзгертілмеді."
+
+#, kde-format
+msgid "Draft contains missing, unknown, or noncanonical transaction fields."
+msgstr "Нобайда жоқ, белгісіз немесе канондық емес операция өрістері бар."
+
+#, kde-format
+msgid "Draft identity does not match its metadata key. No drafts were changed."
+msgstr "Нобайдың идентификаторы метадеректер кілтіне сәйкес келмейді. Ешбір нобай өзгертілмеді."
+
+#, kde-format
+msgid "Draft metadata is not valid JSON."
+msgstr "Нобайдың метадеректері жарамды JSON емес."
+
+#, kde-format
+msgid "Draft metadata is too large."
+msgstr "Нобайдың метадеректері тым үлкен."
+
+#, kde-format
+msgid "Draft metadata must be an object."
+msgstr "Нобайдың метадеректері нысан болуы керек."
+
+#, kde-format
+msgid "Draft metadata values must be strings."
+msgstr "Нобайдың метадерек мәндері жолдар болуы керек."
+
+#, kde-format
+msgid "Draft origin split does not exist."
+msgstr "Нобайдың бастапқы бөлігі жоқ."
+
+#, kde-format
+msgid "Draft splits are missing."
+msgstr "Нобайдың бөліктері жоқ."
+
+#, kde-format
+msgid "Draft tags are missing."
+msgstr "Нобайдың тегтері жоқ."
+
+#, kde-format
+msgid "Draft transactions"
+msgstr "Операция нобайлары"
+
+#, kde-format
+msgid "Drafted (UTC)"
+msgstr "Нобайларға жылжытылған уақыт (UTC)"
+
+#, kde-format
+msgid "Drafts"
+msgstr "Нобайлар"
+
+#, kde-format
+msgid "Drafts do not affect balances. Save the document to keep changes. Restored recovery copies are removed only after a clean save and full verification; cleanup is saved with the next document save."
+msgstr "Нобайлар қалдықтарға әсер етпейді. Өзгерістерді сақтау үшін құжатты сақтаңыз. Қалпына келтірілген операциялардың қалпына келтіру көшірмелері тек сәтті сақтау мен толық тексеруден кейін жойылады; тазалау құжат келесі рет сақталғанда сақталады."
+
+#, kde-format
+msgid "Every split will return to its original account. Only the posting date can change; reconciliation flags and dates remain unchanged."
+msgstr "Әр бөлік бастапқы шотына қайтады. Тек есепке алу күнін өзгертуге болады; салыстырып тексеру белгілері мен күндері өзгеріссіз қалады."
+
+#, kde-format
+msgid "Filter drafts…"
+msgstr "Нобайларды сүзу…"
+
+#, kde-format
+msgid "Finish the current KMyMoney operation first."
+msgstr "Алдымен KMyMoney ішіндегі ағымдағы әрекетті аяқтаңыз."
+
+#, kde-format
+msgid "Frozen"
+msgstr "Бұғатталған"
+
+#, kde-format
+msgid "Invalid archived transaction identity or date."
+msgstr "Мұрағатталған операцияның идентификаторы немесе күні жарамсыз."
+
+#, kde-format
+msgid "Invalid draft identity or timestamp."
+msgstr "Нобайдың идентификаторы немесе уақыт белгісі жарамсыз."
+
+#, kde-format
+msgid "Invalid draft split."
+msgstr "Нобай бөлігі жарамсыз."
+
+#, kde-format
+msgid "Invalid draft tag."
+msgstr "Нобай тегі жарамсыз."
+
+#, kde-format
+msgid "Invalid exact monetary value in draft."
+msgstr "Нобайдағы нақты ақшалай мән жарамсыз."
+
+#, kde-format
+msgid "Invalid matched transaction."
+msgstr "Сәйкестендірілген операция жарамсыз."
+
+#, kde-format
+msgid "Invalid reconciliation state."
+msgstr "Салыстырып тексеру күйі жарамсыз."
+
+#, kde-format
+msgid "Invalid restoration recovery record."
+msgstr "Қалпына келтірудің сақтық жазбасы жарамсыз."
+
+#, kde-format
+msgid "KMyMoney changed transaction fields during restoration. The operation was rolled back and the draft was retained."
+msgstr "Қалпына келтіру кезінде KMyMoney операция өрістерін өзгертті. Әрекет кері қайтарылып, нобай сақталды."
+
+#, kde-format
+msgid "Keep complete transactions in drafts and restore them later"
+msgstr "Толық операцияларды нобайларда сақтап, кейін қалпына келтіріңіз"
+
+#, kde-format
+msgid "Matched transaction nesting is too deep."
+msgstr "Сәйкестендірілген операциялар тым терең кірістірілген."
+
+#, kde-format
+msgid "Memo"
+msgstr "Ескертпе"
+
+#, kde-format
+msgid "Missing or duplicate split identity in draft."
+msgstr "Нобайда бөлік идентификаторы жоқ немесе қайталанған."
+
+#, kde-format
+msgid "Move the complete selected transactions, including every split, to drafts? They will stop affecting all account balances, reports, and reconciliations."
+msgstr "Таңдалған операцияларды барлық бөліктерімен бірге толығымен нобайларға жылжыту керек пе? Олар барлық шот қалдықтарына, есептерге және салыстырып тексерулерге әсер етпейтін болады."
+
+#, kde-format
+msgid "Move to drafts"
+msgstr "Нобайларға жылжыту"
+
+#, kde-format
+msgid "Moving or restoring reconciled transactions changes historical balances. If you change the posting date, review the affected reconciliations afterwards."
+msgstr "Салыстырып тексерілген операцияларды жылжыту немесе қалпына келтіру бұрынғы қалдықтарды өзгертеді. Есепке алу күнін өзгертсеңіз, кейін тиісті салыстырып тексерулерді қарап шығыңыз."
+
+#, kde-format
+msgid "No draft transactions in this document."
+msgstr "Бұл құжатта операция нобайлары жоқ."
+
+#, kde-format
+msgid "Not reconciled"
+msgstr "Салыстырып тексерілмеген"
+
+#, kde-format
+msgid "Open a KMyMoney document to view its drafts."
+msgstr "Нобайларын көру үшін KMyMoney құжатын ашыңыз."
+
+#, kde-format
+msgid "Payee"
+msgstr "Алушы"
+
+#, kde-format
+msgid "Posting date:"
+msgstr "Есепке алу күні:"
+
+#, kde-format
+msgid "Price (exact)"
+msgstr "Баға (нақты)"
+
+#, kde-format
+msgid "Reconciled"
+msgstr "Салыстырып тексерілген"
+
+#, kde-format
+msgid "Reconciliation"
+msgstr "Салыстырып тексеру"
+
+#, kde-format
+msgid "Reconciliation date"
+msgstr "Салыстырып тексеру күні"
+
+#, kde-format
+msgid "Remove saved restoration copies"
+msgstr "Сақталған қалпына келтірулердің көшірмелерін жою"
+
+#, kde-format
+msgid "Restoration requires a valid posting date and no other active operation."
+msgstr "Қалпына келтіру үшін жарамды есепке алу күні қажет және басқа белсенді әрекет болмауы керек."
+
+#, kde-format
+msgid "Restore"
+msgstr "Қалпына келтіру"
+
+#, kde-format
+msgid "Restore draft transaction"
+msgstr "Операция нобайын қалпына келтіру"
+
+#, kde-format
+msgid "Restored; recovery copy retained"
+msgstr "Қалпына келтірілді; қалпына келтіру көшірмесі сақталды"
+
+#, kde-format
+msgid "Select at least one saved transaction."
+msgstr "Кемінде бір сақталған операцияны таңдаңыз."
+
+#, kde-format
+msgid "Shares (exact)"
+msgstr "Акциялар (нақты)"
+
+#, kde-format
+msgid "Show drafts…"
+msgstr "Нобайларды көрсету…"
+
+#, kde-format
+msgid "Splits"
+msgstr "Бөліктер"
+
+#, kde-format
+msgid "Status"
+msgstr "Күй"
+
+#, kde-format
+msgid "The plugin module could not be retained for undo history. Restart KMyMoney and check the plugin installation."
+msgstr "Болдырмау тарихы үшін плагин модулін сақтау мүмкін болмады. KMyMoney қолданбасын қайта іске қосып, плагин орнатылуын тексеріңіз."
+
+#, kde-format
+msgid "The selected ledger split no longer exists."
+msgstr "Таңдалған есеп кітабының бөлігі енді жоқ."
+
+#, kde-format
+msgid "The transaction currency or security no longer exists."
+msgstr "Операцияның валютасы немесе бағалы қағазы енді жоқ."
+
+#, kde-format
+msgid "This draft exceeds the 4 MiB metadata record limit."
+msgstr "Бұл нобай метадеректер жазбасының 4 MiB шегінен асады."
+
+#, kde-format
+msgid "This draft has already been restored. Save the document to finish cleanup."
+msgstr "Бұл нобай қалпына келтірілген. Тазалауды аяқтау үшін құжатты сақтаңыз."
+
+#, kde-format
+msgid "This draft no longer exists."
+msgstr "Бұл нобай енді жоқ."
+
+#, kde-format
+msgid "This transaction already has a draft or a pending restoration record. Save the document first."
+msgstr "Бұл операцияның нобайы немесе күтілудегі қалпына келтіру жазбасы бар. Алдымен құжатты сақтаңыз."
+
+#, kde-format
+msgid "This transaction cannot be archived without changes."
+msgstr "Бұл операцияны өзгертусіз мұрағаттау мүмкін емес."
+
+#, kde-format
+msgid "Unable to move to drafts"
+msgstr "Нобайларға жылжыту мүмкін емес"
+
+#, kde-format
+msgid "Unable to read drafts: %1"
+msgstr "Нобайларды оқу мүмкін емес: %1"
+
+#, kde-format
+msgid "Unable to restore draft"
+msgstr "Нобайды қалпына келтіру мүмкін емес"
+
+#, kde-format
+msgid "Unknown"
+msgstr "Белгісіз"
+
+#, kde-format
+msgid "Unknown or missing draft fields. Archive left unchanged."
+msgstr "Нобай өрістері белгісіз немесе жоқ. Мұрағат өзгеріссіз қалды."
+
+#, kde-format
+msgid "Unsupported draft metadata version. Update the plugin before changing drafts."
+msgstr "Нобай метадеректерінің нұсқасы қолдау таппайды. Нобайларды өзгертпес бұрын плагинді жаңартыңыз."
+
+#, kde-format
+msgid "Value"
+msgstr "Мән"
+
+#, kde-format
+msgid "Value (%1)"
+msgstr "Мән (%1)"

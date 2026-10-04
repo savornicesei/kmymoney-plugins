@@ -1,0 +1,337 @@
+# SPDX-FileCopyrightText: 2026 Draft transactions contributors
+# SPDX-License-Identifier: GPL-2.0-or-later
+# Initial AI-assisted translation. Native-speaker review is pending.
+msgid ""
+msgstr ""
+"Project-Id-Version: drafttransactions 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-27 08:52+0300\n"
+"PO-Revision-Date: 2026-09-27 12:00+0300\n"
+"Last-Translator: Draft transactions contributors\n"
+"Language-Team: ja\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Initial AI-assisted translation; native review pending\n"
+
+#, kde-format
+msgid "A split references a missing cost center: %1"
+msgstr "分割が存在しないコストセンターを参照しています: %1"
+
+#, kde-format
+msgid "A split references a missing or standard account: %1"
+msgstr "分割が存在しない口座または標準口座を参照しています: %1"
+
+#, kde-format
+msgid "A split references a missing payee: %1"
+msgstr "分割が存在しない支払先を参照しています: %1"
+
+#, kde-format
+msgid "A split references a missing tag: %1"
+msgstr "分割が存在しないタグを参照しています: %1"
+
+#, kde-format
+msgid "Account"
+msgstr "口座"
+
+#, kde-format
+msgid "Account '%1' is closed. Reopen it in KMyMoney before moving or restoring this transaction."
+msgstr "口座「%1」は閉鎖されています。この取引を移動または復元する前に、KMyMoney で再開してください。"
+
+#, kde-format
+msgid "All splits (read-only; exact amounts are shown as fractions)"
+msgstr "すべての分割（読み取り専用。正確な金額は分数で表示）"
+
+#, kde-format
+msgid "Cleared"
+msgstr "確認済み"
+
+#, kde-format
+msgid "Currency"
+msgstr "通貨"
+
+#, kde-format
+msgid "Date"
+msgstr "日付"
+
+#, kde-format
+msgid "Draft"
+msgstr "下書き"
+
+#, kde-format
+msgid "Draft checksum mismatch. The archive was not changed."
+msgstr "下書きのチェックサムが一致しません。アーカイブは変更されていません。"
+
+#, kde-format
+msgid "Draft contains missing, unknown, or noncanonical transaction fields."
+msgstr "下書きの取引フィールドに、欠落、不明、または非正規のフィールドがあります。"
+
+#, kde-format
+msgid "Draft identity does not match its metadata key. No drafts were changed."
+msgstr "下書きの識別子がメタデータのキーと一致しません。下書きは変更されていません。"
+
+#, kde-format
+msgid "Draft metadata is not valid JSON."
+msgstr "下書きのメタデータは有効な JSON ではありません。"
+
+#, kde-format
+msgid "Draft metadata is too large."
+msgstr "下書きのメタデータが大きすぎます。"
+
+#, kde-format
+msgid "Draft metadata must be an object."
+msgstr "下書きのメタデータはオブジェクトでなければなりません。"
+
+#, kde-format
+msgid "Draft metadata values must be strings."
+msgstr "下書きのメタデータの値は文字列でなければなりません。"
+
+#, kde-format
+msgid "Draft origin split does not exist."
+msgstr "下書きの元の分割が存在しません。"
+
+#, kde-format
+msgid "Draft splits are missing."
+msgstr "下書きの分割がありません。"
+
+#, kde-format
+msgid "Draft tags are missing."
+msgstr "下書きのタグがありません。"
+
+#, kde-format
+msgid "Draft transactions"
+msgstr "取引の下書き"
+
+#, kde-format
+msgid "Drafted (UTC)"
+msgstr "下書きへの移動日時 (UTC)"
+
+#, kde-format
+msgid "Drafts"
+msgstr "下書き"
+
+#, kde-format
+msgid "Drafts do not affect balances. Save the document to keep changes. Restored recovery copies are removed only after a clean save and full verification; cleanup is saved with the next document save."
+msgstr "下書きは残高に影響しません。変更を保持するにはドキュメントを保存してください。復元した取引の回復用コピーは、正常な保存と完全な検証が完了してから削除されます。この削除は次回のドキュメント保存時に保存されます。"
+
+#, kde-format
+msgid "Every split will return to its original account. Only the posting date can change; reconciliation flags and dates remain unchanged."
+msgstr "各分割は元の口座に戻ります。変更できるのは計上日のみです。照合の状態と日付は変更されません。"
+
+#, kde-format
+msgid "Filter drafts…"
+msgstr "下書きを絞り込み…"
+
+#, kde-format
+msgid "Finish the current KMyMoney operation first."
+msgstr "まず現在の KMyMoney の操作を完了してください。"
+
+#, kde-format
+msgid "Frozen"
+msgstr "凍結済み"
+
+#, kde-format
+msgid "Invalid archived transaction identity or date."
+msgstr "アーカイブされた取引の識別子または日付が無効です。"
+
+#, kde-format
+msgid "Invalid draft identity or timestamp."
+msgstr "下書きの識別子またはタイムスタンプが無効です。"
+
+#, kde-format
+msgid "Invalid draft split."
+msgstr "下書きの分割が無効です。"
+
+#, kde-format
+msgid "Invalid draft tag."
+msgstr "下書きのタグが無効です。"
+
+#, kde-format
+msgid "Invalid exact monetary value in draft."
+msgstr "下書きの正確な金額が無効です。"
+
+#, kde-format
+msgid "Invalid matched transaction."
+msgstr "対応付けられた取引が無効です。"
+
+#, kde-format
+msgid "Invalid reconciliation state."
+msgstr "照合状態が無効です。"
+
+#, kde-format
+msgid "Invalid restoration recovery record."
+msgstr "復元の回復用レコードが無効です。"
+
+#, kde-format
+msgid "KMyMoney changed transaction fields during restoration. The operation was rolled back and the draft was retained."
+msgstr "復元中に KMyMoney が取引のフィールドを変更しました。操作は取り消され、下書きは保持されました。"
+
+#, kde-format
+msgid "Keep complete transactions in drafts and restore them later"
+msgstr "取引全体を下書きに保管し、後で復元します"
+
+#, kde-format
+msgid "Matched transaction nesting is too deep."
+msgstr "対応付けられた取引の入れ子が深すぎます。"
+
+#, kde-format
+msgid "Memo"
+msgstr "メモ"
+
+#, kde-format
+msgid "Missing or duplicate split identity in draft."
+msgstr "下書きの分割識別子が欠落または重複しています。"
+
+#, kde-format
+msgid "Move the complete selected transactions, including every split, to drafts? They will stop affecting all account balances, reports, and reconciliations."
+msgstr "選択した取引全体をすべての分割を含めて下書きに移動しますか？これらの取引はすべての口座残高、レポート、照合に影響しなくなります。"
+
+#, kde-format
+msgid "Move to drafts"
+msgstr "下書きに移動"
+
+#, kde-format
+msgid "Moving or restoring reconciled transactions changes historical balances. If you change the posting date, review the affected reconciliations afterwards."
+msgstr "照合済みの取引を移動または復元すると、過去の残高が変わります。計上日を変更した場合は、影響を受ける照合を後で確認してください。"
+
+#, kde-format
+msgid "No draft transactions in this document."
+msgstr "このドキュメントには取引の下書きがありません。"
+
+#, kde-format
+msgid "Not reconciled"
+msgstr "未照合"
+
+#, kde-format
+msgid "Open a KMyMoney document to view its drafts."
+msgstr "下書きを表示するには KMyMoney のドキュメントを開いてください。"
+
+#, kde-format
+msgid "Payee"
+msgstr "支払先"
+
+#, kde-format
+msgid "Posting date:"
+msgstr "計上日:"
+
+#, kde-format
+msgid "Price (exact)"
+msgstr "価格（正確な値）"
+
+#, kde-format
+msgid "Reconciled"
+msgstr "照合済み"
+
+#, kde-format
+msgid "Reconciliation"
+msgstr "照合"
+
+#, kde-format
+msgid "Reconciliation date"
+msgstr "照合日"
+
+#, kde-format
+msgid "Remove saved restoration copies"
+msgstr "保存済みの復元コピーを削除"
+
+#, kde-format
+msgid "Restoration requires a valid posting date and no other active operation."
+msgstr "復元には有効な計上日が必要です。また、他の操作が実行中であってはいけません。"
+
+#, kde-format
+msgid "Restore"
+msgstr "復元"
+
+#, kde-format
+msgid "Restore draft transaction"
+msgstr "取引の下書きを復元"
+
+#, kde-format
+msgid "Restored; recovery copy retained"
+msgstr "復元済み、回復用コピーを保持"
+
+#, kde-format
+msgid "Select at least one saved transaction."
+msgstr "保存済みの取引を少なくとも一つ選択してください。"
+
+#, kde-format
+msgid "Shares (exact)"
+msgstr "株数（正確な値）"
+
+#, kde-format
+msgid "Show drafts…"
+msgstr "下書きを表示…"
+
+#, kde-format
+msgid "Splits"
+msgstr "分割"
+
+#, kde-format
+msgid "Status"
+msgstr "状態"
+
+#, kde-format
+msgid "The plugin module could not be retained for undo history. Restart KMyMoney and check the plugin installation."
+msgstr "取り消し履歴のためにプラグインモジュールを保持できませんでした。KMyMoney を再起動し、プラグインのインストールを確認してください。"
+
+#, kde-format
+msgid "The selected ledger split no longer exists."
+msgstr "選択した元帳の分割はもう存在しません。"
+
+#, kde-format
+msgid "The transaction currency or security no longer exists."
+msgstr "取引の通貨または有価証券はもう存在しません。"
+
+#, kde-format
+msgid "This draft exceeds the 4 MiB metadata record limit."
+msgstr "この下書きはメタデータレコードの上限である 4 MiB を超えています。"
+
+#, kde-format
+msgid "This draft has already been restored. Save the document to finish cleanup."
+msgstr "この下書きはすでに復元されています。クリーンアップを完了するにはドキュメントを保存してください。"
+
+#, kde-format
+msgid "This draft no longer exists."
+msgstr "この下書きはもう存在しません。"
+
+#, kde-format
+msgid "This transaction already has a draft or a pending restoration record. Save the document first."
+msgstr "この取引にはすでに下書きまたは保留中の復元レコードがあります。まずドキュメントを保存してください。"
+
+#, kde-format
+msgid "This transaction cannot be archived without changes."
+msgstr "この取引は変更せずにアーカイブできません。"
+
+#, kde-format
+msgid "Unable to move to drafts"
+msgstr "下書きに移動できません"
+
+#, kde-format
+msgid "Unable to read drafts: %1"
+msgstr "下書きを読み取れません: %1"
+
+#, kde-format
+msgid "Unable to restore draft"
+msgstr "下書きを復元できません"
+
+#, kde-format
+msgid "Unknown"
+msgstr "不明"
+
+#, kde-format
+msgid "Unknown or missing draft fields. Archive left unchanged."
+msgstr "下書きのフィールドが不明または欠落しています。アーカイブは変更されていません。"
+
+#, kde-format
+msgid "Unsupported draft metadata version. Update the plugin before changing drafts."
+msgstr "下書きのメタデータのバージョンはサポートされていません。下書きを変更する前にプラグインを更新してください。"
+
+#, kde-format
+msgid "Value"
+msgstr "金額"
+
+#, kde-format
+msgid "Value (%1)"
+msgstr "金額 (%1)"

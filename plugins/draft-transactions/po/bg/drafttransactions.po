@@ -1,0 +1,337 @@
+# SPDX-FileCopyrightText: 2026 Draft transactions contributors
+# SPDX-License-Identifier: GPL-2.0-or-later
+# Initial AI-assisted translation. Native-speaker review is pending.
+msgid ""
+msgstr ""
+"Project-Id-Version: drafttransactions 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-27 08:52+0300\n"
+"PO-Revision-Date: 2026-09-27 12:00+0300\n"
+"Last-Translator: Draft transactions contributors\n"
+"Language-Team: bg\n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Initial AI-assisted translation; native review pending\n"
+
+#, kde-format
+msgid "A split references a missing cost center: %1"
+msgstr "Разделяне сочи към липсващ разходен център: %1"
+
+#, kde-format
+msgid "A split references a missing or standard account: %1"
+msgstr "Разделяне сочи към липсваща или стандартна сметка: %1"
+
+#, kde-format
+msgid "A split references a missing payee: %1"
+msgstr "Разделяне сочи към липсващ получател: %1"
+
+#, kde-format
+msgid "A split references a missing tag: %1"
+msgstr "Разделяне сочи към липсващ етикет: %1"
+
+#, kde-format
+msgid "Account"
+msgstr "Сметка"
+
+#, kde-format
+msgid "Account '%1' is closed. Reopen it in KMyMoney before moving or restoring this transaction."
+msgstr "Сметката „%1“ е закрита. Отворете я отново в KMyMoney, преди да преместите или възстановите транзакцията."
+
+#, kde-format
+msgid "All splits (read-only; exact amounts are shown as fractions)"
+msgstr "Всички разделяния (само за четене; точните суми са показани като дроби)"
+
+#, kde-format
+msgid "Cleared"
+msgstr "Проверено"
+
+#, kde-format
+msgid "Currency"
+msgstr "Валута"
+
+#, kde-format
+msgid "Date"
+msgstr "Дата"
+
+#, kde-format
+msgid "Draft"
+msgstr "Чернова"
+
+#, kde-format
+msgid "Draft checksum mismatch. The archive was not changed."
+msgstr "Контролната сума на черновата не съвпада. Архивът не е променен."
+
+#, kde-format
+msgid "Draft contains missing, unknown, or noncanonical transaction fields."
+msgstr "Черновата съдържа липсващи, неизвестни или неканонични полета на транзакция."
+
+#, kde-format
+msgid "Draft identity does not match its metadata key. No drafts were changed."
+msgstr "Идентификаторът на черновата не съответства на ключа на метаданните. Няма променени чернови."
+
+#, kde-format
+msgid "Draft metadata is not valid JSON."
+msgstr "Метаданните на черновата не са валиден JSON."
+
+#, kde-format
+msgid "Draft metadata is too large."
+msgstr "Метаданните на черновата са твърде големи."
+
+#, kde-format
+msgid "Draft metadata must be an object."
+msgstr "Метаданните на черновата трябва да са обект."
+
+#, kde-format
+msgid "Draft metadata values must be strings."
+msgstr "Стойностите на метаданните на черновата трябва да са низове."
+
+#, kde-format
+msgid "Draft origin split does not exist."
+msgstr "Първоначалното разделяне на черновата не съществува."
+
+#, kde-format
+msgid "Draft splits are missing."
+msgstr "Липсват разделянията на черновата."
+
+#, kde-format
+msgid "Draft tags are missing."
+msgstr "Липсват етикетите на черновата."
+
+#, kde-format
+msgid "Draft transactions"
+msgstr "Чернови на транзакции"
+
+#, kde-format
+msgid "Drafted (UTC)"
+msgstr "Преместено в чернови (UTC)"
+
+#, kde-format
+msgid "Drafts"
+msgstr "Чернови"
+
+#, kde-format
+msgid "Drafts do not affect balances. Save the document to keep changes. Restored recovery copies are removed only after a clean save and full verification; cleanup is saved with the next document save."
+msgstr "Черновите не влияят на салдата. Запазете документа, за да запазите промените. Резервните копия на възстановени транзакции се премахват едва след успешно запазване и пълна проверка; почистването се записва при следващото запазване на документа."
+
+#, kde-format
+msgid "Every split will return to its original account. Only the posting date can change; reconciliation flags and dates remain unchanged."
+msgstr "Всяко разделяне ще се върне в първоначалната си сметка. Може да се променя само датата на осчетоводяване; означенията и датите на съгласуване остават непроменени."
+
+#, kde-format
+msgid "Filter drafts…"
+msgstr "Филтриране на чернови…"
+
+#, kde-format
+msgid "Finish the current KMyMoney operation first."
+msgstr "Първо завършете текущата операция в KMyMoney."
+
+#, kde-format
+msgid "Frozen"
+msgstr "Замразено"
+
+#, kde-format
+msgid "Invalid archived transaction identity or date."
+msgstr "Невалиден идентификатор или дата на архивирана транзакция."
+
+#, kde-format
+msgid "Invalid draft identity or timestamp."
+msgstr "Невалиден идентификатор или времеви отпечатък на черновата."
+
+#, kde-format
+msgid "Invalid draft split."
+msgstr "Невалидно разделяне на черновата."
+
+#, kde-format
+msgid "Invalid draft tag."
+msgstr "Невалиден етикет на черновата."
+
+#, kde-format
+msgid "Invalid exact monetary value in draft."
+msgstr "Невалидна точна парична стойност в черновата."
+
+#, kde-format
+msgid "Invalid matched transaction."
+msgstr "Невалидна съпоставена транзакция."
+
+#, kde-format
+msgid "Invalid reconciliation state."
+msgstr "Невалидно състояние на съгласуване."
+
+#, kde-format
+msgid "Invalid restoration recovery record."
+msgstr "Невалиден резервен запис за възстановяване."
+
+#, kde-format
+msgid "KMyMoney changed transaction fields during restoration. The operation was rolled back and the draft was retained."
+msgstr "KMyMoney промени полета на транзакцията при възстановяването. Операцията е отменена, а черновата е запазена."
+
+#, kde-format
+msgid "Keep complete transactions in drafts and restore them later"
+msgstr "Съхранявайте цели транзакции в чернови и ги възстановявайте по-късно"
+
+#, kde-format
+msgid "Matched transaction nesting is too deep."
+msgstr "Съпоставените транзакции са вложени твърде дълбоко."
+
+#, kde-format
+msgid "Memo"
+msgstr "Бележка"
+
+#, kde-format
+msgid "Missing or duplicate split identity in draft."
+msgstr "Липсващ или дублиран идентификатор на разделяне в черновата."
+
+#, kde-format
+msgid "Move the complete selected transactions, including every split, to drafts? They will stop affecting all account balances, reports, and reconciliations."
+msgstr "Да се преместят ли избраните транзакции изцяло, включително всички разделяния, в чернови? Те ще спрат да влияят на салдата на всички сметки, отчетите и съгласуванията."
+
+#, kde-format
+msgid "Move to drafts"
+msgstr "Преместване в чернови"
+
+#, kde-format
+msgid "Moving or restoring reconciled transactions changes historical balances. If you change the posting date, review the affected reconciliations afterwards."
+msgstr "Преместването или възстановяването на съгласувани транзакции променя минали салда. Ако промените датата на осчетоводяване, след това проверете засегнатите съгласувания."
+
+#, kde-format
+msgid "No draft transactions in this document."
+msgstr "В този документ няма чернови на транзакции."
+
+#, kde-format
+msgid "Not reconciled"
+msgstr "Несъгласувано"
+
+#, kde-format
+msgid "Open a KMyMoney document to view its drafts."
+msgstr "Отворете документ на KMyMoney, за да видите черновите му."
+
+#, kde-format
+msgid "Payee"
+msgstr "Получател"
+
+#, kde-format
+msgid "Posting date:"
+msgstr "Дата на осчетоводяване:"
+
+#, kde-format
+msgid "Price (exact)"
+msgstr "Цена (точна)"
+
+#, kde-format
+msgid "Reconciled"
+msgstr "Съгласувано"
+
+#, kde-format
+msgid "Reconciliation"
+msgstr "Съгласуване"
+
+#, kde-format
+msgid "Reconciliation date"
+msgstr "Дата на съгласуване"
+
+#, kde-format
+msgid "Remove saved restoration copies"
+msgstr "Премахване на копията на запазените възстановявания"
+
+#, kde-format
+msgid "Restoration requires a valid posting date and no other active operation."
+msgstr "Възстановяването изисква валидна дата на осчетоводяване и липса на друга активна операция."
+
+#, kde-format
+msgid "Restore"
+msgstr "Възстановяване"
+
+#, kde-format
+msgid "Restore draft transaction"
+msgstr "Възстановяване на чернова на транзакция"
+
+#, kde-format
+msgid "Restored; recovery copy retained"
+msgstr "Възстановено; резервното копие е запазено"
+
+#, kde-format
+msgid "Select at least one saved transaction."
+msgstr "Изберете поне една запазена транзакция."
+
+#, kde-format
+msgid "Shares (exact)"
+msgstr "Акции (точно)"
+
+#, kde-format
+msgid "Show drafts…"
+msgstr "Показване на черновите…"
+
+#, kde-format
+msgid "Splits"
+msgstr "Разделяния"
+
+#, kde-format
+msgid "Status"
+msgstr "Състояние"
+
+#, kde-format
+msgid "The plugin module could not be retained for undo history. Restart KMyMoney and check the plugin installation."
+msgstr "Модулът на приставката не може да се запази за историята на отменянията. Рестартирайте KMyMoney и проверете инсталацията на приставката."
+
+#, kde-format
+msgid "The selected ledger split no longer exists."
+msgstr "Избраното разделяне в счетоводната книга вече не съществува."
+
+#, kde-format
+msgid "The transaction currency or security no longer exists."
+msgstr "Валутата или ценната книга на транзакцията вече не съществува."
+
+#, kde-format
+msgid "This draft exceeds the 4 MiB metadata record limit."
+msgstr "Тази чернова надвишава ограничението от 4 MiB за запис на метаданни."
+
+#, kde-format
+msgid "This draft has already been restored. Save the document to finish cleanup."
+msgstr "Тази чернова вече е възстановена. Запазете документа, за да завършите почистването."
+
+#, kde-format
+msgid "This draft no longer exists."
+msgstr "Тази чернова вече не съществува."
+
+#, kde-format
+msgid "This transaction already has a draft or a pending restoration record. Save the document first."
+msgstr "Тази транзакция вече има чернова или чакащ запис за възстановяване. Първо запазете документа."
+
+#, kde-format
+msgid "This transaction cannot be archived without changes."
+msgstr "Тази транзакция не може да се архивира без промени."
+
+#, kde-format
+msgid "Unable to move to drafts"
+msgstr "Неуспешно преместване в чернови"
+
+#, kde-format
+msgid "Unable to read drafts: %1"
+msgstr "Неуспешно прочитане на черновите: %1"
+
+#, kde-format
+msgid "Unable to restore draft"
+msgstr "Неуспешно възстановяване на черновата"
+
+#, kde-format
+msgid "Unknown"
+msgstr "Неизвестно"
+
+#, kde-format
+msgid "Unknown or missing draft fields. Archive left unchanged."
+msgstr "Неизвестни или липсващи полета на черновата. Архивът е оставен непроменен."
+
+#, kde-format
+msgid "Unsupported draft metadata version. Update the plugin before changing drafts."
+msgstr "Неподдържана версия на метаданните на черновата. Обновете приставката преди промяна на черновите."
+
+#, kde-format
+msgid "Value"
+msgstr "Стойност"
+
+#, kde-format
+msgid "Value (%1)"
+msgstr "Стойност (%1)"

@@ -1,0 +1,337 @@
+# SPDX-FileCopyrightText: 2026 Draft transactions contributors
+# SPDX-License-Identifier: GPL-2.0-or-later
+# Initial AI-assisted translation. Native-speaker review is pending.
+msgid ""
+msgstr ""
+"Project-Id-Version: drafttransactions 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-27 08:52+0300\n"
+"PO-Revision-Date: 2026-09-27 12:00+0300\n"
+"Last-Translator: Draft transactions contributors\n"
+"Language-Team: eu\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Initial AI-assisted translation; native review pending\n"
+
+#, kde-format
+msgid "A split references a missing cost center: %1"
+msgstr "Zatiketa batek falta den kostu-zentro bati egiten dio erreferentzia: %1"
+
+#, kde-format
+msgid "A split references a missing or standard account: %1"
+msgstr "Zatiketa batek falta den edo estandarra den kontu bati egiten dio erreferentzia: %1"
+
+#, kde-format
+msgid "A split references a missing payee: %1"
+msgstr "Zatiketa batek falta den onuradun bati egiten dio erreferentzia: %1"
+
+#, kde-format
+msgid "A split references a missing tag: %1"
+msgstr "Zatiketa batek falta den etiketa bati egiten dio erreferentzia: %1"
+
+#, kde-format
+msgid "Account"
+msgstr "Kontua"
+
+#, kde-format
+msgid "Account '%1' is closed. Reopen it in KMyMoney before moving or restoring this transaction."
+msgstr "«%1» kontua itxita dago. Ireki berriro KMyMoney-n transakzio hau mugitu edo leheneratu aurretik."
+
+#, kde-format
+msgid "All splits (read-only; exact amounts are shown as fractions)"
+msgstr "Zatiketa guztiak (irakurtzeko soilik; zenbateko zehatzak zatiki gisa erakusten dira)"
+
+#, kde-format
+msgid "Cleared"
+msgstr "Egiaztatuta"
+
+#, kde-format
+msgid "Currency"
+msgstr "Dibisa"
+
+#, kde-format
+msgid "Date"
+msgstr "Data"
+
+#, kde-format
+msgid "Draft"
+msgstr "Zirriborroa"
+
+#, kde-format
+msgid "Draft checksum mismatch. The archive was not changed."
+msgstr "Zirriborroaren kontrol-batura ez dator bat. Artxiboa ez da aldatu."
+
+#, kde-format
+msgid "Draft contains missing, unknown, or noncanonical transaction fields."
+msgstr "Zirriborroak falta diren, ezezagunak diren edo kanonikoak ez diren transakzio-eremuak ditu."
+
+#, kde-format
+msgid "Draft identity does not match its metadata key. No drafts were changed."
+msgstr "Zirriborroaren identifikatzailea ez dator bat metadatuen gakoarekin. Ez da zirriborrorik aldatu."
+
+#, kde-format
+msgid "Draft metadata is not valid JSON."
+msgstr "Zirriborroaren metadatuak ez dira baliozko JSON."
+
+#, kde-format
+msgid "Draft metadata is too large."
+msgstr "Zirriborroaren metadatuak handiegiak dira."
+
+#, kde-format
+msgid "Draft metadata must be an object."
+msgstr "Zirriborroaren metadatuek objektu bat izan behar dute."
+
+#, kde-format
+msgid "Draft metadata values must be strings."
+msgstr "Zirriborroaren metadatuen balioek kateak izan behar dute."
+
+#, kde-format
+msgid "Draft origin split does not exist."
+msgstr "Zirriborroaren jatorrizko zatiketa ez dago."
+
+#, kde-format
+msgid "Draft splits are missing."
+msgstr "Zirriborroaren zatiketak falta dira."
+
+#, kde-format
+msgid "Draft tags are missing."
+msgstr "Zirriborroaren etiketak falta dira."
+
+#, kde-format
+msgid "Draft transactions"
+msgstr "Transakzio-zirriborroak"
+
+#, kde-format
+msgid "Drafted (UTC)"
+msgstr "Zirriborroetara mugituta (UTC)"
+
+#, kde-format
+msgid "Drafts"
+msgstr "Zirriborroak"
+
+#, kde-format
+msgid "Drafts do not affect balances. Save the document to keep changes. Restored recovery copies are removed only after a clean save and full verification; cleanup is saved with the next document save."
+msgstr "Zirriborroek ez dute saldoetan eragiten. Gorde dokumentua aldaketak mantentzeko. Leheneratutako transakzioen berreskuratze-kopiak ondo gorde eta erabat egiaztatu ondoren soilik kentzen dira; garbiketa dokumentua hurrengo aldiz gordetzean gordetzen da."
+
+#, kde-format
+msgid "Every split will return to its original account. Only the posting date can change; reconciliation flags and dates remain unchanged."
+msgstr "Zatiketa bakoitza jatorrizko kontura itzuliko da. Kontabilizazio-data soilik alda daiteke; berdinkatze-markak eta -datak ez dira aldatuko."
+
+#, kde-format
+msgid "Filter drafts…"
+msgstr "Iragazi zirriborroak…"
+
+#, kde-format
+msgid "Finish the current KMyMoney operation first."
+msgstr "Amaitu lehenik KMyMoney-ren uneko eragiketa."
+
+#, kde-format
+msgid "Frozen"
+msgstr "Izoztuta"
+
+#, kde-format
+msgid "Invalid archived transaction identity or date."
+msgstr "Artxibatutako transakzioaren identifikatzailea edo data baliogabea da."
+
+#, kde-format
+msgid "Invalid draft identity or timestamp."
+msgstr "Zirriborroaren identifikatzailea edo denbora-zigilua baliogabea da."
+
+#, kde-format
+msgid "Invalid draft split."
+msgstr "Zirriborroaren zatiketa baliogabea."
+
+#, kde-format
+msgid "Invalid draft tag."
+msgstr "Zirriborroaren etiketa baliogabea."
+
+#, kde-format
+msgid "Invalid exact monetary value in draft."
+msgstr "Diru-balio zehatz baliogabea zirriborroan."
+
+#, kde-format
+msgid "Invalid matched transaction."
+msgstr "Parekatutako transakzio baliogabea."
+
+#, kde-format
+msgid "Invalid reconciliation state."
+msgstr "Berdinkatze-egoera baliogabea."
+
+#, kde-format
+msgid "Invalid restoration recovery record."
+msgstr "Leheneratzearen berreskuratze-erregistro baliogabea."
+
+#, kde-format
+msgid "KMyMoney changed transaction fields during restoration. The operation was rolled back and the draft was retained."
+msgstr "KMyMoney-k transakzioaren eremuak aldatu ditu leheneratzean. Eragiketa atzera bota da eta zirriborroa mantendu da."
+
+#, kde-format
+msgid "Keep complete transactions in drafts and restore them later"
+msgstr "Mantendu transakzio osoak zirriborroetan eta leheneratu geroago"
+
+#, kde-format
+msgid "Matched transaction nesting is too deep."
+msgstr "Parekatutako transakzioak sakonegi habiaratuta daude."
+
+#, kde-format
+msgid "Memo"
+msgstr "Oharra"
+
+#, kde-format
+msgid "Missing or duplicate split identity in draft."
+msgstr "Zatiketaren identifikatzailea falta da edo bikoiztuta dago zirriborroan."
+
+#, kde-format
+msgid "Move the complete selected transactions, including every split, to drafts? They will stop affecting all account balances, reports, and reconciliations."
+msgstr "Hautatutako transakzio osoak, zatiketa guztiak barne, zirriborroetara mugitu? Kontu guztien saldoetan, txostenetan eta berdinkatzeetan eragiteari utziko diote."
+
+#, kde-format
+msgid "Move to drafts"
+msgstr "Mugitu zirriborroetara"
+
+#, kde-format
+msgid "Moving or restoring reconciled transactions changes historical balances. If you change the posting date, review the affected reconciliations afterwards."
+msgstr "Berdinkatutako transakzioak mugitzeak edo leheneratzeak iraganeko saldoak aldatzen ditu. Kontabilizazio-data aldatzen baduzu, berrikusi eragindako berdinkatzeak ondoren."
+
+#, kde-format
+msgid "No draft transactions in this document."
+msgstr "Dokumentu honetan ez dago transakzio-zirriborrorik."
+
+#, kde-format
+msgid "Not reconciled"
+msgstr "Berdinkatu gabe"
+
+#, kde-format
+msgid "Open a KMyMoney document to view its drafts."
+msgstr "Ireki KMyMoney dokumentu bat haren zirriborroak ikusteko."
+
+#, kde-format
+msgid "Payee"
+msgstr "Onuraduna"
+
+#, kde-format
+msgid "Posting date:"
+msgstr "Kontabilizazio-data:"
+
+#, kde-format
+msgid "Price (exact)"
+msgstr "Prezioa (zehatza)"
+
+#, kde-format
+msgid "Reconciled"
+msgstr "Berdinkatuta"
+
+#, kde-format
+msgid "Reconciliation"
+msgstr "Berdinkatzea"
+
+#, kde-format
+msgid "Reconciliation date"
+msgstr "Berdinkatze-data"
+
+#, kde-format
+msgid "Remove saved restoration copies"
+msgstr "Kendu gordetako leheneratzeen kopiak"
+
+#, kde-format
+msgid "Restoration requires a valid posting date and no other active operation."
+msgstr "Leheneratzeko, baliozko kontabilizazio-data behar da eta ezin da beste eragiketarik aktibo egon."
+
+#, kde-format
+msgid "Restore"
+msgstr "Leheneratu"
+
+#, kde-format
+msgid "Restore draft transaction"
+msgstr "Leheneratu transakzio-zirriborroa"
+
+#, kde-format
+msgid "Restored; recovery copy retained"
+msgstr "Leheneratuta; berreskuratze-kopia mantenduta"
+
+#, kde-format
+msgid "Select at least one saved transaction."
+msgstr "Hautatu gutxienez gordetako transakzio bat."
+
+#, kde-format
+msgid "Shares (exact)"
+msgstr "Akzioak (zehatzak)"
+
+#, kde-format
+msgid "Show drafts…"
+msgstr "Erakutsi zirriborroak…"
+
+#, kde-format
+msgid "Splits"
+msgstr "Zatiketak"
+
+#, kde-format
+msgid "Status"
+msgstr "Egoera"
+
+#, kde-format
+msgid "The plugin module could not be retained for undo history. Restart KMyMoney and check the plugin installation."
+msgstr "Ezin izan da pluginaren modulua mantendu desegite-historiarako. Berrabiarazi KMyMoney eta egiaztatu pluginaren instalazioa."
+
+#, kde-format
+msgid "The selected ledger split no longer exists."
+msgstr "Hautatutako liburu nagusiko zatiketa jada ez dago."
+
+#, kde-format
+msgid "The transaction currency or security no longer exists."
+msgstr "Transakzioaren dibisa edo balore-titulua jada ez dago."
+
+#, kde-format
+msgid "This draft exceeds the 4 MiB metadata record limit."
+msgstr "Zirriborro honek metadatu-erregistroko 4 MiB-ko muga gainditzen du."
+
+#, kde-format
+msgid "This draft has already been restored. Save the document to finish cleanup."
+msgstr "Zirriborro hau leheneratuta dago dagoeneko. Gorde dokumentua garbiketa amaitzeko."
+
+#, kde-format
+msgid "This draft no longer exists."
+msgstr "Zirriborro hau jada ez dago."
+
+#, kde-format
+msgid "This transaction already has a draft or a pending restoration record. Save the document first."
+msgstr "Transakzio honek zirriborro bat edo egiteke dagoen leheneratze-erregistro bat du dagoeneko. Gorde lehenik dokumentua."
+
+#, kde-format
+msgid "This transaction cannot be archived without changes."
+msgstr "Transakzio hau ezin da aldaketarik gabe artxibatu."
+
+#, kde-format
+msgid "Unable to move to drafts"
+msgstr "Ezin da zirriborroetara mugitu"
+
+#, kde-format
+msgid "Unable to read drafts: %1"
+msgstr "Ezin dira zirriborroak irakurri: %1"
+
+#, kde-format
+msgid "Unable to restore draft"
+msgstr "Ezin da zirriborroa leheneratu"
+
+#, kde-format
+msgid "Unknown"
+msgstr "Ezezaguna"
+
+#, kde-format
+msgid "Unknown or missing draft fields. Archive left unchanged."
+msgstr "Zirriborroaren eremuak ezezagunak dira edo falta dira. Artxiboa aldatu gabe utzi da."
+
+#, kde-format
+msgid "Unsupported draft metadata version. Update the plugin before changing drafts."
+msgstr "Zirriborroaren metadatuen bertsioa ez da onartzen. Eguneratu plugina zirriborroak aldatu aurretik."
+
+#, kde-format
+msgid "Value"
+msgstr "Balioa"
+
+#, kde-format
+msgid "Value (%1)"
+msgstr "Balioa (%1)"

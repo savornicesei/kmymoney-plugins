@@ -1,0 +1,337 @@
+# SPDX-FileCopyrightText: 2026 Draft transactions contributors
+# SPDX-License-Identifier: GPL-2.0-or-later
+# Initial AI-assisted translation. Native-speaker review is pending.
+msgid ""
+msgstr ""
+"Project-Id-Version: drafttransactions 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-27 08:52+0300\n"
+"PO-Revision-Date: 2026-09-27 12:00+0300\n"
+"Last-Translator: Draft transactions contributors\n"
+"Language-Team: zh_CN\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Initial AI-assisted translation; native review pending\n"
+
+#, kde-format
+msgid "A split references a missing cost center: %1"
+msgstr "拆分引用了不存在的成本中心：%1"
+
+#, kde-format
+msgid "A split references a missing or standard account: %1"
+msgstr "拆分引用了不存在的账户或标准账户：%1"
+
+#, kde-format
+msgid "A split references a missing payee: %1"
+msgstr "拆分引用了不存在的收款人：%1"
+
+#, kde-format
+msgid "A split references a missing tag: %1"
+msgstr "拆分引用了不存在的标签：%1"
+
+#, kde-format
+msgid "Account"
+msgstr "账户"
+
+#, kde-format
+msgid "Account '%1' is closed. Reopen it in KMyMoney before moving or restoring this transaction."
+msgstr "账户“%1”已关闭。移动或恢复此交易前，请在 KMyMoney 中重新打开该账户。"
+
+#, kde-format
+msgid "All splits (read-only; exact amounts are shown as fractions)"
+msgstr "所有拆分（只读；精确金额以分数显示）"
+
+#, kde-format
+msgid "Cleared"
+msgstr "已核对"
+
+#, kde-format
+msgid "Currency"
+msgstr "货币"
+
+#, kde-format
+msgid "Date"
+msgstr "日期"
+
+#, kde-format
+msgid "Draft"
+msgstr "草稿"
+
+#, kde-format
+msgid "Draft checksum mismatch. The archive was not changed."
+msgstr "草稿校验和不匹配。存档未被更改。"
+
+#, kde-format
+msgid "Draft contains missing, unknown, or noncanonical transaction fields."
+msgstr "草稿中的交易字段存在缺失、未知或非规范字段。"
+
+#, kde-format
+msgid "Draft identity does not match its metadata key. No drafts were changed."
+msgstr "草稿标识与元数据键不匹配。未更改任何草稿。"
+
+#, kde-format
+msgid "Draft metadata is not valid JSON."
+msgstr "草稿元数据不是有效的 JSON。"
+
+#, kde-format
+msgid "Draft metadata is too large."
+msgstr "草稿元数据过大。"
+
+#, kde-format
+msgid "Draft metadata must be an object."
+msgstr "草稿元数据必须是对象。"
+
+#, kde-format
+msgid "Draft metadata values must be strings."
+msgstr "草稿元数据的值必须是字符串。"
+
+#, kde-format
+msgid "Draft origin split does not exist."
+msgstr "草稿的原始拆分不存在。"
+
+#, kde-format
+msgid "Draft splits are missing."
+msgstr "缺少草稿拆分。"
+
+#, kde-format
+msgid "Draft tags are missing."
+msgstr "缺少草稿标签。"
+
+#, kde-format
+msgid "Draft transactions"
+msgstr "交易草稿"
+
+#, kde-format
+msgid "Drafted (UTC)"
+msgstr "移入草稿时间 (UTC)"
+
+#, kde-format
+msgid "Drafts"
+msgstr "草稿"
+
+#, kde-format
+msgid "Drafts do not affect balances. Save the document to keep changes. Restored recovery copies are removed only after a clean save and full verification; cleanup is saved with the next document save."
+msgstr "草稿不影响余额。请保存文档以保留更改。已恢复交易的恢复副本仅在成功保存并完成全面验证后才会删除；此清理操作将在下次保存文档时保存。"
+
+#, kde-format
+msgid "Every split will return to its original account. Only the posting date can change; reconciliation flags and dates remain unchanged."
+msgstr "每个拆分都将返回其原始账户。只能修改记账日期；对账标记和日期保持不变。"
+
+#, kde-format
+msgid "Filter drafts…"
+msgstr "筛选草稿…"
+
+#, kde-format
+msgid "Finish the current KMyMoney operation first."
+msgstr "请先完成当前的 KMyMoney 操作。"
+
+#, kde-format
+msgid "Frozen"
+msgstr "已冻结"
+
+#, kde-format
+msgid "Invalid archived transaction identity or date."
+msgstr "已存档交易的标识或日期无效。"
+
+#, kde-format
+msgid "Invalid draft identity or timestamp."
+msgstr "草稿标识或时间戳无效。"
+
+#, kde-format
+msgid "Invalid draft split."
+msgstr "草稿拆分无效。"
+
+#, kde-format
+msgid "Invalid draft tag."
+msgstr "草稿标签无效。"
+
+#, kde-format
+msgid "Invalid exact monetary value in draft."
+msgstr "草稿中的精确金额无效。"
+
+#, kde-format
+msgid "Invalid matched transaction."
+msgstr "已匹配交易无效。"
+
+#, kde-format
+msgid "Invalid reconciliation state."
+msgstr "对账状态无效。"
+
+#, kde-format
+msgid "Invalid restoration recovery record."
+msgstr "恢复备份记录无效。"
+
+#, kde-format
+msgid "KMyMoney changed transaction fields during restoration. The operation was rolled back and the draft was retained."
+msgstr "KMyMoney 在恢复过程中更改了交易字段。操作已回滚，草稿已保留。"
+
+#, kde-format
+msgid "Keep complete transactions in drafts and restore them later"
+msgstr "将完整交易保存在草稿中，稍后恢复"
+
+#, kde-format
+msgid "Matched transaction nesting is too deep."
+msgstr "已匹配交易的嵌套层级过深。"
+
+#, kde-format
+msgid "Memo"
+msgstr "备注"
+
+#, kde-format
+msgid "Missing or duplicate split identity in draft."
+msgstr "草稿中的拆分标识缺失或重复。"
+
+#, kde-format
+msgid "Move the complete selected transactions, including every split, to drafts? They will stop affecting all account balances, reports, and reconciliations."
+msgstr "将所选交易及其所有拆分完整移至草稿吗？这些交易将不再影响任何账户余额、报表和对账。"
+
+#, kde-format
+msgid "Move to drafts"
+msgstr "移至草稿"
+
+#, kde-format
+msgid "Moving or restoring reconciled transactions changes historical balances. If you change the posting date, review the affected reconciliations afterwards."
+msgstr "移动或恢复已对账交易会改变历史余额。如果修改记账日期，请随后检查受影响的对账。"
+
+#, kde-format
+msgid "No draft transactions in this document."
+msgstr "此文档中没有交易草稿。"
+
+#, kde-format
+msgid "Not reconciled"
+msgstr "未对账"
+
+#, kde-format
+msgid "Open a KMyMoney document to view its drafts."
+msgstr "请打开 KMyMoney 文档以查看其中的草稿。"
+
+#, kde-format
+msgid "Payee"
+msgstr "收款人"
+
+#, kde-format
+msgid "Posting date:"
+msgstr "记账日期："
+
+#, kde-format
+msgid "Price (exact)"
+msgstr "价格（精确值）"
+
+#, kde-format
+msgid "Reconciled"
+msgstr "已对账"
+
+#, kde-format
+msgid "Reconciliation"
+msgstr "对账"
+
+#, kde-format
+msgid "Reconciliation date"
+msgstr "对账日期"
+
+#, kde-format
+msgid "Remove saved restoration copies"
+msgstr "删除已保存恢复操作的副本"
+
+#, kde-format
+msgid "Restoration requires a valid posting date and no other active operation."
+msgstr "恢复需要有效的记账日期，且不能有其他正在进行的操作。"
+
+#, kde-format
+msgid "Restore"
+msgstr "恢复"
+
+#, kde-format
+msgid "Restore draft transaction"
+msgstr "恢复交易草稿"
+
+#, kde-format
+msgid "Restored; recovery copy retained"
+msgstr "已恢复；已保留恢复副本"
+
+#, kde-format
+msgid "Select at least one saved transaction."
+msgstr "请至少选择一笔已保存的交易。"
+
+#, kde-format
+msgid "Shares (exact)"
+msgstr "股数（精确值）"
+
+#, kde-format
+msgid "Show drafts…"
+msgstr "显示草稿…"
+
+#, kde-format
+msgid "Splits"
+msgstr "拆分"
+
+#, kde-format
+msgid "Status"
+msgstr "状态"
+
+#, kde-format
+msgid "The plugin module could not be retained for undo history. Restart KMyMoney and check the plugin installation."
+msgstr "无法为撤销历史保留插件模块。请重新启动 KMyMoney 并检查插件安装。"
+
+#, kde-format
+msgid "The selected ledger split no longer exists."
+msgstr "所选账簿拆分已不存在。"
+
+#, kde-format
+msgid "The transaction currency or security no longer exists."
+msgstr "交易的货币或证券已不存在。"
+
+#, kde-format
+msgid "This draft exceeds the 4 MiB metadata record limit."
+msgstr "此草稿超过元数据记录的 4 MiB 限制。"
+
+#, kde-format
+msgid "This draft has already been restored. Save the document to finish cleanup."
+msgstr "此草稿已恢复。请保存文档以完成清理。"
+
+#, kde-format
+msgid "This draft no longer exists."
+msgstr "此草稿已不存在。"
+
+#, kde-format
+msgid "This transaction already has a draft or a pending restoration record. Save the document first."
+msgstr "此交易已有草稿或待处理的恢复记录。请先保存文档。"
+
+#, kde-format
+msgid "This transaction cannot be archived without changes."
+msgstr "此交易无法在不更改的情况下存档。"
+
+#, kde-format
+msgid "Unable to move to drafts"
+msgstr "无法移至草稿"
+
+#, kde-format
+msgid "Unable to read drafts: %1"
+msgstr "无法读取草稿：%1"
+
+#, kde-format
+msgid "Unable to restore draft"
+msgstr "无法恢复草稿"
+
+#, kde-format
+msgid "Unknown"
+msgstr "未知"
+
+#, kde-format
+msgid "Unknown or missing draft fields. Archive left unchanged."
+msgstr "草稿字段未知或缺失。存档保持不变。"
+
+#, kde-format
+msgid "Unsupported draft metadata version. Update the plugin before changing drafts."
+msgstr "不支持此草稿元数据版本。请在更改草稿前更新插件。"
+
+#, kde-format
+msgid "Value"
+msgstr "金额"
+
+#, kde-format
+msgid "Value (%1)"
+msgstr "金额 (%1)"

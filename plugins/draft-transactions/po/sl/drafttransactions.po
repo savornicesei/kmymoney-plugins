@@ -1,0 +1,337 @@
+# SPDX-FileCopyrightText: 2026 Draft transactions contributors
+# SPDX-License-Identifier: GPL-2.0-or-later
+# Initial AI-assisted translation. Native-speaker review is pending.
+msgid ""
+msgstr ""
+"Project-Id-Version: drafttransactions 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-27 08:52+0300\n"
+"PO-Revision-Date: 2026-09-27 12:00+0300\n"
+"Last-Translator: Draft transactions contributors\n"
+"Language-Team: sl\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n%100==4 ? 3 : 0);\n"
+"X-Generator: Initial AI-assisted translation; native review pending\n"
+
+#, kde-format
+msgid "A split references a missing cost center: %1"
+msgstr "Razdelitev se sklicuje na manjkajoče stroškovno mesto: %1"
+
+#, kde-format
+msgid "A split references a missing or standard account: %1"
+msgstr "Razdelitev se sklicuje na manjkajoči ali standardni račun: %1"
+
+#, kde-format
+msgid "A split references a missing payee: %1"
+msgstr "Razdelitev se sklicuje na manjkajočega prejemnika: %1"
+
+#, kde-format
+msgid "A split references a missing tag: %1"
+msgstr "Razdelitev se sklicuje na manjkajočo oznako: %1"
+
+#, kde-format
+msgid "Account"
+msgstr "Račun"
+
+#, kde-format
+msgid "Account '%1' is closed. Reopen it in KMyMoney before moving or restoring this transaction."
+msgstr "Račun »%1« je zaprt. Pred premikanjem ali obnovitvijo transakcije ga znova odprite v KMyMoney."
+
+#, kde-format
+msgid "All splits (read-only; exact amounts are shown as fractions)"
+msgstr "Vse razdelitve (samo za branje; natančni zneski so prikazani kot ulomki)"
+
+#, kde-format
+msgid "Cleared"
+msgstr "Preverjeno"
+
+#, kde-format
+msgid "Currency"
+msgstr "Valuta"
+
+#, kde-format
+msgid "Date"
+msgstr "Datum"
+
+#, kde-format
+msgid "Draft"
+msgstr "Osnutek"
+
+#, kde-format
+msgid "Draft checksum mismatch. The archive was not changed."
+msgstr "Kontrolna vsota osnutka se ne ujema. Arhiv ni bil spremenjen."
+
+#, kde-format
+msgid "Draft contains missing, unknown, or noncanonical transaction fields."
+msgstr "Osnutek vsebuje manjkajoča, neznana ali nekanonična polja transakcije."
+
+#, kde-format
+msgid "Draft identity does not match its metadata key. No drafts were changed."
+msgstr "Identifikator osnutka se ne ujema s ključem metapodatkov. Noben osnutek ni bil spremenjen."
+
+#, kde-format
+msgid "Draft metadata is not valid JSON."
+msgstr "Metapodatki osnutka niso veljaven JSON."
+
+#, kde-format
+msgid "Draft metadata is too large."
+msgstr "Metapodatki osnutka so preveliki."
+
+#, kde-format
+msgid "Draft metadata must be an object."
+msgstr "Metapodatki osnutka morajo biti objekt."
+
+#, kde-format
+msgid "Draft metadata values must be strings."
+msgstr "Vrednosti metapodatkov osnutka morajo biti nizi."
+
+#, kde-format
+msgid "Draft origin split does not exist."
+msgstr "Izvorna razdelitev osnutka ne obstaja."
+
+#, kde-format
+msgid "Draft splits are missing."
+msgstr "Manjkajo razdelitve osnutka."
+
+#, kde-format
+msgid "Draft tags are missing."
+msgstr "Manjkajo oznake osnutka."
+
+#, kde-format
+msgid "Draft transactions"
+msgstr "Osnutki transakcij"
+
+#, kde-format
+msgid "Drafted (UTC)"
+msgstr "Premaknjeno med osnutke (UTC)"
+
+#, kde-format
+msgid "Drafts"
+msgstr "Osnutki"
+
+#, kde-format
+msgid "Drafts do not affect balances. Save the document to keep changes. Restored recovery copies are removed only after a clean save and full verification; cleanup is saved with the next document save."
+msgstr "Osnutki ne vplivajo na stanja. Shranite dokument, da ohranite spremembe. Obnovitvene kopije obnovljenih transakcij se odstranijo šele po uspešnem shranjevanju in popolnem preverjanju; čiščenje se shrani ob naslednjem shranjevanju dokumenta."
+
+#, kde-format
+msgid "Every split will return to its original account. Only the posting date can change; reconciliation flags and dates remain unchanged."
+msgstr "Vsaka razdelitev se vrne na prvotni račun. Spremeniti je mogoče le datum knjiženja; oznake in datumi uskladitve ostanejo nespremenjeni."
+
+#, kde-format
+msgid "Filter drafts…"
+msgstr "Filtriraj osnutke…"
+
+#, kde-format
+msgid "Finish the current KMyMoney operation first."
+msgstr "Najprej končajte trenutno opravilo v KMyMoney."
+
+#, kde-format
+msgid "Frozen"
+msgstr "Zamrznjeno"
+
+#, kde-format
+msgid "Invalid archived transaction identity or date."
+msgstr "Neveljaven identifikator ali datum arhivirane transakcije."
+
+#, kde-format
+msgid "Invalid draft identity or timestamp."
+msgstr "Neveljaven identifikator ali časovni žig osnutka."
+
+#, kde-format
+msgid "Invalid draft split."
+msgstr "Neveljavna razdelitev osnutka."
+
+#, kde-format
+msgid "Invalid draft tag."
+msgstr "Neveljavna oznaka osnutka."
+
+#, kde-format
+msgid "Invalid exact monetary value in draft."
+msgstr "Neveljavna natančna denarna vrednost v osnutku."
+
+#, kde-format
+msgid "Invalid matched transaction."
+msgstr "Neveljavna ujemajoča se transakcija."
+
+#, kde-format
+msgid "Invalid reconciliation state."
+msgstr "Neveljavno stanje uskladitve."
+
+#, kde-format
+msgid "Invalid restoration recovery record."
+msgstr "Neveljaven obnovitveni zapis."
+
+#, kde-format
+msgid "KMyMoney changed transaction fields during restoration. The operation was rolled back and the draft was retained."
+msgstr "KMyMoney je med obnovitvijo spremenil polja transakcije. Opravilo je bilo razveljavljeno, osnutek pa ohranjen."
+
+#, kde-format
+msgid "Keep complete transactions in drafts and restore them later"
+msgstr "Shranite celotne transakcije med osnutke in jih obnovite pozneje"
+
+#, kde-format
+msgid "Matched transaction nesting is too deep."
+msgstr "Ujemajoče se transakcije so pregloboko gnezdene."
+
+#, kde-format
+msgid "Memo"
+msgstr "Opomba"
+
+#, kde-format
+msgid "Missing or duplicate split identity in draft."
+msgstr "Manjkajoč ali podvojen identifikator razdelitve v osnutku."
+
+#, kde-format
+msgid "Move the complete selected transactions, including every split, to drafts? They will stop affecting all account balances, reports, and reconciliations."
+msgstr "Premaknem celotne izbrane transakcije, vključno z vsemi razdelitvami, med osnutke? Ne bodo več vplivale na stanja računov, poročila in uskladitve."
+
+#, kde-format
+msgid "Move to drafts"
+msgstr "Premakni med osnutke"
+
+#, kde-format
+msgid "Moving or restoring reconciled transactions changes historical balances. If you change the posting date, review the affected reconciliations afterwards."
+msgstr "Premikanje ali obnavljanje usklajenih transakcij spremeni pretekla stanja. Če spremenite datum knjiženja, nato preglejte prizadete uskladitve."
+
+#, kde-format
+msgid "No draft transactions in this document."
+msgstr "V tem dokumentu ni osnutkov transakcij."
+
+#, kde-format
+msgid "Not reconciled"
+msgstr "Neusklajeno"
+
+#, kde-format
+msgid "Open a KMyMoney document to view its drafts."
+msgstr "Odprite dokument KMyMoney za ogled njegovih osnutkov."
+
+#, kde-format
+msgid "Payee"
+msgstr "Prejemnik"
+
+#, kde-format
+msgid "Posting date:"
+msgstr "Datum knjiženja:"
+
+#, kde-format
+msgid "Price (exact)"
+msgstr "Cena (natančna)"
+
+#, kde-format
+msgid "Reconciled"
+msgstr "Usklajeno"
+
+#, kde-format
+msgid "Reconciliation"
+msgstr "Uskladitev"
+
+#, kde-format
+msgid "Reconciliation date"
+msgstr "Datum uskladitve"
+
+#, kde-format
+msgid "Remove saved restoration copies"
+msgstr "Odstrani kopije shranjenih obnovitev"
+
+#, kde-format
+msgid "Restoration requires a valid posting date and no other active operation."
+msgstr "Obnovitev zahteva veljaven datum knjiženja in nobenega drugega dejavnega opravila."
+
+#, kde-format
+msgid "Restore"
+msgstr "Obnovi"
+
+#, kde-format
+msgid "Restore draft transaction"
+msgstr "Obnovi osnutek transakcije"
+
+#, kde-format
+msgid "Restored; recovery copy retained"
+msgstr "Obnovljeno; obnovitvena kopija ohranjena"
+
+#, kde-format
+msgid "Select at least one saved transaction."
+msgstr "Izberite vsaj eno shranjeno transakcijo."
+
+#, kde-format
+msgid "Shares (exact)"
+msgstr "Delnice (natančno)"
+
+#, kde-format
+msgid "Show drafts…"
+msgstr "Pokaži osnutke…"
+
+#, kde-format
+msgid "Splits"
+msgstr "Razdelitve"
+
+#, kde-format
+msgid "Status"
+msgstr "Stanje"
+
+#, kde-format
+msgid "The plugin module could not be retained for undo history. Restart KMyMoney and check the plugin installation."
+msgstr "Modula vtičnika ni bilo mogoče ohraniti za zgodovino razveljavitev. Znova zaženite KMyMoney in preverite namestitev vtičnika."
+
+#, kde-format
+msgid "The selected ledger split no longer exists."
+msgstr "Izbrana razdelitev v glavni knjigi ne obstaja več."
+
+#, kde-format
+msgid "The transaction currency or security no longer exists."
+msgstr "Valuta ali vrednostni papir transakcije ne obstaja več."
+
+#, kde-format
+msgid "This draft exceeds the 4 MiB metadata record limit."
+msgstr "Ta osnutek presega omejitev 4 MiB za zapis metapodatkov."
+
+#, kde-format
+msgid "This draft has already been restored. Save the document to finish cleanup."
+msgstr "Ta osnutek je že obnovljen. Shranite dokument, da končate čiščenje."
+
+#, kde-format
+msgid "This draft no longer exists."
+msgstr "Ta osnutek ne obstaja več."
+
+#, kde-format
+msgid "This transaction already has a draft or a pending restoration record. Save the document first."
+msgstr "Ta transakcija že ima osnutek ali čakajoč zapis obnovitve. Najprej shranite dokument."
+
+#, kde-format
+msgid "This transaction cannot be archived without changes."
+msgstr "Te transakcije ni mogoče arhivirati brez sprememb."
+
+#, kde-format
+msgid "Unable to move to drafts"
+msgstr "Ni mogoče premakniti med osnutke"
+
+#, kde-format
+msgid "Unable to read drafts: %1"
+msgstr "Ni mogoče prebrati osnutkov: %1"
+
+#, kde-format
+msgid "Unable to restore draft"
+msgstr "Ni mogoče obnoviti osnutka"
+
+#, kde-format
+msgid "Unknown"
+msgstr "Neznano"
+
+#, kde-format
+msgid "Unknown or missing draft fields. Archive left unchanged."
+msgstr "Neznana ali manjkajoča polja osnutka. Arhiv je ostal nespremenjen."
+
+#, kde-format
+msgid "Unsupported draft metadata version. Update the plugin before changing drafts."
+msgstr "Nepodprta različica metapodatkov osnutka. Pred spreminjanjem osnutkov posodobite vtičnik."
+
+#, kde-format
+msgid "Value"
+msgstr "Vrednost"
+
+#, kde-format
+msgid "Value (%1)"
+msgstr "Vrednost (%1)"

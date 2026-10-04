@@ -1,0 +1,337 @@
+# SPDX-FileCopyrightText: 2026 Draft transactions contributors
+# SPDX-License-Identifier: GPL-2.0-or-later
+# Initial AI-assisted translation. Native-speaker review is pending.
+msgid ""
+msgstr ""
+"Project-Id-Version: drafttransactions 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-27 08:52+0300\n"
+"PO-Revision-Date: 2026-09-27 12:00+0300\n"
+"Last-Translator: Draft transactions contributors\n"
+"Language-Team: ms\n"
+"Language: ms\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=1;\n"
+"X-Generator: Initial AI-assisted translation; native review pending\n"
+
+#, kde-format
+msgid "A split references a missing cost center: %1"
+msgstr "Pecahan merujuk kepada pusat kos yang tiada: %1"
+
+#, kde-format
+msgid "A split references a missing or standard account: %1"
+msgstr "Pecahan merujuk kepada akaun yang tiada atau akaun standard: %1"
+
+#, kde-format
+msgid "A split references a missing payee: %1"
+msgstr "Pecahan merujuk kepada penerima yang tiada: %1"
+
+#, kde-format
+msgid "A split references a missing tag: %1"
+msgstr "Pecahan merujuk kepada tag yang tiada: %1"
+
+#, kde-format
+msgid "Account"
+msgstr "Akaun"
+
+#, kde-format
+msgid "Account '%1' is closed. Reopen it in KMyMoney before moving or restoring this transaction."
+msgstr "Akaun '%1' ditutup. Buka semula dalam KMyMoney sebelum memindahkan atau memulihkan urus niaga ini."
+
+#, kde-format
+msgid "All splits (read-only; exact amounts are shown as fractions)"
+msgstr "Semua pecahan (baca sahaja; amaun tepat ditunjukkan sebagai pecahan)"
+
+#, kde-format
+msgid "Cleared"
+msgstr "Disemak"
+
+#, kde-format
+msgid "Currency"
+msgstr "Mata wang"
+
+#, kde-format
+msgid "Date"
+msgstr "Tarikh"
+
+#, kde-format
+msgid "Draft"
+msgstr "Draf"
+
+#, kde-format
+msgid "Draft checksum mismatch. The archive was not changed."
+msgstr "Jumlah semak draf tidak sepadan. Arkib tidak diubah."
+
+#, kde-format
+msgid "Draft contains missing, unknown, or noncanonical transaction fields."
+msgstr "Draf mengandungi medan urus niaga yang tiada, tidak diketahui atau tidak mengikut bentuk kanonik."
+
+#, kde-format
+msgid "Draft identity does not match its metadata key. No drafts were changed."
+msgstr "Pengenal draf tidak sepadan dengan kunci metadata. Tiada draf diubah."
+
+#, kde-format
+msgid "Draft metadata is not valid JSON."
+msgstr "Metadata draf bukan JSON yang sah."
+
+#, kde-format
+msgid "Draft metadata is too large."
+msgstr "Metadata draf terlalu besar."
+
+#, kde-format
+msgid "Draft metadata must be an object."
+msgstr "Metadata draf mestilah objek."
+
+#, kde-format
+msgid "Draft metadata values must be strings."
+msgstr "Nilai metadata draf mestilah rentetan."
+
+#, kde-format
+msgid "Draft origin split does not exist."
+msgstr "Pecahan asal draf tidak wujud."
+
+#, kde-format
+msgid "Draft splits are missing."
+msgstr "Pecahan draf tiada."
+
+#, kde-format
+msgid "Draft tags are missing."
+msgstr "Tag draf tiada."
+
+#, kde-format
+msgid "Draft transactions"
+msgstr "Draf urus niaga"
+
+#, kde-format
+msgid "Drafted (UTC)"
+msgstr "Dipindahkan ke draf (UTC)"
+
+#, kde-format
+msgid "Drafts"
+msgstr "Draf"
+
+#, kde-format
+msgid "Drafts do not affect balances. Save the document to keep changes. Restored recovery copies are removed only after a clean save and full verification; cleanup is saved with the next document save."
+msgstr "Draf tidak mempengaruhi baki. Simpan dokumen untuk mengekalkan perubahan. Salinan pemulihan bagi urus niaga yang dipulihkan hanya dibuang selepas penyimpanan berjaya dan pengesahan penuh; pembersihan disimpan apabila dokumen disimpan seterusnya."
+
+#, kde-format
+msgid "Every split will return to its original account. Only the posting date can change; reconciliation flags and dates remain unchanged."
+msgstr "Setiap pecahan akan kembali ke akaun asalnya. Hanya tarikh pengeposan boleh diubah; tanda dan tarikh penyesuaian kekal tidak berubah."
+
+#, kde-format
+msgid "Filter drafts…"
+msgstr "Tapis draf…"
+
+#, kde-format
+msgid "Finish the current KMyMoney operation first."
+msgstr "Selesaikan operasi KMyMoney semasa terlebih dahulu."
+
+#, kde-format
+msgid "Frozen"
+msgstr "Dibekukan"
+
+#, kde-format
+msgid "Invalid archived transaction identity or date."
+msgstr "Pengenal atau tarikh urus niaga yang diarkibkan tidak sah."
+
+#, kde-format
+msgid "Invalid draft identity or timestamp."
+msgstr "Pengenal atau cap masa draf tidak sah."
+
+#, kde-format
+msgid "Invalid draft split."
+msgstr "Pecahan draf tidak sah."
+
+#, kde-format
+msgid "Invalid draft tag."
+msgstr "Tag draf tidak sah."
+
+#, kde-format
+msgid "Invalid exact monetary value in draft."
+msgstr "Nilai kewangan tepat dalam draf tidak sah."
+
+#, kde-format
+msgid "Invalid matched transaction."
+msgstr "Urus niaga yang dipadankan tidak sah."
+
+#, kde-format
+msgid "Invalid reconciliation state."
+msgstr "Keadaan penyesuaian tidak sah."
+
+#, kde-format
+msgid "Invalid restoration recovery record."
+msgstr "Rekod pemulihan sandaran tidak sah."
+
+#, kde-format
+msgid "KMyMoney changed transaction fields during restoration. The operation was rolled back and the draft was retained."
+msgstr "KMyMoney mengubah medan urus niaga semasa pemulihan. Operasi dibatalkan dan draf dikekalkan."
+
+#, kde-format
+msgid "Keep complete transactions in drafts and restore them later"
+msgstr "Simpan urus niaga lengkap dalam draf dan pulihkannya kemudian"
+
+#, kde-format
+msgid "Matched transaction nesting is too deep."
+msgstr "Urus niaga yang dipadankan bersarang terlalu dalam."
+
+#, kde-format
+msgid "Memo"
+msgstr "Memo"
+
+#, kde-format
+msgid "Missing or duplicate split identity in draft."
+msgstr "Pengenal pecahan dalam draf tiada atau berulang."
+
+#, kde-format
+msgid "Move the complete selected transactions, including every split, to drafts? They will stop affecting all account balances, reports, and reconciliations."
+msgstr "Pindahkan keseluruhan urus niaga yang dipilih, termasuk semua pecahan, ke draf? Ia tidak lagi mempengaruhi baki semua akaun, laporan dan penyesuaian."
+
+#, kde-format
+msgid "Move to drafts"
+msgstr "Pindah ke draf"
+
+#, kde-format
+msgid "Moving or restoring reconciled transactions changes historical balances. If you change the posting date, review the affected reconciliations afterwards."
+msgstr "Memindahkan atau memulihkan urus niaga yang telah disesuaikan mengubah baki terdahulu. Jika anda mengubah tarikh pengeposan, semak penyesuaian yang terjejas selepas itu."
+
+#, kde-format
+msgid "No draft transactions in this document."
+msgstr "Tiada draf urus niaga dalam dokumen ini."
+
+#, kde-format
+msgid "Not reconciled"
+msgstr "Belum disesuaikan"
+
+#, kde-format
+msgid "Open a KMyMoney document to view its drafts."
+msgstr "Buka dokumen KMyMoney untuk melihat drafnya."
+
+#, kde-format
+msgid "Payee"
+msgstr "Penerima"
+
+#, kde-format
+msgid "Posting date:"
+msgstr "Tarikh pengeposan:"
+
+#, kde-format
+msgid "Price (exact)"
+msgstr "Harga (tepat)"
+
+#, kde-format
+msgid "Reconciled"
+msgstr "Disesuaikan"
+
+#, kde-format
+msgid "Reconciliation"
+msgstr "Penyesuaian"
+
+#, kde-format
+msgid "Reconciliation date"
+msgstr "Tarikh penyesuaian"
+
+#, kde-format
+msgid "Remove saved restoration copies"
+msgstr "Buang salinan pemulihan yang telah disimpan"
+
+#, kde-format
+msgid "Restoration requires a valid posting date and no other active operation."
+msgstr "Pemulihan memerlukan tarikh pengeposan yang sah dan tiada operasi lain yang aktif."
+
+#, kde-format
+msgid "Restore"
+msgstr "Pulihkan"
+
+#, kde-format
+msgid "Restore draft transaction"
+msgstr "Pulihkan draf urus niaga"
+
+#, kde-format
+msgid "Restored; recovery copy retained"
+msgstr "Dipulihkan; salinan pemulihan dikekalkan"
+
+#, kde-format
+msgid "Select at least one saved transaction."
+msgstr "Pilih sekurang-kurangnya satu urus niaga yang disimpan."
+
+#, kde-format
+msgid "Shares (exact)"
+msgstr "Saham (tepat)"
+
+#, kde-format
+msgid "Show drafts…"
+msgstr "Tunjukkan draf…"
+
+#, kde-format
+msgid "Splits"
+msgstr "Pecahan"
+
+#, kde-format
+msgid "Status"
+msgstr "Status"
+
+#, kde-format
+msgid "The plugin module could not be retained for undo history. Restart KMyMoney and check the plugin installation."
+msgstr "Modul pemalam tidak dapat dikekalkan untuk sejarah buat asal. Mulakan semula KMyMoney dan semak pemasangan pemalam."
+
+#, kde-format
+msgid "The selected ledger split no longer exists."
+msgstr "Pecahan lejar yang dipilih tidak lagi wujud."
+
+#, kde-format
+msgid "The transaction currency or security no longer exists."
+msgstr "Mata wang atau sekuriti urus niaga tidak lagi wujud."
+
+#, kde-format
+msgid "This draft exceeds the 4 MiB metadata record limit."
+msgstr "Draf ini melebihi had 4 MiB bagi rekod metadata."
+
+#, kde-format
+msgid "This draft has already been restored. Save the document to finish cleanup."
+msgstr "Draf ini telah dipulihkan. Simpan dokumen untuk menyelesaikan pembersihan."
+
+#, kde-format
+msgid "This draft no longer exists."
+msgstr "Draf ini tidak lagi wujud."
+
+#, kde-format
+msgid "This transaction already has a draft or a pending restoration record. Save the document first."
+msgstr "Urus niaga ini sudah mempunyai draf atau rekod pemulihan yang belum selesai. Simpan dokumen terlebih dahulu."
+
+#, kde-format
+msgid "This transaction cannot be archived without changes."
+msgstr "Urus niaga ini tidak boleh diarkibkan tanpa perubahan."
+
+#, kde-format
+msgid "Unable to move to drafts"
+msgstr "Tidak dapat memindahkan ke draf"
+
+#, kde-format
+msgid "Unable to read drafts: %1"
+msgstr "Tidak dapat membaca draf: %1"
+
+#, kde-format
+msgid "Unable to restore draft"
+msgstr "Tidak dapat memulihkan draf"
+
+#, kde-format
+msgid "Unknown"
+msgstr "Tidak diketahui"
+
+#, kde-format
+msgid "Unknown or missing draft fields. Archive left unchanged."
+msgstr "Medan draf tidak diketahui atau tiada. Arkib tidak diubah."
+
+#, kde-format
+msgid "Unsupported draft metadata version. Update the plugin before changing drafts."
+msgstr "Versi metadata draf tidak disokong. Kemas kini pemalam sebelum mengubah draf."
+
+#, kde-format
+msgid "Value"
+msgstr "Nilai"
+
+#, kde-format
+msgid "Value (%1)"
+msgstr "Nilai (%1)"

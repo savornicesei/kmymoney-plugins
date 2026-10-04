@@ -1,0 +1,337 @@
+# SPDX-FileCopyrightText: 2026 Draft transactions contributors
+# SPDX-License-Identifier: GPL-2.0-or-later
+# Initial AI-assisted translation. Native-speaker review is pending.
+msgid ""
+msgstr ""
+"Project-Id-Version: drafttransactions 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-27 08:52+0300\n"
+"PO-Revision-Date: 2026-09-27 12:00+0300\n"
+"Last-Translator: Draft transactions contributors\n"
+"Language-Team: pl\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Initial AI-assisted translation; native review pending\n"
+
+#, kde-format
+msgid "A split references a missing cost center: %1"
+msgstr "Podział odwołuje się do nieistniejącego miejsca powstawania kosztów: %1"
+
+#, kde-format
+msgid "A split references a missing or standard account: %1"
+msgstr "Podział odwołuje się do nieistniejącego lub standardowego konta: %1"
+
+#, kde-format
+msgid "A split references a missing payee: %1"
+msgstr "Podział odwołuje się do nieistniejącego odbiorcy: %1"
+
+#, kde-format
+msgid "A split references a missing tag: %1"
+msgstr "Podział odwołuje się do nieistniejącego znacznika: %1"
+
+#, kde-format
+msgid "Account"
+msgstr "Konto"
+
+#, kde-format
+msgid "Account '%1' is closed. Reopen it in KMyMoney before moving or restoring this transaction."
+msgstr "Konto „%1” jest zamknięte. Otwórz je ponownie w KMyMoney przed przeniesieniem lub przywróceniem tej transakcji."
+
+#, kde-format
+msgid "All splits (read-only; exact amounts are shown as fractions)"
+msgstr "Wszystkie podziały (tylko do odczytu; dokładne kwoty są pokazane jako ułamki)"
+
+#, kde-format
+msgid "Cleared"
+msgstr "Rozliczona"
+
+#, kde-format
+msgid "Currency"
+msgstr "Waluta"
+
+#, kde-format
+msgid "Date"
+msgstr "Data"
+
+#, kde-format
+msgid "Draft"
+msgstr "Szkic"
+
+#, kde-format
+msgid "Draft checksum mismatch. The archive was not changed."
+msgstr "Suma kontrolna szkicu nie zgadza się. Archiwum nie zostało zmienione."
+
+#, kde-format
+msgid "Draft contains missing, unknown, or noncanonical transaction fields."
+msgstr "Szkic zawiera brakujące, nieznane lub niekanoniczne pola transakcji."
+
+#, kde-format
+msgid "Draft identity does not match its metadata key. No drafts were changed."
+msgstr "Identyfikator szkicu nie odpowiada kluczowi metadanych. Nie zmieniono żadnych szkiców."
+
+#, kde-format
+msgid "Draft metadata is not valid JSON."
+msgstr "Metadane szkicu nie są poprawnym kodem JSON."
+
+#, kde-format
+msgid "Draft metadata is too large."
+msgstr "Metadane szkicu są zbyt duże."
+
+#, kde-format
+msgid "Draft metadata must be an object."
+msgstr "Metadane szkicu muszą być obiektem."
+
+#, kde-format
+msgid "Draft metadata values must be strings."
+msgstr "Wartości metadanych szkicu muszą być ciągami znaków."
+
+#, kde-format
+msgid "Draft origin split does not exist."
+msgstr "Pierwotny podział szkicu nie istnieje."
+
+#, kde-format
+msgid "Draft splits are missing."
+msgstr "Brakuje podziałów szkicu."
+
+#, kde-format
+msgid "Draft tags are missing."
+msgstr "Brakuje znaczników szkicu."
+
+#, kde-format
+msgid "Draft transactions"
+msgstr "Szkice transakcji"
+
+#, kde-format
+msgid "Drafted (UTC)"
+msgstr "Przeniesiono do szkiców (UTC)"
+
+#, kde-format
+msgid "Drafts"
+msgstr "Szkice"
+
+#, kde-format
+msgid "Drafts do not affect balances. Save the document to keep changes. Restored recovery copies are removed only after a clean save and full verification; cleanup is saved with the next document save."
+msgstr "Szkice nie wpływają na salda. Zapisz dokument, aby zachować zmiany. Kopie ratunkowe przywróconych transakcji są usuwane dopiero po pomyślnym zapisie i pełnej weryfikacji; usunięcie zostanie zapisane przy następnym zapisie dokumentu."
+
+#, kde-format
+msgid "Every split will return to its original account. Only the posting date can change; reconciliation flags and dates remain unchanged."
+msgstr "Każdy podział wróci na pierwotne konto. Zmienić można tylko datę księgowania; oznaczenia i daty uzgodnienia pozostaną bez zmian."
+
+#, kde-format
+msgid "Filter drafts…"
+msgstr "Filtruj szkice…"
+
+#, kde-format
+msgid "Finish the current KMyMoney operation first."
+msgstr "Najpierw zakończ bieżącą operację w KMyMoney."
+
+#, kde-format
+msgid "Frozen"
+msgstr "Zamrożona"
+
+#, kde-format
+msgid "Invalid archived transaction identity or date."
+msgstr "Nieprawidłowy identyfikator lub data zarchiwizowanej transakcji."
+
+#, kde-format
+msgid "Invalid draft identity or timestamp."
+msgstr "Nieprawidłowy identyfikator lub znacznik czasu szkicu."
+
+#, kde-format
+msgid "Invalid draft split."
+msgstr "Nieprawidłowy podział szkicu."
+
+#, kde-format
+msgid "Invalid draft tag."
+msgstr "Nieprawidłowy znacznik szkicu."
+
+#, kde-format
+msgid "Invalid exact monetary value in draft."
+msgstr "Nieprawidłowa dokładna wartość pieniężna w szkicu."
+
+#, kde-format
+msgid "Invalid matched transaction."
+msgstr "Nieprawidłowa dopasowana transakcja."
+
+#, kde-format
+msgid "Invalid reconciliation state."
+msgstr "Nieprawidłowy stan uzgodnienia."
+
+#, kde-format
+msgid "Invalid restoration recovery record."
+msgstr "Nieprawidłowy zapis zabezpieczający przywrócenie."
+
+#, kde-format
+msgid "KMyMoney changed transaction fields during restoration. The operation was rolled back and the draft was retained."
+msgstr "KMyMoney zmienił pola transakcji podczas przywracania. Operacja została wycofana, a szkic zachowany."
+
+#, kde-format
+msgid "Keep complete transactions in drafts and restore them later"
+msgstr "Przechowuj całe transakcje w szkicach i przywracaj je później"
+
+#, kde-format
+msgid "Matched transaction nesting is too deep."
+msgstr "Dopasowane transakcje są zbyt głęboko zagnieżdżone."
+
+#, kde-format
+msgid "Memo"
+msgstr "Notatka"
+
+#, kde-format
+msgid "Missing or duplicate split identity in draft."
+msgstr "Brakujący lub powielony identyfikator podziału w szkicu."
+
+#, kde-format
+msgid "Move the complete selected transactions, including every split, to drafts? They will stop affecting all account balances, reports, and reconciliations."
+msgstr "Czy przenieść całe zaznaczone transakcje wraz ze wszystkimi podziałami do szkiców? Przestaną wpływać na salda kont, sprawozdania i uzgodnienia."
+
+#, kde-format
+msgid "Move to drafts"
+msgstr "Przenieś do szkiców"
+
+#, kde-format
+msgid "Moving or restoring reconciled transactions changes historical balances. If you change the posting date, review the affected reconciliations afterwards."
+msgstr "Przenoszenie lub przywracanie uzgodnionych transakcji zmienia historyczne salda. Po zmianie daty księgowania sprawdź powiązane uzgodnienia."
+
+#, kde-format
+msgid "No draft transactions in this document."
+msgstr "W tym dokumencie nie ma szkiców transakcji."
+
+#, kde-format
+msgid "Not reconciled"
+msgstr "Nieuzgodniona"
+
+#, kde-format
+msgid "Open a KMyMoney document to view its drafts."
+msgstr "Otwórz dokument KMyMoney, aby zobaczyć jego szkice."
+
+#, kde-format
+msgid "Payee"
+msgstr "Odbiorca"
+
+#, kde-format
+msgid "Posting date:"
+msgstr "Data księgowania:"
+
+#, kde-format
+msgid "Price (exact)"
+msgstr "Cena (dokładna)"
+
+#, kde-format
+msgid "Reconciled"
+msgstr "Uzgodniona"
+
+#, kde-format
+msgid "Reconciliation"
+msgstr "Uzgodnienie"
+
+#, kde-format
+msgid "Reconciliation date"
+msgstr "Data uzgodnienia"
+
+#, kde-format
+msgid "Remove saved restoration copies"
+msgstr "Usuń kopie zapisanych przywróceń"
+
+#, kde-format
+msgid "Restoration requires a valid posting date and no other active operation."
+msgstr "Przywrócenie wymaga poprawnej daty księgowania i braku innych aktywnych operacji."
+
+#, kde-format
+msgid "Restore"
+msgstr "Przywróć"
+
+#, kde-format
+msgid "Restore draft transaction"
+msgstr "Przywróć szkic transakcji"
+
+#, kde-format
+msgid "Restored; recovery copy retained"
+msgstr "Przywrócona; kopia ratunkowa zachowana"
+
+#, kde-format
+msgid "Select at least one saved transaction."
+msgstr "Zaznacz co najmniej jedną zapisaną transakcję."
+
+#, kde-format
+msgid "Shares (exact)"
+msgstr "Udziały (dokładnie)"
+
+#, kde-format
+msgid "Show drafts…"
+msgstr "Pokaż szkice…"
+
+#, kde-format
+msgid "Splits"
+msgstr "Podziały"
+
+#, kde-format
+msgid "Status"
+msgstr "Stan"
+
+#, kde-format
+msgid "The plugin module could not be retained for undo history. Restart KMyMoney and check the plugin installation."
+msgstr "Nie można zachować modułu wtyczki dla historii cofania. Uruchom KMyMoney ponownie i sprawdź instalację wtyczki."
+
+#, kde-format
+msgid "The selected ledger split no longer exists."
+msgstr "Wybrany podział w księdze już nie istnieje."
+
+#, kde-format
+msgid "The transaction currency or security no longer exists."
+msgstr "Waluta lub papier wartościowy transakcji już nie istnieje."
+
+#, kde-format
+msgid "This draft exceeds the 4 MiB metadata record limit."
+msgstr "Ten szkic przekracza limit 4 MiB dla wpisu metadanych."
+
+#, kde-format
+msgid "This draft has already been restored. Save the document to finish cleanup."
+msgstr "Ten szkic został już przywrócony. Zapisz dokument, aby zakończyć usuwanie kopii."
+
+#, kde-format
+msgid "This draft no longer exists."
+msgstr "Ten szkic już nie istnieje."
+
+#, kde-format
+msgid "This transaction already has a draft or a pending restoration record. Save the document first."
+msgstr "Ta transakcja ma już szkic lub oczekujący zapis przywrócenia. Najpierw zapisz dokument."
+
+#, kde-format
+msgid "This transaction cannot be archived without changes."
+msgstr "Nie można zarchiwizować tej transakcji bez zmian."
+
+#, kde-format
+msgid "Unable to move to drafts"
+msgstr "Nie można przenieść do szkiców"
+
+#, kde-format
+msgid "Unable to read drafts: %1"
+msgstr "Nie można odczytać szkiców: %1"
+
+#, kde-format
+msgid "Unable to restore draft"
+msgstr "Nie można przywrócić szkicu"
+
+#, kde-format
+msgid "Unknown"
+msgstr "Nieznany"
+
+#, kde-format
+msgid "Unknown or missing draft fields. Archive left unchanged."
+msgstr "Nieznane lub brakujące pola szkicu. Archiwum pozostawiono bez zmian."
+
+#, kde-format
+msgid "Unsupported draft metadata version. Update the plugin before changing drafts."
+msgstr "Nieobsługiwana wersja metadanych szkicu. Zaktualizuj wtyczkę przed zmianą szkiców."
+
+#, kde-format
+msgid "Value"
+msgstr "Wartość"
+
+#, kde-format
+msgid "Value (%1)"
+msgstr "Wartość (%1)"

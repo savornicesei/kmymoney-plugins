@@ -1,0 +1,337 @@
+# SPDX-FileCopyrightText: 2026 Draft transactions contributors
+# SPDX-License-Identifier: GPL-2.0-or-later
+# Initial AI-assisted translation. Native-speaker review is pending.
+msgid ""
+msgstr ""
+"Project-Id-Version: drafttransactions 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-27 08:52+0300\n"
+"PO-Revision-Date: 2026-09-27 12:00+0300\n"
+"Last-Translator: Draft transactions contributors\n"
+"Language-Team: fr\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Initial AI-assisted translation; native review pending\n"
+
+#, kde-format
+msgid "A split references a missing cost center: %1"
+msgstr "Une ventilation fait référence à un centre de coûts manquant : %1"
+
+#, kde-format
+msgid "A split references a missing or standard account: %1"
+msgstr "Une ventilation fait référence à un compte manquant ou standard : %1"
+
+#, kde-format
+msgid "A split references a missing payee: %1"
+msgstr "Une ventilation fait référence à un bénéficiaire manquant : %1"
+
+#, kde-format
+msgid "A split references a missing tag: %1"
+msgstr "Une ventilation fait référence à une étiquette manquante : %1"
+
+#, kde-format
+msgid "Account"
+msgstr "Compte"
+
+#, kde-format
+msgid "Account '%1' is closed. Reopen it in KMyMoney before moving or restoring this transaction."
+msgstr "Le compte « %1 » est fermé. Rouvrez-le dans KMyMoney avant de déplacer ou de restaurer cette opération."
+
+#, kde-format
+msgid "All splits (read-only; exact amounts are shown as fractions)"
+msgstr "Toutes les ventilations (lecture seule ; montants exacts affichés sous forme de fractions)"
+
+#, kde-format
+msgid "Cleared"
+msgstr "Pointée"
+
+#, kde-format
+msgid "Currency"
+msgstr "Devise"
+
+#, kde-format
+msgid "Date"
+msgstr "Date"
+
+#, kde-format
+msgid "Draft"
+msgstr "Brouillon"
+
+#, kde-format
+msgid "Draft checksum mismatch. The archive was not changed."
+msgstr "La somme de contrôle du brouillon ne correspond pas. L'archive n'a pas été modifiée."
+
+#, kde-format
+msgid "Draft contains missing, unknown, or noncanonical transaction fields."
+msgstr "Le brouillon contient des champs d'opération manquants, inconnus ou non canoniques."
+
+#, kde-format
+msgid "Draft identity does not match its metadata key. No drafts were changed."
+msgstr "L'identifiant du brouillon ne correspond pas à sa clé de métadonnées. Aucun brouillon n'a été modifié."
+
+#, kde-format
+msgid "Draft metadata is not valid JSON."
+msgstr "Les métadonnées du brouillon ne sont pas du JSON valide."
+
+#, kde-format
+msgid "Draft metadata is too large."
+msgstr "Les métadonnées du brouillon sont trop volumineuses."
+
+#, kde-format
+msgid "Draft metadata must be an object."
+msgstr "Les métadonnées du brouillon doivent être un objet."
+
+#, kde-format
+msgid "Draft metadata values must be strings."
+msgstr "Les valeurs des métadonnées du brouillon doivent être des chaînes de caractères."
+
+#, kde-format
+msgid "Draft origin split does not exist."
+msgstr "La ventilation d'origine du brouillon n'existe pas."
+
+#, kde-format
+msgid "Draft splits are missing."
+msgstr "Les ventilations du brouillon sont manquantes."
+
+#, kde-format
+msgid "Draft tags are missing."
+msgstr "Les étiquettes du brouillon sont manquantes."
+
+#, kde-format
+msgid "Draft transactions"
+msgstr "Opérations en brouillon"
+
+#, kde-format
+msgid "Drafted (UTC)"
+msgstr "Mise en brouillon (UTC)"
+
+#, kde-format
+msgid "Drafts"
+msgstr "Brouillons"
+
+#, kde-format
+msgid "Drafts do not affect balances. Save the document to keep changes. Restored recovery copies are removed only after a clean save and full verification; cleanup is saved with the next document save."
+msgstr "Les brouillons n'affectent pas les soldes. Enregistrez le document pour conserver les modifications. Les copies de récupération des opérations restaurées ne sont supprimées qu'après un enregistrement réussi et une vérification complète ; le nettoyage est enregistré lors du prochain enregistrement du document."
+
+#, kde-format
+msgid "Every split will return to its original account. Only the posting date can change; reconciliation flags and dates remain unchanged."
+msgstr "Chaque ventilation retrouvera son compte d'origine. Seule la date comptable peut changer ; les états et dates de rapprochement restent inchangés."
+
+#, kde-format
+msgid "Filter drafts…"
+msgstr "Filtrer les brouillons…"
+
+#, kde-format
+msgid "Finish the current KMyMoney operation first."
+msgstr "Terminez d'abord l'opération en cours dans KMyMoney."
+
+#, kde-format
+msgid "Frozen"
+msgstr "Figée"
+
+#, kde-format
+msgid "Invalid archived transaction identity or date."
+msgstr "Identifiant ou date de l'opération archivée non valide."
+
+#, kde-format
+msgid "Invalid draft identity or timestamp."
+msgstr "Identifiant ou horodatage du brouillon non valide."
+
+#, kde-format
+msgid "Invalid draft split."
+msgstr "Ventilation du brouillon non valide."
+
+#, kde-format
+msgid "Invalid draft tag."
+msgstr "Étiquette du brouillon non valide."
+
+#, kde-format
+msgid "Invalid exact monetary value in draft."
+msgstr "Valeur monétaire exacte non valide dans le brouillon."
+
+#, kde-format
+msgid "Invalid matched transaction."
+msgstr "Opération associée non valide."
+
+#, kde-format
+msgid "Invalid reconciliation state."
+msgstr "État de rapprochement non valide."
+
+#, kde-format
+msgid "Invalid restoration recovery record."
+msgstr "Enregistrement de récupération de restauration non valide."
+
+#, kde-format
+msgid "KMyMoney changed transaction fields during restoration. The operation was rolled back and the draft was retained."
+msgstr "KMyMoney a modifié des champs pendant la restauration. L'opération a été annulée et le brouillon conservé."
+
+#, kde-format
+msgid "Keep complete transactions in drafts and restore them later"
+msgstr "Conserver des opérations complètes en brouillon et les restaurer ultérieurement"
+
+#, kde-format
+msgid "Matched transaction nesting is too deep."
+msgstr "L'imbrication des opérations associées est trop profonde."
+
+#, kde-format
+msgid "Memo"
+msgstr "Note"
+
+#, kde-format
+msgid "Missing or duplicate split identity in draft."
+msgstr "Identifiant de ventilation manquant ou en double dans le brouillon."
+
+#, kde-format
+msgid "Move the complete selected transactions, including every split, to drafts? They will stop affecting all account balances, reports, and reconciliations."
+msgstr "Déplacer les opérations sélectionnées dans les brouillons avec toutes leurs ventilations ? Elles n'affecteront plus les soldes, les rapports ni les rapprochements."
+
+#, kde-format
+msgid "Move to drafts"
+msgstr "Déplacer vers les brouillons"
+
+#, kde-format
+msgid "Moving or restoring reconciled transactions changes historical balances. If you change the posting date, review the affected reconciliations afterwards."
+msgstr "Déplacer ou restaurer des opérations rapprochées modifie les soldes historiques. Si vous changez la date comptable, vérifiez ensuite les rapprochements concernés."
+
+#, kde-format
+msgid "No draft transactions in this document."
+msgstr "Aucune opération en brouillon dans ce document."
+
+#, kde-format
+msgid "Not reconciled"
+msgstr "Non rapprochée"
+
+#, kde-format
+msgid "Open a KMyMoney document to view its drafts."
+msgstr "Ouvrez un document KMyMoney pour afficher ses brouillons."
+
+#, kde-format
+msgid "Payee"
+msgstr "Bénéficiaire"
+
+#, kde-format
+msgid "Posting date:"
+msgstr "Date comptable :"
+
+#, kde-format
+msgid "Price (exact)"
+msgstr "Prix (exact)"
+
+#, kde-format
+msgid "Reconciled"
+msgstr "Rapprochée"
+
+#, kde-format
+msgid "Reconciliation"
+msgstr "Rapprochement"
+
+#, kde-format
+msgid "Reconciliation date"
+msgstr "Date de rapprochement"
+
+#, kde-format
+msgid "Remove saved restoration copies"
+msgstr "Supprimer les copies de restauration enregistrées"
+
+#, kde-format
+msgid "Restoration requires a valid posting date and no other active operation."
+msgstr "La restauration nécessite une date comptable valide et aucune autre opération en cours."
+
+#, kde-format
+msgid "Restore"
+msgstr "Restaurer"
+
+#, kde-format
+msgid "Restore draft transaction"
+msgstr "Restaurer l'opération en brouillon"
+
+#, kde-format
+msgid "Restored; recovery copy retained"
+msgstr "Restaurée ; copie de récupération conservée"
+
+#, kde-format
+msgid "Select at least one saved transaction."
+msgstr "Sélectionnez au moins une opération enregistrée."
+
+#, kde-format
+msgid "Shares (exact)"
+msgstr "Parts (exactes)"
+
+#, kde-format
+msgid "Show drafts…"
+msgstr "Afficher les brouillons…"
+
+#, kde-format
+msgid "Splits"
+msgstr "Ventilations"
+
+#, kde-format
+msgid "Status"
+msgstr "État"
+
+#, kde-format
+msgid "The plugin module could not be retained for undo history. Restart KMyMoney and check the plugin installation."
+msgstr "Le module de l'extension n'a pas pu être conservé pour l'historique d'annulation. Redémarrez KMyMoney et vérifiez l'installation de l'extension."
+
+#, kde-format
+msgid "The selected ledger split no longer exists."
+msgstr "La ventilation sélectionnée dans le registre n'existe plus."
+
+#, kde-format
+msgid "The transaction currency or security no longer exists."
+msgstr "La devise ou le titre de l'opération n'existe plus."
+
+#, kde-format
+msgid "This draft exceeds the 4 MiB metadata record limit."
+msgstr "Ce brouillon dépasse la limite de 4 Mio par enregistrement de métadonnées."
+
+#, kde-format
+msgid "This draft has already been restored. Save the document to finish cleanup."
+msgstr "Ce brouillon a déjà été restauré. Enregistrez le document pour terminer le nettoyage."
+
+#, kde-format
+msgid "This draft no longer exists."
+msgstr "Ce brouillon n'existe plus."
+
+#, kde-format
+msgid "This transaction already has a draft or a pending restoration record. Save the document first."
+msgstr "Cette opération possède déjà un brouillon ou un enregistrement de restauration en attente. Enregistrez d'abord le document."
+
+#, kde-format
+msgid "This transaction cannot be archived without changes."
+msgstr "Cette opération ne peut pas être archivée sans modification."
+
+#, kde-format
+msgid "Unable to move to drafts"
+msgstr "Impossible de déplacer vers les brouillons"
+
+#, kde-format
+msgid "Unable to read drafts: %1"
+msgstr "Impossible de lire les brouillons : %1"
+
+#, kde-format
+msgid "Unable to restore draft"
+msgstr "Impossible de restaurer le brouillon"
+
+#, kde-format
+msgid "Unknown"
+msgstr "Inconnu"
+
+#, kde-format
+msgid "Unknown or missing draft fields. Archive left unchanged."
+msgstr "Champs de brouillon inconnus ou manquants. L'archive reste inchangée."
+
+#, kde-format
+msgid "Unsupported draft metadata version. Update the plugin before changing drafts."
+msgstr "Version des métadonnées de brouillon non prise en charge. Mettez l'extension à jour avant de modifier les brouillons."
+
+#, kde-format
+msgid "Value"
+msgstr "Valeur"
+
+#, kde-format
+msgid "Value (%1)"
+msgstr "Valeur (%1)"

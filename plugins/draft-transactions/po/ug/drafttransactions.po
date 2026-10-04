@@ -1,0 +1,337 @@
+# SPDX-FileCopyrightText: 2026 Draft transactions contributors
+# SPDX-License-Identifier: GPL-2.0-or-later
+# Initial AI-assisted translation. Native-speaker review is pending.
+msgid ""
+msgstr ""
+"Project-Id-Version: drafttransactions 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-27 08:52+0300\n"
+"PO-Revision-Date: 2026-09-27 12:00+0300\n"
+"Last-Translator: Draft transactions contributors\n"
+"Language-Team: ug\n"
+"Language: ug\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Initial AI-assisted translation; native review pending\n"
+
+#, kde-format
+msgid "A split references a missing cost center: %1"
+msgstr "بۆلەك مەۋجۇت بولمىغان تەننەرخ مەركىزىنى كۆرسىتىدۇ: %1"
+
+#, kde-format
+msgid "A split references a missing or standard account: %1"
+msgstr "بۆلەك مەۋجۇت بولمىغان ياكى ئۆلچەملىك ھېساباتنى كۆرسىتىدۇ: %1"
+
+#, kde-format
+msgid "A split references a missing payee: %1"
+msgstr "بۆلەك مەۋجۇت بولمىغان پۇل تاپشۇرۇۋالغۇچىنى كۆرسىتىدۇ: %1"
+
+#, kde-format
+msgid "A split references a missing tag: %1"
+msgstr "بۆلەك مەۋجۇت بولمىغان خەتكۈشنى كۆرسىتىدۇ: %1"
+
+#, kde-format
+msgid "Account"
+msgstr "ھېسابات"
+
+#, kde-format
+msgid "Account '%1' is closed. Reopen it in KMyMoney before moving or restoring this transaction."
+msgstr "«%1» ھېساباتى تاقالغان. بۇ سودىنى يۆتكەش ياكى ئەسلىگە كەلتۈرۈشتىن بۇرۇن ئۇنى KMyMoney دا قايتا ئېچىڭ."
+
+#, kde-format
+msgid "All splits (read-only; exact amounts are shown as fractions)"
+msgstr "بارلىق بۆلەكلەر (ئوقۇشقىلا بولىدۇ؛ ئېنىق سوممىلار كەسىر شەكلىدە كۆرسىتىلىدۇ)"
+
+#, kde-format
+msgid "Cleared"
+msgstr "تەكشۈرۈلگەن"
+
+#, kde-format
+msgid "Currency"
+msgstr "پۇل بىرلىكى"
+
+#, kde-format
+msgid "Date"
+msgstr "چېسلا"
+
+#, kde-format
+msgid "Draft"
+msgstr "دەسلەپكى نۇسخا"
+
+#, kde-format
+msgid "Draft checksum mismatch. The archive was not changed."
+msgstr "دەسلەپكى نۇسخىنىڭ تەكشۈرۈش يىغىندىسى ماس كەلمەيدۇ. ئارخىپ ئۆزگەرتىلمىدى."
+
+#, kde-format
+msgid "Draft contains missing, unknown, or noncanonical transaction fields."
+msgstr "دەسلەپكى نۇسخىدا كەم، نامەلۇم ياكى ئۆلچەملىك شەكىلدە بولمىغان سودا بۆلەكلىرى بار."
+
+#, kde-format
+msgid "Draft identity does not match its metadata key. No drafts were changed."
+msgstr "دەسلەپكى نۇسخىنىڭ كىملىكى مېتامەلۇمات ئاچقۇچىغا ماس كەلمەيدۇ. ھېچقانداق دەسلەپكى نۇسخا ئۆزگەرتىلمىدى."
+
+#, kde-format
+msgid "Draft metadata is not valid JSON."
+msgstr "دەسلەپكى نۇسخىنىڭ مېتامەلۇماتى ئىناۋەتلىك JSON ئەمەس."
+
+#, kde-format
+msgid "Draft metadata is too large."
+msgstr "دەسلەپكى نۇسخىنىڭ مېتامەلۇماتى بەك چوڭ."
+
+#, kde-format
+msgid "Draft metadata must be an object."
+msgstr "دەسلەپكى نۇسخىنىڭ مېتامەلۇماتى ئوبيېكت بولۇشى كېرەك."
+
+#, kde-format
+msgid "Draft metadata values must be strings."
+msgstr "دەسلەپكى نۇسخىنىڭ مېتامەلۇمات قىممەتلىرى تېكىست تىزمىسى بولۇشى كېرەك."
+
+#, kde-format
+msgid "Draft origin split does not exist."
+msgstr "دەسلەپكى نۇسخىنىڭ ئەسلى بۆلىكى مەۋجۇت ئەمەس."
+
+#, kde-format
+msgid "Draft splits are missing."
+msgstr "دەسلەپكى نۇسخىنىڭ بۆلەكلىرى كەم."
+
+#, kde-format
+msgid "Draft tags are missing."
+msgstr "دەسلەپكى نۇسخىنىڭ خەتكۈشلىرى كەم."
+
+#, kde-format
+msgid "Draft transactions"
+msgstr "سودا دەسلەپكى نۇسخىلىرى"
+
+#, kde-format
+msgid "Drafted (UTC)"
+msgstr "دەسلەپكى نۇسخىغا يۆتكەلگەن ۋاقىت (UTC)"
+
+#, kde-format
+msgid "Drafts"
+msgstr "دەسلەپكى نۇسخىلار"
+
+#, kde-format
+msgid "Drafts do not affect balances. Save the document to keep changes. Restored recovery copies are removed only after a clean save and full verification; cleanup is saved with the next document save."
+msgstr "دەسلەپكى نۇسخىلار قالدۇق سوممىغا تەسىر قىلمايدۇ. ئۆزگىرىشلەرنى ساقلاش ئۈچۈن پۈتۈكنى ساقلاڭ. ئەسلىگە كەلتۈرۈلگەن سودىلارنىڭ ئەسلىگە كەلتۈرۈش كۆپەيتمىلىرى پەقەت مۇۋەپپەقىيەتلىك ساقلاش ۋە تولۇق تەكشۈرۈشتىن كېيىن ئۆچۈرۈلىدۇ؛ بۇ تازىلاش پۈتۈك كېلەر قېتىم ساقلانغاندا ساقلىنىدۇ."
+
+#, kde-format
+msgid "Every split will return to its original account. Only the posting date can change; reconciliation flags and dates remain unchanged."
+msgstr "ھەر بىر بۆلەك ئەسلى ھېساباتىغا قايتىدۇ. پەقەت ھېساباتقا كىرگۈزۈش چېسلاسىنى ئۆزگەرتكىلى بولىدۇ؛ ھېسابات سېلىشتۇرۇش بەلگىلىرى ۋە چېسلالىرى ئۆزگەرمەيدۇ."
+
+#, kde-format
+msgid "Filter drafts…"
+msgstr "دەسلەپكى نۇسخىلارنى سۈزۈش…"
+
+#, kde-format
+msgid "Finish the current KMyMoney operation first."
+msgstr "ئالدى بىلەن KMyMoney دىكى نۆۋەتتىكى مەشغۇلاتنى تاماملاڭ."
+
+#, kde-format
+msgid "Frozen"
+msgstr "توڭلىتىلغان"
+
+#, kde-format
+msgid "Invalid archived transaction identity or date."
+msgstr "ئارخىپلانغان سودىنىڭ كىملىكى ياكى چېسلاسى ئىناۋەتسىز."
+
+#, kde-format
+msgid "Invalid draft identity or timestamp."
+msgstr "دەسلەپكى نۇسخىنىڭ كىملىكى ياكى ۋاقىت تامغىسى ئىناۋەتسىز."
+
+#, kde-format
+msgid "Invalid draft split."
+msgstr "دەسلەپكى نۇسخىنىڭ بۆلىكى ئىناۋەتسىز."
+
+#, kde-format
+msgid "Invalid draft tag."
+msgstr "دەسلەپكى نۇسخىنىڭ خەتكۈشى ئىناۋەتسىز."
+
+#, kde-format
+msgid "Invalid exact monetary value in draft."
+msgstr "دەسلەپكى نۇسخىدىكى ئېنىق پۇل قىممىتى ئىناۋەتسىز."
+
+#, kde-format
+msgid "Invalid matched transaction."
+msgstr "ماسلاشتۇرۇلغان سودا ئىناۋەتسىز."
+
+#, kde-format
+msgid "Invalid reconciliation state."
+msgstr "ھېسابات سېلىشتۇرۇش ھالىتى ئىناۋەتسىز."
+
+#, kde-format
+msgid "Invalid restoration recovery record."
+msgstr "ئەسلىگە كەلتۈرۈشنىڭ زاپاس خاتىرىسى ئىناۋەتسىز."
+
+#, kde-format
+msgid "KMyMoney changed transaction fields during restoration. The operation was rolled back and the draft was retained."
+msgstr "KMyMoney ئەسلىگە كەلتۈرۈش جەريانىدا سودا بۆلەكلىرىنى ئۆزگەرتتى. مەشغۇلات يېنىۋېلىندى ۋە دەسلەپكى نۇسخا ساقلاپ قېلىندى."
+
+#, kde-format
+msgid "Keep complete transactions in drafts and restore them later"
+msgstr "تولۇق سودىلارنى دەسلەپكى نۇسخىلاردا ساقلاپ، كېيىن ئەسلىگە كەلتۈرۈڭ"
+
+#, kde-format
+msgid "Matched transaction nesting is too deep."
+msgstr "ماسلاشتۇرۇلغان سودىلار بەك چوڭقۇر قەۋەتلەشكەن."
+
+#, kde-format
+msgid "Memo"
+msgstr "ئىزاھات"
+
+#, kde-format
+msgid "Missing or duplicate split identity in draft."
+msgstr "دەسلەپكى نۇسخىدا بۆلەك كىملىكى كەم ياكى تەكرارلانغان."
+
+#, kde-format
+msgid "Move the complete selected transactions, including every split, to drafts? They will stop affecting all account balances, reports, and reconciliations."
+msgstr "تاللانغان سودىلارنى بارلىق بۆلەكلىرى بىلەن تولۇق دەسلەپكى نۇسخىلارغا يۆتكەمسىز؟ ئۇلار بارلىق ھېسابات قالدۇقلىرى، دوكلاتلار ۋە ھېسابات سېلىشتۇرۇشلىرىغا تەسىر قىلمايدۇ."
+
+#, kde-format
+msgid "Move to drafts"
+msgstr "دەسلەپكى نۇسخىلارغا يۆتكەش"
+
+#, kde-format
+msgid "Moving or restoring reconciled transactions changes historical balances. If you change the posting date, review the affected reconciliations afterwards."
+msgstr "سېلىشتۇرۇلغان سودىلارنى يۆتكەش ياكى ئەسلىگە كەلتۈرۈش ئىلگىرىكى قالدۇق سوممىلارنى ئۆزگەرتىدۇ. ھېساباتقا كىرگۈزۈش چېسلاسىنى ئۆزگەرتسىڭىز، كېيىن تەسىرگە ئۇچرىغان ھېسابات سېلىشتۇرۇشلىرىنى تەكشۈرۈڭ."
+
+#, kde-format
+msgid "No draft transactions in this document."
+msgstr "بۇ پۈتۈكتە سودا دەسلەپكى نۇسخىلىرى يوق."
+
+#, kde-format
+msgid "Not reconciled"
+msgstr "سېلىشتۇرۇلمىغان"
+
+#, kde-format
+msgid "Open a KMyMoney document to view its drafts."
+msgstr "دەسلەپكى نۇسخىلىرىنى كۆرۈش ئۈچۈن KMyMoney پۈتۈكىنى ئېچىڭ."
+
+#, kde-format
+msgid "Payee"
+msgstr "پۇل تاپشۇرۇۋالغۇچى"
+
+#, kde-format
+msgid "Posting date:"
+msgstr "ھېساباتقا كىرگۈزۈش چېسلاسى:"
+
+#, kde-format
+msgid "Price (exact)"
+msgstr "باھا (ئېنىق)"
+
+#, kde-format
+msgid "Reconciled"
+msgstr "سېلىشتۇرۇلغان"
+
+#, kde-format
+msgid "Reconciliation"
+msgstr "ھېسابات سېلىشتۇرۇش"
+
+#, kde-format
+msgid "Reconciliation date"
+msgstr "ھېسابات سېلىشتۇرۇش چېسلاسى"
+
+#, kde-format
+msgid "Remove saved restoration copies"
+msgstr "ساقلانغان ئەسلىگە كەلتۈرۈشلەرنىڭ كۆپەيتمىلىرىنى ئۆچۈرۈش"
+
+#, kde-format
+msgid "Restoration requires a valid posting date and no other active operation."
+msgstr "ئەسلىگە كەلتۈرۈش ئۈچۈن ئىناۋەتلىك ھېساباتقا كىرگۈزۈش چېسلاسى بولۇشى ۋە باشقا مەشغۇلات ئىجرا قىلىنماۋاتقان بولۇشى كېرەك."
+
+#, kde-format
+msgid "Restore"
+msgstr "ئەسلىگە كەلتۈرۈش"
+
+#, kde-format
+msgid "Restore draft transaction"
+msgstr "سودا دەسلەپكى نۇسخىسىنى ئەسلىگە كەلتۈرۈش"
+
+#, kde-format
+msgid "Restored; recovery copy retained"
+msgstr "ئەسلىگە كەلتۈرۈلدى؛ ئەسلىگە كەلتۈرۈش كۆپەيتمىسى ساقلاپ قېلىندى"
+
+#, kde-format
+msgid "Select at least one saved transaction."
+msgstr "كەم دېگەندە بىر ساقلانغان سودىنى تاللاڭ."
+
+#, kde-format
+msgid "Shares (exact)"
+msgstr "پاي سانى (ئېنىق)"
+
+#, kde-format
+msgid "Show drafts…"
+msgstr "دەسلەپكى نۇسخىلارنى كۆرسىتىش…"
+
+#, kde-format
+msgid "Splits"
+msgstr "بۆلەكلەر"
+
+#, kde-format
+msgid "Status"
+msgstr "ھالەت"
+
+#, kde-format
+msgid "The plugin module could not be retained for undo history. Restart KMyMoney and check the plugin installation."
+msgstr "يېنىۋېلىش تارىخى ئۈچۈن قىستۇرما بۆلىكىنى ساقلاپ قالغىلى بولمىدى. KMyMoney نى قايتا قوزغىتىپ، قىستۇرما ئورنىتىلىشىنى تەكشۈرۈڭ."
+
+#, kde-format
+msgid "The selected ledger split no longer exists."
+msgstr "تاللانغان ھېسابات دەپتىرى بۆلىكى ئەمدى مەۋجۇت ئەمەس."
+
+#, kde-format
+msgid "The transaction currency or security no longer exists."
+msgstr "سودىنىڭ پۇل بىرلىكى ياكى ئاكسىيەسى ئەمدى مەۋجۇت ئەمەس."
+
+#, kde-format
+msgid "This draft exceeds the 4 MiB metadata record limit."
+msgstr "بۇ دەسلەپكى نۇسخا مېتامەلۇمات خاتىرىسىنىڭ 4 MiB چەكلىمىسىدىن ئېشىپ كەتتى."
+
+#, kde-format
+msgid "This draft has already been restored. Save the document to finish cleanup."
+msgstr "بۇ دەسلەپكى نۇسخا ئاللىقاچان ئەسلىگە كەلتۈرۈلگەن. تازىلاشنى تاماملاش ئۈچۈن پۈتۈكنى ساقلاڭ."
+
+#, kde-format
+msgid "This draft no longer exists."
+msgstr "بۇ دەسلەپكى نۇسخا ئەمدى مەۋجۇت ئەمەس."
+
+#, kde-format
+msgid "This transaction already has a draft or a pending restoration record. Save the document first."
+msgstr "بۇ سودىنىڭ ئاللىقاچان دەسلەپكى نۇسخىسى ياكى كۈتۈۋاتقان ئەسلىگە كەلتۈرۈش خاتىرىسى بار. ئالدى بىلەن پۈتۈكنى ساقلاڭ."
+
+#, kde-format
+msgid "This transaction cannot be archived without changes."
+msgstr "بۇ سودىنى ئۆزگەرتمەي ئارخىپلىغىلى بولمايدۇ."
+
+#, kde-format
+msgid "Unable to move to drafts"
+msgstr "دەسلەپكى نۇسخىلارغا يۆتكىگىلى بولمىدى"
+
+#, kde-format
+msgid "Unable to read drafts: %1"
+msgstr "دەسلەپكى نۇسخىلارنى ئوقۇغىلى بولمىدى: %1"
+
+#, kde-format
+msgid "Unable to restore draft"
+msgstr "دەسلەپكى نۇسخىنى ئەسلىگە كەلتۈرگىلى بولمىدى"
+
+#, kde-format
+msgid "Unknown"
+msgstr "نامەلۇم"
+
+#, kde-format
+msgid "Unknown or missing draft fields. Archive left unchanged."
+msgstr "دەسلەپكى نۇسخا بۆلەكلىرى نامەلۇم ياكى كەم. ئارخىپ ئۆزگەرتىلمىدى."
+
+#, kde-format
+msgid "Unsupported draft metadata version. Update the plugin before changing drafts."
+msgstr "دەسلەپكى نۇسخىنىڭ مېتامەلۇمات نەشرى قوللىمايدۇ. دەسلەپكى نۇسخىلارنى ئۆزگەرتىشتىن بۇرۇن قىستۇرمىنى يېڭىلاڭ."
+
+#, kde-format
+msgid "Value"
+msgstr "قىممەت"
+
+#, kde-format
+msgid "Value (%1)"
+msgstr "قىممەت (%1)"

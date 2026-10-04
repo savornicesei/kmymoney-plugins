@@ -1,0 +1,337 @@
+# SPDX-FileCopyrightText: 2026 Draft transactions contributors
+# SPDX-License-Identifier: GPL-2.0-or-later
+# Initial AI-assisted translation. Native-speaker review is pending.
+msgid ""
+msgstr ""
+"Project-Id-Version: drafttransactions 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-27 08:52+0300\n"
+"PO-Revision-Date: 2026-09-27 12:00+0300\n"
+"Last-Translator: Draft transactions contributors\n"
+"Language-Team: el\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Initial AI-assisted translation; native review pending\n"
+
+#, kde-format
+msgid "A split references a missing cost center: %1"
+msgstr "Ένα σκέλος αναφέρεται σε κέντρο κόστους που λείπει: %1"
+
+#, kde-format
+msgid "A split references a missing or standard account: %1"
+msgstr "Ένα σκέλος αναφέρεται σε λογαριασμό που λείπει ή είναι τυπικός: %1"
+
+#, kde-format
+msgid "A split references a missing payee: %1"
+msgstr "Ένα σκέλος αναφέρεται σε δικαιούχο που λείπει: %1"
+
+#, kde-format
+msgid "A split references a missing tag: %1"
+msgstr "Ένα σκέλος αναφέρεται σε ετικέτα που λείπει: %1"
+
+#, kde-format
+msgid "Account"
+msgstr "Λογαριασμός"
+
+#, kde-format
+msgid "Account '%1' is closed. Reopen it in KMyMoney before moving or restoring this transaction."
+msgstr "Ο λογαριασμός «%1» είναι κλειστός. Ανοίξτε τον ξανά στο KMyMoney πριν μετακινήσετε ή επαναφέρετε αυτήν τη συναλλαγή."
+
+#, kde-format
+msgid "All splits (read-only; exact amounts are shown as fractions)"
+msgstr "Όλα τα σκέλη (μόνο για ανάγνωση· τα ακριβή ποσά εμφανίζονται ως κλάσματα)"
+
+#, kde-format
+msgid "Cleared"
+msgstr "Ελεγμένη"
+
+#, kde-format
+msgid "Currency"
+msgstr "Νόμισμα"
+
+#, kde-format
+msgid "Date"
+msgstr "Ημερομηνία"
+
+#, kde-format
+msgid "Draft"
+msgstr "Πρόχειρο"
+
+#, kde-format
+msgid "Draft checksum mismatch. The archive was not changed."
+msgstr "Το άθροισμα ελέγχου του προχείρου δεν ταιριάζει. Το αρχείο δεν άλλαξε."
+
+#, kde-format
+msgid "Draft contains missing, unknown, or noncanonical transaction fields."
+msgstr "Το πρόχειρο περιέχει πεδία συναλλαγής που λείπουν, είναι άγνωστα ή μη κανονικά."
+
+#, kde-format
+msgid "Draft identity does not match its metadata key. No drafts were changed."
+msgstr "Το αναγνωριστικό του προχείρου δεν ταιριάζει με το κλειδί μεταδεδομένων. Κανένα πρόχειρο δεν άλλαξε."
+
+#, kde-format
+msgid "Draft metadata is not valid JSON."
+msgstr "Τα μεταδεδομένα του προχείρου δεν είναι έγκυρο JSON."
+
+#, kde-format
+msgid "Draft metadata is too large."
+msgstr "Τα μεταδεδομένα του προχείρου είναι πολύ μεγάλα."
+
+#, kde-format
+msgid "Draft metadata must be an object."
+msgstr "Τα μεταδεδομένα του προχείρου πρέπει να είναι αντικείμενο."
+
+#, kde-format
+msgid "Draft metadata values must be strings."
+msgstr "Οι τιμές μεταδεδομένων του προχείρου πρέπει να είναι συμβολοσειρές."
+
+#, kde-format
+msgid "Draft origin split does not exist."
+msgstr "Το αρχικό σκέλος του προχείρου δεν υπάρχει."
+
+#, kde-format
+msgid "Draft splits are missing."
+msgstr "Λείπουν τα σκέλη του προχείρου."
+
+#, kde-format
+msgid "Draft tags are missing."
+msgstr "Λείπουν οι ετικέτες του προχείρου."
+
+#, kde-format
+msgid "Draft transactions"
+msgstr "Πρόχειρες συναλλαγές"
+
+#, kde-format
+msgid "Drafted (UTC)"
+msgstr "Μεταφέρθηκε στα πρόχειρα (UTC)"
+
+#, kde-format
+msgid "Drafts"
+msgstr "Πρόχειρα"
+
+#, kde-format
+msgid "Drafts do not affect balances. Save the document to keep changes. Restored recovery copies are removed only after a clean save and full verification; cleanup is saved with the next document save."
+msgstr "Τα πρόχειρα δεν επηρεάζουν τα υπόλοιπα. Αποθηκεύστε το έγγραφο για να διατηρήσετε τις αλλαγές. Τα αντίγραφα ανάκτησης επαναφερμένων συναλλαγών αφαιρούνται μόνο μετά από επιτυχή αποθήκευση και πλήρη επαλήθευση· η εκκαθάριση αποθηκεύεται στην επόμενη αποθήκευση του εγγράφου."
+
+#, kde-format
+msgid "Every split will return to its original account. Only the posting date can change; reconciliation flags and dates remain unchanged."
+msgstr "Κάθε σκέλος θα επιστρέψει στον αρχικό του λογαριασμό. Μπορεί να αλλάξει μόνο η ημερομηνία καταχώρισης· οι σημάνσεις και οι ημερομηνίες συμφωνίας παραμένουν αμετάβλητες."
+
+#, kde-format
+msgid "Filter drafts…"
+msgstr "Φιλτράρισμα προχείρων…"
+
+#, kde-format
+msgid "Finish the current KMyMoney operation first."
+msgstr "Ολοκληρώστε πρώτα την τρέχουσα ενέργεια στο KMyMoney."
+
+#, kde-format
+msgid "Frozen"
+msgstr "Παγωμένη"
+
+#, kde-format
+msgid "Invalid archived transaction identity or date."
+msgstr "Μη έγκυρο αναγνωριστικό ή ημερομηνία αρχειοθετημένης συναλλαγής."
+
+#, kde-format
+msgid "Invalid draft identity or timestamp."
+msgstr "Μη έγκυρο αναγνωριστικό ή χρονική σήμανση προχείρου."
+
+#, kde-format
+msgid "Invalid draft split."
+msgstr "Μη έγκυρο σκέλος προχείρου."
+
+#, kde-format
+msgid "Invalid draft tag."
+msgstr "Μη έγκυρη ετικέτα προχείρου."
+
+#, kde-format
+msgid "Invalid exact monetary value in draft."
+msgstr "Μη έγκυρη ακριβής χρηματική τιμή στο πρόχειρο."
+
+#, kde-format
+msgid "Invalid matched transaction."
+msgstr "Μη έγκυρη αντιστοιχισμένη συναλλαγή."
+
+#, kde-format
+msgid "Invalid reconciliation state."
+msgstr "Μη έγκυρη κατάσταση συμφωνίας."
+
+#, kde-format
+msgid "Invalid restoration recovery record."
+msgstr "Μη έγκυρη εγγραφή ανάκτησης επαναφοράς."
+
+#, kde-format
+msgid "KMyMoney changed transaction fields during restoration. The operation was rolled back and the draft was retained."
+msgstr "Το KMyMoney άλλαξε πεδία συναλλαγής κατά την επαναφορά. Η ενέργεια αναιρέθηκε και το πρόχειρο διατηρήθηκε."
+
+#, kde-format
+msgid "Keep complete transactions in drafts and restore them later"
+msgstr "Διατηρήστε ολόκληρες συναλλαγές στα πρόχειρα και επαναφέρετέ τες αργότερα"
+
+#, kde-format
+msgid "Matched transaction nesting is too deep."
+msgstr "Οι αντιστοιχισμένες συναλλαγές είναι εμφωλευμένες πολύ βαθιά."
+
+#, kde-format
+msgid "Memo"
+msgstr "Σημείωση"
+
+#, kde-format
+msgid "Missing or duplicate split identity in draft."
+msgstr "Λείπει ή διπλοεμφανίζεται αναγνωριστικό σκέλους στο πρόχειρο."
+
+#, kde-format
+msgid "Move the complete selected transactions, including every split, to drafts? They will stop affecting all account balances, reports, and reconciliations."
+msgstr "Να μεταφερθούν ολόκληρες οι επιλεγμένες συναλλαγές, μαζί με όλα τα σκέλη τους, στα πρόχειρα; Θα πάψουν να επηρεάζουν τα υπόλοιπα όλων των λογαριασμών, τις αναφορές και τις συμφωνίες."
+
+#, kde-format
+msgid "Move to drafts"
+msgstr "Μεταφορά στα πρόχειρα"
+
+#, kde-format
+msgid "Moving or restoring reconciled transactions changes historical balances. If you change the posting date, review the affected reconciliations afterwards."
+msgstr "Η μεταφορά ή επαναφορά συμφωνημένων συναλλαγών αλλάζει παλαιότερα υπόλοιπα. Αν αλλάξετε την ημερομηνία καταχώρισης, ελέγξτε μετά τις επηρεαζόμενες συμφωνίες."
+
+#, kde-format
+msgid "No draft transactions in this document."
+msgstr "Δεν υπάρχουν πρόχειρες συναλλαγές σε αυτό το έγγραφο."
+
+#, kde-format
+msgid "Not reconciled"
+msgstr "Μη συμφωνημένη"
+
+#, kde-format
+msgid "Open a KMyMoney document to view its drafts."
+msgstr "Ανοίξτε ένα έγγραφο KMyMoney για να δείτε τα πρόχειρά του."
+
+#, kde-format
+msgid "Payee"
+msgstr "Δικαιούχος"
+
+#, kde-format
+msgid "Posting date:"
+msgstr "Ημερομηνία καταχώρισης:"
+
+#, kde-format
+msgid "Price (exact)"
+msgstr "Τιμή (ακριβής)"
+
+#, kde-format
+msgid "Reconciled"
+msgstr "Συμφωνημένη"
+
+#, kde-format
+msgid "Reconciliation"
+msgstr "Συμφωνία"
+
+#, kde-format
+msgid "Reconciliation date"
+msgstr "Ημερομηνία συμφωνίας"
+
+#, kde-format
+msgid "Remove saved restoration copies"
+msgstr "Αφαίρεση αντιγράφων αποθηκευμένων επαναφορών"
+
+#, kde-format
+msgid "Restoration requires a valid posting date and no other active operation."
+msgstr "Η επαναφορά απαιτεί έγκυρη ημερομηνία καταχώρισης και καμία άλλη ενεργή ενέργεια."
+
+#, kde-format
+msgid "Restore"
+msgstr "Επαναφορά"
+
+#, kde-format
+msgid "Restore draft transaction"
+msgstr "Επαναφορά πρόχειρης συναλλαγής"
+
+#, kde-format
+msgid "Restored; recovery copy retained"
+msgstr "Επαναφέρθηκε· διατηρήθηκε αντίγραφο ανάκτησης"
+
+#, kde-format
+msgid "Select at least one saved transaction."
+msgstr "Επιλέξτε τουλάχιστον μία αποθηκευμένη συναλλαγή."
+
+#, kde-format
+msgid "Shares (exact)"
+msgstr "Μετοχές (ακριβώς)"
+
+#, kde-format
+msgid "Show drafts…"
+msgstr "Εμφάνιση προχείρων…"
+
+#, kde-format
+msgid "Splits"
+msgstr "Σκέλη"
+
+#, kde-format
+msgid "Status"
+msgstr "Κατάσταση"
+
+#, kde-format
+msgid "The plugin module could not be retained for undo history. Restart KMyMoney and check the plugin installation."
+msgstr "Δεν ήταν δυνατή η διατήρηση της μονάδας προσθέτου για το ιστορικό αναίρεσης. Επανεκκινήστε το KMyMoney και ελέγξτε την εγκατάσταση του προσθέτου."
+
+#, kde-format
+msgid "The selected ledger split no longer exists."
+msgstr "Το επιλεγμένο σκέλος του καθολικού δεν υπάρχει πλέον."
+
+#, kde-format
+msgid "The transaction currency or security no longer exists."
+msgstr "Το νόμισμα ή ο τίτλος της συναλλαγής δεν υπάρχει πλέον."
+
+#, kde-format
+msgid "This draft exceeds the 4 MiB metadata record limit."
+msgstr "Αυτό το πρόχειρο υπερβαίνει το όριο των 4 MiB ανά εγγραφή μεταδεδομένων."
+
+#, kde-format
+msgid "This draft has already been restored. Save the document to finish cleanup."
+msgstr "Αυτό το πρόχειρο έχει ήδη επαναφερθεί. Αποθηκεύστε το έγγραφο για να ολοκληρωθεί η εκκαθάριση."
+
+#, kde-format
+msgid "This draft no longer exists."
+msgstr "Αυτό το πρόχειρο δεν υπάρχει πλέον."
+
+#, kde-format
+msgid "This transaction already has a draft or a pending restoration record. Save the document first."
+msgstr "Αυτή η συναλλαγή έχει ήδη πρόχειρο ή εκκρεμή εγγραφή επαναφοράς. Αποθηκεύστε πρώτα το έγγραφο."
+
+#, kde-format
+msgid "This transaction cannot be archived without changes."
+msgstr "Αυτή η συναλλαγή δεν μπορεί να αρχειοθετηθεί χωρίς αλλαγές."
+
+#, kde-format
+msgid "Unable to move to drafts"
+msgstr "Αδυναμία μεταφοράς στα πρόχειρα"
+
+#, kde-format
+msgid "Unable to read drafts: %1"
+msgstr "Αδυναμία ανάγνωσης προχείρων: %1"
+
+#, kde-format
+msgid "Unable to restore draft"
+msgstr "Αδυναμία επαναφοράς προχείρου"
+
+#, kde-format
+msgid "Unknown"
+msgstr "Άγνωστο"
+
+#, kde-format
+msgid "Unknown or missing draft fields. Archive left unchanged."
+msgstr "Άγνωστα ή απόντα πεδία προχείρου. Το αρχείο παρέμεινε αμετάβλητο."
+
+#, kde-format
+msgid "Unsupported draft metadata version. Update the plugin before changing drafts."
+msgstr "Μη υποστηριζόμενη έκδοση μεταδεδομένων προχείρου. Ενημερώστε το πρόσθετο πριν αλλάξετε πρόχειρα."
+
+#, kde-format
+msgid "Value"
+msgstr "Αξία"
+
+#, kde-format
+msgid "Value (%1)"
+msgstr "Αξία (%1)"

@@ -1,0 +1,337 @@
+# SPDX-FileCopyrightText: 2026 Draft transactions contributors
+# SPDX-License-Identifier: GPL-2.0-or-later
+# Initial AI-assisted translation. Native-speaker review is pending.
+msgid ""
+msgstr ""
+"Project-Id-Version: drafttransactions 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-27 08:52+0300\n"
+"PO-Revision-Date: 2026-09-27 12:00+0300\n"
+"Last-Translator: Draft transactions contributors\n"
+"Language-Team: ca@valencia\n"
+"Language: ca@valencia\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Initial AI-assisted translation; native review pending\n"
+
+#, kde-format
+msgid "A split references a missing cost center: %1"
+msgstr "Un desglossament fa referència a un centre de costos inexistent: %1"
+
+#, kde-format
+msgid "A split references a missing or standard account: %1"
+msgstr "Un desglossament fa referència a un compte inexistent o estàndard: %1"
+
+#, kde-format
+msgid "A split references a missing payee: %1"
+msgstr "Un desglossament fa referència a un beneficiari inexistent: %1"
+
+#, kde-format
+msgid "A split references a missing tag: %1"
+msgstr "Un desglossament fa referència a una etiqueta inexistent: %1"
+
+#, kde-format
+msgid "Account"
+msgstr "Compte"
+
+#, kde-format
+msgid "Account '%1' is closed. Reopen it in KMyMoney before moving or restoring this transaction."
+msgstr "El compte «%1» està tancat. Torneu-lo a obrir al KMyMoney abans de moure o restaurar esta operació."
+
+#, kde-format
+msgid "All splits (read-only; exact amounts are shown as fractions)"
+msgstr "Tots els desglossaments (només lectura; els imports exactes es mostren com a fraccions)"
+
+#, kde-format
+msgid "Cleared"
+msgstr "Compensada"
+
+#, kde-format
+msgid "Currency"
+msgstr "Divisa"
+
+#, kde-format
+msgid "Date"
+msgstr "Data"
+
+#, kde-format
+msgid "Draft"
+msgstr "Esborrany"
+
+#, kde-format
+msgid "Draft checksum mismatch. The archive was not changed."
+msgstr "La suma de verificació de l'esborrany no coincideix. L'arxiu no s'ha modificat."
+
+#, kde-format
+msgid "Draft contains missing, unknown, or noncanonical transaction fields."
+msgstr "L'esborrany conté camps de l'operació absents, desconeguts o no canònics."
+
+#, kde-format
+msgid "Draft identity does not match its metadata key. No drafts were changed."
+msgstr "L'identificador de l'esborrany no coincideix amb la clau de les metadades. No s'ha modificat cap esborrany."
+
+#, kde-format
+msgid "Draft metadata is not valid JSON."
+msgstr "Les metadades de l'esborrany no són JSON vàlid."
+
+#, kde-format
+msgid "Draft metadata is too large."
+msgstr "Les metadades de l'esborrany són massa grans."
+
+#, kde-format
+msgid "Draft metadata must be an object."
+msgstr "Les metadades de l'esborrany han de ser un objecte."
+
+#, kde-format
+msgid "Draft metadata values must be strings."
+msgstr "Els valors de les metadades de l'esborrany han de ser cadenes de text."
+
+#, kde-format
+msgid "Draft origin split does not exist."
+msgstr "El desglossament d'origen de l'esborrany no existix."
+
+#, kde-format
+msgid "Draft splits are missing."
+msgstr "Falten els desglossaments de l'esborrany."
+
+#, kde-format
+msgid "Draft tags are missing."
+msgstr "Falten les etiquetes de l'esborrany."
+
+#, kde-format
+msgid "Draft transactions"
+msgstr "Operacions en esborrany"
+
+#, kde-format
+msgid "Drafted (UTC)"
+msgstr "Desada com a esborrany (UTC)"
+
+#, kde-format
+msgid "Drafts"
+msgstr "Esborranys"
+
+#, kde-format
+msgid "Drafts do not affect balances. Save the document to keep changes. Restored recovery copies are removed only after a clean save and full verification; cleanup is saved with the next document save."
+msgstr "Els esborranys no afecten els saldos. Deseu el document per a conservar els canvis. Les còpies de recuperació de les operacions restaurades només s'eliminen després de desar correctament i verificar-ho tot; la neteja es desa en tornar a desar el document."
+
+#, kde-format
+msgid "Every split will return to its original account. Only the posting date can change; reconciliation flags and dates remain unchanged."
+msgstr "Cada desglossament tornarà al compte original. Només pot canviar la data comptable; els estats i les dates de conciliació es mantenen."
+
+#, kde-format
+msgid "Filter drafts…"
+msgstr "Filtra els esborranys…"
+
+#, kde-format
+msgid "Finish the current KMyMoney operation first."
+msgstr "Acabeu primer l'operació actual del KMyMoney."
+
+#, kde-format
+msgid "Frozen"
+msgstr "Congelada"
+
+#, kde-format
+msgid "Invalid archived transaction identity or date."
+msgstr "Identificador o data de l'operació arxivada no vàlids."
+
+#, kde-format
+msgid "Invalid draft identity or timestamp."
+msgstr "Identificador o marca de temps de l'esborrany no vàlids."
+
+#, kde-format
+msgid "Invalid draft split."
+msgstr "Desglossament de l'esborrany no vàlid."
+
+#, kde-format
+msgid "Invalid draft tag."
+msgstr "Etiqueta de l'esborrany no vàlida."
+
+#, kde-format
+msgid "Invalid exact monetary value in draft."
+msgstr "Valor monetari exacte no vàlid a l'esborrany."
+
+#, kde-format
+msgid "Invalid matched transaction."
+msgstr "Operació associada no vàlida."
+
+#, kde-format
+msgid "Invalid reconciliation state."
+msgstr "Estat de conciliació no vàlid."
+
+#, kde-format
+msgid "Invalid restoration recovery record."
+msgstr "Registre de recuperació de restauració no vàlid."
+
+#, kde-format
+msgid "KMyMoney changed transaction fields during restoration. The operation was rolled back and the draft was retained."
+msgstr "El KMyMoney ha modificat camps de l'operació durant la restauració. S'ha revertit l'operació i s'ha conservat l'esborrany."
+
+#, kde-format
+msgid "Keep complete transactions in drafts and restore them later"
+msgstr "Conserva operacions completes en esborranys i restaura-les més endavant"
+
+#, kde-format
+msgid "Matched transaction nesting is too deep."
+msgstr "La imbricació d'operacions associades és massa profunda."
+
+#, kde-format
+msgid "Memo"
+msgstr "Nota"
+
+#, kde-format
+msgid "Missing or duplicate split identity in draft."
+msgstr "Identificador de desglossament absent o duplicat a l'esborrany."
+
+#, kde-format
+msgid "Move the complete selected transactions, including every split, to drafts? They will stop affecting all account balances, reports, and reconciliations."
+msgstr "Voleu moure les operacions seleccionades completes, inclosos tots els desglossaments, als esborranys? Deixaran d'afectar els saldos dels comptes, els informes i les conciliacions."
+
+#, kde-format
+msgid "Move to drafts"
+msgstr "Mou als esborranys"
+
+#, kde-format
+msgid "Moving or restoring reconciled transactions changes historical balances. If you change the posting date, review the affected reconciliations afterwards."
+msgstr "Moure o restaurar operacions conciliades modifica els saldos històrics. Si canvieu la data comptable, reviseu després les conciliacions afectades."
+
+#, kde-format
+msgid "No draft transactions in this document."
+msgstr "Este document no conté operacions en esborrany."
+
+#, kde-format
+msgid "Not reconciled"
+msgstr "No conciliada"
+
+#, kde-format
+msgid "Open a KMyMoney document to view its drafts."
+msgstr "Obriu un document del KMyMoney per a veure'n els esborranys."
+
+#, kde-format
+msgid "Payee"
+msgstr "Beneficiari"
+
+#, kde-format
+msgid "Posting date:"
+msgstr "Data comptable:"
+
+#, kde-format
+msgid "Price (exact)"
+msgstr "Preu (exacte)"
+
+#, kde-format
+msgid "Reconciled"
+msgstr "Conciliada"
+
+#, kde-format
+msgid "Reconciliation"
+msgstr "Conciliació"
+
+#, kde-format
+msgid "Reconciliation date"
+msgstr "Data de conciliació"
+
+#, kde-format
+msgid "Remove saved restoration copies"
+msgstr "Elimina les còpies de restauracions desades"
+
+#, kde-format
+msgid "Restoration requires a valid posting date and no other active operation."
+msgstr "La restauració requerix una data comptable vàlida i cap altra operació activa."
+
+#, kde-format
+msgid "Restore"
+msgstr "Restaura"
+
+#, kde-format
+msgid "Restore draft transaction"
+msgstr "Restaura l'operació en esborrany"
+
+#, kde-format
+msgid "Restored; recovery copy retained"
+msgstr "Restaurada; còpia de recuperació conservada"
+
+#, kde-format
+msgid "Select at least one saved transaction."
+msgstr "Seleccioneu com a mínim una operació desada."
+
+#, kde-format
+msgid "Shares (exact)"
+msgstr "Participacions (exactes)"
+
+#, kde-format
+msgid "Show drafts…"
+msgstr "Mostra els esborranys…"
+
+#, kde-format
+msgid "Splits"
+msgstr "Desglossaments"
+
+#, kde-format
+msgid "Status"
+msgstr "Estat"
+
+#, kde-format
+msgid "The plugin module could not be retained for undo history. Restart KMyMoney and check the plugin installation."
+msgstr "No s'ha pogut mantenir el mòdul del connector per a l'historial de desfer. Reinicieu el KMyMoney i comproveu la instal·lació del connector."
+
+#, kde-format
+msgid "The selected ledger split no longer exists."
+msgstr "El desglossament seleccionat del llibre major ja no existix."
+
+#, kde-format
+msgid "The transaction currency or security no longer exists."
+msgstr "La divisa o el valor de l'operació ja no existix."
+
+#, kde-format
+msgid "This draft exceeds the 4 MiB metadata record limit."
+msgstr "Este esborrany supera el límit de 4 MiB del registre de metadades."
+
+#, kde-format
+msgid "This draft has already been restored. Save the document to finish cleanup."
+msgstr "Este esborrany ja s'ha restaurat. Deseu el document per a acabar la neteja."
+
+#, kde-format
+msgid "This draft no longer exists."
+msgstr "Este esborrany ja no existix."
+
+#, kde-format
+msgid "This transaction already has a draft or a pending restoration record. Save the document first."
+msgstr "Esta operació ja té un esborrany o un registre de restauració pendent. Deseu primer el document."
+
+#, kde-format
+msgid "This transaction cannot be archived without changes."
+msgstr "Esta operació no es pot arxivar sense canvis."
+
+#, kde-format
+msgid "Unable to move to drafts"
+msgstr "No es pot moure als esborranys"
+
+#, kde-format
+msgid "Unable to read drafts: %1"
+msgstr "No es poden llegir els esborranys: %1"
+
+#, kde-format
+msgid "Unable to restore draft"
+msgstr "No es pot restaurar l'esborrany"
+
+#, kde-format
+msgid "Unknown"
+msgstr "Desconegut"
+
+#, kde-format
+msgid "Unknown or missing draft fields. Archive left unchanged."
+msgstr "Camps de l'esborrany desconeguts o absents. L'arxiu es manté sense canvis."
+
+#, kde-format
+msgid "Unsupported draft metadata version. Update the plugin before changing drafts."
+msgstr "Versió no admesa de les metadades de l'esborrany. Actualitzeu el connector abans de modificar els esborranys."
+
+#, kde-format
+msgid "Value"
+msgstr "Valor"
+
+#, kde-format
+msgid "Value (%1)"
+msgstr "Valor (%1)"

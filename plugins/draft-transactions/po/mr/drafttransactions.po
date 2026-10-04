@@ -1,0 +1,337 @@
+# SPDX-FileCopyrightText: 2026 Draft transactions contributors
+# SPDX-License-Identifier: GPL-2.0-or-later
+# Initial AI-assisted translation. Native-speaker review is pending.
+msgid ""
+msgstr ""
+"Project-Id-Version: drafttransactions 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-27 08:52+0300\n"
+"PO-Revision-Date: 2026-09-27 12:00+0300\n"
+"Last-Translator: Draft transactions contributors\n"
+"Language-Team: mr\n"
+"Language: mr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Initial AI-assisted translation; native review pending\n"
+
+#, kde-format
+msgid "A split references a missing cost center: %1"
+msgstr "विभाग अस्तित्वात नसलेल्या खर्च केंद्राचा संदर्भ देतो: %1"
+
+#, kde-format
+msgid "A split references a missing or standard account: %1"
+msgstr "विभाग अस्तित्वात नसलेल्या किंवा प्रमाणित खात्याचा संदर्भ देतो: %1"
+
+#, kde-format
+msgid "A split references a missing payee: %1"
+msgstr "विभाग अस्तित्वात नसलेल्या प्राप्तकर्त्याचा संदर्भ देतो: %1"
+
+#, kde-format
+msgid "A split references a missing tag: %1"
+msgstr "विभाग अस्तित्वात नसलेल्या टॅगचा संदर्भ देतो: %1"
+
+#, kde-format
+msgid "Account"
+msgstr "खाते"
+
+#, kde-format
+msgid "Account '%1' is closed. Reopen it in KMyMoney before moving or restoring this transaction."
+msgstr "'%1' खाते बंद आहे. हा व्यवहार हलवण्यापूर्वी किंवा पुनर्संचयित करण्यापूर्वी ते KMyMoney मध्ये पुन्हा उघडा."
+
+#, kde-format
+msgid "All splits (read-only; exact amounts are shown as fractions)"
+msgstr "सर्व विभाग (केवळ वाचन; अचूक रकमा अपूर्णांकांत दाखवल्या आहेत)"
+
+#, kde-format
+msgid "Cleared"
+msgstr "तपासलेले"
+
+#, kde-format
+msgid "Currency"
+msgstr "चलन"
+
+#, kde-format
+msgid "Date"
+msgstr "दिनांक"
+
+#, kde-format
+msgid "Draft"
+msgstr "मसुदा"
+
+#, kde-format
+msgid "Draft checksum mismatch. The archive was not changed."
+msgstr "मसुद्याचा चेकसम जुळत नाही. संग्रह बदललेला नाही."
+
+#, kde-format
+msgid "Draft contains missing, unknown, or noncanonical transaction fields."
+msgstr "मसुद्यात व्यवहाराची गहाळ, अज्ञात किंवा प्रमाणित स्वरूपात नसलेली क्षेत्रे आहेत."
+
+#, kde-format
+msgid "Draft identity does not match its metadata key. No drafts were changed."
+msgstr "मसुद्याचा ओळखकर्ता मेटाडेटा कळीशी जुळत नाही. कोणताही मसुदा बदललेला नाही."
+
+#, kde-format
+msgid "Draft metadata is not valid JSON."
+msgstr "मसुद्याचा मेटाडेटा वैध JSON नाही."
+
+#, kde-format
+msgid "Draft metadata is too large."
+msgstr "मसुद्याचा मेटाडेटा खूप मोठा आहे."
+
+#, kde-format
+msgid "Draft metadata must be an object."
+msgstr "मसुद्याचा मेटाडेटा ऑब्जेक्ट असणे आवश्यक आहे."
+
+#, kde-format
+msgid "Draft metadata values must be strings."
+msgstr "मसुद्याच्या मेटाडेटाची मूल्ये मजकूर साखळ्या असणे आवश्यक आहे."
+
+#, kde-format
+msgid "Draft origin split does not exist."
+msgstr "मसुद्याचा मूळ विभाग अस्तित्वात नाही."
+
+#, kde-format
+msgid "Draft splits are missing."
+msgstr "मसुद्याचे विभाग गहाळ आहेत."
+
+#, kde-format
+msgid "Draft tags are missing."
+msgstr "मसुद्याचे टॅग गहाळ आहेत."
+
+#, kde-format
+msgid "Draft transactions"
+msgstr "व्यवहारांचे मसुदे"
+
+#, kde-format
+msgid "Drafted (UTC)"
+msgstr "मसुद्यांमध्ये हलवण्याची वेळ (UTC)"
+
+#, kde-format
+msgid "Drafts"
+msgstr "मसुदे"
+
+#, kde-format
+msgid "Drafts do not affect balances. Save the document to keep changes. Restored recovery copies are removed only after a clean save and full verification; cleanup is saved with the next document save."
+msgstr "मसुद्यांचा शिलकीवर परिणाम होत नाही. बदल राखण्यासाठी दस्तऐवज जतन करा. पुनर्संचयित व्यवहारांच्या पुनर्प्राप्ती प्रती यशस्वी जतन आणि संपूर्ण पडताळणीनंतरच काढल्या जातात; ही साफसफाई दस्तऐवजाच्या पुढील जतनावेळी जतन होते."
+
+#, kde-format
+msgid "Every split will return to its original account. Only the posting date can change; reconciliation flags and dates remain unchanged."
+msgstr "प्रत्येक विभाग त्याच्या मूळ खात्यात परत जाईल. फक्त नोंदणीचा दिनांक बदलता येईल; ताळमेळाच्या खुणा आणि दिनांक बदलणार नाहीत."
+
+#, kde-format
+msgid "Filter drafts…"
+msgstr "मसुदे गाळा…"
+
+#, kde-format
+msgid "Finish the current KMyMoney operation first."
+msgstr "आधी KMyMoney मधील चालू कृती पूर्ण करा."
+
+#, kde-format
+msgid "Frozen"
+msgstr "गोठवलेले"
+
+#, kde-format
+msgid "Invalid archived transaction identity or date."
+msgstr "संग्रहित व्यवहाराचा ओळखकर्ता किंवा दिनांक अवैध आहे."
+
+#, kde-format
+msgid "Invalid draft identity or timestamp."
+msgstr "मसुद्याचा ओळखकर्ता किंवा वेळचिन्ह अवैध आहे."
+
+#, kde-format
+msgid "Invalid draft split."
+msgstr "मसुद्याचा विभाग अवैध आहे."
+
+#, kde-format
+msgid "Invalid draft tag."
+msgstr "मसुद्याचा टॅग अवैध आहे."
+
+#, kde-format
+msgid "Invalid exact monetary value in draft."
+msgstr "मसुद्यातील अचूक आर्थिक मूल्य अवैध आहे."
+
+#, kde-format
+msgid "Invalid matched transaction."
+msgstr "जुळवलेला व्यवहार अवैध आहे."
+
+#, kde-format
+msgid "Invalid reconciliation state."
+msgstr "ताळमेळाची स्थिती अवैध आहे."
+
+#, kde-format
+msgid "Invalid restoration recovery record."
+msgstr "पुनर्संचयनाची पुनर्प्राप्ती नोंद अवैध आहे."
+
+#, kde-format
+msgid "KMyMoney changed transaction fields during restoration. The operation was rolled back and the draft was retained."
+msgstr "पुनर्संचयनादरम्यान KMyMoney ने व्यवहाराची क्षेत्रे बदलली. कृती मागे घेतली आणि मसुदा राखला."
+
+#, kde-format
+msgid "Keep complete transactions in drafts and restore them later"
+msgstr "संपूर्ण व्यवहार मसुद्यांमध्ये ठेवा आणि नंतर पुनर्संचयित करा"
+
+#, kde-format
+msgid "Matched transaction nesting is too deep."
+msgstr "जुळवलेले व्यवहार खूप खोलवर एकमेकांत गुंतलेले आहेत."
+
+#, kde-format
+msgid "Memo"
+msgstr "टिपण"
+
+#, kde-format
+msgid "Missing or duplicate split identity in draft."
+msgstr "मसुद्यात विभागाचा ओळखकर्ता गहाळ किंवा दुबार आहे."
+
+#, kde-format
+msgid "Move the complete selected transactions, including every split, to drafts? They will stop affecting all account balances, reports, and reconciliations."
+msgstr "निवडलेले संपूर्ण व्यवहार, सर्व विभागांसह, मसुद्यांमध्ये हलवायचे का? त्यांचा कोणत्याही खात्याच्या शिलकीवर, अहवालांवर आणि ताळमेळांवर परिणाम होणार नाही."
+
+#, kde-format
+msgid "Move to drafts"
+msgstr "मसुद्यांमध्ये हलवा"
+
+#, kde-format
+msgid "Moving or restoring reconciled transactions changes historical balances. If you change the posting date, review the affected reconciliations afterwards."
+msgstr "ताळमेळ केलेले व्यवहार हलवल्याने किंवा पुनर्संचयित केल्याने पूर्वीच्या शिलकी बदलतात. नोंदणीचा दिनांक बदलल्यास, नंतर प्रभावित ताळमेळ तपासा."
+
+#, kde-format
+msgid "No draft transactions in this document."
+msgstr "या दस्तऐवजात व्यवहारांचे मसुदे नाहीत."
+
+#, kde-format
+msgid "Not reconciled"
+msgstr "ताळमेळ न केलेले"
+
+#, kde-format
+msgid "Open a KMyMoney document to view its drafts."
+msgstr "मसुदे पाहण्यासाठी KMyMoney दस्तऐवज उघडा."
+
+#, kde-format
+msgid "Payee"
+msgstr "प्राप्तकर्ता"
+
+#, kde-format
+msgid "Posting date:"
+msgstr "नोंदणीचा दिनांक:"
+
+#, kde-format
+msgid "Price (exact)"
+msgstr "किंमत (अचूक)"
+
+#, kde-format
+msgid "Reconciled"
+msgstr "ताळमेळ केलेले"
+
+#, kde-format
+msgid "Reconciliation"
+msgstr "ताळमेळ"
+
+#, kde-format
+msgid "Reconciliation date"
+msgstr "ताळमेळाचा दिनांक"
+
+#, kde-format
+msgid "Remove saved restoration copies"
+msgstr "जतन केलेल्या पुनर्संचयनांच्या प्रती काढा"
+
+#, kde-format
+msgid "Restoration requires a valid posting date and no other active operation."
+msgstr "पुनर्संचयनासाठी वैध नोंदणी दिनांक आवश्यक आहे आणि दुसरी कोणतीही कृती चालू नसावी."
+
+#, kde-format
+msgid "Restore"
+msgstr "पुनर्संचयित करा"
+
+#, kde-format
+msgid "Restore draft transaction"
+msgstr "व्यवहाराचा मसुदा पुनर्संचयित करा"
+
+#, kde-format
+msgid "Restored; recovery copy retained"
+msgstr "पुनर्संचयित केले; पुनर्प्राप्ती प्रत राखली"
+
+#, kde-format
+msgid "Select at least one saved transaction."
+msgstr "किमान एक जतन केलेला व्यवहार निवडा."
+
+#, kde-format
+msgid "Shares (exact)"
+msgstr "समभाग (अचूक)"
+
+#, kde-format
+msgid "Show drafts…"
+msgstr "मसुदे दाखवा…"
+
+#, kde-format
+msgid "Splits"
+msgstr "विभाग"
+
+#, kde-format
+msgid "Status"
+msgstr "स्थिती"
+
+#, kde-format
+msgid "The plugin module could not be retained for undo history. Restart KMyMoney and check the plugin installation."
+msgstr "पूर्ववत करण्याच्या इतिहासासाठी प्लगइन मॉड्यूल राखता आले नाही. KMyMoney पुन्हा सुरू करा आणि प्लगइनची स्थापना तपासा."
+
+#, kde-format
+msgid "The selected ledger split no longer exists."
+msgstr "निवडलेला खातेवहीतील विभाग आता अस्तित्वात नाही."
+
+#, kde-format
+msgid "The transaction currency or security no longer exists."
+msgstr "व्यवहाराचे चलन किंवा रोखा आता अस्तित्वात नाही."
+
+#, kde-format
+msgid "This draft exceeds the 4 MiB metadata record limit."
+msgstr "हा मसुदा मेटाडेटा नोंदीच्या 4 MiB मर्यादेपेक्षा मोठा आहे."
+
+#, kde-format
+msgid "This draft has already been restored. Save the document to finish cleanup."
+msgstr "हा मसुदा आधीच पुनर्संचयित केला आहे. साफसफाई पूर्ण करण्यासाठी दस्तऐवज जतन करा."
+
+#, kde-format
+msgid "This draft no longer exists."
+msgstr "हा मसुदा आता अस्तित्वात नाही."
+
+#, kde-format
+msgid "This transaction already has a draft or a pending restoration record. Save the document first."
+msgstr "या व्यवहारासाठी आधीच मसुदा किंवा प्रलंबित पुनर्संचयन नोंद आहे. आधी दस्तऐवज जतन करा."
+
+#, kde-format
+msgid "This transaction cannot be archived without changes."
+msgstr "हा व्यवहार बदलांशिवाय संग्रहित करता येत नाही."
+
+#, kde-format
+msgid "Unable to move to drafts"
+msgstr "मसुद्यांमध्ये हलवता येत नाही"
+
+#, kde-format
+msgid "Unable to read drafts: %1"
+msgstr "मसुदे वाचता येत नाहीत: %1"
+
+#, kde-format
+msgid "Unable to restore draft"
+msgstr "मसुदा पुनर्संचयित करता येत नाही"
+
+#, kde-format
+msgid "Unknown"
+msgstr "अज्ञात"
+
+#, kde-format
+msgid "Unknown or missing draft fields. Archive left unchanged."
+msgstr "मसुद्याची क्षेत्रे अज्ञात किंवा गहाळ आहेत. संग्रह बदललेला नाही."
+
+#, kde-format
+msgid "Unsupported draft metadata version. Update the plugin before changing drafts."
+msgstr "मसुद्याच्या मेटाडेटाची आवृत्ती समर्थित नाही. मसुदे बदलण्यापूर्वी प्लगइन अद्ययावत करा."
+
+#, kde-format
+msgid "Value"
+msgstr "मूल्य"
+
+#, kde-format
+msgid "Value (%1)"
+msgstr "मूल्य (%1)"

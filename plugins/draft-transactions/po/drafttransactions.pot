@@ -1,0 +1,338 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Draft transactions contributors
+# This file is distributed under the same license as the drafttransactions package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: drafttransactions 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-27 08:52+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#, kde-format
+msgid "A split references a missing cost center: %1"
+msgstr ""
+
+#, kde-format
+msgid "A split references a missing or standard account: %1"
+msgstr ""
+
+#, kde-format
+msgid "A split references a missing payee: %1"
+msgstr ""
+
+#, kde-format
+msgid "A split references a missing tag: %1"
+msgstr ""
+
+#, kde-format
+msgid "Account"
+msgstr ""
+
+#, kde-format
+msgid "Account '%1' is closed. Reopen it in KMyMoney before moving or restoring this transaction."
+msgstr ""
+
+#, kde-format
+msgid "All splits (read-only; exact amounts are shown as fractions)"
+msgstr ""
+
+#, kde-format
+msgid "Cleared"
+msgstr ""
+
+#, kde-format
+msgid "Currency"
+msgstr ""
+
+#, kde-format
+msgid "Date"
+msgstr ""
+
+#, kde-format
+msgid "Draft"
+msgstr ""
+
+#, kde-format
+msgid "Draft checksum mismatch. The archive was not changed."
+msgstr ""
+
+#, kde-format
+msgid "Draft contains missing, unknown, or noncanonical transaction fields."
+msgstr ""
+
+#, kde-format
+msgid "Draft identity does not match its metadata key. No drafts were changed."
+msgstr ""
+
+#, kde-format
+msgid "Draft metadata is not valid JSON."
+msgstr ""
+
+#, kde-format
+msgid "Draft metadata is too large."
+msgstr ""
+
+#, kde-format
+msgid "Draft metadata must be an object."
+msgstr ""
+
+#, kde-format
+msgid "Draft metadata values must be strings."
+msgstr ""
+
+#, kde-format
+msgid "Draft origin split does not exist."
+msgstr ""
+
+#, kde-format
+msgid "Draft splits are missing."
+msgstr ""
+
+#, kde-format
+msgid "Draft tags are missing."
+msgstr ""
+
+#, kde-format
+msgid "Draft transactions"
+msgstr ""
+
+#, kde-format
+msgid "Drafted (UTC)"
+msgstr ""
+
+#, kde-format
+msgid "Drafts"
+msgstr ""
+
+#, kde-format
+msgid "Drafts do not affect balances. Save the document to keep changes. Restored recovery copies are removed only after a clean save and full verification; cleanup is saved with the next document save."
+msgstr ""
+
+#, kde-format
+msgid "Every split will return to its original account. Only the posting date can change; reconciliation flags and dates remain unchanged."
+msgstr ""
+
+#, kde-format
+msgid "Filter drafts…"
+msgstr ""
+
+#, kde-format
+msgid "Finish the current KMyMoney operation first."
+msgstr ""
+
+#, kde-format
+msgid "Frozen"
+msgstr ""
+
+#, kde-format
+msgid "Invalid archived transaction identity or date."
+msgstr ""
+
+#, kde-format
+msgid "Invalid draft identity or timestamp."
+msgstr ""
+
+#, kde-format
+msgid "Invalid draft split."
+msgstr ""
+
+#, kde-format
+msgid "Invalid draft tag."
+msgstr ""
+
+#, kde-format
+msgid "Invalid exact monetary value in draft."
+msgstr ""
+
+#, kde-format
+msgid "Invalid matched transaction."
+msgstr ""
+
+#, kde-format
+msgid "Invalid reconciliation state."
+msgstr ""
+
+#, kde-format
+msgid "Invalid restoration recovery record."
+msgstr ""
+
+#, kde-format
+msgid "KMyMoney changed transaction fields during restoration. The operation was rolled back and the draft was retained."
+msgstr ""
+
+#, kde-format
+msgid "Keep complete transactions in drafts and restore them later"
+msgstr ""
+
+#, kde-format
+msgid "Matched transaction nesting is too deep."
+msgstr ""
+
+#, kde-format
+msgid "Memo"
+msgstr ""
+
+#, kde-format
+msgid "Missing or duplicate split identity in draft."
+msgstr ""
+
+#, kde-format
+msgid "Move the complete selected transactions, including every split, to drafts? They will stop affecting all account balances, reports, and reconciliations."
+msgstr ""
+
+#, kde-format
+msgid "Move to drafts"
+msgstr ""
+
+#, kde-format
+msgid "Moving or restoring reconciled transactions changes historical balances. If you change the posting date, review the affected reconciliations afterwards."
+msgstr ""
+
+#, kde-format
+msgid "No draft transactions in this document."
+msgstr ""
+
+#, kde-format
+msgid "Not reconciled"
+msgstr ""
+
+#, kde-format
+msgid "Open a KMyMoney document to view its drafts."
+msgstr ""
+
+#, kde-format
+msgid "Payee"
+msgstr ""
+
+#, kde-format
+msgid "Posting date:"
+msgstr ""
+
+#, kde-format
+msgid "Price (exact)"
+msgstr ""
+
+#, kde-format
+msgid "Reconciled"
+msgstr ""
+
+#, kde-format
+msgid "Reconciliation"
+msgstr ""
+
+#, kde-format
+msgid "Reconciliation date"
+msgstr ""
+
+#, kde-format
+msgid "Remove saved restoration copies"
+msgstr ""
+
+#, kde-format
+msgid "Restoration requires a valid posting date and no other active operation."
+msgstr ""
+
+#, kde-format
+msgid "Restore"
+msgstr ""
+
+#, kde-format
+msgid "Restore draft transaction"
+msgstr ""
+
+#, kde-format
+msgid "Restored; recovery copy retained"
+msgstr ""
+
+#, kde-format
+msgid "Select at least one saved transaction."
+msgstr ""
+
+#, kde-format
+msgid "Shares (exact)"
+msgstr ""
+
+#, kde-format
+msgid "Show drafts…"
+msgstr ""
+
+#, kde-format
+msgid "Splits"
+msgstr ""
+
+#, kde-format
+msgid "Status"
+msgstr ""
+
+#, kde-format
+msgid "The plugin module could not be retained for undo history. Restart KMyMoney and check the plugin installation."
+msgstr ""
+
+#, kde-format
+msgid "The selected ledger split no longer exists."
+msgstr ""
+
+#, kde-format
+msgid "The transaction currency or security no longer exists."
+msgstr ""
+
+#, kde-format
+msgid "This draft exceeds the 4 MiB metadata record limit."
+msgstr ""
+
+#, kde-format
+msgid "This draft has already been restored. Save the document to finish cleanup."
+msgstr ""
+
+#, kde-format
+msgid "This draft no longer exists."
+msgstr ""
+
+#, kde-format
+msgid "This transaction already has a draft or a pending restoration record. Save the document first."
+msgstr ""
+
+#, kde-format
+msgid "This transaction cannot be archived without changes."
+msgstr ""
+
+#, kde-format
+msgid "Unable to move to drafts"
+msgstr ""
+
+#, kde-format
+msgid "Unable to read drafts: %1"
+msgstr ""
+
+#, kde-format
+msgid "Unable to restore draft"
+msgstr ""
+
+#, kde-format
+msgid "Unknown"
+msgstr ""
+
+#, kde-format
+msgid "Unknown or missing draft fields. Archive left unchanged."
+msgstr ""
+
+#, kde-format
+msgid "Unsupported draft metadata version. Update the plugin before changing drafts."
+msgstr ""
+
+#, kde-format
+msgid "Value"
+msgstr ""
+
+#, kde-format
+msgid "Value (%1)"
+msgstr ""

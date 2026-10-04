@@ -1,0 +1,337 @@
+# SPDX-FileCopyrightText: 2026 Draft transactions contributors
+# SPDX-License-Identifier: GPL-2.0-or-later
+# Initial AI-assisted translation. Native-speaker review is pending.
+msgid ""
+msgstr ""
+"Project-Id-Version: drafttransactions 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-27 08:52+0300\n"
+"PO-Revision-Date: 2026-09-27 12:00+0300\n"
+"Last-Translator: Draft transactions contributors\n"
+"Language-Team: hu\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Initial AI-assisted translation; native review pending\n"
+
+#, kde-format
+msgid "A split references a missing cost center: %1"
+msgstr "Egy felosztás hiányzó költséghelyre hivatkozik: %1"
+
+#, kde-format
+msgid "A split references a missing or standard account: %1"
+msgstr "Egy felosztás hiányzó vagy szabványos számlára hivatkozik: %1"
+
+#, kde-format
+msgid "A split references a missing payee: %1"
+msgstr "Egy felosztás hiányzó kedvezményezettre hivatkozik: %1"
+
+#, kde-format
+msgid "A split references a missing tag: %1"
+msgstr "Egy felosztás hiányzó címkére hivatkozik: %1"
+
+#, kde-format
+msgid "Account"
+msgstr "Számla"
+
+#, kde-format
+msgid "Account '%1' is closed. Reopen it in KMyMoney before moving or restoring this transaction."
+msgstr "A(z) „%1” számla le van zárva. A tranzakció áthelyezése vagy visszaállítása előtt nyissa meg újra a KMyMoneyban."
+
+#, kde-format
+msgid "All splits (read-only; exact amounts are shown as fractions)"
+msgstr "Minden felosztás (csak olvasható; a pontos összegek törtekként jelennek meg)"
+
+#, kde-format
+msgid "Cleared"
+msgstr "Ellenőrzött"
+
+#, kde-format
+msgid "Currency"
+msgstr "Pénznem"
+
+#, kde-format
+msgid "Date"
+msgstr "Dátum"
+
+#, kde-format
+msgid "Draft"
+msgstr "Piszkozat"
+
+#, kde-format
+msgid "Draft checksum mismatch. The archive was not changed."
+msgstr "A piszkozat ellenőrzőösszege nem egyezik. Az archívum nem változott."
+
+#, kde-format
+msgid "Draft contains missing, unknown, or noncanonical transaction fields."
+msgstr "A piszkozat hiányzó, ismeretlen vagy nem kanonikus tranzakciómezőket tartalmaz."
+
+#, kde-format
+msgid "Draft identity does not match its metadata key. No drafts were changed."
+msgstr "A piszkozat azonosítója nem egyezik a metaadatkulccsal. Egyetlen piszkozat sem változott."
+
+#, kde-format
+msgid "Draft metadata is not valid JSON."
+msgstr "A piszkozat metaadatai nem érvényes JSON-adatok."
+
+#, kde-format
+msgid "Draft metadata is too large."
+msgstr "A piszkozat metaadatai túl nagyok."
+
+#, kde-format
+msgid "Draft metadata must be an object."
+msgstr "A piszkozat metaadatainak objektumnak kell lenniük."
+
+#, kde-format
+msgid "Draft metadata values must be strings."
+msgstr "A piszkozat metaadatértékeinek karakterláncoknak kell lenniük."
+
+#, kde-format
+msgid "Draft origin split does not exist."
+msgstr "A piszkozat eredeti felosztása nem létezik."
+
+#, kde-format
+msgid "Draft splits are missing."
+msgstr "A piszkozat felosztásai hiányoznak."
+
+#, kde-format
+msgid "Draft tags are missing."
+msgstr "A piszkozat címkéi hiányoznak."
+
+#, kde-format
+msgid "Draft transactions"
+msgstr "Tranzakciópiszkozatok"
+
+#, kde-format
+msgid "Drafted (UTC)"
+msgstr "Piszkozatba helyezve (UTC)"
+
+#, kde-format
+msgid "Drafts"
+msgstr "Piszkozatok"
+
+#, kde-format
+msgid "Drafts do not affect balances. Save the document to keep changes. Restored recovery copies are removed only after a clean save and full verification; cleanup is saved with the next document save."
+msgstr "A piszkozatok nem befolyásolják az egyenlegeket. A módosítások megőrzéséhez mentse a dokumentumot. A visszaállított tranzakciók helyreállítási másolatai csak sikeres mentés és teljes ellenőrzés után törlődnek; a törlés a dokumentum következő mentésekor kerül mentésre."
+
+#, kde-format
+msgid "Every split will return to its original account. Only the posting date can change; reconciliation flags and dates remain unchanged."
+msgstr "Minden felosztás az eredeti számlájára kerül vissza. Csak a könyvelési dátum módosítható; az egyeztetési jelölések és dátumok változatlanok maradnak."
+
+#, kde-format
+msgid "Filter drafts…"
+msgstr "Piszkozatok szűrése…"
+
+#, kde-format
+msgid "Finish the current KMyMoney operation first."
+msgstr "Először fejezze be a KMyMoney jelenlegi műveletét."
+
+#, kde-format
+msgid "Frozen"
+msgstr "Zárolt"
+
+#, kde-format
+msgid "Invalid archived transaction identity or date."
+msgstr "Érvénytelen archivált tranzakcióazonosító vagy dátum."
+
+#, kde-format
+msgid "Invalid draft identity or timestamp."
+msgstr "Érvénytelen piszkozatazonosító vagy időbélyeg."
+
+#, kde-format
+msgid "Invalid draft split."
+msgstr "Érvénytelen piszkozatfelosztás."
+
+#, kde-format
+msgid "Invalid draft tag."
+msgstr "Érvénytelen piszkozatcímke."
+
+#, kde-format
+msgid "Invalid exact monetary value in draft."
+msgstr "Érvénytelen pontos pénzérték a piszkozatban."
+
+#, kde-format
+msgid "Invalid matched transaction."
+msgstr "Érvénytelen párosított tranzakció."
+
+#, kde-format
+msgid "Invalid reconciliation state."
+msgstr "Érvénytelen egyeztetési állapot."
+
+#, kde-format
+msgid "Invalid restoration recovery record."
+msgstr "Érvénytelen visszaállítási helyreállítási rekord."
+
+#, kde-format
+msgid "KMyMoney changed transaction fields during restoration. The operation was rolled back and the draft was retained."
+msgstr "A KMyMoney a visszaállítás során módosította a tranzakció mezőit. A művelet vissza lett vonva, a piszkozat megmaradt."
+
+#, kde-format
+msgid "Keep complete transactions in drafts and restore them later"
+msgstr "Őrizzen meg teljes tranzakciókat piszkozatként, és állítsa vissza őket később"
+
+#, kde-format
+msgid "Matched transaction nesting is too deep."
+msgstr "A párosított tranzakciók túl mélyen vannak egymásba ágyazva."
+
+#, kde-format
+msgid "Memo"
+msgstr "Megjegyzés"
+
+#, kde-format
+msgid "Missing or duplicate split identity in draft."
+msgstr "Hiányzó vagy ismétlődő felosztásazonosító a piszkozatban."
+
+#, kde-format
+msgid "Move the complete selected transactions, including every split, to drafts? They will stop affecting all account balances, reports, and reconciliations."
+msgstr "Áthelyezi a kijelölt teljes tranzakciókat minden felosztásukkal együtt a piszkozatok közé? Többé nem befolyásolják a számlaegyenlegeket, jelentéseket és egyeztetéseket."
+
+#, kde-format
+msgid "Move to drafts"
+msgstr "Áthelyezés a piszkozatok közé"
+
+#, kde-format
+msgid "Moving or restoring reconciled transactions changes historical balances. If you change the posting date, review the affected reconciliations afterwards."
+msgstr "Az egyeztetett tranzakciók áthelyezése vagy visszaállítása megváltoztatja a korábbi egyenlegeket. A könyvelési dátum módosítása után ellenőrizze az érintett egyeztetéseket."
+
+#, kde-format
+msgid "No draft transactions in this document."
+msgstr "A dokumentumban nincsenek tranzakciópiszkozatok."
+
+#, kde-format
+msgid "Not reconciled"
+msgstr "Nem egyeztetett"
+
+#, kde-format
+msgid "Open a KMyMoney document to view its drafts."
+msgstr "Nyisson meg egy KMyMoney-dokumentumot a piszkozatainak megtekintéséhez."
+
+#, kde-format
+msgid "Payee"
+msgstr "Kedvezményezett"
+
+#, kde-format
+msgid "Posting date:"
+msgstr "Könyvelési dátum:"
+
+#, kde-format
+msgid "Price (exact)"
+msgstr "Ár (pontos)"
+
+#, kde-format
+msgid "Reconciled"
+msgstr "Egyeztetett"
+
+#, kde-format
+msgid "Reconciliation"
+msgstr "Egyeztetés"
+
+#, kde-format
+msgid "Reconciliation date"
+msgstr "Egyeztetés dátuma"
+
+#, kde-format
+msgid "Remove saved restoration copies"
+msgstr "Mentett visszaállítások másolatainak eltávolítása"
+
+#, kde-format
+msgid "Restoration requires a valid posting date and no other active operation."
+msgstr "A visszaállításhoz érvényes könyvelési dátum szükséges, és nem futhat más művelet."
+
+#, kde-format
+msgid "Restore"
+msgstr "Visszaállítás"
+
+#, kde-format
+msgid "Restore draft transaction"
+msgstr "Tranzakciópiszkozat visszaállítása"
+
+#, kde-format
+msgid "Restored; recovery copy retained"
+msgstr "Visszaállítva; helyreállítási másolat megőrizve"
+
+#, kde-format
+msgid "Select at least one saved transaction."
+msgstr "Jelöljön ki legalább egy mentett tranzakciót."
+
+#, kde-format
+msgid "Shares (exact)"
+msgstr "Részvények (pontos)"
+
+#, kde-format
+msgid "Show drafts…"
+msgstr "Piszkozatok megjelenítése…"
+
+#, kde-format
+msgid "Splits"
+msgstr "Felosztások"
+
+#, kde-format
+msgid "Status"
+msgstr "Állapot"
+
+#, kde-format
+msgid "The plugin module could not be retained for undo history. Restart KMyMoney and check the plugin installation."
+msgstr "A bővítménymodult nem sikerült megőrizni a visszavonási előzményekhez. Indítsa újra a KMyMoneyt, és ellenőrizze a bővítmény telepítését."
+
+#, kde-format
+msgid "The selected ledger split no longer exists."
+msgstr "A kijelölt főkönyvi felosztás már nem létezik."
+
+#, kde-format
+msgid "The transaction currency or security no longer exists."
+msgstr "A tranzakció pénzneme vagy értékpapírja már nem létezik."
+
+#, kde-format
+msgid "This draft exceeds the 4 MiB metadata record limit."
+msgstr "Ez a piszkozat túllépi a metaadatrekord 4 MiB-os méretkorlátját."
+
+#, kde-format
+msgid "This draft has already been restored. Save the document to finish cleanup."
+msgstr "Ez a piszkozat már vissza lett állítva. A tisztítás befejezéséhez mentse a dokumentumot."
+
+#, kde-format
+msgid "This draft no longer exists."
+msgstr "Ez a piszkozat már nem létezik."
+
+#, kde-format
+msgid "This transaction already has a draft or a pending restoration record. Save the document first."
+msgstr "Ehhez a tranzakcióhoz már tartozik piszkozat vagy függőben lévő visszaállítási rekord. Először mentse a dokumentumot."
+
+#, kde-format
+msgid "This transaction cannot be archived without changes."
+msgstr "Ez a tranzakció nem archiválható változtatás nélkül."
+
+#, kde-format
+msgid "Unable to move to drafts"
+msgstr "Nem lehet áthelyezni a piszkozatok közé"
+
+#, kde-format
+msgid "Unable to read drafts: %1"
+msgstr "Nem lehet olvasni a piszkozatokat: %1"
+
+#, kde-format
+msgid "Unable to restore draft"
+msgstr "Nem lehet visszaállítani a piszkozatot"
+
+#, kde-format
+msgid "Unknown"
+msgstr "Ismeretlen"
+
+#, kde-format
+msgid "Unknown or missing draft fields. Archive left unchanged."
+msgstr "Ismeretlen vagy hiányzó piszkozatmezők. Az archívum változatlan maradt."
+
+#, kde-format
+msgid "Unsupported draft metadata version. Update the plugin before changing drafts."
+msgstr "A piszkozat metaadatainak verziója nem támogatott. A piszkozatok módosítása előtt frissítse a bővítményt."
+
+#, kde-format
+msgid "Value"
+msgstr "Érték"
+
+#, kde-format
+msgid "Value (%1)"
+msgstr "Érték (%1)"

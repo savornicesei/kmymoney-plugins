@@ -1,0 +1,337 @@
+# SPDX-FileCopyrightText: 2026 Draft transactions contributors
+# SPDX-License-Identifier: GPL-2.0-or-later
+# Initial AI-assisted translation. Native-speaker review is pending.
+msgid ""
+msgstr ""
+"Project-Id-Version: drafttransactions 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-27 08:52+0300\n"
+"PO-Revision-Date: 2026-09-27 12:00+0300\n"
+"Last-Translator: Draft transactions contributors\n"
+"Language-Team: tr\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Initial AI-assisted translation; native review pending\n"
+
+#, kde-format
+msgid "A split references a missing cost center: %1"
+msgstr "Bir bölme, eksik bir maliyet merkezine başvuruyor: %1"
+
+#, kde-format
+msgid "A split references a missing or standard account: %1"
+msgstr "Bir bölme, eksik veya standart bir hesaba başvuruyor: %1"
+
+#, kde-format
+msgid "A split references a missing payee: %1"
+msgstr "Bir bölme, eksik bir alacaklıya başvuruyor: %1"
+
+#, kde-format
+msgid "A split references a missing tag: %1"
+msgstr "Bir bölme, eksik bir etikete başvuruyor: %1"
+
+#, kde-format
+msgid "Account"
+msgstr "Hesap"
+
+#, kde-format
+msgid "Account '%1' is closed. Reopen it in KMyMoney before moving or restoring this transaction."
+msgstr "“%1” hesabı kapalı. Bu işlemi taşımadan veya geri yüklemeden önce hesabı KMyMoney’de yeniden açın."
+
+#, kde-format
+msgid "All splits (read-only; exact amounts are shown as fractions)"
+msgstr "Tüm bölmeler (salt okunur; kesin tutarlar kesir olarak gösterilir)"
+
+#, kde-format
+msgid "Cleared"
+msgstr "Kontrol edildi"
+
+#, kde-format
+msgid "Currency"
+msgstr "Para birimi"
+
+#, kde-format
+msgid "Date"
+msgstr "Tarih"
+
+#, kde-format
+msgid "Draft"
+msgstr "Taslak"
+
+#, kde-format
+msgid "Draft checksum mismatch. The archive was not changed."
+msgstr "Taslak sağlama toplamı eşleşmiyor. Arşiv değiştirilmedi."
+
+#, kde-format
+msgid "Draft contains missing, unknown, or noncanonical transaction fields."
+msgstr "Taslak, eksik, bilinmeyen veya standart biçimde olmayan işlem alanları içeriyor."
+
+#, kde-format
+msgid "Draft identity does not match its metadata key. No drafts were changed."
+msgstr "Taslak kimliği, üst veri anahtarıyla eşleşmiyor. Hiçbir taslak değiştirilmedi."
+
+#, kde-format
+msgid "Draft metadata is not valid JSON."
+msgstr "Taslak üst verileri geçerli JSON değil."
+
+#, kde-format
+msgid "Draft metadata is too large."
+msgstr "Taslak üst verileri çok büyük."
+
+#, kde-format
+msgid "Draft metadata must be an object."
+msgstr "Taslak üst verileri bir nesne olmalıdır."
+
+#, kde-format
+msgid "Draft metadata values must be strings."
+msgstr "Taslak üst veri değerleri dizge olmalıdır."
+
+#, kde-format
+msgid "Draft origin split does not exist."
+msgstr "Taslağın özgün bölmesi yok."
+
+#, kde-format
+msgid "Draft splits are missing."
+msgstr "Taslak bölmeleri eksik."
+
+#, kde-format
+msgid "Draft tags are missing."
+msgstr "Taslak etiketleri eksik."
+
+#, kde-format
+msgid "Draft transactions"
+msgstr "Taslak işlemler"
+
+#, kde-format
+msgid "Drafted (UTC)"
+msgstr "Taslağa taşınma (UTC)"
+
+#, kde-format
+msgid "Drafts"
+msgstr "Taslaklar"
+
+#, kde-format
+msgid "Drafts do not affect balances. Save the document to keep changes. Restored recovery copies are removed only after a clean save and full verification; cleanup is saved with the next document save."
+msgstr "Taslaklar bakiyeleri etkilemez. Değişiklikleri korumak için belgeyi kaydedin. Geri yüklenen işlemlerin kurtarma kopyaları yalnızca başarılı bir kayıt ve tam doğrulamadan sonra kaldırılır; temizleme, belgenin sonraki kaydında saklanır."
+
+#, kde-format
+msgid "Every split will return to its original account. Only the posting date can change; reconciliation flags and dates remain unchanged."
+msgstr "Her bölme özgün hesabına dönecektir. Yalnızca kayıt tarihi değiştirilebilir; mutabakat işaretleri ve tarihleri değişmeden kalır."
+
+#, kde-format
+msgid "Filter drafts…"
+msgstr "Taslakları süz…"
+
+#, kde-format
+msgid "Finish the current KMyMoney operation first."
+msgstr "Önce geçerli KMyMoney işlemini tamamlayın."
+
+#, kde-format
+msgid "Frozen"
+msgstr "Donduruldu"
+
+#, kde-format
+msgid "Invalid archived transaction identity or date."
+msgstr "Arşivlenmiş işlem kimliği veya tarihi geçersiz."
+
+#, kde-format
+msgid "Invalid draft identity or timestamp."
+msgstr "Taslak kimliği veya zaman damgası geçersiz."
+
+#, kde-format
+msgid "Invalid draft split."
+msgstr "Geçersiz taslak bölmesi."
+
+#, kde-format
+msgid "Invalid draft tag."
+msgstr "Geçersiz taslak etiketi."
+
+#, kde-format
+msgid "Invalid exact monetary value in draft."
+msgstr "Taslakta geçersiz kesin parasal değer."
+
+#, kde-format
+msgid "Invalid matched transaction."
+msgstr "Geçersiz eşleştirilmiş işlem."
+
+#, kde-format
+msgid "Invalid reconciliation state."
+msgstr "Geçersiz mutabakat durumu."
+
+#, kde-format
+msgid "Invalid restoration recovery record."
+msgstr "Geçersiz geri yükleme kurtarma kaydı."
+
+#, kde-format
+msgid "KMyMoney changed transaction fields during restoration. The operation was rolled back and the draft was retained."
+msgstr "KMyMoney, geri yükleme sırasında işlem alanlarını değiştirdi. İşlem geri alındı ve taslak korundu."
+
+#, kde-format
+msgid "Keep complete transactions in drafts and restore them later"
+msgstr "İşlemleri tüm ayrıntılarıyla taslaklarda saklayın ve daha sonra geri yükleyin"
+
+#, kde-format
+msgid "Matched transaction nesting is too deep."
+msgstr "Eşleştirilmiş işlemler çok derin iç içe geçmiş."
+
+#, kde-format
+msgid "Memo"
+msgstr "Not"
+
+#, kde-format
+msgid "Missing or duplicate split identity in draft."
+msgstr "Taslakta eksik veya yinelenen bölme kimliği."
+
+#, kde-format
+msgid "Move the complete selected transactions, including every split, to drafts? They will stop affecting all account balances, reports, and reconciliations."
+msgstr "Seçili işlemler, tüm bölmeleriyle birlikte bütünüyle taslaklara taşınsın mı? Artık hiçbir hesap bakiyesini, raporu ve mutabakatı etkilemeyecekler."
+
+#, kde-format
+msgid "Move to drafts"
+msgstr "Taslaklara taşı"
+
+#, kde-format
+msgid "Moving or restoring reconciled transactions changes historical balances. If you change the posting date, review the affected reconciliations afterwards."
+msgstr "Mutabık işlemleri taşımak veya geri yüklemek geçmiş bakiyeleri değiştirir. Kayıt tarihini değiştirirseniz etkilenen mutabakatları daha sonra gözden geçirin."
+
+#, kde-format
+msgid "No draft transactions in this document."
+msgstr "Bu belgede taslak işlem yok."
+
+#, kde-format
+msgid "Not reconciled"
+msgstr "Mutabık değil"
+
+#, kde-format
+msgid "Open a KMyMoney document to view its drafts."
+msgstr "Taslaklarını görüntülemek için bir KMyMoney belgesi açın."
+
+#, kde-format
+msgid "Payee"
+msgstr "Alacaklı"
+
+#, kde-format
+msgid "Posting date:"
+msgstr "Kayıt tarihi:"
+
+#, kde-format
+msgid "Price (exact)"
+msgstr "Fiyat (kesin)"
+
+#, kde-format
+msgid "Reconciled"
+msgstr "Mutabık"
+
+#, kde-format
+msgid "Reconciliation"
+msgstr "Mutabakat"
+
+#, kde-format
+msgid "Reconciliation date"
+msgstr "Mutabakat tarihi"
+
+#, kde-format
+msgid "Remove saved restoration copies"
+msgstr "Kaydedilmiş geri yüklemelerin kopyalarını kaldır"
+
+#, kde-format
+msgid "Restoration requires a valid posting date and no other active operation."
+msgstr "Geri yükleme için geçerli bir kayıt tarihi gereklidir ve başka bir işlem etkin olmamalıdır."
+
+#, kde-format
+msgid "Restore"
+msgstr "Geri yükle"
+
+#, kde-format
+msgid "Restore draft transaction"
+msgstr "Taslak işlemi geri yükle"
+
+#, kde-format
+msgid "Restored; recovery copy retained"
+msgstr "Geri yüklendi; kurtarma kopyası korundu"
+
+#, kde-format
+msgid "Select at least one saved transaction."
+msgstr "En az bir kaydedilmiş işlem seçin."
+
+#, kde-format
+msgid "Shares (exact)"
+msgstr "Paylar (kesin)"
+
+#, kde-format
+msgid "Show drafts…"
+msgstr "Taslakları göster…"
+
+#, kde-format
+msgid "Splits"
+msgstr "Bölmeler"
+
+#, kde-format
+msgid "Status"
+msgstr "Durum"
+
+#, kde-format
+msgid "The plugin module could not be retained for undo history. Restart KMyMoney and check the plugin installation."
+msgstr "Eklenti modülü, geri alma geçmişi için korunamadı. KMyMoney’yi yeniden başlatın ve eklenti kurulumunu denetleyin."
+
+#, kde-format
+msgid "The selected ledger split no longer exists."
+msgstr "Seçili defter bölmesi artık yok."
+
+#, kde-format
+msgid "The transaction currency or security no longer exists."
+msgstr "İşlemin para birimi veya menkul kıymeti artık yok."
+
+#, kde-format
+msgid "This draft exceeds the 4 MiB metadata record limit."
+msgstr "Bu taslak, üst veri kaydı başına 4 MiB sınırını aşıyor."
+
+#, kde-format
+msgid "This draft has already been restored. Save the document to finish cleanup."
+msgstr "Bu taslak zaten geri yüklendi. Temizlemeyi tamamlamak için belgeyi kaydedin."
+
+#, kde-format
+msgid "This draft no longer exists."
+msgstr "Bu taslak artık yok."
+
+#, kde-format
+msgid "This transaction already has a draft or a pending restoration record. Save the document first."
+msgstr "Bu işlemin zaten bir taslağı veya bekleyen geri yükleme kaydı var. Önce belgeyi kaydedin."
+
+#, kde-format
+msgid "This transaction cannot be archived without changes."
+msgstr "Bu işlem değişiklik yapılmadan arşivlenemez."
+
+#, kde-format
+msgid "Unable to move to drafts"
+msgstr "Taslaklara taşınamıyor"
+
+#, kde-format
+msgid "Unable to read drafts: %1"
+msgstr "Taslaklar okunamıyor: %1"
+
+#, kde-format
+msgid "Unable to restore draft"
+msgstr "Taslak geri yüklenemiyor"
+
+#, kde-format
+msgid "Unknown"
+msgstr "Bilinmiyor"
+
+#, kde-format
+msgid "Unknown or missing draft fields. Archive left unchanged."
+msgstr "Bilinmeyen veya eksik taslak alanları. Arşiv değiştirilmedi."
+
+#, kde-format
+msgid "Unsupported draft metadata version. Update the plugin before changing drafts."
+msgstr "Desteklenmeyen taslak üst veri sürümü. Taslakları değiştirmeden önce eklentiyi güncelleyin."
+
+#, kde-format
+msgid "Value"
+msgstr "Değer"
+
+#, kde-format
+msgid "Value (%1)"
+msgstr "Değer (%1)"

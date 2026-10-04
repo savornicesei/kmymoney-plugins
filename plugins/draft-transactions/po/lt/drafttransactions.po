@@ -1,0 +1,337 @@
+# SPDX-FileCopyrightText: 2026 Draft transactions contributors
+# SPDX-License-Identifier: GPL-2.0-or-later
+# Initial AI-assisted translation. Native-speaker review is pending.
+msgid ""
+msgstr ""
+"Project-Id-Version: drafttransactions 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-27 08:52+0300\n"
+"PO-Revision-Date: 2026-09-27 12:00+0300\n"
+"Last-Translator: Draft transactions contributors\n"
+"Language-Team: lt\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
+"X-Generator: Initial AI-assisted translation; native review pending\n"
+
+#, kde-format
+msgid "A split references a missing cost center: %1"
+msgstr "Skaidymas nurodo trūkstamą išlaidų centrą: %1"
+
+#, kde-format
+msgid "A split references a missing or standard account: %1"
+msgstr "Skaidymas nurodo trūkstamą arba standartinę sąskaitą: %1"
+
+#, kde-format
+msgid "A split references a missing payee: %1"
+msgstr "Skaidymas nurodo trūkstamą gavėją: %1"
+
+#, kde-format
+msgid "A split references a missing tag: %1"
+msgstr "Skaidymas nurodo trūkstamą žymą: %1"
+
+#, kde-format
+msgid "Account"
+msgstr "Sąskaita"
+
+#, kde-format
+msgid "Account '%1' is closed. Reopen it in KMyMoney before moving or restoring this transaction."
+msgstr "Sąskaita „%1“ uždaryta. Prieš perkeldami ar atkurdami šią operaciją, vėl ją atidarykite programoje KMyMoney."
+
+#, kde-format
+msgid "All splits (read-only; exact amounts are shown as fractions)"
+msgstr "Visi skaidymai (tik skaitymui; tikslios sumos rodomos trupmenomis)"
+
+#, kde-format
+msgid "Cleared"
+msgstr "Patikrinta"
+
+#, kde-format
+msgid "Currency"
+msgstr "Valiuta"
+
+#, kde-format
+msgid "Date"
+msgstr "Data"
+
+#, kde-format
+msgid "Draft"
+msgstr "Juodraštis"
+
+#, kde-format
+msgid "Draft checksum mismatch. The archive was not changed."
+msgstr "Juodraščio kontrolinė suma nesutampa. Archyvas nepakeistas."
+
+#, kde-format
+msgid "Draft contains missing, unknown, or noncanonical transaction fields."
+msgstr "Juodraštyje yra trūkstamų, nežinomų arba nekanoninių operacijos laukų."
+
+#, kde-format
+msgid "Draft identity does not match its metadata key. No drafts were changed."
+msgstr "Juodraščio identifikatorius neatitinka metaduomenų rakto. Juodraščiai nepakeisti."
+
+#, kde-format
+msgid "Draft metadata is not valid JSON."
+msgstr "Juodraščio metaduomenys nėra taisyklingas JSON."
+
+#, kde-format
+msgid "Draft metadata is too large."
+msgstr "Juodraščio metaduomenys per dideli."
+
+#, kde-format
+msgid "Draft metadata must be an object."
+msgstr "Juodraščio metaduomenys turi būti objektas."
+
+#, kde-format
+msgid "Draft metadata values must be strings."
+msgstr "Juodraščio metaduomenų reikšmės turi būti eilutės."
+
+#, kde-format
+msgid "Draft origin split does not exist."
+msgstr "Pradinio juodraščio skaidymo nėra."
+
+#, kde-format
+msgid "Draft splits are missing."
+msgstr "Trūksta juodraščio skaidymų."
+
+#, kde-format
+msgid "Draft tags are missing."
+msgstr "Trūksta juodraščio žymų."
+
+#, kde-format
+msgid "Draft transactions"
+msgstr "Operacijų juodraščiai"
+
+#, kde-format
+msgid "Drafted (UTC)"
+msgstr "Perkelta į juodraščius (UTC)"
+
+#, kde-format
+msgid "Drafts"
+msgstr "Juodraščiai"
+
+#, kde-format
+msgid "Drafts do not affect balances. Save the document to keep changes. Restored recovery copies are removed only after a clean save and full verification; cleanup is saved with the next document save."
+msgstr "Juodraščiai neveikia likučių. Įrašykite dokumentą, kad išsaugotumėte pakeitimus. Atkurtų operacijų atkūrimo kopijos pašalinamos tik sėkmingai įrašius ir visiškai patikrinus; išvalymas įrašomas kitą kartą įrašant dokumentą."
+
+#, kde-format
+msgid "Every split will return to its original account. Only the posting date can change; reconciliation flags and dates remain unchanged."
+msgstr "Kiekvienas skaidymas grįš į pradinę sąskaitą. Galima keisti tik įrašo datą; suderinimo žymos ir datos lieka nepakitusios."
+
+#, kde-format
+msgid "Filter drafts…"
+msgstr "Filtruoti juodraščius…"
+
+#, kde-format
+msgid "Finish the current KMyMoney operation first."
+msgstr "Pirmiausia užbaikite dabartinį KMyMoney veiksmą."
+
+#, kde-format
+msgid "Frozen"
+msgstr "Užšaldyta"
+
+#, kde-format
+msgid "Invalid archived transaction identity or date."
+msgstr "Neteisingas archyvuotos operacijos identifikatorius arba data."
+
+#, kde-format
+msgid "Invalid draft identity or timestamp."
+msgstr "Neteisingas juodraščio identifikatorius arba laiko žyma."
+
+#, kde-format
+msgid "Invalid draft split."
+msgstr "Neteisingas juodraščio skaidymas."
+
+#, kde-format
+msgid "Invalid draft tag."
+msgstr "Neteisinga juodraščio žyma."
+
+#, kde-format
+msgid "Invalid exact monetary value in draft."
+msgstr "Neteisinga tiksli piniginė reikšmė juodraštyje."
+
+#, kde-format
+msgid "Invalid matched transaction."
+msgstr "Neteisinga susieta operacija."
+
+#, kde-format
+msgid "Invalid reconciliation state."
+msgstr "Neteisinga suderinimo būsena."
+
+#, kde-format
+msgid "Invalid restoration recovery record."
+msgstr "Neteisingas atkūrimo atsarginis įrašas."
+
+#, kde-format
+msgid "KMyMoney changed transaction fields during restoration. The operation was rolled back and the draft was retained."
+msgstr "Atkuriant KMyMoney pakeitė operacijos laukus. Veiksmas atšauktas, o juodraštis išsaugotas."
+
+#, kde-format
+msgid "Keep complete transactions in drafts and restore them later"
+msgstr "Laikykite visas operacijas juodraščiuose ir atkurkite jas vėliau"
+
+#, kde-format
+msgid "Matched transaction nesting is too deep."
+msgstr "Susietos operacijos įdėtos per giliai."
+
+#, kde-format
+msgid "Memo"
+msgstr "Pastaba"
+
+#, kde-format
+msgid "Missing or duplicate split identity in draft."
+msgstr "Trūkstamas arba pasikartojantis skaidymo identifikatorius juodraštyje."
+
+#, kde-format
+msgid "Move the complete selected transactions, including every split, to drafts? They will stop affecting all account balances, reports, and reconciliations."
+msgstr "Perkelti visas pasirinktas operacijas su visais skaidymais į juodraščius? Jos nebeveiks jokių sąskaitų likučių, ataskaitų ir suderinimų."
+
+#, kde-format
+msgid "Move to drafts"
+msgstr "Perkelti į juodraščius"
+
+#, kde-format
+msgid "Moving or restoring reconciled transactions changes historical balances. If you change the posting date, review the affected reconciliations afterwards."
+msgstr "Suderintų operacijų perkėlimas ar atkūrimas pakeičia ankstesnius likučius. Pakeitę įrašo datą, vėliau patikrinkite susijusius suderinimus."
+
+#, kde-format
+msgid "No draft transactions in this document."
+msgstr "Šiame dokumente nėra operacijų juodraščių."
+
+#, kde-format
+msgid "Not reconciled"
+msgstr "Nesuderinta"
+
+#, kde-format
+msgid "Open a KMyMoney document to view its drafts."
+msgstr "Atidarykite KMyMoney dokumentą, kad pamatytumėte jo juodraščius."
+
+#, kde-format
+msgid "Payee"
+msgstr "Gavėjas"
+
+#, kde-format
+msgid "Posting date:"
+msgstr "Įrašo data:"
+
+#, kde-format
+msgid "Price (exact)"
+msgstr "Kaina (tiksli)"
+
+#, kde-format
+msgid "Reconciled"
+msgstr "Suderinta"
+
+#, kde-format
+msgid "Reconciliation"
+msgstr "Suderinimas"
+
+#, kde-format
+msgid "Reconciliation date"
+msgstr "Suderinimo data"
+
+#, kde-format
+msgid "Remove saved restoration copies"
+msgstr "Pašalinti įrašytų atkūrimų kopijas"
+
+#, kde-format
+msgid "Restoration requires a valid posting date and no other active operation."
+msgstr "Atkūrimui reikia tinkamos įrašo datos ir negali vykti joks kitas veiksmas."
+
+#, kde-format
+msgid "Restore"
+msgstr "Atkurti"
+
+#, kde-format
+msgid "Restore draft transaction"
+msgstr "Atkurti operacijos juodraštį"
+
+#, kde-format
+msgid "Restored; recovery copy retained"
+msgstr "Atkurta; atkūrimo kopija išsaugota"
+
+#, kde-format
+msgid "Select at least one saved transaction."
+msgstr "Pasirinkite bent vieną įrašytą operaciją."
+
+#, kde-format
+msgid "Shares (exact)"
+msgstr "Akcijos (tiksliai)"
+
+#, kde-format
+msgid "Show drafts…"
+msgstr "Rodyti juodraščius…"
+
+#, kde-format
+msgid "Splits"
+msgstr "Skaidymai"
+
+#, kde-format
+msgid "Status"
+msgstr "Būsena"
+
+#, kde-format
+msgid "The plugin module could not be retained for undo history. Restart KMyMoney and check the plugin installation."
+msgstr "Nepavyko išlaikyti papildinio modulio atšaukimo istorijai. Paleiskite KMyMoney iš naujo ir patikrinkite papildinio diegimą."
+
+#, kde-format
+msgid "The selected ledger split no longer exists."
+msgstr "Pasirinkto apskaitos knygos skaidymo nebėra."
+
+#, kde-format
+msgid "The transaction currency or security no longer exists."
+msgstr "Operacijos valiutos arba vertybinio popieriaus nebėra."
+
+#, kde-format
+msgid "This draft exceeds the 4 MiB metadata record limit."
+msgstr "Šis juodraštis viršija 4 MiB metaduomenų įrašo ribą."
+
+#, kde-format
+msgid "This draft has already been restored. Save the document to finish cleanup."
+msgstr "Šis juodraštis jau atkurtas. Įrašykite dokumentą, kad užbaigtumėte išvalymą."
+
+#, kde-format
+msgid "This draft no longer exists."
+msgstr "Šio juodraščio nebėra."
+
+#, kde-format
+msgid "This transaction already has a draft or a pending restoration record. Save the document first."
+msgstr "Ši operacija jau turi juodraštį arba laukiantį atkūrimo įrašą. Pirmiausia įrašykite dokumentą."
+
+#, kde-format
+msgid "This transaction cannot be archived without changes."
+msgstr "Šios operacijos negalima archyvuoti be pakeitimų."
+
+#, kde-format
+msgid "Unable to move to drafts"
+msgstr "Nepavyko perkelti į juodraščius"
+
+#, kde-format
+msgid "Unable to read drafts: %1"
+msgstr "Nepavyko perskaityti juodraščių: %1"
+
+#, kde-format
+msgid "Unable to restore draft"
+msgstr "Nepavyko atkurti juodraščio"
+
+#, kde-format
+msgid "Unknown"
+msgstr "Nežinoma"
+
+#, kde-format
+msgid "Unknown or missing draft fields. Archive left unchanged."
+msgstr "Nežinomi arba trūkstami juodraščio laukai. Archyvas paliktas nepakeistas."
+
+#, kde-format
+msgid "Unsupported draft metadata version. Update the plugin before changing drafts."
+msgstr "Nepalaikoma juodraščio metaduomenų versija. Prieš keisdami juodraščius, atnaujinkite papildinį."
+
+#, kde-format
+msgid "Value"
+msgstr "Vertė"
+
+#, kde-format
+msgid "Value (%1)"
+msgstr "Vertė (%1)"

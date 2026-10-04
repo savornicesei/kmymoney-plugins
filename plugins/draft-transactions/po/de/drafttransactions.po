@@ -1,0 +1,337 @@
+# SPDX-FileCopyrightText: 2026 Draft transactions contributors
+# SPDX-License-Identifier: GPL-2.0-or-later
+# Initial AI-assisted translation. Native-speaker review is pending.
+msgid ""
+msgstr ""
+"Project-Id-Version: drafttransactions 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-27 08:52+0300\n"
+"PO-Revision-Date: 2026-09-27 12:00+0300\n"
+"Last-Translator: Draft transactions contributors\n"
+"Language-Team: de\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Initial AI-assisted translation; native review pending\n"
+
+#, kde-format
+msgid "A split references a missing cost center: %1"
+msgstr "Eine Teilbuchung verweist auf eine fehlende Kostenstelle: %1"
+
+#, kde-format
+msgid "A split references a missing or standard account: %1"
+msgstr "Eine Teilbuchung verweist auf ein fehlendes oder ein Standardkonto: %1"
+
+#, kde-format
+msgid "A split references a missing payee: %1"
+msgstr "Eine Teilbuchung verweist auf einen fehlenden Zahlungsempfänger: %1"
+
+#, kde-format
+msgid "A split references a missing tag: %1"
+msgstr "Eine Teilbuchung verweist auf eine fehlende Markierung: %1"
+
+#, kde-format
+msgid "Account"
+msgstr "Konto"
+
+#, kde-format
+msgid "Account '%1' is closed. Reopen it in KMyMoney before moving or restoring this transaction."
+msgstr "Das Konto „%1“ ist geschlossen. Öffnen Sie es in KMyMoney erneut, bevor Sie diese Buchung verschieben oder wiederherstellen."
+
+#, kde-format
+msgid "All splits (read-only; exact amounts are shown as fractions)"
+msgstr "Alle Teilbuchungen (schreibgeschützt; genaue Beträge werden als Brüche angezeigt)"
+
+#, kde-format
+msgid "Cleared"
+msgstr "Verrechnet"
+
+#, kde-format
+msgid "Currency"
+msgstr "Währung"
+
+#, kde-format
+msgid "Date"
+msgstr "Datum"
+
+#, kde-format
+msgid "Draft"
+msgstr "Entwurf"
+
+#, kde-format
+msgid "Draft checksum mismatch. The archive was not changed."
+msgstr "Die Prüfsumme des Entwurfs stimmt nicht überein. Das Archiv wurde nicht geändert."
+
+#, kde-format
+msgid "Draft contains missing, unknown, or noncanonical transaction fields."
+msgstr "Der Entwurf enthält fehlende, unbekannte oder nicht kanonische Buchungsfelder."
+
+#, kde-format
+msgid "Draft identity does not match its metadata key. No drafts were changed."
+msgstr "Die Entwurfskennung stimmt nicht mit dem Metadatenschlüssel überein. Es wurden keine Entwürfe geändert."
+
+#, kde-format
+msgid "Draft metadata is not valid JSON."
+msgstr "Die Metadaten des Entwurfs sind kein gültiges JSON."
+
+#, kde-format
+msgid "Draft metadata is too large."
+msgstr "Die Metadaten des Entwurfs sind zu groß."
+
+#, kde-format
+msgid "Draft metadata must be an object."
+msgstr "Die Metadaten des Entwurfs müssen ein Objekt sein."
+
+#, kde-format
+msgid "Draft metadata values must be strings."
+msgstr "Die Metadatenwerte des Entwurfs müssen Zeichenfolgen sein."
+
+#, kde-format
+msgid "Draft origin split does not exist."
+msgstr "Die ursprüngliche Teilbuchung des Entwurfs existiert nicht."
+
+#, kde-format
+msgid "Draft splits are missing."
+msgstr "Die Teilbuchungen des Entwurfs fehlen."
+
+#, kde-format
+msgid "Draft tags are missing."
+msgstr "Die Markierungen des Entwurfs fehlen."
+
+#, kde-format
+msgid "Draft transactions"
+msgstr "Buchungsentwürfe"
+
+#, kde-format
+msgid "Drafted (UTC)"
+msgstr "Als Entwurf abgelegt (UTC)"
+
+#, kde-format
+msgid "Drafts"
+msgstr "Entwürfe"
+
+#, kde-format
+msgid "Drafts do not affect balances. Save the document to keep changes. Restored recovery copies are removed only after a clean save and full verification; cleanup is saved with the next document save."
+msgstr "Entwürfe wirken sich nicht auf Kontostände aus. Speichern Sie das Dokument, um Änderungen zu behalten. Wiederherstellungskopien werden erst nach erfolgreichem Speichern und vollständiger Prüfung entfernt; die Bereinigung wird beim nächsten Speichern des Dokuments gesichert."
+
+#, kde-format
+msgid "Every split will return to its original account. Only the posting date can change; reconciliation flags and dates remain unchanged."
+msgstr "Jede Teilbuchung kehrt auf ihr ursprüngliches Konto zurück. Nur das Buchungsdatum kann geändert werden; Abgleichsmarkierungen und -daten bleiben unverändert."
+
+#, kde-format
+msgid "Filter drafts…"
+msgstr "Entwürfe filtern…"
+
+#, kde-format
+msgid "Finish the current KMyMoney operation first."
+msgstr "Beenden Sie zuerst den laufenden Vorgang in KMyMoney."
+
+#, kde-format
+msgid "Frozen"
+msgstr "Gesperrt"
+
+#, kde-format
+msgid "Invalid archived transaction identity or date."
+msgstr "Ungültige Kennung oder ungültiges Datum der archivierten Buchung."
+
+#, kde-format
+msgid "Invalid draft identity or timestamp."
+msgstr "Ungültige Entwurfskennung oder ungültiger Zeitstempel."
+
+#, kde-format
+msgid "Invalid draft split."
+msgstr "Ungültige Teilbuchung im Entwurf."
+
+#, kde-format
+msgid "Invalid draft tag."
+msgstr "Ungültige Markierung im Entwurf."
+
+#, kde-format
+msgid "Invalid exact monetary value in draft."
+msgstr "Ungültiger genauer Geldbetrag im Entwurf."
+
+#, kde-format
+msgid "Invalid matched transaction."
+msgstr "Ungültige zugeordnete Buchung."
+
+#, kde-format
+msgid "Invalid reconciliation state."
+msgstr "Ungültiger Abgleichsstatus."
+
+#, kde-format
+msgid "Invalid restoration recovery record."
+msgstr "Ungültiger Wiederherstellungsdatensatz."
+
+#, kde-format
+msgid "KMyMoney changed transaction fields during restoration. The operation was rolled back and the draft was retained."
+msgstr "KMyMoney hat während der Wiederherstellung Buchungsfelder geändert. Der Vorgang wurde rückgängig gemacht und der Entwurf beibehalten."
+
+#, kde-format
+msgid "Keep complete transactions in drafts and restore them later"
+msgstr "Vollständige Buchungen als Entwürfe aufbewahren und später wiederherstellen"
+
+#, kde-format
+msgid "Matched transaction nesting is too deep."
+msgstr "Zugeordnete Buchungen sind zu tief verschachtelt."
+
+#, kde-format
+msgid "Memo"
+msgstr "Notiz"
+
+#, kde-format
+msgid "Missing or duplicate split identity in draft."
+msgstr "Fehlende oder doppelte Teilbuchungskennung im Entwurf."
+
+#, kde-format
+msgid "Move the complete selected transactions, including every split, to drafts? They will stop affecting all account balances, reports, and reconciliations."
+msgstr "Die ausgewählten Buchungen vollständig einschließlich aller Teilbuchungen in die Entwürfe verschieben? Sie wirken sich dann nicht mehr auf Kontostände, Berichte und Abgleiche aus."
+
+#, kde-format
+msgid "Move to drafts"
+msgstr "In Entwürfe verschieben"
+
+#, kde-format
+msgid "Moving or restoring reconciled transactions changes historical balances. If you change the posting date, review the affected reconciliations afterwards."
+msgstr "Das Verschieben oder Wiederherstellen abgeglichener Buchungen verändert historische Kontostände. Prüfen Sie nach einer Änderung des Buchungsdatums die betroffenen Abgleiche."
+
+#, kde-format
+msgid "No draft transactions in this document."
+msgstr "Dieses Dokument enthält keine Buchungsentwürfe."
+
+#, kde-format
+msgid "Not reconciled"
+msgstr "Nicht abgeglichen"
+
+#, kde-format
+msgid "Open a KMyMoney document to view its drafts."
+msgstr "Öffnen Sie ein KMyMoney-Dokument, um dessen Entwürfe anzuzeigen."
+
+#, kde-format
+msgid "Payee"
+msgstr "Zahlungsempfänger"
+
+#, kde-format
+msgid "Posting date:"
+msgstr "Buchungsdatum:"
+
+#, kde-format
+msgid "Price (exact)"
+msgstr "Preis (genau)"
+
+#, kde-format
+msgid "Reconciled"
+msgstr "Abgeglichen"
+
+#, kde-format
+msgid "Reconciliation"
+msgstr "Abgleich"
+
+#, kde-format
+msgid "Reconciliation date"
+msgstr "Abgleichsdatum"
+
+#, kde-format
+msgid "Remove saved restoration copies"
+msgstr "Gespeicherte Wiederherstellungskopien entfernen"
+
+#, kde-format
+msgid "Restoration requires a valid posting date and no other active operation."
+msgstr "Die Wiederherstellung erfordert ein gültiges Buchungsdatum und darf nicht während eines anderen Vorgangs erfolgen."
+
+#, kde-format
+msgid "Restore"
+msgstr "Wiederherstellen"
+
+#, kde-format
+msgid "Restore draft transaction"
+msgstr "Buchungsentwurf wiederherstellen"
+
+#, kde-format
+msgid "Restored; recovery copy retained"
+msgstr "Wiederhergestellt; Wiederherstellungskopie beibehalten"
+
+#, kde-format
+msgid "Select at least one saved transaction."
+msgstr "Wählen Sie mindestens eine gespeicherte Buchung aus."
+
+#, kde-format
+msgid "Shares (exact)"
+msgstr "Anteile (genau)"
+
+#, kde-format
+msgid "Show drafts…"
+msgstr "Entwürfe anzeigen…"
+
+#, kde-format
+msgid "Splits"
+msgstr "Teilbuchungen"
+
+#, kde-format
+msgid "Status"
+msgstr "Status"
+
+#, kde-format
+msgid "The plugin module could not be retained for undo history. Restart KMyMoney and check the plugin installation."
+msgstr "Das Erweiterungsmodul konnte nicht für den Rückgängig-Verlauf beibehalten werden. Starten Sie KMyMoney neu und prüfen Sie die Installation der Erweiterung."
+
+#, kde-format
+msgid "The selected ledger split no longer exists."
+msgstr "Die ausgewählte Teilbuchung im Kontenbuch existiert nicht mehr."
+
+#, kde-format
+msgid "The transaction currency or security no longer exists."
+msgstr "Die Währung oder das Wertpapier der Buchung existiert nicht mehr."
+
+#, kde-format
+msgid "This draft exceeds the 4 MiB metadata record limit."
+msgstr "Dieser Entwurf überschreitet die Grenze von 4 MiB für einen Metadatensatz."
+
+#, kde-format
+msgid "This draft has already been restored. Save the document to finish cleanup."
+msgstr "Dieser Entwurf wurde bereits wiederhergestellt. Speichern Sie das Dokument, um die Bereinigung abzuschließen."
+
+#, kde-format
+msgid "This draft no longer exists."
+msgstr "Dieser Entwurf existiert nicht mehr."
+
+#, kde-format
+msgid "This transaction already has a draft or a pending restoration record. Save the document first."
+msgstr "Für diese Buchung gibt es bereits einen Entwurf oder eine ausstehende Wiederherstellung. Speichern Sie zuerst das Dokument."
+
+#, kde-format
+msgid "This transaction cannot be archived without changes."
+msgstr "Diese Buchung kann nicht unverändert archiviert werden."
+
+#, kde-format
+msgid "Unable to move to drafts"
+msgstr "Verschieben in Entwürfe nicht möglich"
+
+#, kde-format
+msgid "Unable to read drafts: %1"
+msgstr "Entwürfe können nicht gelesen werden: %1"
+
+#, kde-format
+msgid "Unable to restore draft"
+msgstr "Entwurf kann nicht wiederhergestellt werden"
+
+#, kde-format
+msgid "Unknown"
+msgstr "Unbekannt"
+
+#, kde-format
+msgid "Unknown or missing draft fields. Archive left unchanged."
+msgstr "Unbekannte oder fehlende Entwurfsfelder. Das Archiv bleibt unverändert."
+
+#, kde-format
+msgid "Unsupported draft metadata version. Update the plugin before changing drafts."
+msgstr "Nicht unterstützte Version der Entwurfsmetadaten. Aktualisieren Sie die Erweiterung, bevor Sie Entwürfe ändern."
+
+#, kde-format
+msgid "Value"
+msgstr "Wert"
+
+#, kde-format
+msgid "Value (%1)"
+msgstr "Wert (%1)"

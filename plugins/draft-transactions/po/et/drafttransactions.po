@@ -1,0 +1,337 @@
+# SPDX-FileCopyrightText: 2026 Draft transactions contributors
+# SPDX-License-Identifier: GPL-2.0-or-later
+# Initial AI-assisted translation. Native-speaker review is pending.
+msgid ""
+msgstr ""
+"Project-Id-Version: drafttransactions 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-27 08:52+0300\n"
+"PO-Revision-Date: 2026-09-27 12:00+0300\n"
+"Last-Translator: Draft transactions contributors\n"
+"Language-Team: et\n"
+"Language: et\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Initial AI-assisted translation; native review pending\n"
+
+#, kde-format
+msgid "A split references a missing cost center: %1"
+msgstr "Jaotis viitab puuduvale kulukohale: %1"
+
+#, kde-format
+msgid "A split references a missing or standard account: %1"
+msgstr "Jaotis viitab puuduvale või standardkontole: %1"
+
+#, kde-format
+msgid "A split references a missing payee: %1"
+msgstr "Jaotis viitab puuduvale makse saajale: %1"
+
+#, kde-format
+msgid "A split references a missing tag: %1"
+msgstr "Jaotis viitab puuduvale sildile: %1"
+
+#, kde-format
+msgid "Account"
+msgstr "Konto"
+
+#, kde-format
+msgid "Account '%1' is closed. Reopen it in KMyMoney before moving or restoring this transaction."
+msgstr "Konto „%1” on suletud. Ava see KMyMoneys uuesti enne tehingu teisaldamist või taastamist."
+
+#, kde-format
+msgid "All splits (read-only; exact amounts are shown as fractions)"
+msgstr "Kõik jaotised (kirjutuskaitstud; täpsed summad kuvatakse murdudena)"
+
+#, kde-format
+msgid "Cleared"
+msgstr "Kontrollitud"
+
+#, kde-format
+msgid "Currency"
+msgstr "Valuuta"
+
+#, kde-format
+msgid "Date"
+msgstr "Kuupäev"
+
+#, kde-format
+msgid "Draft"
+msgstr "Mustand"
+
+#, kde-format
+msgid "Draft checksum mismatch. The archive was not changed."
+msgstr "Mustandi kontrollsumma ei ühti. Arhiivi ei muudetud."
+
+#, kde-format
+msgid "Draft contains missing, unknown, or noncanonical transaction fields."
+msgstr "Mustand sisaldab puuduvaid, tundmatuid või mittekanoonilisi tehinguvälju."
+
+#, kde-format
+msgid "Draft identity does not match its metadata key. No drafts were changed."
+msgstr "Mustandi tunnus ei vasta metaandmete võtmele. Ühtegi mustandit ei muudetud."
+
+#, kde-format
+msgid "Draft metadata is not valid JSON."
+msgstr "Mustandi metaandmed pole korrektne JSON."
+
+#, kde-format
+msgid "Draft metadata is too large."
+msgstr "Mustandi metaandmed on liiga suured."
+
+#, kde-format
+msgid "Draft metadata must be an object."
+msgstr "Mustandi metaandmed peavad olema objekt."
+
+#, kde-format
+msgid "Draft metadata values must be strings."
+msgstr "Mustandi metaandmete väärtused peavad olema stringid."
+
+#, kde-format
+msgid "Draft origin split does not exist."
+msgstr "Mustandi algset jaotist pole olemas."
+
+#, kde-format
+msgid "Draft splits are missing."
+msgstr "Mustandi jaotised puuduvad."
+
+#, kde-format
+msgid "Draft tags are missing."
+msgstr "Mustandi sildid puuduvad."
+
+#, kde-format
+msgid "Draft transactions"
+msgstr "Tehingumustandid"
+
+#, kde-format
+msgid "Drafted (UTC)"
+msgstr "Mustandiks teisaldatud (UTC)"
+
+#, kde-format
+msgid "Drafts"
+msgstr "Mustandid"
+
+#, kde-format
+msgid "Drafts do not affect balances. Save the document to keep changes. Restored recovery copies are removed only after a clean save and full verification; cleanup is saved with the next document save."
+msgstr "Mustandid ei mõjuta saldosid. Muudatuste säilitamiseks salvesta dokument. Taastatud tehingute taastekoopiad eemaldatakse alles pärast edukat salvestamist ja täielikku kontrolli; puhastus salvestatakse dokumendi järgmisel salvestamisel."
+
+#, kde-format
+msgid "Every split will return to its original account. Only the posting date can change; reconciliation flags and dates remain unchanged."
+msgstr "Iga jaotis naaseb oma algsele kontole. Muuta saab ainult kande kuupäeva; kooskõlastusmärgid ja -kuupäevad jäävad samaks."
+
+#, kde-format
+msgid "Filter drafts…"
+msgstr "Mustandite filtreerimine…"
+
+#, kde-format
+msgid "Finish the current KMyMoney operation first."
+msgstr "Lõpeta kõigepealt praegune KMyMoney toiming."
+
+#, kde-format
+msgid "Frozen"
+msgstr "Külmutatud"
+
+#, kde-format
+msgid "Invalid archived transaction identity or date."
+msgstr "Arhiveeritud tehingu tunnus või kuupäev on vigane."
+
+#, kde-format
+msgid "Invalid draft identity or timestamp."
+msgstr "Mustandi tunnus või ajatempel on vigane."
+
+#, kde-format
+msgid "Invalid draft split."
+msgstr "Vigane mustandi jaotis."
+
+#, kde-format
+msgid "Invalid draft tag."
+msgstr "Vigane mustandi silt."
+
+#, kde-format
+msgid "Invalid exact monetary value in draft."
+msgstr "Vigane täpne rahaline väärtus mustandis."
+
+#, kde-format
+msgid "Invalid matched transaction."
+msgstr "Vigane sobitatud tehing."
+
+#, kde-format
+msgid "Invalid reconciliation state."
+msgstr "Vigane kooskõlastusolek."
+
+#, kde-format
+msgid "Invalid restoration recovery record."
+msgstr "Vigane taastamise taastekirje."
+
+#, kde-format
+msgid "KMyMoney changed transaction fields during restoration. The operation was rolled back and the draft was retained."
+msgstr "KMyMoney muutis taastamise ajal tehinguvälju. Toiming pöörati tagasi ja mustand säilitati."
+
+#, kde-format
+msgid "Keep complete transactions in drafts and restore them later"
+msgstr "Hoia terveid tehinguid mustanditena ja taasta need hiljem"
+
+#, kde-format
+msgid "Matched transaction nesting is too deep."
+msgstr "Sobitatud tehingud on liiga sügavalt pesastatud."
+
+#, kde-format
+msgid "Memo"
+msgstr "Märkus"
+
+#, kde-format
+msgid "Missing or duplicate split identity in draft."
+msgstr "Mustandi jaotise tunnus puudub või kordub."
+
+#, kde-format
+msgid "Move the complete selected transactions, including every split, to drafts? They will stop affecting all account balances, reports, and reconciliations."
+msgstr "Kas teisaldada valitud tehingud tervikuna koos kõigi jaotistega mustanditesse? Need ei mõjuta enam kontosaldosid, aruandeid ega kooskõlastusi."
+
+#, kde-format
+msgid "Move to drafts"
+msgstr "Teisalda mustanditesse"
+
+#, kde-format
+msgid "Moving or restoring reconciled transactions changes historical balances. If you change the posting date, review the affected reconciliations afterwards."
+msgstr "Kooskõlastatud tehingute teisaldamine või taastamine muudab varasemaid saldosid. Kande kuupäeva muutmisel vaata mõjutatud kooskõlastused hiljem üle."
+
+#, kde-format
+msgid "No draft transactions in this document."
+msgstr "Selles dokumendis pole tehingumustandeid."
+
+#, kde-format
+msgid "Not reconciled"
+msgstr "Kooskõlastamata"
+
+#, kde-format
+msgid "Open a KMyMoney document to view its drafts."
+msgstr "Mustandite vaatamiseks ava KMyMoney dokument."
+
+#, kde-format
+msgid "Payee"
+msgstr "Makse saaja"
+
+#, kde-format
+msgid "Posting date:"
+msgstr "Kande kuupäev:"
+
+#, kde-format
+msgid "Price (exact)"
+msgstr "Hind (täpne)"
+
+#, kde-format
+msgid "Reconciled"
+msgstr "Kooskõlastatud"
+
+#, kde-format
+msgid "Reconciliation"
+msgstr "Kooskõlastus"
+
+#, kde-format
+msgid "Reconciliation date"
+msgstr "Kooskõlastuse kuupäev"
+
+#, kde-format
+msgid "Remove saved restoration copies"
+msgstr "Eemalda salvestatud taastamiste koopiad"
+
+#, kde-format
+msgid "Restoration requires a valid posting date and no other active operation."
+msgstr "Taastamiseks peab kande kuupäev olema kehtiv ning ükski muu toiming ei tohi olla pooleli."
+
+#, kde-format
+msgid "Restore"
+msgstr "Taasta"
+
+#, kde-format
+msgid "Restore draft transaction"
+msgstr "Taasta tehingumustand"
+
+#, kde-format
+msgid "Restored; recovery copy retained"
+msgstr "Taastatud; taastekoopia säilitatud"
+
+#, kde-format
+msgid "Select at least one saved transaction."
+msgstr "Vali vähemalt üks salvestatud tehing."
+
+#, kde-format
+msgid "Shares (exact)"
+msgstr "Aktsiad (täpne)"
+
+#, kde-format
+msgid "Show drafts…"
+msgstr "Näita mustandeid…"
+
+#, kde-format
+msgid "Splits"
+msgstr "Jaotised"
+
+#, kde-format
+msgid "Status"
+msgstr "Olek"
+
+#, kde-format
+msgid "The plugin module could not be retained for undo history. Restart KMyMoney and check the plugin installation."
+msgstr "Pluginamoodulit ei saanud tagasivõtmisajaloo jaoks säilitada. Taaskäivita KMyMoney ja kontrolli plugina paigaldust."
+
+#, kde-format
+msgid "The selected ledger split no longer exists."
+msgstr "Valitud pearaamatu jaotist pole enam olemas."
+
+#, kde-format
+msgid "The transaction currency or security no longer exists."
+msgstr "Tehingu valuutat või väärtpaberit pole enam olemas."
+
+#, kde-format
+msgid "This draft exceeds the 4 MiB metadata record limit."
+msgstr "See mustand ületab metaandmekirje 4 MiB suurusepiirangu."
+
+#, kde-format
+msgid "This draft has already been restored. Save the document to finish cleanup."
+msgstr "See mustand on juba taastatud. Puhastuse lõpetamiseks salvesta dokument."
+
+#, kde-format
+msgid "This draft no longer exists."
+msgstr "Seda mustandit pole enam olemas."
+
+#, kde-format
+msgid "This transaction already has a draft or a pending restoration record. Save the document first."
+msgstr "Sellel tehingul on juba mustand või ootel taastamiskirje. Salvesta kõigepealt dokument."
+
+#, kde-format
+msgid "This transaction cannot be archived without changes."
+msgstr "Seda tehingut ei saa muutmata arhiveerida."
+
+#, kde-format
+msgid "Unable to move to drafts"
+msgstr "Mustanditesse teisaldamine nurjus"
+
+#, kde-format
+msgid "Unable to read drafts: %1"
+msgstr "Mustandite lugemine nurjus: %1"
+
+#, kde-format
+msgid "Unable to restore draft"
+msgstr "Mustandi taastamine nurjus"
+
+#, kde-format
+msgid "Unknown"
+msgstr "Tundmatu"
+
+#, kde-format
+msgid "Unknown or missing draft fields. Archive left unchanged."
+msgstr "Tundmatud või puuduvad mustandiväljad. Arhiiv jäeti muutmata."
+
+#, kde-format
+msgid "Unsupported draft metadata version. Update the plugin before changing drafts."
+msgstr "Mustandi metaandmete versioon pole toetatud. Enne mustandite muutmist uuenda pluginat."
+
+#, kde-format
+msgid "Value"
+msgstr "Väärtus"
+
+#, kde-format
+msgid "Value (%1)"
+msgstr "Väärtus (%1)"

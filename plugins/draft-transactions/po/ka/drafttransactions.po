@@ -1,0 +1,337 @@
+# SPDX-FileCopyrightText: 2026 Draft transactions contributors
+# SPDX-License-Identifier: GPL-2.0-or-later
+# Initial AI-assisted translation. Native-speaker review is pending.
+msgid ""
+msgstr ""
+"Project-Id-Version: drafttransactions 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-27 08:52+0300\n"
+"PO-Revision-Date: 2026-09-27 12:00+0300\n"
+"Last-Translator: Draft transactions contributors\n"
+"Language-Team: ka\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Initial AI-assisted translation; native review pending\n"
+
+#, kde-format
+msgid "A split references a missing cost center: %1"
+msgstr "გაყოფა მიუთითებს არარსებულ ხარჯების ცენტრზე: %1"
+
+#, kde-format
+msgid "A split references a missing or standard account: %1"
+msgstr "გაყოფა მიუთითებს არარსებულ ან სტანდარტულ ანგარიშზე: %1"
+
+#, kde-format
+msgid "A split references a missing payee: %1"
+msgstr "გაყოფა მიუთითებს არარსებულ მიმღებზე: %1"
+
+#, kde-format
+msgid "A split references a missing tag: %1"
+msgstr "გაყოფა მიუთითებს არარსებულ ჭდეზე: %1"
+
+#, kde-format
+msgid "Account"
+msgstr "ანგარიში"
+
+#, kde-format
+msgid "Account '%1' is closed. Reopen it in KMyMoney before moving or restoring this transaction."
+msgstr "ანგარიში „%1“ დახურულია. ამ ტრანზაქციის გადატანამდე ან აღდგენამდე ხელახლა გახსენით იგი KMyMoney-ში."
+
+#, kde-format
+msgid "All splits (read-only; exact amounts are shown as fractions)"
+msgstr "ყველა გაყოფა (მხოლოდ წასაკითხად; ზუსტი თანხები ნაჩვენებია წილადებად)"
+
+#, kde-format
+msgid "Cleared"
+msgstr "შემოწმებული"
+
+#, kde-format
+msgid "Currency"
+msgstr "ვალუტა"
+
+#, kde-format
+msgid "Date"
+msgstr "თარიღი"
+
+#, kde-format
+msgid "Draft"
+msgstr "მონახაზი"
+
+#, kde-format
+msgid "Draft checksum mismatch. The archive was not changed."
+msgstr "მონახაზის საკონტროლო ჯამი არ ემთხვევა. არქივი არ შეცვლილა."
+
+#, kde-format
+msgid "Draft contains missing, unknown, or noncanonical transaction fields."
+msgstr "მონახაზი შეიცავს ტრანზაქციის გამოტოვებულ, უცნობ ან არაკანონიკურ ველებს."
+
+#, kde-format
+msgid "Draft identity does not match its metadata key. No drafts were changed."
+msgstr "მონახაზის იდენტიფიკატორი არ ემთხვევა მეტამონაცემების გასაღებს. არცერთი მონახაზი არ შეცვლილა."
+
+#, kde-format
+msgid "Draft metadata is not valid JSON."
+msgstr "მონახაზის მეტამონაცემები არ არის მართებული JSON."
+
+#, kde-format
+msgid "Draft metadata is too large."
+msgstr "მონახაზის მეტამონაცემები მეტისმეტად დიდია."
+
+#, kde-format
+msgid "Draft metadata must be an object."
+msgstr "მონახაზის მეტამონაცემები ობიექტი უნდა იყოს."
+
+#, kde-format
+msgid "Draft metadata values must be strings."
+msgstr "მონახაზის მეტამონაცემების მნიშვნელობები სტრიქონები უნდა იყოს."
+
+#, kde-format
+msgid "Draft origin split does not exist."
+msgstr "მონახაზის საწყისი გაყოფა არ არსებობს."
+
+#, kde-format
+msgid "Draft splits are missing."
+msgstr "მონახაზის გაყოფები აკლია."
+
+#, kde-format
+msgid "Draft tags are missing."
+msgstr "მონახაზის ჭდეები აკლია."
+
+#, kde-format
+msgid "Draft transactions"
+msgstr "ტრანზაქციების მონახაზები"
+
+#, kde-format
+msgid "Drafted (UTC)"
+msgstr "მონახაზებში გადატანის დრო (UTC)"
+
+#, kde-format
+msgid "Drafts"
+msgstr "მონახაზები"
+
+#, kde-format
+msgid "Drafts do not affect balances. Save the document to keep changes. Restored recovery copies are removed only after a clean save and full verification; cleanup is saved with the next document save."
+msgstr "მონახაზები ნაშთებზე გავლენას არ ახდენს. ცვლილებების შესანარჩუნებლად შეინახეთ დოკუმენტი. აღდგენილი ტრანზაქციების აღდგენის ასლები წაიშლება მხოლოდ წარმატებული შენახვისა და სრული შემოწმების შემდეგ; გასუფთავება დოკუმენტის მომდევნო შენახვისას შეინახება."
+
+#, kde-format
+msgid "Every split will return to its original account. Only the posting date can change; reconciliation flags and dates remain unchanged."
+msgstr "თითოეული გაყოფა თავის საწყის ანგარიშს დაუბრუნდება. შეიძლება მხოლოდ გატარების თარიღის შეცვლა; შეჯერების ნიშნები და თარიღები უცვლელი დარჩება."
+
+#, kde-format
+msgid "Filter drafts…"
+msgstr "მონახაზების გაფილტვრა…"
+
+#, kde-format
+msgid "Finish the current KMyMoney operation first."
+msgstr "ჯერ დაასრულეთ KMyMoney-ის მიმდინარე ოპერაცია."
+
+#, kde-format
+msgid "Frozen"
+msgstr "გაყინული"
+
+#, kde-format
+msgid "Invalid archived transaction identity or date."
+msgstr "დაარქივებული ტრანზაქციის არასწორი იდენტიფიკატორი ან თარიღი."
+
+#, kde-format
+msgid "Invalid draft identity or timestamp."
+msgstr "მონახაზის არასწორი იდენტიფიკატორი ან დროის ნიშნული."
+
+#, kde-format
+msgid "Invalid draft split."
+msgstr "მონახაზის არასწორი გაყოფა."
+
+#, kde-format
+msgid "Invalid draft tag."
+msgstr "მონახაზის არასწორი ჭდე."
+
+#, kde-format
+msgid "Invalid exact monetary value in draft."
+msgstr "მონახაზში არასწორი ზუსტი ფულადი მნიშვნელობაა."
+
+#, kde-format
+msgid "Invalid matched transaction."
+msgstr "არასწორი დაკავშირებული ტრანზაქცია."
+
+#, kde-format
+msgid "Invalid reconciliation state."
+msgstr "შეჯერების არასწორი მდგომარეობა."
+
+#, kde-format
+msgid "Invalid restoration recovery record."
+msgstr "აღდგენის არასწორი სარეზერვო ჩანაწერი."
+
+#, kde-format
+msgid "KMyMoney changed transaction fields during restoration. The operation was rolled back and the draft was retained."
+msgstr "აღდგენისას KMyMoney-მ ტრანზაქციის ველები შეცვალა. ოპერაცია გაუქმდა და მონახაზი შენარჩუნდა."
+
+#, kde-format
+msgid "Keep complete transactions in drafts and restore them later"
+msgstr "შეინახეთ სრული ტრანზაქციები მონახაზებში და აღადგინეთ მოგვიანებით"
+
+#, kde-format
+msgid "Matched transaction nesting is too deep."
+msgstr "დაკავშირებული ტრანზაქციები მეტისმეტად ღრმადაა ჩადგმული."
+
+#, kde-format
+msgid "Memo"
+msgstr "შენიშვნა"
+
+#, kde-format
+msgid "Missing or duplicate split identity in draft."
+msgstr "მონახაზში გაყოფის იდენტიფიკატორი გამოტოვებულია ან დუბლირებულია."
+
+#, kde-format
+msgid "Move the complete selected transactions, including every split, to drafts? They will stop affecting all account balances, reports, and reconciliations."
+msgstr "გადავიტანოთ მონახაზებში არჩეული ტრანზაქციები მთლიანად, ყველა გაყოფის ჩათვლით? ისინი აღარ იმოქმედებს ანგარიშების ნაშთებზე, ანგარიშგებებსა და შეჯერებებზე."
+
+#, kde-format
+msgid "Move to drafts"
+msgstr "მონახაზებში გადატანა"
+
+#, kde-format
+msgid "Moving or restoring reconciled transactions changes historical balances. If you change the posting date, review the affected reconciliations afterwards."
+msgstr "შეჯერებული ტრანზაქციების გადატანა ან აღდგენა წარსულ ნაშთებს ცვლის. თუ გატარების თარიღს შეცვლით, შემდეგ შეამოწმეთ შესაბამისი შეჯერებები."
+
+#, kde-format
+msgid "No draft transactions in this document."
+msgstr "ამ დოკუმენტში ტრანზაქციების მონახაზები არ არის."
+
+#, kde-format
+msgid "Not reconciled"
+msgstr "შეუჯერებელი"
+
+#, kde-format
+msgid "Open a KMyMoney document to view its drafts."
+msgstr "მონახაზების სანახავად გახსენით KMyMoney-ის დოკუმენტი."
+
+#, kde-format
+msgid "Payee"
+msgstr "მიმღები"
+
+#, kde-format
+msgid "Posting date:"
+msgstr "გატარების თარიღი:"
+
+#, kde-format
+msgid "Price (exact)"
+msgstr "ფასი (ზუსტი)"
+
+#, kde-format
+msgid "Reconciled"
+msgstr "შეჯერებული"
+
+#, kde-format
+msgid "Reconciliation"
+msgstr "შეჯერება"
+
+#, kde-format
+msgid "Reconciliation date"
+msgstr "შეჯერების თარიღი"
+
+#, kde-format
+msgid "Remove saved restoration copies"
+msgstr "შენახული აღდგენების ასლების წაშლა"
+
+#, kde-format
+msgid "Restoration requires a valid posting date and no other active operation."
+msgstr "აღდგენას სჭირდება მართებული გატარების თარიღი და სხვა აქტიური ოპერაცია არ უნდა მიმდინარეობდეს."
+
+#, kde-format
+msgid "Restore"
+msgstr "აღდგენა"
+
+#, kde-format
+msgid "Restore draft transaction"
+msgstr "ტრანზაქციის მონახაზის აღდგენა"
+
+#, kde-format
+msgid "Restored; recovery copy retained"
+msgstr "აღდგენილია; აღდგენის ასლი შენარჩუნებულია"
+
+#, kde-format
+msgid "Select at least one saved transaction."
+msgstr "აირჩიეთ მინიმუმ ერთი შენახული ტრანზაქცია."
+
+#, kde-format
+msgid "Shares (exact)"
+msgstr "აქციები (ზუსტი)"
+
+#, kde-format
+msgid "Show drafts…"
+msgstr "მონახაზების ჩვენება…"
+
+#, kde-format
+msgid "Splits"
+msgstr "გაყოფები"
+
+#, kde-format
+msgid "Status"
+msgstr "მდგომარეობა"
+
+#, kde-format
+msgid "The plugin module could not be retained for undo history. Restart KMyMoney and check the plugin installation."
+msgstr "გაუქმების ისტორიისთვის დამატების მოდულის შენარჩუნება ვერ მოხერხდა. გადატვირთეთ KMyMoney და შეამოწმეთ დამატების დაყენება."
+
+#, kde-format
+msgid "The selected ledger split no longer exists."
+msgstr "არჩეული გაყოფა მთავარ წიგნში აღარ არსებობს."
+
+#, kde-format
+msgid "The transaction currency or security no longer exists."
+msgstr "ტრანზაქციის ვალუტა ან ფასიანი ქაღალდი აღარ არსებობს."
+
+#, kde-format
+msgid "This draft exceeds the 4 MiB metadata record limit."
+msgstr "ეს მონახაზი აღემატება მეტამონაცემების ჩანაწერის 4 MiB-იან ზღვარს."
+
+#, kde-format
+msgid "This draft has already been restored. Save the document to finish cleanup."
+msgstr "ეს მონახაზი უკვე აღდგენილია. გასუფთავების დასასრულებლად შეინახეთ დოკუმენტი."
+
+#, kde-format
+msgid "This draft no longer exists."
+msgstr "ეს მონახაზი აღარ არსებობს."
+
+#, kde-format
+msgid "This transaction already has a draft or a pending restoration record. Save the document first."
+msgstr "ამ ტრანზაქციას უკვე აქვს მონახაზი ან მომლოდინე აღდგენის ჩანაწერი. ჯერ შეინახეთ დოკუმენტი."
+
+#, kde-format
+msgid "This transaction cannot be archived without changes."
+msgstr "ამ ტრანზაქციის დაარქივება ცვლილებების გარეშე შეუძლებელია."
+
+#, kde-format
+msgid "Unable to move to drafts"
+msgstr "მონახაზებში გადატანა ვერ მოხერხდა"
+
+#, kde-format
+msgid "Unable to read drafts: %1"
+msgstr "მონახაზების წაკითხვა ვერ მოხერხდა: %1"
+
+#, kde-format
+msgid "Unable to restore draft"
+msgstr "მონახაზის აღდგენა ვერ მოხერხდა"
+
+#, kde-format
+msgid "Unknown"
+msgstr "უცნობი"
+
+#, kde-format
+msgid "Unknown or missing draft fields. Archive left unchanged."
+msgstr "მონახაზის უცნობი ან გამოტოვებული ველები. არქივი უცვლელი დარჩა."
+
+#, kde-format
+msgid "Unsupported draft metadata version. Update the plugin before changing drafts."
+msgstr "მონახაზის მეტამონაცემების ვერსია მხარდაჭერილი არ არის. მონახაზების შეცვლამდე განაახლეთ დამატება."
+
+#, kde-format
+msgid "Value"
+msgstr "მნიშვნელობა"
+
+#, kde-format
+msgid "Value (%1)"
+msgstr "მნიშვნელობა (%1)"

@@ -1,0 +1,11 @@
+<!DOCTYPE kpartgui>
+<kpartgui name="kmymoney-plugins-drafttransactions" version="2" translationDomain="drafttransactions">
+  <MenuBar>
+    <Menu name="drafts"><text>Drafts</text><Action name="drafts_show"/></Menu>
+  </MenuBar>
+  <Menu name="transaction_context_menu">
+    <Separator/>
+    <Action name="transaction_move_to_drafts"/>
+    <Separator/>
+  </Menu>
+</kpartgui>

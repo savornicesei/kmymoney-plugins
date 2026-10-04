@@ -1,0 +1,337 @@
+# SPDX-FileCopyrightText: 2026 Draft transactions contributors
+# SPDX-License-Identifier: GPL-2.0-or-later
+# Initial AI-assisted translation. Native-speaker review is pending.
+msgid ""
+msgstr ""
+"Project-Id-Version: drafttransactions 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-27 08:52+0300\n"
+"PO-Revision-Date: 2026-09-27 12:00+0300\n"
+"Last-Translator: Draft transactions contributors\n"
+"Language-Team: ia\n"
+"Language: ia\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Initial AI-assisted translation; native review pending\n"
+
+#, kde-format
+msgid "A split references a missing cost center: %1"
+msgstr "Un division refere a un centro de costos mancante: %1"
+
+#, kde-format
+msgid "A split references a missing or standard account: %1"
+msgstr "Un division refere a un conto mancante o standard: %1"
+
+#, kde-format
+msgid "A split references a missing payee: %1"
+msgstr "Un division refere a un beneficiario mancante: %1"
+
+#, kde-format
+msgid "A split references a missing tag: %1"
+msgstr "Un division refere a un etiquetta mancante: %1"
+
+#, kde-format
+msgid "Account"
+msgstr "Conto"
+
+#, kde-format
+msgid "Account '%1' is closed. Reopen it in KMyMoney before moving or restoring this transaction."
+msgstr "Le conto «%1» es claudite. Reaperi lo in KMyMoney ante mover o restaurar iste transaction."
+
+#, kde-format
+msgid "All splits (read-only; exact amounts are shown as fractions)"
+msgstr "Tote le divisiones (solmente lectura; le montantes exacte es monstrate como fractiones)"
+
+#, kde-format
+msgid "Cleared"
+msgstr "Verificate"
+
+#, kde-format
+msgid "Currency"
+msgstr "Moneta"
+
+#, kde-format
+msgid "Date"
+msgstr "Data"
+
+#, kde-format
+msgid "Draft"
+msgstr "Borrator"
+
+#, kde-format
+msgid "Draft checksum mismatch. The archive was not changed."
+msgstr "Le summa de controlo del borrator non coincide. Le archivo non ha essite modificate."
+
+#, kde-format
+msgid "Draft contains missing, unknown, or noncanonical transaction fields."
+msgstr "Le borrator contine campos de transaction mancante, incognite o non canonic."
+
+#, kde-format
+msgid "Draft identity does not match its metadata key. No drafts were changed."
+msgstr "Le identificator del borrator non coincide con su clave de metadatos. Nulle borrator ha essite modificate."
+
+#, kde-format
+msgid "Draft metadata is not valid JSON."
+msgstr "Le metadatos del borrator non es JSON valide."
+
+#, kde-format
+msgid "Draft metadata is too large."
+msgstr "Le metadatos del borrator es troppo grande."
+
+#, kde-format
+msgid "Draft metadata must be an object."
+msgstr "Le metadatos del borrator debe esser un objecto."
+
+#, kde-format
+msgid "Draft metadata values must be strings."
+msgstr "Le valores del metadatos del borrator debe esser catenas."
+
+#, kde-format
+msgid "Draft origin split does not exist."
+msgstr "Le division original del borrator non existe."
+
+#, kde-format
+msgid "Draft splits are missing."
+msgstr "Le divisiones del borrator manca."
+
+#, kde-format
+msgid "Draft tags are missing."
+msgstr "Le etiquettas del borrator manca."
+
+#, kde-format
+msgid "Draft transactions"
+msgstr "Transactiones in borrator"
+
+#, kde-format
+msgid "Drafted (UTC)"
+msgstr "Movite a borratores (UTC)"
+
+#, kde-format
+msgid "Drafts"
+msgstr "Borratores"
+
+#, kde-format
+msgid "Drafts do not affect balances. Save the document to keep changes. Restored recovery copies are removed only after a clean save and full verification; cleanup is saved with the next document save."
+msgstr "Borratores non affecta le saldos. Salveguarda le documento pro conservar le modificationes. Copias de recuperation de transactiones restaurate es removite solmente post un salveguarda succedite e un verification complete; le nettage es salveguardate al proxime salveguarda del documento."
+
+#, kde-format
+msgid "Every split will return to its original account. Only the posting date can change; reconciliation flags and dates remain unchanged."
+msgstr "Cata division retornara a su conto original. Solmente le data de registration pote cambiar; le marcas e datas de reconciliation remane inalterate."
+
+#, kde-format
+msgid "Filter drafts…"
+msgstr "Filtrar borratores…"
+
+#, kde-format
+msgid "Finish the current KMyMoney operation first."
+msgstr "Termina primo le operation actual de KMyMoney."
+
+#, kde-format
+msgid "Frozen"
+msgstr "Congelate"
+
+#, kde-format
+msgid "Invalid archived transaction identity or date."
+msgstr "Identificator o data de transaction archivate invalide."
+
+#, kde-format
+msgid "Invalid draft identity or timestamp."
+msgstr "Identificator o marca temporal del borrator invalide."
+
+#, kde-format
+msgid "Invalid draft split."
+msgstr "Division del borrator invalide."
+
+#, kde-format
+msgid "Invalid draft tag."
+msgstr "Etiquetta del borrator invalide."
+
+#, kde-format
+msgid "Invalid exact monetary value in draft."
+msgstr "Valor monetari exacte invalide in le borrator."
+
+#, kde-format
+msgid "Invalid matched transaction."
+msgstr "Transaction associate invalide."
+
+#, kde-format
+msgid "Invalid reconciliation state."
+msgstr "Stato de reconciliation invalide."
+
+#, kde-format
+msgid "Invalid restoration recovery record."
+msgstr "Registro de recuperation del restauration invalide."
+
+#, kde-format
+msgid "KMyMoney changed transaction fields during restoration. The operation was rolled back and the draft was retained."
+msgstr "KMyMoney ha cambiate campos del transaction durante le restauration. Le operation ha essite annullate e le borrator conservate."
+
+#, kde-format
+msgid "Keep complete transactions in drafts and restore them later"
+msgstr "Conserva transactiones complete in borratores e restaura los plus tarde"
+
+#, kde-format
+msgid "Matched transaction nesting is too deep."
+msgstr "Le transactiones associate es imbricate troppo profundemente."
+
+#, kde-format
+msgid "Memo"
+msgstr "Nota"
+
+#, kde-format
+msgid "Missing or duplicate split identity in draft."
+msgstr "Identificator de division mancante o duplicate in le borrator."
+
+#, kde-format
+msgid "Move the complete selected transactions, including every split, to drafts? They will stop affecting all account balances, reports, and reconciliations."
+msgstr "Mover le transactiones seligite complete, includente tote le divisiones, a borratores? Illos cessara de affectar le saldos de tote le contos, le reportos e le reconciliationes."
+
+#, kde-format
+msgid "Move to drafts"
+msgstr "Mover a borratores"
+
+#, kde-format
+msgid "Moving or restoring reconciled transactions changes historical balances. If you change the posting date, review the affected reconciliations afterwards."
+msgstr "Mover o restaurar transactiones reconciliate cambia saldos historic. Si tu cambia le data de registration, reexamina postea le reconciliationes affectate."
+
+#, kde-format
+msgid "No draft transactions in this document."
+msgstr "Nulle transaction in borrator in iste documento."
+
+#, kde-format
+msgid "Not reconciled"
+msgstr "Non reconciliate"
+
+#, kde-format
+msgid "Open a KMyMoney document to view its drafts."
+msgstr "Aperi un documento de KMyMoney pro vider su borratores."
+
+#, kde-format
+msgid "Payee"
+msgstr "Beneficiario"
+
+#, kde-format
+msgid "Posting date:"
+msgstr "Data de registration:"
+
+#, kde-format
+msgid "Price (exact)"
+msgstr "Precio (exacte)"
+
+#, kde-format
+msgid "Reconciled"
+msgstr "Reconciliate"
+
+#, kde-format
+msgid "Reconciliation"
+msgstr "Reconciliation"
+
+#, kde-format
+msgid "Reconciliation date"
+msgstr "Data de reconciliation"
+
+#, kde-format
+msgid "Remove saved restoration copies"
+msgstr "Remover copias de restaurationes salveguardate"
+
+#, kde-format
+msgid "Restoration requires a valid posting date and no other active operation."
+msgstr "Le restauration require un data de registration valide e nulle altere operation active."
+
+#, kde-format
+msgid "Restore"
+msgstr "Restaurar"
+
+#, kde-format
+msgid "Restore draft transaction"
+msgstr "Restaurar transaction in borrator"
+
+#, kde-format
+msgid "Restored; recovery copy retained"
+msgstr "Restaurate; copia de recuperation conservate"
+
+#, kde-format
+msgid "Select at least one saved transaction."
+msgstr "Selige al minus un transaction salveguardate."
+
+#, kde-format
+msgid "Shares (exact)"
+msgstr "Actiones (exacte)"
+
+#, kde-format
+msgid "Show drafts…"
+msgstr "Monstrar borratores…"
+
+#, kde-format
+msgid "Splits"
+msgstr "Divisiones"
+
+#, kde-format
+msgid "Status"
+msgstr "Stato"
+
+#, kde-format
+msgid "The plugin module could not be retained for undo history. Restart KMyMoney and check the plugin installation."
+msgstr "Le modulo del extension non poteva esser conservate pro le historia de annullation. Reinitia KMyMoney e verifica le installation del extension."
+
+#, kde-format
+msgid "The selected ledger split no longer exists."
+msgstr "Le division seligite in le libro major non existe plus."
+
+#, kde-format
+msgid "The transaction currency or security no longer exists."
+msgstr "Le moneta o titulo del transaction non existe plus."
+
+#, kde-format
+msgid "This draft exceeds the 4 MiB metadata record limit."
+msgstr "Iste borrator excede le limite de 4 MiB per registro de metadatos."
+
+#, kde-format
+msgid "This draft has already been restored. Save the document to finish cleanup."
+msgstr "Iste borrator ha jam essite restaurate. Salveguarda le documento pro terminar le nettage."
+
+#, kde-format
+msgid "This draft no longer exists."
+msgstr "Iste borrator non existe plus."
+
+#, kde-format
+msgid "This transaction already has a draft or a pending restoration record. Save the document first."
+msgstr "Iste transaction ha jam un borrator o un registro de restauration pendente. Salveguarda primo le documento."
+
+#, kde-format
+msgid "This transaction cannot be archived without changes."
+msgstr "Iste transaction non pote esser archivate sin modificationes."
+
+#, kde-format
+msgid "Unable to move to drafts"
+msgstr "Impossibile mover a borratores"
+
+#, kde-format
+msgid "Unable to read drafts: %1"
+msgstr "Impossibile leger borratores: %1"
+
+#, kde-format
+msgid "Unable to restore draft"
+msgstr "Impossibile restaurar borrator"
+
+#, kde-format
+msgid "Unknown"
+msgstr "Incognite"
+
+#, kde-format
+msgid "Unknown or missing draft fields. Archive left unchanged."
+msgstr "Campos del borrator incognite o mancante. Le archivo remane inalterate."
+
+#, kde-format
+msgid "Unsupported draft metadata version. Update the plugin before changing drafts."
+msgstr "Version del metadatos del borrator non supportate. Actualisa le extension ante cambiar borratores."
+
+#, kde-format
+msgid "Value"
+msgstr "Valor"
+
+#, kde-format
+msgid "Value (%1)"
+msgstr "Valor (%1)"

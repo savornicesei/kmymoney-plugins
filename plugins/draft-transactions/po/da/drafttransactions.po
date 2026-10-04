@@ -1,0 +1,337 @@
+# SPDX-FileCopyrightText: 2026 Draft transactions contributors
+# SPDX-License-Identifier: GPL-2.0-or-later
+# Initial AI-assisted translation. Native-speaker review is pending.
+msgid ""
+msgstr ""
+"Project-Id-Version: drafttransactions 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-27 08:52+0300\n"
+"PO-Revision-Date: 2026-09-27 12:00+0300\n"
+"Last-Translator: Draft transactions contributors\n"
+"Language-Team: da\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Initial AI-assisted translation; native review pending\n"
+
+#, kde-format
+msgid "A split references a missing cost center: %1"
+msgstr "En opdeling henviser til et manglende omkostningssted: %1"
+
+#, kde-format
+msgid "A split references a missing or standard account: %1"
+msgstr "En opdeling henviser til en manglende konto eller en standardkonto: %1"
+
+#, kde-format
+msgid "A split references a missing payee: %1"
+msgstr "En opdeling henviser til en manglende betalingsmodtager: %1"
+
+#, kde-format
+msgid "A split references a missing tag: %1"
+msgstr "En opdeling henviser til et manglende mærke: %1"
+
+#, kde-format
+msgid "Account"
+msgstr "Konto"
+
+#, kde-format
+msgid "Account '%1' is closed. Reopen it in KMyMoney before moving or restoring this transaction."
+msgstr "Kontoen '%1' er lukket. Genåbn den i KMyMoney, før denne transaktion flyttes eller gendannes."
+
+#, kde-format
+msgid "All splits (read-only; exact amounts are shown as fractions)"
+msgstr "Alle opdelinger (skrivebeskyttet; nøjagtige beløb vises som brøker)"
+
+#, kde-format
+msgid "Cleared"
+msgstr "Kontrolleret"
+
+#, kde-format
+msgid "Currency"
+msgstr "Valuta"
+
+#, kde-format
+msgid "Date"
+msgstr "Dato"
+
+#, kde-format
+msgid "Draft"
+msgstr "Kladde"
+
+#, kde-format
+msgid "Draft checksum mismatch. The archive was not changed."
+msgstr "Kladdens kontrolsum stemmer ikke. Arkivet blev ikke ændret."
+
+#, kde-format
+msgid "Draft contains missing, unknown, or noncanonical transaction fields."
+msgstr "Kladden indeholder manglende, ukendte eller ikke-kanoniske transaktionsfelter."
+
+#, kde-format
+msgid "Draft identity does not match its metadata key. No drafts were changed."
+msgstr "Kladdens identifikation svarer ikke til metadatanøglen. Ingen kladder blev ændret."
+
+#, kde-format
+msgid "Draft metadata is not valid JSON."
+msgstr "Kladdens metadata er ikke gyldig JSON."
+
+#, kde-format
+msgid "Draft metadata is too large."
+msgstr "Kladdens metadata er for store."
+
+#, kde-format
+msgid "Draft metadata must be an object."
+msgstr "Kladdens metadata skal være et objekt."
+
+#, kde-format
+msgid "Draft metadata values must be strings."
+msgstr "Kladdens metadataværdier skal være strenge."
+
+#, kde-format
+msgid "Draft origin split does not exist."
+msgstr "Kladdens oprindelige opdeling findes ikke."
+
+#, kde-format
+msgid "Draft splits are missing."
+msgstr "Kladdens opdelinger mangler."
+
+#, kde-format
+msgid "Draft tags are missing."
+msgstr "Kladdens mærker mangler."
+
+#, kde-format
+msgid "Draft transactions"
+msgstr "Kladdetransaktioner"
+
+#, kde-format
+msgid "Drafted (UTC)"
+msgstr "Flyttet til kladde (UTC)"
+
+#, kde-format
+msgid "Drafts"
+msgstr "Kladder"
+
+#, kde-format
+msgid "Drafts do not affect balances. Save the document to keep changes. Restored recovery copies are removed only after a clean save and full verification; cleanup is saved with the next document save."
+msgstr "Kladder påvirker ikke saldi. Gem dokumentet for at beholde ændringer. Gendannelseskopier af gendannede transaktioner fjernes først efter en vellykket lagring og fuld kontrol; oprydningen gemmes, næste gang dokumentet gemmes."
+
+#, kde-format
+msgid "Every split will return to its original account. Only the posting date can change; reconciliation flags and dates remain unchanged."
+msgstr "Hver opdeling vender tilbage til sin oprindelige konto. Kun bogføringsdatoen kan ændres; afstemningsmarkeringer og -datoer forbliver uændrede."
+
+#, kde-format
+msgid "Filter drafts…"
+msgstr "Filtrér kladder…"
+
+#, kde-format
+msgid "Finish the current KMyMoney operation first."
+msgstr "Afslut først den aktuelle KMyMoney-handling."
+
+#, kde-format
+msgid "Frozen"
+msgstr "Frosset"
+
+#, kde-format
+msgid "Invalid archived transaction identity or date."
+msgstr "Ugyldig identifikation eller dato for den arkiverede transaktion."
+
+#, kde-format
+msgid "Invalid draft identity or timestamp."
+msgstr "Ugyldig kladdeidentifikation eller tidsstempel."
+
+#, kde-format
+msgid "Invalid draft split."
+msgstr "Ugyldig kladdeopdeling."
+
+#, kde-format
+msgid "Invalid draft tag."
+msgstr "Ugyldigt kladdemærke."
+
+#, kde-format
+msgid "Invalid exact monetary value in draft."
+msgstr "Ugyldig nøjagtig pengeværdi i kladden."
+
+#, kde-format
+msgid "Invalid matched transaction."
+msgstr "Ugyldig matchet transaktion."
+
+#, kde-format
+msgid "Invalid reconciliation state."
+msgstr "Ugyldig afstemningstilstand."
+
+#, kde-format
+msgid "Invalid restoration recovery record."
+msgstr "Ugyldig gendannelsespost."
+
+#, kde-format
+msgid "KMyMoney changed transaction fields during restoration. The operation was rolled back and the draft was retained."
+msgstr "KMyMoney ændrede transaktionsfelter under gendannelsen. Handlingen blev rullet tilbage, og kladden blev bevaret."
+
+#, kde-format
+msgid "Keep complete transactions in drafts and restore them later"
+msgstr "Behold hele transaktioner i kladder, og gendan dem senere"
+
+#, kde-format
+msgid "Matched transaction nesting is too deep."
+msgstr "Matchede transaktioner er indlejret for dybt."
+
+#, kde-format
+msgid "Memo"
+msgstr "Notat"
+
+#, kde-format
+msgid "Missing or duplicate split identity in draft."
+msgstr "Manglende eller dobbelt opdelingsidentifikation i kladden."
+
+#, kde-format
+msgid "Move the complete selected transactions, including every split, to drafts? They will stop affecting all account balances, reports, and reconciliations."
+msgstr "Flyt de valgte transaktioner i deres helhed, inklusive alle opdelinger, til kladder? De vil ikke længere påvirke kontosaldi, rapporter og afstemninger."
+
+#, kde-format
+msgid "Move to drafts"
+msgstr "Flyt til kladder"
+
+#, kde-format
+msgid "Moving or restoring reconciled transactions changes historical balances. If you change the posting date, review the affected reconciliations afterwards."
+msgstr "Flytning eller gendannelse af afstemte transaktioner ændrer historiske saldi. Hvis bogføringsdatoen ændres, bør de berørte afstemninger gennemgås bagefter."
+
+#, kde-format
+msgid "No draft transactions in this document."
+msgstr "Ingen kladdetransaktioner i dette dokument."
+
+#, kde-format
+msgid "Not reconciled"
+msgstr "Ikke afstemt"
+
+#, kde-format
+msgid "Open a KMyMoney document to view its drafts."
+msgstr "Åbn et KMyMoney-dokument for at se dets kladder."
+
+#, kde-format
+msgid "Payee"
+msgstr "Betalingsmodtager"
+
+#, kde-format
+msgid "Posting date:"
+msgstr "Bogføringsdato:"
+
+#, kde-format
+msgid "Price (exact)"
+msgstr "Pris (nøjagtig)"
+
+#, kde-format
+msgid "Reconciled"
+msgstr "Afstemt"
+
+#, kde-format
+msgid "Reconciliation"
+msgstr "Afstemning"
+
+#, kde-format
+msgid "Reconciliation date"
+msgstr "Afstemningsdato"
+
+#, kde-format
+msgid "Remove saved restoration copies"
+msgstr "Fjern kopier af gemte gendannelser"
+
+#, kde-format
+msgid "Restoration requires a valid posting date and no other active operation."
+msgstr "Gendannelse kræver en gyldig bogføringsdato og ingen anden aktiv handling."
+
+#, kde-format
+msgid "Restore"
+msgstr "Gendan"
+
+#, kde-format
+msgid "Restore draft transaction"
+msgstr "Gendan kladdetransaktion"
+
+#, kde-format
+msgid "Restored; recovery copy retained"
+msgstr "Gendannet; gendannelseskopi bevaret"
+
+#, kde-format
+msgid "Select at least one saved transaction."
+msgstr "Vælg mindst én gemt transaktion."
+
+#, kde-format
+msgid "Shares (exact)"
+msgstr "Aktier (nøjagtigt)"
+
+#, kde-format
+msgid "Show drafts…"
+msgstr "Vis kladder…"
+
+#, kde-format
+msgid "Splits"
+msgstr "Opdelinger"
+
+#, kde-format
+msgid "Status"
+msgstr "Status"
+
+#, kde-format
+msgid "The plugin module could not be retained for undo history. Restart KMyMoney and check the plugin installation."
+msgstr "Pluginmodulet kunne ikke bevares til fortrydelseshistorikken. Genstart KMyMoney, og kontrollér installationen af pluginet."
+
+#, kde-format
+msgid "The selected ledger split no longer exists."
+msgstr "Den valgte opdeling i hovedbogen findes ikke længere."
+
+#, kde-format
+msgid "The transaction currency or security no longer exists."
+msgstr "Transaktionens valuta eller værdipapir findes ikke længere."
+
+#, kde-format
+msgid "This draft exceeds the 4 MiB metadata record limit."
+msgstr "Denne kladde overskrider grænsen på 4 MiB pr. metadatapost."
+
+#, kde-format
+msgid "This draft has already been restored. Save the document to finish cleanup."
+msgstr "Denne kladde er allerede gendannet. Gem dokumentet for at afslutte oprydningen."
+
+#, kde-format
+msgid "This draft no longer exists."
+msgstr "Denne kladde findes ikke længere."
+
+#, kde-format
+msgid "This transaction already has a draft or a pending restoration record. Save the document first."
+msgstr "Denne transaktion har allerede en kladde eller en ventende gendannelsespost. Gem dokumentet først."
+
+#, kde-format
+msgid "This transaction cannot be archived without changes."
+msgstr "Denne transaktion kan ikke arkiveres uden ændringer."
+
+#, kde-format
+msgid "Unable to move to drafts"
+msgstr "Kan ikke flytte til kladder"
+
+#, kde-format
+msgid "Unable to read drafts: %1"
+msgstr "Kan ikke læse kladder: %1"
+
+#, kde-format
+msgid "Unable to restore draft"
+msgstr "Kan ikke gendanne kladde"
+
+#, kde-format
+msgid "Unknown"
+msgstr "Ukendt"
+
+#, kde-format
+msgid "Unknown or missing draft fields. Archive left unchanged."
+msgstr "Ukendte eller manglende kladdefelter. Arkivet er uændret."
+
+#, kde-format
+msgid "Unsupported draft metadata version. Update the plugin before changing drafts."
+msgstr "Ikke-understøttet version af kladdemetadata. Opdatér pluginet, før kladder ændres."
+
+#, kde-format
+msgid "Value"
+msgstr "Værdi"
+
+#, kde-format
+msgid "Value (%1)"
+msgstr "Værdi (%1)"

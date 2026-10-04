@@ -1,0 +1,337 @@
+# SPDX-FileCopyrightText: 2026 Draft transactions contributors
+# SPDX-License-Identifier: GPL-2.0-or-later
+# Initial AI-assisted translation. Native-speaker review is pending.
+msgid ""
+msgstr ""
+"Project-Id-Version: drafttransactions 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-27 08:52+0300\n"
+"PO-Revision-Date: 2026-09-27 12:00+0300\n"
+"Last-Translator: Draft transactions contributors\n"
+"Language-Team: uk\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Initial AI-assisted translation; native review pending\n"
+
+#, kde-format
+msgid "A split references a missing cost center: %1"
+msgstr "Частина операції посилається на відсутній центр витрат: %1"
+
+#, kde-format
+msgid "A split references a missing or standard account: %1"
+msgstr "Частина операції посилається на відсутній або стандартний рахунок: %1"
+
+#, kde-format
+msgid "A split references a missing payee: %1"
+msgstr "Частина операції посилається на відсутнього отримувача: %1"
+
+#, kde-format
+msgid "A split references a missing tag: %1"
+msgstr "Частина операції посилається на відсутню мітку: %1"
+
+#, kde-format
+msgid "Account"
+msgstr "Рахунок"
+
+#, kde-format
+msgid "Account '%1' is closed. Reopen it in KMyMoney before moving or restoring this transaction."
+msgstr "Рахунок «%1» закрито. Відкрийте його знову в KMyMoney перед переміщенням або відновленням операції."
+
+#, kde-format
+msgid "All splits (read-only; exact amounts are shown as fractions)"
+msgstr "Усі частини операції (лише читання; точні суми показано дробами)"
+
+#, kde-format
+msgid "Cleared"
+msgstr "Перевірено"
+
+#, kde-format
+msgid "Currency"
+msgstr "Валюта"
+
+#, kde-format
+msgid "Date"
+msgstr "Дата"
+
+#, kde-format
+msgid "Draft"
+msgstr "Чернетка"
+
+#, kde-format
+msgid "Draft checksum mismatch. The archive was not changed."
+msgstr "Контрольна сума чернетки не збігається. Архів не змінено."
+
+#, kde-format
+msgid "Draft contains missing, unknown, or noncanonical transaction fields."
+msgstr "Чернетка містить відсутні, невідомі або неканонічні поля операції."
+
+#, kde-format
+msgid "Draft identity does not match its metadata key. No drafts were changed."
+msgstr "Ідентифікатор чернетки не відповідає ключу метаданих. Жодну чернетку не змінено."
+
+#, kde-format
+msgid "Draft metadata is not valid JSON."
+msgstr "Метадані чернетки не є коректним JSON."
+
+#, kde-format
+msgid "Draft metadata is too large."
+msgstr "Метадані чернетки завеликі."
+
+#, kde-format
+msgid "Draft metadata must be an object."
+msgstr "Метадані чернетки мають бути об’єктом."
+
+#, kde-format
+msgid "Draft metadata values must be strings."
+msgstr "Значення метаданих чернетки мають бути рядками."
+
+#, kde-format
+msgid "Draft origin split does not exist."
+msgstr "Початкова частина операції чернетки не існує."
+
+#, kde-format
+msgid "Draft splits are missing."
+msgstr "Відсутні частини операції чернетки."
+
+#, kde-format
+msgid "Draft tags are missing."
+msgstr "Відсутні мітки чернетки."
+
+#, kde-format
+msgid "Draft transactions"
+msgstr "Чернетки операцій"
+
+#, kde-format
+msgid "Drafted (UTC)"
+msgstr "Переміщено до чернеток (UTC)"
+
+#, kde-format
+msgid "Drafts"
+msgstr "Чернетки"
+
+#, kde-format
+msgid "Drafts do not affect balances. Save the document to keep changes. Restored recovery copies are removed only after a clean save and full verification; cleanup is saved with the next document save."
+msgstr "Чернетки не впливають на залишки. Збережіть документ, щоб зберегти зміни. Резервні копії відновлених операцій вилучаються лише після успішного збереження та повної перевірки; вилучення зберігається під час наступного збереження документа."
+
+#, kde-format
+msgid "Every split will return to its original account. Only the posting date can change; reconciliation flags and dates remain unchanged."
+msgstr "Кожна частина операції повернеться на початковий рахунок. Можна змінити лише дату проведення; позначки й дати звіряння залишаться незмінними."
+
+#, kde-format
+msgid "Filter drafts…"
+msgstr "Фільтрувати чернетки…"
+
+#, kde-format
+msgid "Finish the current KMyMoney operation first."
+msgstr "Спочатку завершіть поточну дію в KMyMoney."
+
+#, kde-format
+msgid "Frozen"
+msgstr "Заморожено"
+
+#, kde-format
+msgid "Invalid archived transaction identity or date."
+msgstr "Некоректний ідентифікатор або дата архівованої операції."
+
+#, kde-format
+msgid "Invalid draft identity or timestamp."
+msgstr "Некоректний ідентифікатор або часова позначка чернетки."
+
+#, kde-format
+msgid "Invalid draft split."
+msgstr "Некоректна частина операції в чернетці."
+
+#, kde-format
+msgid "Invalid draft tag."
+msgstr "Некоректна мітка чернетки."
+
+#, kde-format
+msgid "Invalid exact monetary value in draft."
+msgstr "Некоректне точне грошове значення в чернетці."
+
+#, kde-format
+msgid "Invalid matched transaction."
+msgstr "Некоректна зіставлена операція."
+
+#, kde-format
+msgid "Invalid reconciliation state."
+msgstr "Некоректний стан звіряння."
+
+#, kde-format
+msgid "Invalid restoration recovery record."
+msgstr "Некоректний резервний запис відновлення."
+
+#, kde-format
+msgid "KMyMoney changed transaction fields during restoration. The operation was rolled back and the draft was retained."
+msgstr "KMyMoney змінив поля операції під час відновлення. Дію скасовано, чернетку збережено."
+
+#, kde-format
+msgid "Keep complete transactions in drafts and restore them later"
+msgstr "Зберігайте цілі операції в чернетках і відновлюйте їх пізніше"
+
+#, kde-format
+msgid "Matched transaction nesting is too deep."
+msgstr "Зіставлені операції вкладено надто глибоко."
+
+#, kde-format
+msgid "Memo"
+msgstr "Нотатка"
+
+#, kde-format
+msgid "Missing or duplicate split identity in draft."
+msgstr "Відсутній або повторюваний ідентифікатор частини операції в чернетці."
+
+#, kde-format
+msgid "Move the complete selected transactions, including every split, to drafts? They will stop affecting all account balances, reports, and reconciliations."
+msgstr "Перемістити вибрані операції цілком, з усіма їхніми частинами, до чернеток? Вони більше не впливатимуть на залишки всіх рахунків, звіти та звіряння."
+
+#, kde-format
+msgid "Move to drafts"
+msgstr "Перемістити до чернеток"
+
+#, kde-format
+msgid "Moving or restoring reconciled transactions changes historical balances. If you change the posting date, review the affected reconciliations afterwards."
+msgstr "Переміщення або відновлення звірених операцій змінює попередні залишки. Якщо зміните дату проведення, перевірте відповідні звіряння згодом."
+
+#, kde-format
+msgid "No draft transactions in this document."
+msgstr "У цьому документі немає чернеток операцій."
+
+#, kde-format
+msgid "Not reconciled"
+msgstr "Не звірено"
+
+#, kde-format
+msgid "Open a KMyMoney document to view its drafts."
+msgstr "Відкрийте документ KMyMoney для перегляду його чернеток."
+
+#, kde-format
+msgid "Payee"
+msgstr "Отримувач"
+
+#, kde-format
+msgid "Posting date:"
+msgstr "Дата проведення:"
+
+#, kde-format
+msgid "Price (exact)"
+msgstr "Ціна (точна)"
+
+#, kde-format
+msgid "Reconciled"
+msgstr "Звірено"
+
+#, kde-format
+msgid "Reconciliation"
+msgstr "Звіряння"
+
+#, kde-format
+msgid "Reconciliation date"
+msgstr "Дата звіряння"
+
+#, kde-format
+msgid "Remove saved restoration copies"
+msgstr "Вилучити копії збережених відновлень"
+
+#, kde-format
+msgid "Restoration requires a valid posting date and no other active operation."
+msgstr "Для відновлення потрібна коректна дата проведення та відсутність інших активних дій."
+
+#, kde-format
+msgid "Restore"
+msgstr "Відновити"
+
+#, kde-format
+msgid "Restore draft transaction"
+msgstr "Відновити чернетку операції"
+
+#, kde-format
+msgid "Restored; recovery copy retained"
+msgstr "Відновлено; резервну копію збережено"
+
+#, kde-format
+msgid "Select at least one saved transaction."
+msgstr "Виберіть принаймні одну збережену операцію."
+
+#, kde-format
+msgid "Shares (exact)"
+msgstr "Акції (точно)"
+
+#, kde-format
+msgid "Show drafts…"
+msgstr "Показати чернетки…"
+
+#, kde-format
+msgid "Splits"
+msgstr "Частини операції"
+
+#, kde-format
+msgid "Status"
+msgstr "Стан"
+
+#, kde-format
+msgid "The plugin module could not be retained for undo history. Restart KMyMoney and check the plugin installation."
+msgstr "Не вдалося зберегти модуль додатка для журналу скасування. Перезапустіть KMyMoney та перевірте встановлення додатка."
+
+#, kde-format
+msgid "The selected ledger split no longer exists."
+msgstr "Вибрана частина операції в обліковій книзі більше не існує."
+
+#, kde-format
+msgid "The transaction currency or security no longer exists."
+msgstr "Валюта або цінний папір операції більше не існує."
+
+#, kde-format
+msgid "This draft exceeds the 4 MiB metadata record limit."
+msgstr "Ця чернетка перевищує обмеження у 4 МіБ для запису метаданих."
+
+#, kde-format
+msgid "This draft has already been restored. Save the document to finish cleanup."
+msgstr "Цю чернетку вже відновлено. Збережіть документ, щоб завершити очищення."
+
+#, kde-format
+msgid "This draft no longer exists."
+msgstr "Ця чернетка більше не існує."
+
+#, kde-format
+msgid "This transaction already has a draft or a pending restoration record. Save the document first."
+msgstr "Ця операція вже має чернетку або запис відновлення в очікуванні. Спочатку збережіть документ."
+
+#, kde-format
+msgid "This transaction cannot be archived without changes."
+msgstr "Цю операцію неможливо архівувати без змін."
+
+#, kde-format
+msgid "Unable to move to drafts"
+msgstr "Не вдалося перемістити до чернеток"
+
+#, kde-format
+msgid "Unable to read drafts: %1"
+msgstr "Не вдалося прочитати чернетки: %1"
+
+#, kde-format
+msgid "Unable to restore draft"
+msgstr "Не вдалося відновити чернетку"
+
+#, kde-format
+msgid "Unknown"
+msgstr "Невідомо"
+
+#, kde-format
+msgid "Unknown or missing draft fields. Archive left unchanged."
+msgstr "Невідомі або відсутні поля чернетки. Архів залишено без змін."
+
+#, kde-format
+msgid "Unsupported draft metadata version. Update the plugin before changing drafts."
+msgstr "Непідтримувана версія метаданих чернетки. Оновіть додаток перед зміною чернеток."
+
+#, kde-format
+msgid "Value"
+msgstr "Сума"
+
+#, kde-format
+msgid "Value (%1)"
+msgstr "Сума (%1)"

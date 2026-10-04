@@ -1,0 +1,337 @@
+# SPDX-FileCopyrightText: 2026 Draft transactions contributors
+# SPDX-License-Identifier: GPL-2.0-or-later
+# Initial AI-assisted translation. Native-speaker review is pending.
+msgid ""
+msgstr ""
+"Project-Id-Version: drafttransactions 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-27 08:52+0300\n"
+"PO-Revision-Date: 2026-09-27 12:00+0300\n"
+"Last-Translator: Draft transactions contributors\n"
+"Language-Team: cs\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Initial AI-assisted translation; native review pending\n"
+
+#, kde-format
+msgid "A split references a missing cost center: %1"
+msgstr "Rozdělení odkazuje na chybějící nákladové středisko: %1"
+
+#, kde-format
+msgid "A split references a missing or standard account: %1"
+msgstr "Rozdělení odkazuje na chybějící nebo standardní účet: %1"
+
+#, kde-format
+msgid "A split references a missing payee: %1"
+msgstr "Rozdělení odkazuje na chybějícího příjemce: %1"
+
+#, kde-format
+msgid "A split references a missing tag: %1"
+msgstr "Rozdělení odkazuje na chybějící značku: %1"
+
+#, kde-format
+msgid "Account"
+msgstr "Účet"
+
+#, kde-format
+msgid "Account '%1' is closed. Reopen it in KMyMoney before moving or restoring this transaction."
+msgstr "Účet „%1“ je uzavřený. Před přesunem nebo obnovením transakce jej v KMyMoney znovu otevřete."
+
+#, kde-format
+msgid "All splits (read-only; exact amounts are shown as fractions)"
+msgstr "Všechna rozdělení (pouze pro čtení; přesné částky jsou zobrazeny jako zlomky)"
+
+#, kde-format
+msgid "Cleared"
+msgstr "Zkontrolováno"
+
+#, kde-format
+msgid "Currency"
+msgstr "Měna"
+
+#, kde-format
+msgid "Date"
+msgstr "Datum"
+
+#, kde-format
+msgid "Draft"
+msgstr "Koncept"
+
+#, kde-format
+msgid "Draft checksum mismatch. The archive was not changed."
+msgstr "Kontrolní součet konceptu nesouhlasí. Archiv nebyl změněn."
+
+#, kde-format
+msgid "Draft contains missing, unknown, or noncanonical transaction fields."
+msgstr "Koncept obsahuje chybějící, neznámá nebo nekanonická pole transakce."
+
+#, kde-format
+msgid "Draft identity does not match its metadata key. No drafts were changed."
+msgstr "Identifikátor konceptu neodpovídá klíči metadat. Žádné koncepty nebyly změněny."
+
+#, kde-format
+msgid "Draft metadata is not valid JSON."
+msgstr "Metadata konceptu nejsou platný JSON."
+
+#, kde-format
+msgid "Draft metadata is too large."
+msgstr "Metadata konceptu jsou příliš velká."
+
+#, kde-format
+msgid "Draft metadata must be an object."
+msgstr "Metadata konceptu musí být objekt."
+
+#, kde-format
+msgid "Draft metadata values must be strings."
+msgstr "Hodnoty metadat konceptu musí být řetězce."
+
+#, kde-format
+msgid "Draft origin split does not exist."
+msgstr "Původní rozdělení konceptu neexistuje."
+
+#, kde-format
+msgid "Draft splits are missing."
+msgstr "Chybí rozdělení konceptu."
+
+#, kde-format
+msgid "Draft tags are missing."
+msgstr "Chybí značky konceptu."
+
+#, kde-format
+msgid "Draft transactions"
+msgstr "Koncepty transakcí"
+
+#, kde-format
+msgid "Drafted (UTC)"
+msgstr "Přesunuto do konceptů (UTC)"
+
+#, kde-format
+msgid "Drafts"
+msgstr "Koncepty"
+
+#, kde-format
+msgid "Drafts do not affect balances. Save the document to keep changes. Restored recovery copies are removed only after a clean save and full verification; cleanup is saved with the next document save."
+msgstr "Koncepty neovlivňují zůstatky. Uložením dokumentu zachováte změny. Záchranné kopie obnovených transakcí se odstraní až po úspěšném uložení a úplném ověření; odstranění se uloží při příštím uložení dokumentu."
+
+#, kde-format
+msgid "Every split will return to its original account. Only the posting date can change; reconciliation flags and dates remain unchanged."
+msgstr "Každé rozdělení se vrátí na původní účet. Změnit lze pouze datum zaúčtování; příznaky a data odsouhlasení zůstanou beze změny."
+
+#, kde-format
+msgid "Filter drafts…"
+msgstr "Filtrovat koncepty…"
+
+#, kde-format
+msgid "Finish the current KMyMoney operation first."
+msgstr "Nejprve dokončete aktuální operaci v KMyMoney."
+
+#, kde-format
+msgid "Frozen"
+msgstr "Zmrazeno"
+
+#, kde-format
+msgid "Invalid archived transaction identity or date."
+msgstr "Neplatný identifikátor nebo datum archivované transakce."
+
+#, kde-format
+msgid "Invalid draft identity or timestamp."
+msgstr "Neplatný identifikátor nebo časové razítko konceptu."
+
+#, kde-format
+msgid "Invalid draft split."
+msgstr "Neplatné rozdělení konceptu."
+
+#, kde-format
+msgid "Invalid draft tag."
+msgstr "Neplatná značka konceptu."
+
+#, kde-format
+msgid "Invalid exact monetary value in draft."
+msgstr "Neplatná přesná peněžní hodnota v konceptu."
+
+#, kde-format
+msgid "Invalid matched transaction."
+msgstr "Neplatná spárovaná transakce."
+
+#, kde-format
+msgid "Invalid reconciliation state."
+msgstr "Neplatný stav odsouhlasení."
+
+#, kde-format
+msgid "Invalid restoration recovery record."
+msgstr "Neplatný záchranný záznam obnovení."
+
+#, kde-format
+msgid "KMyMoney changed transaction fields during restoration. The operation was rolled back and the draft was retained."
+msgstr "KMyMoney během obnovení změnil pole transakce. Operace byla vrácena zpět a koncept byl zachován."
+
+#, kde-format
+msgid "Keep complete transactions in drafts and restore them later"
+msgstr "Uchovávejte celé transakce v konceptech a později je obnovte"
+
+#, kde-format
+msgid "Matched transaction nesting is too deep."
+msgstr "Spárované transakce jsou zanořeny příliš hluboko."
+
+#, kde-format
+msgid "Memo"
+msgstr "Poznámka"
+
+#, kde-format
+msgid "Missing or duplicate split identity in draft."
+msgstr "Chybějící nebo duplicitní identifikátor rozdělení v konceptu."
+
+#, kde-format
+msgid "Move the complete selected transactions, including every split, to drafts? They will stop affecting all account balances, reports, and reconciliations."
+msgstr "Přesunout celé vybrané transakce včetně všech rozdělení do konceptů? Přestanou ovlivňovat zůstatky všech účtů, výkazy a odsouhlasení."
+
+#, kde-format
+msgid "Move to drafts"
+msgstr "Přesunout do konceptů"
+
+#, kde-format
+msgid "Moving or restoring reconciled transactions changes historical balances. If you change the posting date, review the affected reconciliations afterwards."
+msgstr "Přesun nebo obnovení odsouhlasených transakcí mění historické zůstatky. Pokud změníte datum zaúčtování, poté zkontrolujte dotčená odsouhlasení."
+
+#, kde-format
+msgid "No draft transactions in this document."
+msgstr "V tomto dokumentu nejsou žádné koncepty transakcí."
+
+#, kde-format
+msgid "Not reconciled"
+msgstr "Neodsouhlaseno"
+
+#, kde-format
+msgid "Open a KMyMoney document to view its drafts."
+msgstr "Otevřete dokument KMyMoney a zobrazte jeho koncepty."
+
+#, kde-format
+msgid "Payee"
+msgstr "Příjemce"
+
+#, kde-format
+msgid "Posting date:"
+msgstr "Datum zaúčtování:"
+
+#, kde-format
+msgid "Price (exact)"
+msgstr "Cena (přesná)"
+
+#, kde-format
+msgid "Reconciled"
+msgstr "Odsouhlaseno"
+
+#, kde-format
+msgid "Reconciliation"
+msgstr "Odsouhlasení"
+
+#, kde-format
+msgid "Reconciliation date"
+msgstr "Datum odsouhlasení"
+
+#, kde-format
+msgid "Remove saved restoration copies"
+msgstr "Odstranit kopie uložených obnovení"
+
+#, kde-format
+msgid "Restoration requires a valid posting date and no other active operation."
+msgstr "Obnovení vyžaduje platné datum zaúčtování a žádnou jinou aktivní operaci."
+
+#, kde-format
+msgid "Restore"
+msgstr "Obnovit"
+
+#, kde-format
+msgid "Restore draft transaction"
+msgstr "Obnovit koncept transakce"
+
+#, kde-format
+msgid "Restored; recovery copy retained"
+msgstr "Obnoveno; záchranná kopie zachována"
+
+#, kde-format
+msgid "Select at least one saved transaction."
+msgstr "Vyberte alespoň jednu uloženou transakci."
+
+#, kde-format
+msgid "Shares (exact)"
+msgstr "Podíly (přesně)"
+
+#, kde-format
+msgid "Show drafts…"
+msgstr "Zobrazit koncepty…"
+
+#, kde-format
+msgid "Splits"
+msgstr "Rozdělení"
+
+#, kde-format
+msgid "Status"
+msgstr "Stav"
+
+#, kde-format
+msgid "The plugin module could not be retained for undo history. Restart KMyMoney and check the plugin installation."
+msgstr "Modul doplňku se nepodařilo zachovat pro historii vracení změn. Restartujte KMyMoney a zkontrolujte instalaci doplňku."
+
+#, kde-format
+msgid "The selected ledger split no longer exists."
+msgstr "Vybrané rozdělení v účetní knize již neexistuje."
+
+#, kde-format
+msgid "The transaction currency or security no longer exists."
+msgstr "Měna nebo cenný papír transakce již neexistuje."
+
+#, kde-format
+msgid "This draft exceeds the 4 MiB metadata record limit."
+msgstr "Tento koncept překračuje limit 4 MiB na záznam metadat."
+
+#, kde-format
+msgid "This draft has already been restored. Save the document to finish cleanup."
+msgstr "Tento koncept již byl obnoven. Uložením dokumentu dokončete odstranění kopie."
+
+#, kde-format
+msgid "This draft no longer exists."
+msgstr "Tento koncept již neexistuje."
+
+#, kde-format
+msgid "This transaction already has a draft or a pending restoration record. Save the document first."
+msgstr "Tato transakce již má koncept nebo čekající záznam obnovení. Nejprve uložte dokument."
+
+#, kde-format
+msgid "This transaction cannot be archived without changes."
+msgstr "Tuto transakci nelze archivovat beze změn."
+
+#, kde-format
+msgid "Unable to move to drafts"
+msgstr "Nelze přesunout do konceptů"
+
+#, kde-format
+msgid "Unable to read drafts: %1"
+msgstr "Nelze načíst koncepty: %1"
+
+#, kde-format
+msgid "Unable to restore draft"
+msgstr "Nelze obnovit koncept"
+
+#, kde-format
+msgid "Unknown"
+msgstr "Neznámé"
+
+#, kde-format
+msgid "Unknown or missing draft fields. Archive left unchanged."
+msgstr "Neznámá nebo chybějící pole konceptu. Archiv zůstal beze změny."
+
+#, kde-format
+msgid "Unsupported draft metadata version. Update the plugin before changing drafts."
+msgstr "Nepodporovaná verze metadat konceptu. Před změnou konceptů aktualizujte doplněk."
+
+#, kde-format
+msgid "Value"
+msgstr "Hodnota"
+
+#, kde-format
+msgid "Value (%1)"
+msgstr "Hodnota (%1)"
