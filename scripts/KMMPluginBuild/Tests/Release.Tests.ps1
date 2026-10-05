@@ -53,7 +53,7 @@ set(KDE_INSTALL_LOCALEDIR share/locale)
 set(Qt6_VERSION fixture)
 include(cmake/KMMRelease.cmake)
 configure_file("plugins/${KMM_PLUGIN_SELECTION}/plugin.json.in" plugin.json @ONLY)
-install(FILES "${CMAKE_BINARY_DIR}/plugin.json" DESTINATION "lib/plugins/${KMM_PLUGIN_SELECTION}")
+install(FILES "${CMAKE_BINARY_DIR}/plugin.json" DESTINATION "${KDE_INSTALL_PLUGINDIR}/kmymoney_plugins" RENAME "${KMM_PLUGIN_SELECTION}.json")
 if(EXISTS "${CMAKE_SOURCE_DIR}/fail-${KMM_PLUGIN_SELECTION}")
     add_test(NAME synthetic COMMAND "${CMAKE_COMMAND}" -E false)
 else()
@@ -80,7 +80,7 @@ endif()
         foreach ($Name in $SavedEnvironment.Keys) { [Environment]::SetEnvironmentVariable($Name, $SavedEnvironment[$Name], 'Process') }
     }
 
-    It 'Publishes one isolated package per selected plugin with the requested metadata version and checksums' {
+    It 'Publishes Windows plugins under bin/kmymoney_plugins with isolated metadata and valid checksums' {
         Invoke-KMMRelease -Context $Context -Version 1.2.3
         $Directory = Join-Path $Fixture 'publish/kmymoney/master/windows'
         @(Get-ChildItem $Directory -Filter '*.zip').Count | Should -Be 2
@@ -88,10 +88,11 @@ endif()
             $Base = Join-Path $Directory "$Plugin-1.2.3-windows-x86_64"
             $Archive = [IO.Compression.ZipFile]::OpenRead("$Base.zip")
             try {
-                $Archive.Entries.FullName | Should -Contain "lib/plugins/$Plugin/plugin.json"
+                $Archive.Entries.FullName | Should -Contain "bin/kmymoney_plugins/$Plugin.json"
+                @($Archive.Entries.FullName | Where-Object { $_ -like "lib/plugins/*" }).Count | Should -Be 0
                 $Other = if ($Plugin -eq 'first-plugin') { 'second-plugin' } else { 'first-plugin' }
-                $Archive.Entries.FullName | Should -Not -Contain "lib/plugins/$Other/plugin.json"
-                $Reader = [IO.StreamReader]::new($Archive.GetEntry("lib/plugins/$Plugin/plugin.json").Open())
+                $Archive.Entries.FullName | Should -Not -Contain "bin/kmymoney_plugins/$Other.json"
+                $Reader = [IO.StreamReader]::new($Archive.GetEntry("bin/kmymoney_plugins/$Plugin.json").Open())
                 try { $Metadata = $Reader.ReadToEnd() | ConvertFrom-Json } finally { $Reader.Dispose() }
                 $Metadata.KPlugin.Version | Should -BeExactly '1.2.3'
                 $Metadata.KPlugin.Id | Should -BeExactly $Plugin
@@ -131,7 +132,7 @@ endif()
         @($Package).Count | Should -Be 1
         $Contents = & cmake -E tar tf $Package.FullName
         $LASTEXITCODE | Should -Be 0
-        $Contents | Should -Contain 'lib/plugins/first-plugin/plugin.json'
+        $Contents | Should -Contain 'lib/plugins/kmymoney_plugins/first-plugin.json'
         $Contents | Should -Contain 'share/doc/kmymoney-plugin-first-plugin/release-manifest.json'
     }
 
@@ -143,7 +144,7 @@ endif()
         Test-Path $Package | Should -BeTrue
         $Contents = & cmake -E tar tf $Package
         $LASTEXITCODE | Should -Be 0
-        $Contents | Should -Contain 'lib/plugins/first-plugin/plugin.json'
+        $Contents | Should -Contain 'lib/plugins/kmymoney_plugins/first-plugin.json'
     }
 
     It 'Rejects a host that the selected plugin version does not support' {

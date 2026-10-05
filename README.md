@@ -6,6 +6,8 @@ A suite of KMyMoney plugins to scratch my itches, built with AI.
 |--------------------|----------------------------------------------------|----------------------------------------------------------------------------|
 | Draft transactions | [draft-transactions](./plugins/draft-transactions) | Moves transactions in a **draft** area (so they no longer affect balances), and restores them later. |
 
+## Draft transactions
+![kmm-drafts-plugin.gif](./docs/assets/gifs/kmm-drafts-plugin.gif)
 
 Shared development configuration for Windows, Linux, and macOS using KDE Craft and **PowerShell 7 Core (`pwsh`)**. The root CMake project supports multiple plugin
 targets.
@@ -273,8 +275,12 @@ Fresh build and staging directories live under `build/<preset>/release/` and
 `stage/<preset>/release/`. All selected plugins must pass CTest and packaging
 before files are copied to publish. Existing artifacts are never overwritten.
 The manifest records the compatibility policy, actual host version, compiler,
-Qt version and installed-file checksums. See the packaged INSTALL.txt for loading
-from a separate installation prefix.
+Qt version and installed-file checksums. Windows release ZIPs place DLLs and debug
+symbols in `bin/kmymoney_plugins`, relative to the KMyMoney installation root
+(for example, `C:\Program Files\KMyMoney`). Extract into that root with KMyMoney
+closed. Translations go under `bin/data/locale`. For a separate Windows prefix,
+add its `bin` to `QT_PLUGIN_PATH` and `bin/data` to `XDG_DATA_DIRS`; see the
+packaged INSTALL.txt. Development staging retains its `lib/plugins` layout.
 
 GitLab CI orchestrates native Windows, macOS and Linux workers using
 [.gitlab/release.yml](.gitlab/release.yml). Set `KMM_RELEASE_VERSION` to request a

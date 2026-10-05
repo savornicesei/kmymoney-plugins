@@ -17,6 +17,11 @@ if(NOT EXISTS "${CMAKE_SOURCE_DIR}/LICENSES/${_release_license}.txt")
     message(FATAL_ERROR "Missing license text for ${_release_license}")
 endif()
 
+# Windows host distributions load plugins beside the executable.
+if(WIN32)
+    set(KDE_INSTALL_PLUGINDIR "bin")
+endif()
+
 set(CPACK_PACKAGE_NAME "kmymoney-plugin-${_release_plugin}")
 set(CPACK_PACKAGE_VERSION "${PROJECT_VERSION}")
 set(CPACK_PACKAGE_VENDOR "KMyMoney plugin contributors")
@@ -55,13 +60,22 @@ else()
 endif()
 set(CPACK_PACKAGE_FILE_NAME "${_release_plugin}-${PROJECT_VERSION}-${_release_platform}-${_release_arch}")
 
+if(WIN32)
+    set(_release_install_help
+        "Extract into the matching KMyMoney installation root: the plugin belongs in bin/kmymoney_plugins.\n"
+        "For a separate prefix, add its bin directory to QT_PLUGIN_PATH and bin/data to XDG_DATA_DIRS.\n")
+else()
+    set(_release_install_help
+        "Use a separate prefix and add its ${KDE_INSTALL_PLUGINDIR} directory to QT_PLUGIN_PATH\n"
+        "and its share directory to XDG_DATA_DIRS when launching KMyMoney.\n")
+endif()
+string(JOIN "" _release_install_help ${_release_install_help})
 set(_release_doc "share/doc/${CPACK_PACKAGE_NAME}")
 file(WRITE "${CMAKE_BINARY_DIR}/INSTALL.txt"
     "${_release_name} ${PROJECT_VERSION}\n"
     "Requires the matching KMyMoney host ABI recorded in release-manifest.json.\n"
     "Archives contain plugin files and translations relative to an installation prefix.\n"
-    "Use a separate prefix and add its lib/plugins directory to QT_PLUGIN_PATH and\n"
-    "its share directory (bin/data on Windows) to XDG_DATA_DIRS when launching KMyMoney.\n"
+    "${_release_install_help}"
     "Requires Craft KMyMoney target ${KMM_RELEASE_HOST_TARGET}, built as ${KMM_RELEASE_HOST_VERSION}.\n"
     "On Linux/macOS, launch in the matching Craft library environment.\n"
     "Enable the plugin in KMyMoney's plugin settings after installation.\n"

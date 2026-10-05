@@ -31,6 +31,12 @@ void configureTable(QTableWidget* table, const QStringList& headers)
     table->setSelectionBehavior(QAbstractItemView::SelectRows);
     table->setSelectionMode(QAbstractItemView::SingleSelection);
     table->setDragDropMode(QAbstractItemView::NoDragDrop);
+    // Paint a flat row selection instead of the Windows style's accent on each cell.
+    table->setStyleSheet(QStringLiteral("QTableWidget::item:selected {"
+                                       " background-color: palette(highlight);"
+                                       " color: palette(highlighted-text);"
+                                       " border: none;"
+                                       "}"));
     table->horizontalHeader()->setSectionResizeMode(QHeaderView::ResizeToContents);
     table->horizontalHeader()->setStretchLastSection(true);
     table->verticalHeader()->hide();
